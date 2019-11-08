@@ -49,14 +49,14 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partActTitle "E R S T E R   T H E I L" "Act: 1"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partActTitle "E R S T E R   T H E I L" "Act: 1"
+% 	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\markup \null
+% 	}
 	\bookpart {
 		\header {
 			movement = \movementTitle "1.1" "C H O R A L" "Der Du voll Blut und Wunden"
@@ -133,7 +133,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 100 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }
