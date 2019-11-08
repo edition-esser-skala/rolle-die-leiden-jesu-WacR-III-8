@@ -1,0 +1,15 @@
+front_page/*.pdf
+front_page/*.png
+final/*
+critical_report/*.pdf
+manuscript/*
+*.kilepr
+*.zip
+*.pdf
+*.mid
+*.midi
+*.eps
+.~lock*
+*.kate-swp
+*.ps
+*.log
