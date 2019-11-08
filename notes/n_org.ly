@@ -66,7 +66,7 @@ DerDuVollBassFigures = \figuremode {
 	r1
 	<5 4>2 <\t _!>
 	r2 <4 2> %25
-	r1
+	<[6]>1
 	<[4]>2 <[3]>
 	<[9]> <[8]>4 <[7]> <[8]>1 %28 finis
 }
