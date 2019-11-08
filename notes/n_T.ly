@@ -19,6 +19,7 @@ DerDuVollTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 4/4 \autoBeamOff \tempoDerDuVoll
+			\set Staff.timeSignatureFraction = 4/4
 		
 	}
 }

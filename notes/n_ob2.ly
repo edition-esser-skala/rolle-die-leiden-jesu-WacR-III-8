@@ -8,6 +8,7 @@ DerDuVollOboeII = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \tempoDerDuVoll
+			\set Staff.timeSignatureFraction = 4/4
 		
 	}
 }
