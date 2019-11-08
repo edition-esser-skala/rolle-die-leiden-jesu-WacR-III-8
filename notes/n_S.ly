@@ -71,15 +71,15 @@ DerDuVollSopranoLyrics = \lyricmode {
 	Le --
 	ben, noch
 	eh ich
-	war, auch
+	war, auch %20
 	mir zur
 	Ret -- tung
 	hin -- ge --
 	ge --
-	ben, mein
+	ben, mein %25
 	Heil, wie
 	dank ich
-	Dir.
+	Dir. %28 finis
 }
 
 % SopranoNotes = {

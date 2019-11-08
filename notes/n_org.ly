@@ -43,13 +43,13 @@ DerDuVollOrgano = {
 DerDuVollBassFigures = \figuremode {
 	r2 r1
 	<7>4 <6> q2
-	r1
+	<[6 5]>1
 	r2 <6!>
 	r1 %5
 	<6 5>2 <_!>
-	r1
+	r2. <[\t]>4
 	<6 5>2 <5>
-	<6>1
+	<6>4 <[\t]>2.
 	<7 5>2 <6 4>4 <\l 3> %10
 	<_!>1
 	r2 <6>
@@ -57,8 +57,8 @@ DerDuVollBassFigures = \figuremode {
 	r <6 5>
 	<4 2> <6 5-> %15
 	<4 2> <6>
-	<4> <3>
-	r <4 3>
+	<4> <3>4 <[2]>
+	<[3]>2 <4 3>
 	<_!> <6 5>
 	<9> <8> %20
 	r1
@@ -67,8 +67,8 @@ DerDuVollBassFigures = \figuremode {
 	<5 4>2 <\t _!>
 	r2 <4 2> %25
 	r1
-	r
-	r\breve %28 finis
+	<[4]>2 <[3]>
+	<[9]> <[8]>4 <[7]> <[8]>1 %28 finis
 }
 
 % Organo = {
