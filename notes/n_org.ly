@@ -121,6 +121,41 @@ GramLagOrgano = {
 		\clef bass
 		\key c \minor \time 3/4 \tempoGramLag
 		c4\pocoP^\soloE c c
+		c c\f c\p
+		h h h
+		b b\f b\p
+		as as as %5
+		g as\f as\p
+		g g\fermata r
+		r8 c es c g' g,
+		c4 g'8 f es d
+		c4 es8 c g' g, %10
+		c4 c, r
+		r8 as''16.\f as32 as8-! as\p g es
+		as,4 r16. c32\f c16. c32 c8 c\p
+		des des es es es, des'
+		c4 r16. as32\f c16. es32 as8 c, %15
+		r des es[ es es, es]
+		as4 r8 as' es c
+		as4\p r as
+		es' r e
+		f r f %20
+		g r8 g fis4
+		r8 g16 fis g8[ g,] g r
+		fis'4 g8 g, g4
+		fis' g8 g, g f'
+		es as f d g g, %25
+		as2 r4
+		es'2 e4
+		f r f
+		g8 g, g4\fermata r8 g'
+		as2 h,8 c %30
+		f4 f2
+		es4 f8 d g g,
+		es'4\f f g
+		es\p f8 d g g,
+		c4 c g %35
+		c,2 r4 \bar "||" %36 finis
 	}
 }
 
