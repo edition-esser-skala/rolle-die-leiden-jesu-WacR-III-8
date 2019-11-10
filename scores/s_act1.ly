@@ -140,7 +140,7 @@
 		\header {
 			movement = \movementTitle "1.2" "R E C I T A T I V" "Wohin eilt ganz Juda ſo früh?"
 		}
-		\paper { indent = 3.5\cm }
+		\paper { indent = 3.5\cm systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<

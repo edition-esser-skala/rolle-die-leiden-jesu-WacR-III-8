@@ -229,6 +229,8 @@ markVS = {
 }
 
 
+Blind = \markup { \remark "Blindgebohrner" }
+Fremd = \markup { \remark "Fremdling" }
 
 tempoMarkup =
 	#(define-music-function
@@ -422,6 +424,7 @@ tempoWohinEilt = \tempoMarkup "[Tempo deest]"
 \include "notes/n_vla.ly"
 \include "notes/n_Blind.ly"
 \include "notes/n_Fremd.ly"
+\include "notes/n_Soli.ly"
 \include "notes/n_S.ly"
 \include "notes/n_A.ly"
 \include "notes/n_T.ly"

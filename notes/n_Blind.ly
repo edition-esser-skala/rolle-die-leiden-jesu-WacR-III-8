@@ -5,14 +5,14 @@
 \version "2.18.0"
 
 BlindIncipit = \markup {
-	"Blindgebohrner" \hspace #-23.5 \score {
+	"Blindgebohrner" \hspace #-24.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
 			\clef tenor s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.8
 }
 
 WohinEiltBlindNotes = {

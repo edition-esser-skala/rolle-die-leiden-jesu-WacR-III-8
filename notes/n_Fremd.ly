@@ -5,14 +5,14 @@
 \version "2.18.0"
 
 FremdIncipit = \markup {
-	"Fremdling" \hspace #-21.5 \score {
+	"Fremdling" \hspace #-22.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
 			\clef soprano s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.8
 }
 
 WohinEiltFremdNotes = {
