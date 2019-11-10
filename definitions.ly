@@ -223,6 +223,11 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
+markVS = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "volti subito" }
+}
+
 
 
 tempoMarkup =

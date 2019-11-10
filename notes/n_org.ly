@@ -76,11 +76,44 @@ WohinEiltOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoWohinEilt
 		es1
+		a!
+		b2 r
+		e,!1
+		f~ %5
+		f~
+		f2 fis~
+		fis b,~
+		b1
+		h %10
+		d~
+		d2 es~
+		es1
+		e
+		f %15
+		fis
+		r4 g \markVS \bar "||" %17 finis
+		\key c \minor \time 3/4
 	}
 }
 
 WohinEiltBassFigures = \figuremode {
-	
+	r1
+	<6>
+	r
+	<6>
+	r %5
+	r
+	<7->2 <6>
+	<5> <6>
+	r1
+	<6> %10
+	<6!>
+	r2 <6>
+	r1
+	<6>
+	<_-> %15
+	<5>
+	r2 %17 finis
 }
 
 % Organo = {
