@@ -44,6 +44,41 @@ GramLagViola = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \tempoGramLag
-		
+		c,4\pocoP c c
+		c' a(\f a)\p
+		g as8( g) as( g)
+		b!4 g(\f g)\p
+		as8( as) as( as) c( c) %5
+		g( g) as4(\f as)\p
+		g8( g) g4\fermata r
+		r8 c es c g'[ g,]
+		c4 g'8 f es d
+		c4 es8 c g'[ g,] %10
+		c4 c, r
+		r8 as''16.\f as32 as8-! as,[\p g g]
+		as4 r16. es'32\f es16. c32 as8 as~\p
+		as des es[ es des des]
+		c4 r16. as32\f c16. es32 as8 as, %15
+		r des es[ es es, es]
+		as4 r8 as' es c
+		as4\p r as
+		es r e
+		f r f %20
+		g r8 g fis4
+		g g'8[ g,] g r
+		fis'4 g8 g, g g'
+		fis4 g8 g, g f'
+		es as f d g[ f] %25
+		f4( es8) r r4
+		es,2 e4
+		f r f8( as)
+		g4 g\fermata r8 g
+		as2 h8 c %30
+		f2.
+		es4 f8 d g g,
+		c4\f c8 as'16( f) \appoggiatura es8 d4
+		es\p f8 d g g,
+		c4 c g %35
+		c,2 r4 \bar "||" %36 finis
 	}
 }
