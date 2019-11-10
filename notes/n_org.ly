@@ -204,11 +204,71 @@ UndDarumOrgano = {
 		\key c \major \time 4/4 \tempoUndDarum
 		c1~
 		c
+		a!2 b
+		fis'1~
+		fis2 g %5
+		c,4 r r d
+		h!1
+		gis'
+		a
+		g! %10
+		fis
+		d
+		e
+		fis2 g~
+		g1~ %15
+		g2 f!~
+		f e
+		gis a,~
+		a1~
+		a~ %20
+		a2 fis'~
+		fis g~
+		g e~
+		e d8 fis h,16. h'32 a16. g32
+		fis1 %25
+		g
+		f!2 e
+		gis a~
+		a h,~
+		h c~ %30
+		c h \markVS \bar "||" %31 finis
+		\key e \minor \time 4/4
 	}
 }
 
 UndDarumBassFigures = \figuremode {
-	
+	<_->1
+	r
+	<6>
+	q2 <5>
+	r <_-> %5
+	<_->2. <_+>4
+	<6>1
+	q
+	r
+	<4\+ 2> %10
+	<7 [5+] _+>
+	<6>
+	q
+	q
+	r %15
+	r2 <4 2>
+	r <6>
+	<6>1
+	r
+	r %20
+	r2 <6>
+	r1
+	r2 <6\\>
+	<4\+ 2> <6>8 <[5+] _+> <[5+] 3>4
+	<6>1 %25
+	r
+	<4 2>2 <6>
+	q1
+	r2 <6>
+	r1 %30
+	<6\\>2 <6 4>4 <[5+] _+> %31 finis
 }
 
 % Organo = {
