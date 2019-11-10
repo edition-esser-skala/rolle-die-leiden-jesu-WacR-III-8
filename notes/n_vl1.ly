@@ -45,11 +45,11 @@ GramLagViolinoI = {
 		\clef treble
 		\key c \minor \time 3/4 \tempoGramLag
 		c8(\pocoP g) as( g) as( g)
-		r4 fis'~\f fis\p
+		r4 fis'(\f fis)\p
 		g8 g, as( g) as( g)
-		r4 e'~\f e\p
+		r4 e'(\f e)\p
 		f8( f) f( f) fis( fis) %5
-		g( g) fis4~\f fis\p
+		g( g) fis4(\f fis)\p
 		g8( g,) g4\fermata r8 g'
 		c4~ c8 es d \tuplet 3/2 8 { d16 es f }
 		\appoggiatura f8 es4\trill d16.[ h32] h16.(\trill a?64 h) c16.[ d32] d16.(\trill c64 d)
