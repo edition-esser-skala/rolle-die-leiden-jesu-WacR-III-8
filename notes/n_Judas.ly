@@ -20,6 +20,18 @@ UndDarumJudasLyrics = \lyricmode {
 	lei -- det_– weil ich ihn, ihn ver_- %31 finis
 }
 
+WerFasstJudasNotes = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \autoBeamOff \tempoWerFasst
+		
+	}
+}
+
+WerFasstJudasLyrics = \lyricmode {
+	
+}
+
 % JudasNotes = {
 % 	\relative c {
 % 		\clef bass

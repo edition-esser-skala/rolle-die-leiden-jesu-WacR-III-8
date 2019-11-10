@@ -82,3 +82,11 @@ GramLagViola = {
 		c,2 r4 \bar "||" %36 finis
 	}
 }
+
+WerFasstViola = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWerFasst
+		
+	}
+}

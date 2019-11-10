@@ -218,44 +218,94 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.4" "R E C I T A T I V" "Und darum verklagten ihn die Väter?"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #25
+% 			system-system-spacing.minimum-distance = #25
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fremdling"
+% 						\new Voice = "Fremd" { \dynamicUp \UndDarumFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \UndDarumFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \UndDarumBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \UndDarumBlindLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Judas"
+% 						\new Voice = "Judas" { \dynamicUp \UndDarumJudasNotes }
+% 					}
+% 					\new Lyrics \lyricsto Judas \UndDarumJudasLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\UndDarumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\UndDarumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.4" "R E C I T A T I V" "Und darum verklagten ihn die Väter?"
+			movement = \movementTitle "1.5" "A R I A" "Wer faßt die Zahl"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #25
-			system-system-spacing.minimum-distance = #25
-			systems-per-page = #3
-		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \UndDarumFremdNotes }
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \WerFasstOboeI \WerFasstOboeII
 					}
-					\new Lyrics \lyricsto Fremd \UndDarumFremdLyrics
-					
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\WerFasstViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\WerFasstViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \UndDarumBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \UndDarumBlindLyrics
-					
+							\set Staff.instrumentName = "Viola"
+							\WerFasstViola
+						}
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Judas"
-						\new Voice = "Judas" { \dynamicUp \UndDarumJudasNotes }
+						\new Voice = "Judas" { \dynamicUp \WerFasstJudasNotes }
 					}
-					\new Lyrics \lyricsto Judas \UndDarumJudasLyrics
+					\new Lyrics \lyricsto Judas \WerFasstJudasLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\UndDarumOrgano
+						\WerFasstOrgano
 					}
 				>>
 				\new FiguredBass {
-					\UndDarumBassFigures
+					\WerFasstBassFigures
 				}
 			>>
 			\layout { }

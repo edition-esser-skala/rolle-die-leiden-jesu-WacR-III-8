@@ -83,6 +83,14 @@ GramLagViolinoI = {
 	}
 }
 
+WerFasstViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWerFasst
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

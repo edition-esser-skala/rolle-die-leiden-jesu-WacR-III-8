@@ -39,3 +39,11 @@ DerDuVollOboeI = {
 		\time 8/4 g\breve\fermata \bar "||" %28 finis
 	}
 }
+
+WerFasstOboeI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWerFasst
+		
+	}
+}

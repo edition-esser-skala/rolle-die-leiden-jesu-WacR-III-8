@@ -82,3 +82,11 @@ GramLagViolinoII = {
 		f4( es16) g es c g4 \bar "||" %36 finis
 	}
 }
+
+WerFasstViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWerFasst
+		
+	}
+}

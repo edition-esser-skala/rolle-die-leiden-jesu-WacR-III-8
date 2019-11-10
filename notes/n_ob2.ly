@@ -39,3 +39,11 @@ DerDuVollOboeII = {
 		\time 8/4 f2( es4 d es1)\fermata \bar "||" %28 finis
 	}
 }
+
+WerFasstOboeII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWerFasst
+		
+	}
+}

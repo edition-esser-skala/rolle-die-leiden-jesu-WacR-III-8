@@ -271,6 +271,18 @@ UndDarumBassFigures = \figuremode {
 	<6\\>2 <6 4>4 <[5+] _+> %31 finis
 }
 
+WerFasstOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoWerFasst
+		e4\fE r r8. h16[ e8. fis16]
+	}
+}
+
+WerFasstBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

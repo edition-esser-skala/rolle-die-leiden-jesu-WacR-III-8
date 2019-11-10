@@ -246,6 +246,7 @@ tempoDerDuVoll = \tempoMarkup "[Tempo deest]"
 tempoWohinEilt = \tempoMarkup "[Tempo deest]"
 tempoGramLag = \tempoMarkup "Moderato"
 tempoUndDarum = \tempoMarkup "[Tempo deest]"
+tempoWerFasst = \tempoMarkup "Allegro di molto"
 
 
 
