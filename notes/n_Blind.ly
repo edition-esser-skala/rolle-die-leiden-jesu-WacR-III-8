@@ -109,8 +109,8 @@ GramLagBlindLyrics = \lyricmode {
 	Blind -- heit Lei --
 	den. %15
 	
-	Er, dem __ mein %18
-	Au -- ge Dank __ ge --
+	Er, dem mein %18
+	Au -- ge Dank ge --
 	weint, er, dem mein %20
 	Au -- ge Dank __ ge --
 	weint, __ iſt
@@ -118,7 +118,7 @@ GramLagBlindLyrics = \lyricmode {
 	ſchuld -- los
 	und ein Men -- ſchen -- %25
 	freund, dem mein
-	Au -- ge Dank __ ge --
+	Au -- ge Dank ge --
 	weint, Dank ge --
 	weint, __ er iſt
 	ſchuld -- los, er iſt %30

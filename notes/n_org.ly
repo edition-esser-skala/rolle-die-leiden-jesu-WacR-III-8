@@ -172,7 +172,7 @@ GramLagBassFigures = \figuremode {
 	r4 <6> <_!> %10
 	r2.
 	r2 <6>8 <7->
-	r4 r16. <6 5->32 r4.
+	r4 r16. <6 5->32 \bassFigureExtendersOn q4 q8 \bassFigureExtendersOff
 	<5>8 <6> <6 4>4 <7- 5 3>8 <\t \t \t>
 	<6>4 r16. <6 5->32 \bassFigureExtendersOn q8 q q \bassFigureExtendersOff %15
 	r8 <6> <6 4>4 <5 3>
@@ -189,7 +189,7 @@ GramLagBassFigures = \figuremode {
 	<5 4>4 <\t 3> <7->8 <6>16 <5>
 	<9 4>8 <8 3> r4 <6!>
 	<6 4>4 <5 _!>4. <\t>8
-	<6 4>8 <5 3> r4 <7> %30
+	<6 4 [2!]>8 <5 3> r4 <7> %30
 	<7>8 <6> <\t>2
 	<6>4 q8 <\t> <6 4> <5 _!>
 	<6>4 <6 5> <6 4>8 <5 _!>

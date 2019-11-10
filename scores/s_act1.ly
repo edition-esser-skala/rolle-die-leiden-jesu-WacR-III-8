@@ -178,6 +178,7 @@
 		\header {
 			movement = \movementTitle "1.3" "A R I A" "Gram lag auf mir"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -198,7 +199,7 @@
 				>>
 				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Blindgebohrner"
+						\set Staff.instrumentName = "Blindgeb."
 						\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
 					}
 					\new Lyrics \lyricsto Blind \GramLagBlindLyrics

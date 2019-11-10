@@ -42,7 +42,7 @@ DerDuVollViola = {
 
 GramLagViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \minor \time 3/4 \tempoGramLag
 		c,4\pocoP c c
 		c' a(\f a)\p
