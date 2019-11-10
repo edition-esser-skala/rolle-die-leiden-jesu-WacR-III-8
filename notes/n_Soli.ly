@@ -4,18 +4,7 @@
 
 \version "2.18.0"
 
-FremdIncipit = \markup {
-	"Fremdling" \hspace #-21.5 \score {
-		\new Staff \with {
-			\remove Time_signature_engraver
-		} {
-			\clef soprano s4 \bar empty
-		}
-		\layout { }
-	} \hspace #-1.8
-}
-
-WohinEiltFremdNotes = {
+WohinEiltSoliNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoWohinEilt
@@ -34,7 +23,7 @@ WohinEiltFremdNotes = {
 	}
 }
 
-WohinEiltFremdLyrics = \lyricmode {
+WohinEiltSoliLyrics = \lyricmode {
 	Wo -- hin eilt ganz Ju -- da ſo
 	früh? Wo -- hin ſtrömt die Men -- ge des
 	Volks?
@@ -45,15 +34,3 @@ WohinEiltFremdLyrics = \lyricmode {
 	fer -- nen Eu -- phrat kom -- me. Doch was
 	that er, der Pro -- phet? %13 finis
 }
-
-% FremdNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% FremdLyrics = \lyricmode {
-% 	
-% }
