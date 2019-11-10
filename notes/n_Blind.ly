@@ -130,6 +130,18 @@ GramLagBlindLyrics = \lyricmode {
 	freund. %36 finis
 }
 
+UndDarumBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoUndDarum
+		
+	}
+}
+
+UndDarumBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -198,6 +198,19 @@ GramLagBassFigures = \figuremode {
 	<7! 4 2> <8 3>2 %36 finis
 }
 
+UndDarumOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoUndDarum
+		c1~
+		c
+	}
+}
+
+UndDarumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

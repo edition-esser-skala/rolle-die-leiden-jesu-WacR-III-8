@@ -174,44 +174,84 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.3" "A R I A" "Gram lag auf mir"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GramLagViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GramLagViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\GramLagViola
+% 						}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \GramLagBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GramLagOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GramLagBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.3" "A R I A" "Gram lag auf mir"
+			movement = \movementTitle "1.4" "R E C I T A T I V" "Und darum verklagten ihn die Väter?"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { indent = 3.5\cm systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GramLagViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GramLagViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\GramLagViola
-						}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \UndDarumFremdNotes }
+					}
+					\new Lyrics \lyricsto Fremd \UndDarumFremdLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
+						\new Voice = "Blind" { \dynamicUp \UndDarumBlindNotes }
 					}
-					\new Lyrics \lyricsto Blind \GramLagBlindLyrics
+					\new Lyrics \lyricsto Blind \UndDarumBlindLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Judas"
+						\new Voice = "Judas" { \dynamicUp \UndDarumJudasNotes }
+					}
+					\new Lyrics \lyricsto Judas \UndDarumJudasLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GramLagOrgano
+						\UndDarumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GramLagBassFigures
+					\UndDarumBassFigures
 				}
 			>>
 			\layout { }

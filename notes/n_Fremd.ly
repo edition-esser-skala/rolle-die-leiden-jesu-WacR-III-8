@@ -46,6 +46,18 @@ WohinEiltFremdLyrics = \lyricmode {
 	that er, der Pro -- phet? %13 finis
 }
 
+UndDarumFremdNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoUndDarum
+		
+	}
+}
+
+UndDarumFremdLyrics = \lyricmode {
+	
+}
+
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble
