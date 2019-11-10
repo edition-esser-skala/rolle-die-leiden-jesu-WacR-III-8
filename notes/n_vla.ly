@@ -6,7 +6,7 @@
 
 DerDuVollViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 4/4 \tempoDerDuVoll
 			\set Staff.timeSignatureFraction = 4/4
 		\partial 2 b2\fE as g
