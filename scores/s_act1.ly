@@ -222,7 +222,11 @@
 		\header {
 			movement = \movementTitle "1.4" "R E C I T A T I V" "Und darum verklagten ihn die Väter?"
 		}
-		\paper { indent = 3.5\cm systems-per-page = #3 }
+		\paper {
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			systems-per-page = #3
+		}
 		\score {
 			<<
 				\new ChoirStaff <<

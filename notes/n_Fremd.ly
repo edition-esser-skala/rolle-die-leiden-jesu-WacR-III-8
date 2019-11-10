@@ -50,12 +50,26 @@ UndDarumFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoUndDarum
-		
+		r2 g'8 g c h!
+		c c c d es es r4
+		R1*15 %17
+		r2 r4 e,16 e e e
+		a8 a a h c c r a16 h
+		c8 c c e e a, c4 %20
+		r8 c c a d a r4
+		R1*10 \markVS \bar "||" %31 finis
+		\key e \minor \time 4/4
 	}
 }
 
 UndDarumFremdLyrics = \lyricmode {
+	Und da -- rum ver --
+	klag -- ten ihn die Vä -- ter?
 	
+	A -- ber hat er %18
+	Tod -- ten auf -- er -- we -- cket und das
+	Au -- ge dir ge -- schaf -- fen_– ſprich, %20
+	wie kann er lei -- den? %21 finis
 }
 
 % FremdNotes = {

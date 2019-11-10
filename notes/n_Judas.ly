@@ -8,12 +8,16 @@ UndDarumJudasNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoUndDarum
-		
+		R1*29 %29
+		r2 r4 c'8 r16 h %30
+		ais8 ais r ais16 ais h4 h8 r16 h, \markVS \bar "||" %31 finis
+		\key e \minor \time 4/4
 	}
 }
 
 UndDarumJudasLyrics = \lyricmode {
-	
+	Ha! er %30
+	lei -- det_– weil ich ihn, ihn ver_- %31 finis
 }
 
 % JudasNotes = {

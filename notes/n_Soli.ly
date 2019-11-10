@@ -48,3 +48,76 @@ WohinEiltSoliLyrics = \lyricmode {
 	Fü -- ße, Au -- gen den
 	Blin -- den. %17 finis
 }
+
+UndDarumSoliNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoUndDarum
+		r2 g'8^\Fremd g c h!
+		c c c d es es r \clef "treble_8" es,16^\Blind d
+		f8 c es16 es es d b8 b r d16 c
+		d8 d d es c c r a16 a
+		d8 d d a b4 d8 g, %5
+		es'8. g16 fis8 g g d r4
+		d8 g, r4 f'8 f f e
+		e4 r e8 e e h!
+		c c r a16 h c8 c c16 c c e
+		cis8 cis r cis16 d e8 e e cis %10
+		ais4 fis'8 cis e e e d
+		h h r4 d8 d fis h,
+		c! c c h c4 d8 e
+		d a r h16 c h8 h r g16 a
+		h8 h h c d d d d16 c %15
+		d4 d8 g g d r h16 c
+		d8 d f! h, c r16 e e8 e16 e
+		e8 h d c a a \clef treble e'16^\Fremd e e e
+		a8 a a h c c r a16 h
+		c8 c c e e a, c4 %20
+		r8 c c a d a \clef "treble_8" d,4^\Blind
+		d d8 d16 a h8 h r4
+		h8 h d g, cis cis cis e
+		ais, ais cis r16 fis, h4 r
+		r d8 cis d a h c %25
+		h h r4 f'!4. d8
+		h h h c g4 c8 e
+		e h r e16 h c4 r
+		e8 a, r c16 e d16. d32 d8 r g,16 g
+		f'8 f f e e4 \clef bass c8^\Judas r16 h %30
+		ais8 ais r ais16 ais h4 h8 r16 h, \markVS \bar "||" %31 finis
+		\key e \minor \time 4/4
+	}
+}
+
+UndDarumSoliLyrics = \lyricmode {
+	Und da -- rum ver --
+	klag -- ten ihn die Vä -- ter? Sei -- ne
+	Wun -- der ha -- ben ſie be -- lei -- digt, al -- les
+	Volk folgt dem Pro -- phe -- ten, ho -- let
+	im Tri -- umph ihn ein, ſin -- get %5
+	laut ihm Ho -- ſi -- an -- na,
+	ſie -- he, das ent -- flammt den
+	Neid, der die Ra -- che
+	we -- cket, daß er ih -- re ü -- ber -- tünch -- ten
+	Laſ -- ter, ih -- re ſei -- ne Heu -- che -- %10
+	ley oft vor tau -- ſend Zeu -- gen
+	rüg -- te. Ih -- rer Wuth ge --
+	langs in die -- ſer Nacht ihn zu
+	grei -- fen, und zu fe -- ßeln. Mit dem
+	erſ -- ten Son -- nen -- lich -- te eil -- ten ſie %15
+	hin zu Pi -- la -- tus, klag -- ten
+	ihn des Auf -- ruhrs an. Jetzt iſt er im
+	Richt -- haus mit Pi -- la -- tus. A -- ber hat er
+	Tod -- ten auf -- er -- we -- cket und das
+	Au -- ge dir ge -- schaf -- fen_– ſprich, %20
+	wie kann er lei -- den? Mir,
+	mir ſchuf er das Au -- ge:
+	a -- ber die -- ſe Lei -- den ſind mir
+	dun -- kel, Freund, wie dir.
+	Dort kömmt ſei -- ner Jün -- ger %25
+	ei -- ner. Finſ -- ter
+	iſt ſein An -- ge -- ſicht. Iſt das
+	Ju -- das? Ja er iſts?
+	Ju -- da! Gieb uns Un -- ter -- richt, wa -- rum
+	lei -- det der Pro -- phet? Ha! er %30
+	lei -- det_– weil ich ihn, ihn ver_- %31 finis
+}

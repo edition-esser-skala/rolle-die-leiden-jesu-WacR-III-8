@@ -134,12 +134,69 @@ UndDarumBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoUndDarum
-		
+		R1
+		r2 r4 r8 es16 d
+		f8 c es16 es es d b8 b r d16 c
+		d8 d d es c c r a16 a
+		d8 d d a b4 d8 g, %5
+		es'8. g16 fis8 g g d r4
+		d8 g, r4 f'8 f f e
+		e4 r e8 e e h!
+		c c r a16 h c8 c c16 c c e
+		cis8 cis r cis16 d e8 e e cis %10
+		ais4 fis'8 cis e e e d
+		h h r4 d8 d fis h,
+		c! c c h c4 d8 e
+		d a r h16 c h8 h r g16 a
+		h8 h h c d d d d16 c %15
+		d4 d8 g g d r h16 c
+		d8 d f! h, c r16 e e8 e16 e
+		e8 h d c a a r4
+		R1*2 %20
+		r2 r4 d
+		d d8 d16 a h8 h r4
+		h8 h d g, cis cis cis e
+		ais, ais cis r16 fis, h4 r
+		r d8 cis d a h c %25
+		h h r4 f'!4. d8
+		h h h c g4 c8 e
+		e h r e16 h c4 r
+		e8 a, r c16 e d16. d32 d8 r g,16 g
+		f'8 f f e e4 r %30
+		R1 \markVS \bar "||" %31 finis
+		\key e \minor \time 4/4
 	}
 }
 
 UndDarumBlindLyrics = \lyricmode {
+	Sei -- ne %2
+	Wun -- der ha -- ben ſie be -- lei -- digt, al -- les
+	Volk folgt dem Pro -- phe -- ten, ho -- let
+	im Tri -- umph ihn ein, ſin -- get %5
+	laut ihm Ho -- ſi -- an -- na,
+	ſie -- he, das ent -- flammt den
+	Neid, der die Ra -- che
+	we -- cket, daß er ih -- re ü -- ber -- tünch -- ten
+	Laſ -- ter, ih -- re ſei -- ne Heu -- che -- %10
+	ley oft vor tau -- ſend Zeu -- gen
+	rüg -- te. Ih -- rer Wuth ge --
+	langs in die -- ſer Nacht ihn zu
+	grei -- fen, und zu fe -- ßeln. Mit dem
+	erſ -- ten Son -- nen -- lich -- te eil -- ten ſie %15
+	hin zu Pi -- la -- tus, klag -- ten
+	ihn des Auf -- ruhrs an. Jetzt iſt er im
+	Richt -- haus mit Pi -- la -- tus.
 	
+	Mir, %21
+	mir ſchuf er das Au -- ge:
+	a -- ber die -- ſe Lei -- den ſind mir
+	dun -- kel, Freund, wie dir.
+	Dort kömmt ſei -- ner Jün -- ger %25
+	ei -- ner. Finſ -- ter
+	iſt ſein An -- ge -- ſicht. Iſt das
+	Ju -- das? Ja er iſts?
+	Ju -- da! Gieb uns Un -- ter -- richt, wa -- rum
+	lei -- det der Pro -- phet? %30 finis
 }
 
 % BlindNotes = {

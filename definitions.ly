@@ -231,6 +231,7 @@ markVS = {
 
 Blind = \markup { \remark "Blindgebohrner" }
 Fremd = \markup { \remark "Fremdling" }
+Judas = \markup { \remark "Judas" }
 
 tempoMarkup =
 	#(define-music-function
