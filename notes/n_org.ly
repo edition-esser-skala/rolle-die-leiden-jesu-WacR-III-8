@@ -127,13 +127,13 @@ GramLagOrgano = {
 		as as as %5
 		g as\f as\p
 		g g\fermata r
-		r8 c es c g' g,
+		r8 c es c g'[ g,]
 		c4 g'8 f es d
-		c4 es8 c g' g, %10
+		c4 es8 c g'[ g,] %10
 		c4 c, r
-		r8 as''16.\f as32 as8-! as\p g es
+		r8 as''16.\f as32 as8-! as[\p g es]
 		as,4 r16. c32\f c16. c32 c8 c\p
-		des des es es es, des'
+		des des es[ es es, des']
 		c4 r16. as32\f c16. es32 as8 c, %15
 		r des es[ es es, es]
 		as4 r8 as' es c
