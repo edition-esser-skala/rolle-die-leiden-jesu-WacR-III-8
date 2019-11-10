@@ -136,42 +136,85 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.2" "R E C I T A T I V" "Wohin eilt ganz Juda ſo früh?"
+% 		}
+% 		\paper { indent = 3.5\cm systems-per-page = #3 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \FremdIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Fremd" { \dynamicUp \WohinEiltFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \WohinEiltFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \BlindIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Blind" { \dynamicUp \WohinEiltBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \WohinEiltBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WohinEiltOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\WohinEiltBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.2" "R E C I T A T I V" "Wohin eilt ganz Juda ſo früh?"
+			movement = \movementTitle "1.3" "A R I A" "Gram lag auf mir"
 		}
-		\paper { indent = 3.5\cm systems-per-page = #3 }
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\GramLagViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\GramLagViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \FremdIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Fremd" { \dynamicUp \WohinEiltFremdNotes }
-					}
-					\new Lyrics \lyricsto Fremd \WohinEiltFremdLyrics
-					
+							\set Staff.instrumentName = "Viola"
+							\GramLagViola
+						}
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = \BlindIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Blind" { \dynamicUp \WohinEiltBlindNotes }
+						\set Staff.instrumentName = "Blindgebohrner"
+						\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
 					}
-					\new Lyrics \lyricsto Blind \WohinEiltBlindLyrics
+					\new Lyrics \lyricsto Blind \GramLagBlindLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WohinEiltOrgano
+						\GramLagOrgano
 					}
 				>>
 				\new FiguredBass {
-					\WohinEiltBassFigures
+					\GramLagBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

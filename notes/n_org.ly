@@ -116,6 +116,18 @@ WohinEiltBassFigures = \figuremode {
 	r2 %17 finis
 }
 
+GramLagOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \tempoGramLag
+		c4\pocoP^\soloE c c
+	}
+}
+
+GramLagBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -39,3 +39,11 @@ DerDuVollViolinoII = {
 		\time 8/4 f2( es4 d es1)\fermata \bar "||" %28 finis
 	}
 }
+
+GramLagViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoGramLag
+		
+	}
+}

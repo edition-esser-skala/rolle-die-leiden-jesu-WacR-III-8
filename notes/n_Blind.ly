@@ -51,6 +51,18 @@ WohinEiltBlindLyrics = \lyricmode {
 	Blin -- den. %17 finis
 }
 
+GramLagBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 3/4 \autoBeamOff \tempoGramLag
+		
+	}
+}
+
+GramLagBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

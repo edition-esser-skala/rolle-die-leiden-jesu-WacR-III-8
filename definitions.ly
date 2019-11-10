@@ -243,6 +243,7 @@ tempoMarkup =
 
 tempoDerDuVoll = \tempoMarkup "[Tempo deest]"
 tempoWohinEilt = \tempoMarkup "[Tempo deest]"
+tempoGramLag = \tempoMarkup "Moderato"
 
 
 

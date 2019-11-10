@@ -39,3 +39,11 @@ DerDuVollViola = {
 		\time 8/4 b\breve\fermata \bar "||" %28 finis
 	}
 }
+
+GramLagViola = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoGramLag
+		
+	}
+}

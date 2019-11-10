@@ -40,6 +40,14 @@ DerDuVollViolinoI = {
 	}
 }
 
+GramLagViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoGramLag
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
