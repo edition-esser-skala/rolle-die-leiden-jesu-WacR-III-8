@@ -120,7 +120,7 @@ GramLagOrgano = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 3/4 \tempoGramLag
-		c4\pocoP^\soloE c c
+		c4\pocoP c c
 		c c\f c\p
 		h h h
 		b b\f b\p
@@ -144,7 +144,7 @@ GramLagOrgano = {
 		r8 g16 fis g8[ g,] g r
 		fis'4 g8 g, g4
 		fis' g8 g, g f'
-		es as f d g g, %25
+		es as f d g[ g,] %25
 		as2 r4
 		es'2 e4
 		f r f
