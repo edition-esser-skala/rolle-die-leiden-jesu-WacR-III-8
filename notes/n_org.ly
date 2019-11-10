@@ -71,6 +71,18 @@ DerDuVollBassFigures = \figuremode {
 	<[9]> <[8]>4 <[7]> <[8]>1 %28 finis
 }
 
+WohinEiltOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoWohinEilt
+		es1
+	}
+}
+
+WohinEiltBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

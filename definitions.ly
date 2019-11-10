@@ -235,6 +235,7 @@ tempoMarkup =
 %
 
 tempoDerDuVoll = \tempoMarkup "[Tempo deest]"
+tempoWohinEilt = \tempoMarkup "[Tempo deest]"
 
 
 
@@ -414,6 +415,8 @@ tempoDerDuVoll = \tempoMarkup "[Tempo deest]"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"
+\include "notes/n_Blind.ly"
+\include "notes/n_Fremd.ly"
 \include "notes/n_S.ly"
 \include "notes/n_A.ly"
 \include "notes/n_T.ly"

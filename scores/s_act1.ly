@@ -57,83 +57,121 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.1" "C H O R A L" "Der Du voll Blut und Wunden"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\DerDuVollOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\DerDuVollOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DerDuVollViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DerDuVollViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\DerDuVollViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \DerDuVollSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DerDuVollSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \DerDuVollAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DerDuVollAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \DerDuVollTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DerDuVollTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DerDuVollBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DerDuVollBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DerDuVollOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DerDuVollBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.1" "C H O R A L" "Der Du voll Blut und Wunden"
+			movement = \movementTitle "1.2" "R E C I T A T I V" "Wohin eilt ganz Juda ſo früh?"
 		}
+		\paper { indent = 3.5\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\DerDuVollOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\DerDuVollOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DerDuVollViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DerDuVollViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\DerDuVollViola
-						}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
+						\set Staff.instrumentName = \FremdIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \DerDuVollSopranoNotes }
+						\new Voice = "Fremd" { \dynamicUp \WohinEiltFremdNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DerDuVollSopranoLyrics
+					\new Lyrics \lyricsto Fremd \WohinEiltFremdLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
+						\set Staff.instrumentName = \BlindIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \DerDuVollAltoNotes }
+						\new Voice = "Blind" { \dynamicUp \WohinEiltBlindNotes }
 					}
-					\new Lyrics \lyricsto Alto \DerDuVollAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \DerDuVollTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \DerDuVollTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DerDuVollBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DerDuVollBassoLyrics
+					\new Lyrics \lyricsto Blind \WohinEiltBlindLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DerDuVollOrgano
+						\WohinEiltOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DerDuVollBassFigures
+					\WohinEiltBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
