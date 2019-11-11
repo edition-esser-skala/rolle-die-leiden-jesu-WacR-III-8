@@ -280,7 +280,7 @@ WerFasstOrgano = {
 	\relative c {
 		\clef bass
 		\key e \minor \time 4/4 \tempoWerFasst
-		e4\fE r r8. h16 e8. fis16
+		e4\fE r r8. h16-\unisonoE e8. fis16
 		g8. h,16 e8. f16 e8. d16 c8. h16
 		a4 r r8. e'16 a8. h16
 		c8. e,16 a8. h16 a8. g16 fis!8. e16
@@ -292,7 +292,7 @@ WerFasstOrgano = {
 		r r4 e\p %10
 		a fis h a
 		gis h gis e
-		a8. e16 a8. h16 c8. e,16 a8. h16
+		a8. e16-\unisonoE a8. h16 c8. e,16 a8. h16
 		c8. h16 a8. g16 fis8. e16 dis8. e16
 		h8. fis'16 h8. a16 g8. fis16 e8. d16 %15
 		c2 c
@@ -307,7 +307,7 @@ WerFasstOrgano = {
 		h,8[\p cis16 d] e fis gis ais h4-! r %25
 		e,8[\f fis16 g] a h cis dis e4-! r
 		c,8. c16\p c8. c16 c4 r
-		d\f r8 d g16[ d e fis] g a h c
+		d\f r8 d-\unisonoE g16[ d e fis] g a h c
 		d4 r r16 d, e fis g[ a h c]
 		d8[ d,16 e] fis8 e16 fis g8[ g16 fis] e fis g a %30
 		h4 r r16 h, cis dis e[ fis g a]
@@ -332,7 +332,54 @@ WerFasstOrgano = {
 }
 
 WerFasstBassFigures = \figuremode {
-	
+	<5 3>1
+	r
+	r
+	r
+	r %5
+	r
+	r
+	r2 <_+>
+	r1
+	r %10
+	<6 5>4 <\t \t> <5 _!> <\t \t>
+	<6 5>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<5 3>1
+	r
+	r %15
+	<5>2 <6>
+	<_+> <7+ 4 2+>
+	<7! 5 _+> <6 4>
+	<_+>1
+	<5 3> %20
+	<\t \t>
+	<9>
+	<5 3>
+	<7>
+	<5 3> %25
+	<7>
+	<5 3>
+	r
+	r
+	r %30
+	r
+	<_+>2 <7 _+>
+	r8. <_+>16 r4 <7 _+>2
+	r8. <4+>16 r4 <7! 5!>2
+	r8. <4+>16 r4 <7 5!>2 %35
+	<5 3> q
+	q q
+	q q
+	<5> <6>
+	<_+>1 %40
+	<6>2. <6\\>4
+	r1
+	<7 _+>2 <_+>
+	r2 <6 4>8. <\t \t>16 <5 _+>4
+	r2 <6 4>8. <\t \t>16 <5 _+>4 %45
+	r1
+	r16. <7! _+>32 r8 <\t \t>2.
+	r2 <5+ _!> %48 finis
 }
 
 % Organo = {
