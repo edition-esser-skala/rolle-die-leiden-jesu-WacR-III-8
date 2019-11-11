@@ -382,6 +382,18 @@ WerFasstBassFigures = \figuremode {
 	r2 <5+ _!> %48 finis
 }
 
+FasstDichOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoFasstDich
+		h2 fis'~
+	}
+}
+
+FasstDichBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

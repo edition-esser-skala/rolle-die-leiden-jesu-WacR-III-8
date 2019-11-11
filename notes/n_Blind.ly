@@ -199,6 +199,18 @@ UndDarumBlindLyrics = \lyricmode {
 	lei -- det der Pro -- phet? %30 finis
 }
 
+FasstDichBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoFasstDich
+		
+	}
+}
+
+FasstDichBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

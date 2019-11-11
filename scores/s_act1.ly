@@ -262,54 +262,88 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.5" "A R I A" "Wer faßt die Zahl"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \WerFasstOboeI \WerFasstOboeII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WerFasstViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WerFasstViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\WerFasstViola
+% 						}
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Judas"
+% 						\new Voice = "Judas" { \dynamicUp \WerFasstJudasNotes }
+% 					}
+% 					\new Lyrics \lyricsto Judas \WerFasstJudasLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WerFasstOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\WerFasstBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.5" "A R I A" "Wer faßt die Zahl"
+			movement = \movementTitle "1.6" "R E C I T A T I V" "Faßt dich Entſetzen?"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \WerFasstOboeI \WerFasstOboeII
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \FasstDichFremdNotes }
 					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WerFasstViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WerFasstViolinoII
-						}
-					>>
+					\new Lyrics \lyricsto Fremd \FasstDichFremdLyrics
+					
 					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\WerFasstViola
-						}
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = "Judas"
-						\new Voice = "Judas" { \dynamicUp \WerFasstJudasNotes }
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }
 					}
-					\new Lyrics \lyricsto Judas \WerFasstJudasLyrics
+					\new Lyrics \lyricsto Blind \FasstDichBlindLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WerFasstOrgano
+						\FasstDichOrgano
 					}
 				>>
 				\new FiguredBass {
-					\WerFasstBassFigures
+					\FasstDichBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 80 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

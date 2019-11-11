@@ -252,6 +252,7 @@ tempoGramLag = \tempoMarkup "Moderato"
 tempoUndDarum = \tempoMarkup "[Tempo deest]"
 tempoWerFasst = \tempoMarkup "Allegro di molto"
 	tempoWerFasstB = \tempoMarkup "Moderato"
+tempoFasstDich = \tempoMarkup "[Tempo deest]"
 
 
 
