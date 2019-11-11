@@ -227,6 +227,10 @@ markVS = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remark "volti subito" }
 }
+markVSE = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remarkE "volti subito" }
+}
 
 
 Blind = \markup { \remark "Blindgebohrner" }
@@ -247,6 +251,7 @@ tempoWohinEilt = \tempoMarkup "[Tempo deest]"
 tempoGramLag = \tempoMarkup "Moderato"
 tempoUndDarum = \tempoMarkup "[Tempo deest]"
 tempoWerFasst = \tempoMarkup "Allegro di molto"
+	tempoWerFasstB = \tempoMarkup "Moderato"
 
 
 
