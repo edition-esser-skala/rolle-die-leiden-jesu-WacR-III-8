@@ -327,7 +327,7 @@ WerFasstOrgano = {
 		e4 r r8. h16 h8. h16 %45
 		e2 r
 		\tempoWerFasstB r16. ais32 ais16. ais32 ais4~ ais2~\p
-		ais h,2*3/4~ \hideNotes h8 \markVSE \bar "|" %48 finis
+		ais h,2*7/8~ \hideNotes h16 \markVSE \bar "|" %48 finis
 	}
 }
 
