@@ -306,7 +306,7 @@ WerFasstOrgano = {
 		d,8[\f e16 fis] g a h c d4-\parenthesize-! r
 		h,8[\p cis16 d] e fis gis ais h4-! r %25
 		e,8[\f fis16 g] a h cis dis e4-! r
-		c,8.\p c16 c8. c16 c4 r
+		c,8. c16\p c8. c16 c4 r
 		d\f r8 d g16[ d e fis] g a h c
 		d4 r r16 d, e fis g[ a h c]
 		d8[ d,16 e] fis8 e16 fis g8[ g16 fis] e fis g a %30
