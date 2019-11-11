@@ -266,7 +266,7 @@
 		\header {
 			movement = \movementTitle "1.5" "A R I A" "Wer faßt die Zahl"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -309,7 +309,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }

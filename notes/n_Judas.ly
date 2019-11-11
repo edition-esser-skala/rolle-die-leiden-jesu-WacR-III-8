@@ -41,7 +41,7 @@ WerFasstJudasNotes = {
 		d4 e, r r8 e
 		a4 r8 e a4 h
 		c4 d, r d
-		d'4. cis?8 h([ a)] g([ fis)] %25
+		d'4. c!8 h([ a)] g([ fis)] %25
 		g2 r4 g
 		e'4. d8 c([ h)] a([ g)]
 		d4 r r2

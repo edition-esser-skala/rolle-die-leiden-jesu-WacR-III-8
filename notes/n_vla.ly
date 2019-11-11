@@ -90,7 +90,7 @@ WerFasstViola = {
 		#'(2 2)
 		#'((end . (((1 . 16) . (8 8)))))
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 4/4 \tempoWerFasst
 		e4\fE r r8. h16 e8. fis16
 		g8. h,16 e8. f16 e8. d16 c8. h16
