@@ -87,7 +87,54 @@ WerFasstViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 4/4 \tempoWerFasst
-		
+		e8.\fE h16 e8. fis16 g8. h,16 e8. fis16
+		g8. h,16 e8. f16 e8. d16 c8. h16
+		a8. e'16 a8. h16 c8. e,16 a8. h16
+		c8. e,16 a8. h16 a8. g16 fis!8. e16
+		dis8. fis16 h8. h16 h'8. a16 g8. fis16 %5
+		e8. d16 c8. e16 a8. g16 fis8. e16
+		d8. c16 h8. d16 g8. fis16 e8. d16
+		c8. c16 h8. a16 h4 h,
+		e8.\p e16 e8. e16 e8. e16 e8. e16
+		g8. g16 g8. g16 g8. g16 g8. g16 %10
+		fis8. fis16 fis8. fis16 fis8. fis16 fis8. fis16
+		e8. e16 e8. e16 e8. e16 e8. e16
+		e8. e16 e8. e16 e8. e16 e8. e16
+		c'8. h16 a8. g16 fis8. e16 dis8. e16
+		h8. fis'16 h8. h16 h'8. a16 g8. fis16 %15
+		e8. d16 c8. h16 a8. g16 fis8. e16
+		h'8.\ff h16 h8. h16 cis8. cis16 cis8. cis16
+		dis8. dis16 dis8. dis16 e8. e16 g,8. e16
+		h'4 h, r\fermata r
+		h'8.\p h16 h8. h16 h8. h16 h8. h16 %20
+		d8. d16 d8. d16 d8. d16 h8. h16
+		e8.\f e16 e8. e16 e8. e16 e8.\p e16
+		e8. e16 e8. e16 e8. e16 e8. e16
+		fis8.\f fis16 fis8. fis16 fis8. fis16 fis8.\p fis16
+		fis8. fis16 fis8. fis16 fis8. fis16 fis8. fis16 %25
+		g8.\f g16 g8. g16 g8. g16 g8. g16
+		g4-! r r2
+		d,8\f d16 e fis8[ e16 fis] g d e fis g[ a h c]
+		d4 r r16 d, e fis g[ a h c]
+		d8[ d,16 e] fis8[ e16 fis] g8 g16 fis e[ fis g a] %30
+		h4 r r16 h, cis dis e[ fis g a]
+		h8. h,16 h'8. h16 ais8. g'16 g8. g16
+		fis8. h,16 h8. h16 ais8. g'16\p g8. g16
+		fis8. a,16\f a8. a16 gis8. f'16\p f8. f16
+		e8. g,16\f g8. g16 fis8. e'16\p e8. e16 %35
+		d8. c16 h8. d16 g8. fis16 e8. d16
+		c8. h16 a8. e'16 a8. g16 fis8. e16
+		d8. c16 h8. fis'16 h8. a16 g8. fis16
+		e8. d16 c8. h16 a8. g16 fis8. e16
+		h'8. h,16\f h8. h16 h4 r\fermata %40
+		a'\p r r h
+		c16[\f a h c] d[ e fis gis] a4-! r
+		g-! r fis-! r
+		e,8[ fis16 g] a h cis dis e4 h,8. h16
+		e8[ fis16 g] a h cis dis e4 h,8. h16 %45
+		e8[ fis16 g] a h cis dis e[ fis g fis] e d cis h
+		\tempoWerFasstB ais16. g'!32 g16. g32 g4~ g2~\p
+		g4 r r2 \markVSE \bar "||" %48 finis
 	}
 }
 
