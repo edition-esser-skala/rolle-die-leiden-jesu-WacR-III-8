@@ -84,6 +84,11 @@ GramLagViola = {
 }
 
 WerFasstViola = {
+	\overrideTimeSignatureSettings
+		4/4
+		1/4
+		#'(2 2)
+		#'((end . (((1 . 16) . (8 8)))))
 	\relative c' {
 		\clef treble
 		\key e \minor \time 4/4 \tempoWerFasst

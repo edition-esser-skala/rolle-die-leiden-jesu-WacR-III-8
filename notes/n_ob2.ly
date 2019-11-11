@@ -41,9 +41,39 @@ DerDuVollOboeII = {
 }
 
 WerFasstOboeII = {
+	\overrideTimeSignatureSettings
+		4/4
+		1/4
+		#'(2 2)
+		#'((end . (((1 . 16) . (8 8)))))
 	\relative c' {
 		\clef treble
 		\key e \minor \time 4/4 \tempoWerFasst
-		
+		g'1~\fE
+		g2 g
+		a1~
+		a2 a
+		h2. h4 %5
+		a2 r4 d
+		g,2 r4 g
+		a8. c16 h8. a16 h4 h
+		e,2 r
+		R1*7 %16
+		r4 dis\ff e2
+		fis g4 e
+		dis r r\fermata r
+		R1*9 %28
+		r4 fis\fE g2(
+		fis4) r r2 %30
+		r4 dis e2(
+		dis4) r e'2(
+		dis8) r r4 r2
+		R1*6 %39
+		r2 r\fermata %40
+		R1*3
+		r2 r4 fis,\fE
+		g r r fis %45
+		g r r2
+		\tempoWerFasstB R1*2 \markVSE \bar "|" %48 finis
 	}
 }
