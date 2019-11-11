@@ -387,11 +387,34 @@ FasstDichOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoFasstDich
 		h2 fis'~
+		fis g~
+		g4 r r a,
+		b16. b32 d16. f!32 b16. f32 d16. f32 b,2~
+		b1~ %5
+		b2 d~
+		d es~
+		es e~
+		e f~
+		f d %10
+		gis, a
+		a' fis \markVSE \bar "||" %12 finis
+		\key g \major \time 2/4
 	}
 }
 
 FasstDichBassFigures = \figuremode {
-	
+	<5+> <6>
+	<[5!]>1
+	<[4+]>2. <[_+]>4
+	r1
+	r %5
+	r2 <6!>
+	r <6>
+	r q
+	<[5-]>1
+	r2 <6!> %10
+	<6 5>1
+	r2 <6> %12 finis
 }
 
 % Organo = {

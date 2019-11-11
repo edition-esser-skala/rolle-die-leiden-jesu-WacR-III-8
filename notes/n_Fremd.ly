@@ -72,18 +72,6 @@ UndDarumFremdLyrics = \lyricmode {
 	wie kann er lei -- den? %21 finis
 }
 
-FasstDichFremdNotes = {
-	\relative c' {
-		\clef treble
-		\key c \major \time 4/4 \autoBeamOff \tempoFasstDich
-		
-	}
-}
-
-FasstDichFremdLyrics = \lyricmode {
-	
-}
-
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble

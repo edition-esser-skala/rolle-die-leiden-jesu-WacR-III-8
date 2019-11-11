@@ -316,16 +316,10 @@
 		\header {
 			movement = \movementTitle "1.6" "R E C I T A T I V" "Faßt dich Entſetzen?"
 		}
-		\paper { systems-per-page = #3 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
 				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \FasstDichFremdNotes }
-					}
-					\new Lyrics \lyricsto Fremd \FasstDichFremdLyrics
-					
 					\new Staff {
 						\set Staff.instrumentName = "Blindgeb."
 						\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }

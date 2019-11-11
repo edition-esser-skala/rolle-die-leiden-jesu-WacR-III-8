@@ -107,7 +107,7 @@ WerFasstJudasLyrics = \lyricmode {
 	mir.
 	
 	Faßt dich Ent -- %47
-	ſet -- zen? Ich ver -- ſtum -- me! doch iſt %48 finis
+	ſet -- zen? Jch ver -- ſtum -- me! doch iſt %48 finis
 }
 
 % JudasNotes = {

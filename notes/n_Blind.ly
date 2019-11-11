@@ -179,7 +179,7 @@ UndDarumBlindLyrics = \lyricmode {
 	we -- cket, daß er ih -- re ü -- ber -- tünch -- ten
 	Laſ -- ter, ih -- re ſei -- ne Heu -- che -- %10
 	ley oft vor tau -- ſend Zeu -- gen
-	rüg -- te. Ih -- rer Wuth ge --
+	rüg -- te. Jh -- rer Wuth ge --
 	langs in die -- ſer Nacht ihn zu
 	grei -- fen, und zu fe -- ßeln. Mit dem
 	erſ -- ten Son -- nen -- lich -- te eil -- ten ſie %15
@@ -193,7 +193,7 @@ UndDarumBlindLyrics = \lyricmode {
 	dun -- kel, Freund, wie dir.
 	Dort kömmt ſei -- ner Jün -- ger %25
 	ei -- ner. Finſ -- ter
-	iſt ſein An -- ge -- ſicht. Iſt das
+	iſt ſein An -- ge -- ſicht. Jſt das
 	Ju -- das? Ja er iſts?
 	Ju -- da! Gieb uns Un -- ter -- richt, wa -- rum
 	lei -- det der Pro -- phet? %30 finis
@@ -203,12 +203,35 @@ FasstDichBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoFasstDich
-		
+		d8 d fis cis d d r a16 h
+		c8 c c d h4 h
+		g'8 e cis d a4 r
+		r2 r4 r8 f'!
+		f b,16 b b8 c d d d es %5
+		f f f d h h r4
+		d8 d d g, c4 g'8 es
+		c r16 c c8 c c g g a
+		b b b a a4 r
+		a8 a g f h!4 r16 h h c %10
+		d8 r16 d e8 h c c e a,
+		r4 c8 a d8. d16 d4-! \bar "||" %12 finis
+		\key g \major \time 2/4
 	}
 }
 
 FasstDichBlindLyrics = \lyricmode {
-	
+	er ein lau -- ter Zeu -- ge, daß die
+	Lei -- den des Pro -- phe -- ten
+	un -- ver -- ſchul -- det ſind.
+	Dort
+	reißt ſich aus dem Ge -- drän -- ge noch ein %5
+	and -- rer ſei -- ner Jün -- ger
+	weh -- muths -- voll her -- vor: Pe -- trus
+	iſts! Er war bey Je -- ſu, als er
+	mir die Son -- ne ſchuf.
+	Nie -- der ſinkt ſein Blick; in ſich ge -- %10
+	kehrt eilt er vo -- rü -- ber._– Pe -- trus,
+	Pe -- trus hö -- re mich! %12 finis
 }
 
 % BlindNotes = {
