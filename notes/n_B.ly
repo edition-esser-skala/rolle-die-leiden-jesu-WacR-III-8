@@ -87,6 +87,18 @@ HilfDuIhmBassoLyrics = \lyricmode {
 	[Bar -- ra -- bas, Bar -- ra -- bas!] %36 finis
 }
 
+KreutzigenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
+		
+	}
+}
+
+KreutzigenBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -59,71 +59,144 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.1" "R E C I T A T I V" "Hilf du ihm! Gott Abrahams!"
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fremdling"
+% 						\new Voice = "Fremd" { \dynamicUp \HilfDuIhmFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \HilfDuIhmFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \HilfDuIhmBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \HilfDuIhmBlindLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Pilatus"
+% 						\new Voice = "Pilatus" { \dynamicUp \HilfDuIhmPilatusNotes }
+% 					}
+% 					\new Lyrics \lyricsto Pilatus \HilfDuIhmPilatusLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Kaiphas"
+% 						\new Voice = "Kaiphas" { \dynamicUp \HilfDuIhmKaiphasNotes }
+% 					}
+% 					\new Lyrics \lyricsto Kaiphas \HilfDuIhmKaiphasLyrics
+% 				>>
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \HilfDuIhmSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \HilfDuIhmSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \HilfDuIhmAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \HilfDuIhmAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \HilfDuIhmTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \HilfDuIhmTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \HilfDuIhmBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \HilfDuIhmBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\HilfDuIhmOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\HilfDuIhmBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.1" "R E C I T A T I V" "Hilf du ihm! Gott Abrahams!"
+			movement = \movementTitle "2.2" "C H O R" "Kreutzigen laß ihn"
 		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \HilfDuIhmFremdNotes }
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \KreutzigenOboeI \KreutzigenOboeII
 					}
-					\new Lyrics \lyricsto Fremd \HilfDuIhmFremdLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \HilfDuIhmBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \HilfDuIhmBlindLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Pilatus"
-						\new Voice = "Pilatus" { \dynamicUp \HilfDuIhmPilatusNotes }
-					}
-					\new Lyrics \lyricsto Pilatus \HilfDuIhmPilatusLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Kaiphas"
-						\new Voice = "Kaiphas" { \dynamicUp \HilfDuIhmKaiphasNotes }
-					}
-					\new Lyrics \lyricsto Kaiphas \HilfDuIhmKaiphasLyrics
 				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\KreutzigenViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\KreutzigenViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\KreutzigenViola
+						}
+				>>
+				\new Staff {
+						\set Staff.instrumentName = "Pilatus"
+						\new Voice = "Pilatus" { \dynamicUp \KreutzigenPilatusNotes }
+					}
+				\new Lyrics \lyricsto Pilatus \KreutzigenPilatusLyrics
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \HilfDuIhmSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \KreutzigenSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \HilfDuIhmSopranoLyrics
+					\new Lyrics \lyricsto Soprano \KreutzigenSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \HilfDuIhmAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \KreutzigenAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \HilfDuIhmAltoLyrics
+					\new Lyrics \lyricsto Alto \KreutzigenAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \HilfDuIhmTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \KreutzigenTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \HilfDuIhmTenoreLyrics
+					\new Lyrics \lyricsto Tenore \KreutzigenTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \HilfDuIhmBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \KreutzigenBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \HilfDuIhmBassoLyrics
+					\new Lyrics \lyricsto Basso \KreutzigenBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\HilfDuIhmOrgano
+						\KreutzigenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\HilfDuIhmBassFigures
+					\KreutzigenBassFigures
 				}
 			>>
 			\layout { }

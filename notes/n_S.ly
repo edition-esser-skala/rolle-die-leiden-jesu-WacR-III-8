@@ -98,6 +98,18 @@ HilfDuIhmSopranoLyrics = \lyricmode {
 	Bar -- ra -- bas, Bar -- ra -- bas! %36 finis
 }
 
+KreutzigenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
+		
+	}
+}
+
+KreutzigenSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

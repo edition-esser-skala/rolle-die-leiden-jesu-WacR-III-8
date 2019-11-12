@@ -98,6 +98,18 @@ HilfDuIhmTenoreLyrics = \lyricmode {
 	[Bar -- ra -- bas, Bar -- ra -- bas!] %36 finis
 }
 
+KreutzigenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
+		
+	}
+}
+
+KreutzigenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

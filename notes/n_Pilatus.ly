@@ -54,6 +54,18 @@ HilfDuIhmPilatusLyrics = \lyricmode {
 	Je -- ſu? %38 finis
 }
 
+KreutzigenPilatusNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
+		
+	}
+}
+
+KreutzigenPilatusLyrics = \lyricmode {
+	
+}
+
 % PilatusNotes = {
 % 	\relative c {
 % 		\clef bass

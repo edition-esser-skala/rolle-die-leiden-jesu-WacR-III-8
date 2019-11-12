@@ -259,6 +259,7 @@ tempoFasstDich = \tempoMarkup "[Tempo deest]"
 tempoLassMich = \tempoMarkup "Poco largo"
 
 tempoHilfDuIhm = \tempoMarkup "[Tempo deest]"
+tempoKreutzigen = \tempoMarkup "Allebreve"
 
 
 

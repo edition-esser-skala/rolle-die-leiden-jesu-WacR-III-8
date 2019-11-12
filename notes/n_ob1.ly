@@ -77,3 +77,11 @@ WerFasstOboeI = {
 		\tempoWerFasstB R1*2 \markVSE \bar "|" %48 finis
 	}
 }
+
+KreutzigenOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoKreutzigen
+		
+	}
+}

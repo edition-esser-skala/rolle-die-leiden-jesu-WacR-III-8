@@ -607,6 +607,18 @@ HilfDuIhmBassFigures = \figuremode {
 	<_+>2 %38 finis
 }
 
+KreutzigenOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoKreutzigen
+		d'2.\fE c4
+	}
+}
+
+KreutzigenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

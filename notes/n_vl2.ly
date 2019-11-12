@@ -196,3 +196,11 @@ LassMichViolinoII = {
 		g4 r\fermata \bar "|." %46 FINIS
 	}
 }
+
+KreutzigenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoKreutzigen
+		
+	}
+}
