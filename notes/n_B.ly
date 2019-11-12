@@ -71,6 +71,18 @@ DerDuVollBassoLyrics = \lyricmode {
 	Dir. %28 finis
 }
 
+HilfDuIhmBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
+		
+	}
+}
+
+HilfDuIhmBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

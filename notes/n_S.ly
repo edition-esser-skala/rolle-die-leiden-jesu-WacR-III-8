@@ -82,6 +82,18 @@ DerDuVollSopranoLyrics = \lyricmode {
 	Dir. %28 finis
 }
 
+HilfDuIhmSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
+		
+	}
+}
+
+HilfDuIhmSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

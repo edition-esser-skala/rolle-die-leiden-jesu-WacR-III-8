@@ -255,6 +255,8 @@ tempoWerFasst = \tempoMarkup "Allegro di molto"
 tempoFasstDich = \tempoMarkup "[Tempo deest]"
 tempoLassMich = \tempoMarkup "Poco largo"
 
+tempoHilfDuIhm = \tempoMarkup "[Tempo deest]"
+
 
 
 
@@ -438,10 +440,12 @@ tempoLassMich = \tempoMarkup "Poco largo"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"
-\include "notes/n_Fremd.ly"
-\include "notes/n_Blind.ly"
-\include "notes/n_Petrus.ly"
-\include "notes/n_Judas.ly"
+\include "notes/n_Fremd.ly"   %S
+\include "notes/n_Blind.ly"   %T
+\include "notes/n_Petrus.ly"  %T
+\include "notes/n_Judas.ly"   %B
+\include "notes/n_Kaiphas.ly" %B
+\include "notes/n_Pilatus.ly" %B
 \include "notes/n_Soli.ly"
 \include "notes/n_S.ly"
 \include "notes/n_A.ly"

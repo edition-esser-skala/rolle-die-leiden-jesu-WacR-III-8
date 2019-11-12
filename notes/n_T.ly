@@ -82,6 +82,18 @@ DerDuVollTenoreLyrics = \lyricmode {
 	Dir. %28 finis
 }
 
+HilfDuIhmTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
+		
+	}
+}
+
+HilfDuIhmTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

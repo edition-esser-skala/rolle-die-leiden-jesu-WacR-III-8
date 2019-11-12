@@ -520,6 +520,18 @@ LassMichBassFigures = \figuremode {
 	r %46 FINIS
 }
 
+HilfDuIhmOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoHilfDuIhm
+		f!1\pE
+	}
+}
+
+HilfDuIhmBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

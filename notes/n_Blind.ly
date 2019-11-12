@@ -234,6 +234,18 @@ FasstDichBlindLyrics = \lyricmode {
 	Pe -- trus hö -- re mich! %12 finis
 }
 
+HilfDuIhmBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
+		
+	}
+}
+
+HilfDuIhmBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

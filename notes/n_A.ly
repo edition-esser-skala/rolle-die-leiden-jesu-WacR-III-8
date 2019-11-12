@@ -82,6 +82,18 @@ DerDuVollAltoLyrics = \lyricmode {
 	Dir. __ %28 finis
 }
 
+HilfDuIhmAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
+		
+	}
+}
+
+HilfDuIhmAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
