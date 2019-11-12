@@ -423,7 +423,51 @@ LassMichOrgano = {
 		\clef bass
 		\key g \major \time 2/4 \tempoLassMich
 		g'8\p g g g
-		
+		fis g c, d
+		g, d' d16 c h a
+		g8 g g g'
+		fis g c, d %5
+		g, d' d, d'
+		r cis d d,
+		r cis' d d,
+		g' f e es
+		d d'4\< c8 %10
+		h16( b) b( a) a( g) g(\f fis!)
+		fis8 fis[\p fis fis]
+		g g fis fis
+		g g r cis,
+		d d' cis a
+		d, d' cis a
+		d, g fis e
+		d cis h b
+		a16(-. a-. a-. a-.) r a(-. a-. a-.)
+		d,4 r8 a''\f
+		h g r a
+		d,4 r8 a
+		d d, d4
+		r8 d'\p d d
+		d d, r d'
+		d d d d
+		r d d c!
+		h h h h
+		a a r fis'
+		g g h, h
+		c c d d
+		e e h' h
+		c\f c, r cis\p
+		d d, d d'
+		r cis d d,
+		r cis' d d,
+		g' f e es
+		d d c'4\f
+		h8\p c, d d
+		g,4 r8 d'
+		e c r d
+		g,4 r8 d'
+		e c r d
+		e c r d
+		g, g g g
+		g4 r \bar "|."
 	}
 }
 

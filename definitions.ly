@@ -403,6 +403,9 @@ tempoLassMich = \tempoMarkup "Poco largo"
 		extraNatural = ##t
 		\override NoteHead.style = #'baroque
 		aDueText = \markup { \medium \remark "a 2" }
+		crescendoText = \markup { \remark "cresc." }
+		crescendoSpanner = #'text
+		\override DynamicTextSpanner.style = #'none
 	}
 	\context {
 		\Lyrics
