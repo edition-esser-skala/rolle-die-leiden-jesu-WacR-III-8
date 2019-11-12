@@ -236,6 +236,9 @@ markVSE = {
 Blind = \markup { \remark "Blindgebohrner" }
 Fremd = \markup { \remark "Fremdling" }
 Judas = \markup { \remark "Judas" }
+Pilatus = \markup { \remark "Pilatus" }
+Kaiphas = \markup { \remark "Kaiphas" }
+ChorDesVolkes = \markup { \remark "Chor des Volks" }
 
 tempoMarkup =
 	#(define-music-function

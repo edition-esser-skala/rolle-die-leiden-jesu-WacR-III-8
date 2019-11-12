@@ -121,3 +121,90 @@ UndDarumSoliLyrics = \lyricmode {
 	lei -- det der Pro -- phet? Ha! er %30
 	lei -- det_– weil ich ihn, ihn ver_- %31 finis
 }
+
+HilfDuIhmSoliNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
+		r4 r8 d^\Blind g d r e
+		c8. c16 c4 e r8 f
+		d r16 h h8 c d d r d16 e
+		f8 f f d h h r h16 h
+		gis8 gis h16 h h c d8 d r4 %5
+		d8 d d e f4 r8 e
+		c c \clef treble r c'16^\Fremd a dis8 dis dis e
+		e h \clef "treble_8" e,8^\Blind r16 e g8 e e e
+		cis cis cis d d a r4
+		r r8 f'!16 f f8 c r c16 d %10
+		es8 es es d b b r b
+		d d16 d d8 es es b r4
+		r4 r8 es16 es es8 b b16 b c des
+		c8 c \clef bass r es,^\Pilatus as as as b
+		g8. g16 g4 r8 g g as %15
+		b b des g, as4 r8 c
+		c g b g as r16 as as8 g16 f
+		g8 g b e,! f c r4
+		r2 r4 f8 a!16 c
+		c8 es, es f d4 r16 f f f %20
+		b8 b b b16 a b8 b16 b b8 f
+		r f f g as as b f
+		g g r es g4 r8 g
+		g g g g g d d d16 es
+		f8 f g d es4 c'8 h! %25
+		c4 g8 b a! a f8^\Kaiphas f16 e
+		f8 c r f16 g a8 a a c
+		c16 g g8 b b16 a a4 c8 b16 a
+		d8 a c c16 b g4 d8 d
+		g4 g8 g16 a b8 b b b %30
+		d b b a gis gis r4
+		d'8 gis,16 gis gis8 gis16 a a4 r
+		a8 a gis a a e r4
+		c'8^\Pilatus f, r4 a8 a a b
+		g g r4 d'8 f, f8. g16 %35
+		e! e e8 \clef treble e''16.^\ChorDesVolkes e32 e8 g16. c,32 c8 r4
+		\clef bass r4 r8 g,^\Pilatus c c16 c c8 a
+		fis fis r4 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
+	}
+}
+
+HilfDuIhmSoliLyrics = \lyricmode {
+	Hilf du ihm! Gott
+	A -- bra -- hams! Ach, er
+	iſt, er iſt von al -- len, auch von
+	Freun -- den, die er lieb -- te, die ſein
+	Le -- ben, ſei -- ne Wun -- der ſa -- hen, %5
+	die ſein Mund ge -- lehrt, ver --
+	la -- ßen! Al -- les Volk iſt in Be --
+	we -- gung. Ja! Pi -- la -- tus ſteigt mit
+	Je -- ſu auf den Richt -- ſtuhl.
+	Wel -- che Ho -- heit! wel -- che %10
+	Ruh im Ant -- litz Je -- ſu, vor
+	ihm ſtehn er -- grimmt die Vä -- ter.
+	Wel -- ches Ur -- theil wird der Rö -- mer
+	ſpre -- chen! Jhr brach -- tet die -- ſen
+	Men -- ſchen mir, und klag -- tet %15
+	ihn des Auf -- ruhrs an. Jch
+	hab ihn ſcharf ver -- hört, und fin -- de der
+	Sa -- che nicht ihn ſchul -- dig.
+	Jſ -- ra -- e --
+	lit -- en hö -- ret mich. Zu mei -- ner %20
+	Lin -- ken ſte -- het ein Mör -- der, Bar -- ra -- bas!
+	zu mei -- ner Rech -- ten eu -- er
+	Je -- ſus! Jhr wißt, ich
+	geb an die -- ſem Feſ -- te euch der Ge --
+	fang -- nen Ei -- nen loß. Wel -- chen %25
+	ſoll ich euch ge -- ben? Jſ -- ra -- e --
+	li -- ten! Die -- ſen Je -- ſum habt ihr
+	A -- bra -- ham läſ -- tern ge -- hört, Mo -- ſis Ge --
+	ſetz ent -- wei -- hen ge -- ſehn, habt ge --
+	hört, daß er dem Tem -- pel ſei -- nen %30
+	Un -- ter -- gang ver -- kün -- det:
+	Rä -- chet an ihm das Ge -- ſetz,
+	und den Tem -- pel Got -- tes.
+	Re -- det! wen ſoll ich euch
+	ge -- ben? Je -- ſus o -- der %35
+	Bar -- ra -- bas? Bar -- ra -- bas, Bar -- ra -- bas!
+	Was mach ich mit die -- ſem
+	Je -- ſu? %38 finis
+}
