@@ -148,7 +148,52 @@ LassMichViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 2/4 \tempoLassMich
-		
+		d'8\p d d e16( d)
+		d( c) c( h) h( a) g( fis)
+		g( h) a4 h16( c)
+		d8 d d e16( d)
+		d( c) c( h) h( a) g( fis) %5
+		g( h) a8 a a16( c)
+		c8( b-!) r a16( c)
+		c8( b-!) r a16( c)
+		c( h) g'4 g,8
+		fis fis([\< g a)] %10
+		h16( cis) cis( d) d( e) e(\f a)
+		a8-! d,4\p d,8~
+		d d'4 d,8~
+		d h'16( e) e8. g,16
+		fis( a) r a r a a32([ cis e g)] %15
+		g16( fis) r a, r a a32([ cis e g)]
+		g16( fis) e8~ e16 d8 cis16~
+		cis h8 a16 gis d'(-.\f d-. d-.)
+		d4^\tenuto g,\p^\tenuto
+		fis8 gis'16([\f a)] cis,( d) e,( g) %20
+		g( fis) ais( h) dis,( e) r cis
+		d8 a16( d) fis( a8 cis,16)
+		d d' a fis \appoggiatura e8 d4
+		d'8\p d4 c!16( h)
+		h( c) c( e) e( c) a( c) %25
+		c( h) h( d) d8. b16
+		c( b)\trill a8 a h16( c)
+		d8 d d d
+		d16( c) c( e) e8\fp d16( c)
+		c( h) h-. h-. r h( h h) %30
+		r a( a a) r h( h h)
+		r c( c c) r d( d dis)
+		dis8\fp e16( c) h8 a16( g)
+		g8 fis16( a) d8 a16( c)
+		c( b) b8 r a16( c) %35
+		c( b) b8 r a16( c)
+		h d8 g16~ g( e) d( cis)
+		\appoggiatura e d cis d8 <fis a, d,>\f r
+		r16 g(\p e c) h8 a
+		g cis16([ d)] fis,( g) a,( c?) %40
+		c( h) dis( e) gis,( a) r c
+		h8 cis'16([ d)] fis,( g) a,( c)
+		c( h) dis( e) a( c) r fis,
+		g8 dis16([ e)] a( c) r fis,
+		g8 g16( h) h( g) d( h) %45
+		g4 r\fermata \bar "|." %46 finis
 	}
 }
 

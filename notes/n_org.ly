@@ -436,12 +436,12 @@ LassMichOrgano = {
 		fis8 fis[\p fis fis]
 		g g fis fis
 		g g r cis,
-		d d' cis a
+		d d' cis a %15
 		d, d' cis a
 		d, g fis e
 		d cis h b
-		a16(-. a-. a-. a-.) r a(-. a-. a-.)
-		d,4 r8 a''\f
+		a16(-.\f a-. a-. a-.) r a(-.\pE a-. a-.)
+		d,4 r8 a''\f %20
 		h g r a
 		d,4 r8 a
 		d d, d4
