@@ -312,32 +312,84 @@
 % 			\midi { \tempo 2 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.6" "R E C I T A T I V" "Faßt dich Entſetzen?"
+% 		}
+% 		\paper { systems-per-page = #4 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \FasstDichBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\FasstDichOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\FasstDichBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.6" "R E C I T A T I V" "Faßt dich Entſetzen?"
+			movement = \movementTitle "1.7" "A R I A" "Laß mich dieſen bangen Stunden"
 		}
-		\paper { systems-per-page = #4 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }
+						\set Staff.instrumentName = "Fagotto I, II"
+						\partcombine \LassMichFagottoI \LassMichFagottoII
 					}
-					\new Lyrics \lyricsto Blind \FasstDichBlindLyrics
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\LassMichViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\LassMichViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\LassMichViola
+						}
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Staff {
+						\set Staff.instrumentName = \PetrusIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Petrus" { \dynamicUp \LassMichPetrusNotes }
+					}
+					\new Lyrics \lyricsto Petrus \LassMichPetrusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\FasstDichOrgano
+						\LassMichOrgano
 					}
 				>>
 				\new FiguredBass {
-					\FasstDichBassFigures
+					\LassMichBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

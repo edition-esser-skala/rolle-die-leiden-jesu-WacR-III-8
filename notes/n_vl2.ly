@@ -142,3 +142,12 @@ WerFasstViolinoII = {
 		e4 r r2 \markVSE \bar "||" %48 finis
 	}
 }
+
+LassMichViolinoII = {
+	\twofourtime
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoLassMich
+		
+	}
+}

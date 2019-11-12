@@ -417,6 +417,20 @@ FasstDichBassFigures = \figuremode {
 	r2 <6> %12 finis
 }
 
+LassMichOrgano = {
+	\twofourtime
+	\relative c {
+		\clef bass
+		\key g \major \time 2/4 \tempoLassMich
+		g'8\p g g g
+		
+	}
+}
+
+LassMichBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

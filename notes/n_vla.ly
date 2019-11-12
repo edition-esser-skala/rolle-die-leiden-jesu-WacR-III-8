@@ -142,3 +142,12 @@ WerFasstViola = {
 		ais4 r r2 \markVSE \bar "|" %48 finis
 	}
 }
+
+LassMichViola = {
+	\twofourtime
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoLassMich
+		
+	}
+}
