@@ -467,7 +467,7 @@ LassMichOrgano = {
 		e c r d
 		e c r d
 		g, g g g
-		g4 r \bar "|."
+		g4 r\fermata \bar "|."
 	}
 }
 
