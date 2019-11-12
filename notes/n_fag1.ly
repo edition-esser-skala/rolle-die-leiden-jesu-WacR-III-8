@@ -13,19 +13,19 @@ LassMichFagottoI = {
 		r4 a'8.(\pocoP h32 c)
 		d4. e16( d)
 		d( c) c( h) r c( h a) %5
-		g h a4 r8
+		\once \slurDashed g( h) a4 r8
 		r \once \slurDashed g16( b) b( a) a8
 		r g16( b) b( a) a( c)
 		c( h) h( d) c8( cis)
-		d4. d8 %10
-		d16( g) g( fis) fis( e) e( d)
-		d4-! r
+		\pa d4. d8~\< %10
+		d16( g) g( fis) fis( e) e(\f d)
+		d4-! \pd r
 		R2*2
 		r8 a16(\p fis') e8-! r %15
 		r8 a,16( fis') e8-! r
 		R2*3
 		r4 r8 e16( g) %20
-		g( fis) e8 r g,
+		\pa g( fis) e8 \pd r g,
 		fis a4 g8
 		fis4 r
 		R2
