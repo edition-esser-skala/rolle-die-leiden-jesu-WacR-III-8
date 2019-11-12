@@ -148,6 +148,51 @@ LassMichViola = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 2/4 \tempoLassMich
-		
+		g'8\p g g g
+		d d c d
+		d d d16 c h a
+		g8 g g g
+		d' d c d %5
+		d d d d
+		r cis d d,
+		r cis' d d
+		d h c cis
+		d d4\< d8 %10
+		d16( e) e( fis) fis( a) a\f a
+		a8-! a,[\p a fis]
+		g g a fis
+		g g r cis
+		d d cis a %15
+		d, d' cis a
+		d g fis e
+		d cis h b
+		a16(-.\f a-. a-. a-.) r a(-.\pE a-. a-.)
+		d,4 r8 cis'16(\f e) %20
+		e( d) g,8 r g
+		fis a r a
+		d d, d4
+		r8 d'\p d d
+		d d, r d' %25
+		d d d d
+		r d d d
+		d d d d
+		e a, r d
+		d d h h %30
+		c c d d
+		e e h h
+		c\f c, r cis\p
+		d d d d'
+		r cis d d, %35
+		r cis' d d,
+		g f e es
+		d[ d] <d' a'>\f r
+		g\p c, d d
+		g,4 r8 d %40
+		e c r d
+		g4 r8 d
+		e c r d
+		e c r d
+		g g g g %45
+		g4 r\fermata \bar "|." %46 finis
 	}
 }
