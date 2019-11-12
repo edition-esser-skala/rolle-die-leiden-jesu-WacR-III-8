@@ -86,12 +86,16 @@ HilfDuIhmAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
-		
+		R1*35 %35
+		r4 g'16. g32 g8 c16. g32 g8 r4
+		R1
+		r2 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
 	}
 }
 
 HilfDuIhmAltoLyrics = \lyricmode {
-	
+	[Bar -- ra -- bas, Bar -- ra -- bas!] %36 finis
 }
 
 % AltoNotes = {

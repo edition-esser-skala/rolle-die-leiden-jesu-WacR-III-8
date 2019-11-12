@@ -75,12 +75,16 @@ HilfDuIhmBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
-		
+		R1*35 %35
+		r4 c'16. c32 c8 c16. c,32 c8 r4
+		R1
+		r2 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
 	}
 }
 
 HilfDuIhmBassoLyrics = \lyricmode {
-	
+	[Bar -- ra -- bas, Bar -- ra -- bas!] %36 finis
 }
 
 % BassoNotes = {

@@ -238,12 +238,41 @@ HilfDuIhmBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
-		
+		r4 r8 d g d r e
+		c8. c16 c4 e r8 f
+		d r16 h h8 c d d r d16 e
+		f8 f f d h h r h16 h
+		gis8 gis h16 h h c d8 d r4 %5
+		d8 d d e f4 r8 e
+		c c r4 r2
+		r4 e8 r16 e g8 e e e
+		cis cis cis d d a r4
+		r r8 f'!16 f f8 c r c16 d %10
+		es8 es es d b b r b
+		d d16 d d8 es es b r4
+		r4 r8 es16 es es8 b b16 b c des
+		c8 c r4 r2
+		R1*23 %37
+		r2 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
 	}
 }
 
 HilfDuIhmBlindLyrics = \lyricmode {
-	
+	Hilf du ihm! Gott
+	A -- bra -- hams! Ach, er
+	iſt, er iſt von al -- len, auch von
+	Freun -- den, die er lieb -- te, die ſein
+	Le -- ben, ſei -- ne Wun -- der ſa -- hen, %5
+	die ſein Mund ge -- lehrt, ver --
+	la -- ßen!
+	Ja! Pi -- la -- tus ſteigt mit
+	Je -- ſu auf den Richt -- ſtuhl.
+	Wel -- che Ho -- heit! wel -- che %10
+	Ruh im Ant -- litz Je -- ſu, vor
+	ihm ſtehn er -- grimmt die Vä -- ter.
+	Wel -- ches Ur -- theil wird der Rö -- mer
+	ſpre -- chen! %14 finis
 }
 
 % BlindNotes = {

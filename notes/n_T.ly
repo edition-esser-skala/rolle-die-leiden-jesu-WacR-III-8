@@ -86,12 +86,16 @@ HilfDuIhmTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
-		
+		R1*35 %35
+		r4 c16. c32 c8 e16. e32 e8 r4
+		R1
+		r2 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
 	}
 }
 
 HilfDuIhmTenoreLyrics = \lyricmode {
-	
+	[Bar -- ra -- bas, Bar -- ra -- bas!] %36 finis
 }
 
 % TenoreNotes = {

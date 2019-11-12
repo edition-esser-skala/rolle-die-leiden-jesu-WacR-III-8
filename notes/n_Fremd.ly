@@ -76,12 +76,18 @@ HilfDuIhmFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHilfDuIhm
-		
+		R1*6 %6
+		r4 r8 c'16 a dis8 dis dis e
+		e h r4 r2
+		R1*29 %37
+		r2 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
 	}
 }
 
 HilfDuIhmFremdLyrics = \lyricmode {
-	
+	Al -- les Volk iſt in Be -- %7
+	we -- gung. %8 finis
 }
 
 % FremdNotes = {
