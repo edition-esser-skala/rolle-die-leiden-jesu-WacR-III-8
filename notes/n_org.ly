@@ -525,11 +525,86 @@ HilfDuIhmOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoHilfDuIhm
 		f!1\pE
+		e
+		gis~
+		gis~
+		gis~ %5
+		gis
+		a,2 a'
+		g!1~
+		g2 r4 a
+		d,16. d32 f!16. a32 d4 r16. a,32 c16. f32 a,4~ %10
+		a2 b4 as'~
+		as2 r4 g8 b
+		es,1
+		as,~
+		as~ %15
+		as
+		e'!2 f
+		b, r4 c
+		f,8 f' f c a!2~
+		a b~ %20
+		b1
+		d
+		es~
+		es2 h!~
+		h c %25
+		e! f~
+		f1
+		e!2 f
+		fis g~
+		g1~ %30
+		g2 h,!~
+		h c4 dis~
+		dis2 r4 e
+		f!1
+		h,! %35
+		c2 c8. c16 e g c g
+		es1
+		d2 \markVSE \bar "||" %38 finis
+		\key g \minor \time 4/4
 	}
 }
 
 HilfDuIhmBassFigures = \figuremode {
-	
+	<4 2>1
+	<6>
+	<6 5>
+	r
+	r %5
+	r
+	r2 <[6+] 4\+>
+	<6>1
+	<4\+>2. <[_+]>4
+	<_!>2 r16. <[6]>32 r4. %10
+	r2. <4 [2-]>4
+	r2. <[6- _-]>8 <5 3>
+	<[5-]>1
+	q
+	<7- 4 2> %15
+	r
+	<[6]>
+	<6 _->2. <_!>4
+	q2 <6>
+	r1 %20
+	r
+	<[6-]>
+	<[5-]>
+	r2 <6>
+	r <_-> %25
+	<6> <_!>
+	r1
+	<6>
+	<6>
+	r %30
+	r2 <6\\>
+	r <6>4 <7 3>
+	r2. <_+>4
+	r1
+	<6>2 <5!> %35
+	r1
+	<6>
+	<_+>2 %38 finis
 }
 
 % Organo = {
