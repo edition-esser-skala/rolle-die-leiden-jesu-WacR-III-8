@@ -148,6 +148,51 @@ LassMichViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 2/4 \tempoLassMich
-		
+		h'8\p h h c16( h)
+		h( a) a( g) e( c) h( a)
+		h( g') fis4 g16( a)
+		h8 h h c16( h)
+		h( a) a( g) e( c) h( a) %5
+		h( g') fis8 fis fis16( a)
+		a8( \once \override Script.avoid-slur = #'outside g)-! r fis16( a)
+		a8( \once \override Script.avoid-slur = #'outside g)-! r fis16( a)
+		g8 g4 g8
+		fis d([\< e fis)] %10
+		g g16( fis) fis( cis') cis(\f d)
+		d8-! d4\p d,8~
+		d d'4 d,8~
+		d h'16( g) g8. e16
+		d( fis) r fis r e a([ cis32 e)] %15
+		e16( d) r fis, r e a([ cis32 e)]
+		e16( d) h8 a g
+		fis e d16 gis(-.\f gis-. d-.)
+		fis4^\tenuto e\p^\tenuto
+		d8 gis'16([\f a)] cis,( d) e,( g) %20
+		g( fis) ais( h) dis,( e) r cis
+		d8 a16( d) fis( a8 cis,16)
+		d d' a fis \appoggiatura e8 d4
+		h'8\p h4 a16( gis)
+		gis( a) a( c) c( a) fis( a) %25
+		a( g) g( d) b'8. g16
+		a( g) fis8 fis g16( a)
+		gis8 gis gis gis
+		a e16( c') c8\fp h16( a)
+		a( g) g-. g-. r g( g g) %30
+		r g( g g) r g( g g)
+		r g( g g) r g( g g)
+		g8.\fp e16 d8 c16( a)
+		h8( a) r fis'16( a)
+		a( g) g8 r fis16( a) %35
+		a( g) g8 r fis16( a)
+		g h8 h16 c8 g
+		\appoggiatura g16 fis e fis8 <fis' a, d,>\f r
+		d8\p c16( a) g8 fis
+		g cis16([ d)] fis,( g) a, a %40
+		a( g) dis'( e) gis,( a) r a
+		g8 cis'16([ d)] fis,( g) a, a
+		a( g) dis'( e) a( c) r c,
+		h8 dis16([ e)] a( c) r c,
+		h( d) g( h) h( g) d( h) %45
+		g4 r\fermata \bar "|." %46 finis
 	}
 }

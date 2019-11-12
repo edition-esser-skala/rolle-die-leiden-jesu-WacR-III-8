@@ -154,8 +154,8 @@ LassMichViolinoI = {
 		d8 d d e16( d)
 		d( c) c( h) h( a) g( fis) %5
 		g( h) a8 a a16( c)
-		c8( b-!) r a16( c)
-		c8( b-!) r a16( c)
+		c8( \once \override Script.avoid-slur = #'outside b-!) r a16( c)
+		c8( \once \override Script.avoid-slur = #'outside b-!) r a16( c)
 		c( h) g'4 g,8
 		fis fis([\< g a)] %10
 		h16( cis) cis( d) d( e) e(\f a)
