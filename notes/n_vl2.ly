@@ -193,6 +193,6 @@ LassMichViolinoII = {
 		a( g) dis'( e) a( c) r c,
 		h8 dis16([ e)] a( c) r c,
 		h( d) g( h) h( g) d( h) %45
-		g4 r\fermata \bar "|." %46 finis
+		g4 r\fermata \bar "|." %46 FINIS
 	}
 }

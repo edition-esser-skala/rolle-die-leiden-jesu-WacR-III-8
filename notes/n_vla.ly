@@ -193,6 +193,6 @@ LassMichViola = {
 		e c r d
 		e c r d
 		g g g g %45
-		g4 r\fermata \bar "|." %46 finis
+		g4 r\fermata \bar "|." %46 FINIS
 	}
 }

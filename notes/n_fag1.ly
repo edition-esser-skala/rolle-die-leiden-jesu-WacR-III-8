@@ -43,7 +43,7 @@ LassMichFagottoI = {
 		r dis'16( e) a,( c) r8
 		r dis16( e) a,( c) r8
 		r h h h %45
-		h4 r\fermata \bar "|." %46 finis
+		h4 r\fermata \bar "|." %46 FINIS
 	}
 }
 
