@@ -146,7 +146,7 @@ WerFasstViola = {
 LassMichViola = {
 	\twofourtime
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 2/4 \tempoLassMich
 		g'8\p g g g
 		d d c d
