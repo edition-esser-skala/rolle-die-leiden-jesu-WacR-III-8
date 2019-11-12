@@ -58,12 +58,17 @@ KreutzigenPilatusNotes = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
-		
+			\set Staff.timeSignatureFraction = 4/4
+		R1*13
+		r4 \tempoKreutzigenB b'8 b d d d es
+		\time 2/4 es b r4 %15
+		\time 4/4 \tempoKreutzigenC R1*6 \bar "||"
 	}
 }
 
 KreutzigenPilatusLyrics = \lyricmode {
-	
+	Er iſt nicht des To -- des %14
+	ſchul -- dig! %15 finis
 }
 
 % PilatusNotes = {

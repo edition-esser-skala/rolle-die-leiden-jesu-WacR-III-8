@@ -91,12 +91,52 @@ KreutzigenBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
-		
+			\set Staff.timeSignatureFraction = 4/4
+		d'2. c4
+		b a g2
+		d'2. c4
+		b a g2
+		g2. f4 %5
+		es! d c2
+		c'2. b4
+		a g f2
+		d'4 c b a
+		b2 b4 b %10
+		b2 b
+		b b4 b
+		b2 b
+		b4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es,8 f16([ g)] as8 b c4 r
+		f,8 g16([ a)] b8 c d4 r
+		c8. c16 b4 as8. as16 e4
+		f8 g16([ as)] b8 b es,4 r
+		d'!8. d16 d8 d es4 r %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 KreutzigenBassoLyrics = \lyricmode {
-	
+	Kreu -- tzi --
+	gen laß ihn,
+	kreu -- tzi --
+	gen laß ihn,
+	kreu -- tzi -- %5
+	gen laß ihn,
+	kreu -- tzi --
+	gen laß ihn,
+	kreu -- tzi -- gen laß
+	ihn, kreu -- tzi -- %10
+	gen laß
+	ihn, kreu -- tzi --
+	gen laß
+	ihn.
+	%15
+	Kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen, kreu -- tzi -- gen,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn. %20 finis
 }
 
 % BassoNotes = {

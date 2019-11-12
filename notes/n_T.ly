@@ -102,12 +102,52 @@ KreutzigenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
-		
+			\set Staff.timeSignatureFraction = 4/4
+		r2 d~
+		d4 c b a
+		g2 d'~
+		d4 c b a
+		g2 g'~ %5
+		g4 f es d
+		c2 r
+		r f~
+		f4 es! d c
+		b2 b4 b %10
+		b2 c
+		b d4 d
+		es2 c
+		b4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es,8 f16([ g)] as8 b c4 r
+		f,8 g16([ a)] b8 c d4 r
+		c8. c16 e4 c8. c16 des4
+		c8 b16([ as)] b8 b es4 r
+		d!8. d16 d8 d es4 r %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 KreutzigenTenoreLyrics = \lyricmode {
-	
+	Kreu --
+	tzi -- gen laß
+	ihn, kreu --
+	tzi -- gen laß
+	ihn, kreu -- %5
+	tzi -- gen laß
+	ihn,
+	kreu --
+	tzi -- gen laß
+	ihn, [kreu -- tzi -- %10
+	gen laß
+	ihn, kreu -- tzi --
+	gen laß
+	ihn.]
+	%15
+	[Kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen, kreu -- tzi -- gen,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn.] %20 finis
 }
 
 % TenoreNotes = {

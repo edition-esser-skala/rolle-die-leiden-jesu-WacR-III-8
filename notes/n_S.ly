@@ -102,12 +102,51 @@ KreutzigenSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
-		
+			\set Staff.timeSignatureFraction = 4/4
+		R1
+		r2 d'~
+		d4 c b a
+		g2 g'~
+		g4 f es d %5
+		c2 r
+		r c~
+		c4 b a r
+		f'2. es4
+		d2 d4 d %10
+		es2 es
+		d f4 f
+		g2 a,
+		b4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es,8 f16([ g)] as8 b c4 r
+		f,8 g16([ a)] b8 c d4 r
+		es8. es16 des4 c8. c16 b4
+		as8 g16([ as)] b8 b es,4 r
+		f'8. f16 f8 as, g4 r %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 KreutzigenSopranoLyrics = \lyricmode {
-	
+	Kreu -- %2
+	tzi -- gen laß
+	ihn, kreu --
+	tzi -- gen laß %5
+	ihn,
+	kreu --
+	tzi -- gen,
+	kreu -- tzi --
+	gen, kreu -- tzi -- %10
+	gen laß
+	ihn, kreu -- tzi --
+	gen laß
+	ihn.
+	%15
+	Kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen, kreu -- tzi -- gen,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn. %20 finis
 }
 
 % SopranoNotes = {

@@ -102,12 +102,51 @@ KreutzigenAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoKreutzigen
-		
+			\set Staff.timeSignatureFraction = 4/4
+		R1
+		d'2. c4
+		b a g2
+		d'2. c4
+		h2 r %5
+		g2. f4
+		e d c2
+		c'4 b a g
+		f2. f4
+		f2 f4 f
+		g2 a
+		b b4 b
+		g2 es
+		d4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es8 f16([ g)] as8 b c4 r
+		f,8 g16([ a)] b8 c d4 r
+		g,8. g16 g4 f8. f16 g4
+		f8 g16([ as)] b8 b es,4 r
+		as8. as16 as8 f es4 r %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 KreutzigenAltoLyrics = \lyricmode {
-	
+	Kreu -- tzi -- %2
+	gen laß ihn,
+	kreu -- tzi --
+	gen, %5
+	kreu -- tzi --
+	gen laß ihn,
+	kreu -- tzi -- gen laß
+	ihn, laß
+	ihn, kreu -- tzi -- %10
+	gen laß
+	ihn, [kreu -- tzi --
+	gen laß
+	ihn.]
+	%15
+	[Kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen, kreu -- tzi -- gen,
+	kreu -- tzi -- gen laß ihn,
+	kreu -- tzi -- gen laß ihn.] %20 finis
 }
 
 % AltoNotes = {

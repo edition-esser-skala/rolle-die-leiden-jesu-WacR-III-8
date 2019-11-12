@@ -260,6 +260,8 @@ tempoLassMich = \tempoMarkup "Poco largo"
 
 tempoHilfDuIhm = \tempoMarkup "[Tempo deest]"
 tempoKreutzigen = \tempoMarkup "Allebreve"
+	tempoKreutzigenB = \tempoMarkup "Recitativ"
+	tempoKreutzigenC = \tempoMarkup "Vivace"
 
 
 

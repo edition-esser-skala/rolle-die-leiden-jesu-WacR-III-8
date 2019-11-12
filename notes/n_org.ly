@@ -611,12 +611,53 @@ KreutzigenOrgano = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 4/4 \tempoKreutzigen
+			\set Staff.timeSignatureFraction = 4/4
 		d'2.\fE c4
+		b a g2
+		d4 d'2 c4
+		b a g2
+		g2. f4 %5
+		es! d c2
+		c'2. b4
+		a g f es'!
+		d c b a
+		b2 b,4 b' %10
+		b2 b,4 b'
+		b2 b,4 b'
+		b2 b,
+		b4 \tempoKreutzigenB r as'2\pE
+		\time 2/4 r4 g8 b %15
+		\time 4/4 \tempoKreutzigenC es,8\fE f16 g as8 b c as, as c'
+		f, g16 a b8 c d b, b b'
+		c4-! b-! as-! e-!
+		f8 g16 as b8 b, es es es es
+		es2 es4 es8 es %20
+		es4 es,8 es es4 r \bar "||" %21 finis
 	}
 }
 
 KreutzigenBassFigures = \figuremode {
-	
+	<_+>2. <\t>4
+	<6>1
+	<8 6>4 <7 5> <6 4> <4+ 2>
+	<6>1
+	<_!>2 <6 4>4 <4! 2> %5
+	<6>1
+	<_!>2. <\t>4
+	<6> q r <2>
+	<6> q r <6 5>
+	r1 %10
+	<6 4>2 <7 4 2>4 <\t \t \t>
+	<8 3>1
+	<6 4>2 <7 4 2>4 <\t \t \t>
+	<[8 3]>2 <4 2>
+	r4 <6>8 <5 3> %15
+	<1>8 q16 q q8 q <6->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<1>8 q16 q q8 q <6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<5 3>4 <4! 3-> <6> <7->
+	<_->8 <6!>16 <6> <6 4!>8 <5 3> r2
+	<7 4 2> <8 3>4. <7 4- 2>8 %20
+	<8 3>4. <7 4- 2>8 <8 3>2 %21 finis
 }
 
 % Organo = {

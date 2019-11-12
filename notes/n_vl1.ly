@@ -201,6 +201,7 @@ KreutzigenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoKreutzigen
+			\set Staff.timeSignatureFraction = 4/4
 		
 	}
 }
