@@ -202,6 +202,26 @@ KreutzigenViola = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoKreutzigen
 			\set Staff.timeSignatureFraction = 4/4
-		
+		d2\fE d~
+		d4 c b a
+		g2 d'~
+		d4 c b a
+		g2 g' %5
+		g4 g,8 g' g g, f' g,
+		e' g, d' g, c4 r
+		f e f f
+		b a f f
+		f2 b,4 b' %10
+		b2 c,
+		b d4 d
+		es2 c
+		b4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es8 f16 g as8 b c as, as c'
+		f, g16 a b8 c d b, b b'
+		g16 g g g g g g g f f f f des des des des
+		c8 g16 as b8 b es es g es
+		d4 r8 d es b g f %20
+		es b' g f es4 r \bar "||" %21 finis
 	}
 }

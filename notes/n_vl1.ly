@@ -202,7 +202,27 @@ KreutzigenViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoKreutzigen
 			\set Staff.timeSignatureFraction = 4/4
-		
+		d2\fE r
+		r d''4 d,8 d'
+		d d, c' d, b' d, a' d,
+		g4 r g g,8 g'
+		g g, f' g, es' g, d' g, %5
+		c4 r c' c,8 c'
+		c c, b' c, a' c, g' c,
+		f4 r f f,8 f'
+		f f, es'! f, d' f, c' f,
+		d' b d f b f d b %10
+		g' b, es g a, c es c
+		d b d f b f d b
+		g' b, es g es c a es
+		<d b'>4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es8 f16 g as8 b c as, as c'
+		f, g16 a b8 c d b, b d'
+		es16 es es es e e e e f f f f g g g g
+		as8 g16 f es8 d es, g16 b es b g' b,
+		as'4 r8 as, g g16 es b es as, es' %20
+		g, es' g es b es as, es' g,4 r \bar "||" %21 finis
 	}
 }
 
