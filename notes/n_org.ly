@@ -846,7 +846,60 @@ WerKannOrgano = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 3/4 \tempoWerKann
-		g'4\fE b g
+		\mvTr g'4\fE-\tuttiE b g
+		d d, r
+		c' d d,
+		g b d
+		g\mf b g %5
+		d d, r
+		c' d d
+		es es8 d16 c h4
+		c g'8 a b! g
+		c4 g8 g, g' f %10
+		es4 es es
+		d d, \mvTr d'\p-\soloE
+		g g, g'
+		f! f, \mvTr f'8\f-\tuttiE es
+		d es f4 f, %15
+		b' b, r
+		r8 \mvTr b'\p-\soloE b,4 es
+		f f,8 es' d c
+		b b' b,4 es
+		f f, f' %20
+		b8 f f, 4 f'
+		b8[ f] f, \mvTrh f'[\fpE-\tuttiE f es]
+		d es f4 f,
+		b d b\f
+		es d r %25
+		c b es8 e
+		f4 f f
+		b, r8 b' f d
+		b4 r r
+		r8 \mvTr b'(\pE-\soloE a b) es,4 %30
+		f f, as
+		g h g
+		c g' \mvTr g8\f-\tuttiE f
+		es f16 g as8 g f es
+		d es16 f g8  h c g %35
+		as f g4 g,
+		c c, r8 \mvTr b''!\p-\soloE
+		a! c f,4 f
+		e f r8 es
+		d fis16 a d4 d, %40
+		g, d'8 d'\f c16( b) a( g)
+		d'8 d, d d' c16( b) a( g)
+		d'8 d, d d' cis4^\tenuto
+		d d,8 d e fis
+		g c, d4 d, %45
+		g b' g
+		c, g'8 a b g
+		c4 fis, r8 fis\mf
+		g c, d4 d,
+		g g8\f g' b g %50
+		c4 b r
+		a g c,8 cis
+		d4 d,\p d
+		g2.\fermata \bar "||" %54 finis
 	}
 }
 
