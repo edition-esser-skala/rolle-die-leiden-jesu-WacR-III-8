@@ -154,12 +154,29 @@ IchWascheTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
-		
+		\partial 4 r4 R1*44 %44
+		\tempoIchWascheB r4 b8 b b4 es8 es %45
+		d4 r r es~
+		es es8 g g4 f
+		f r r b,
+		b8 b b b c4( b)
+		b8 es es4 es8 b c d %50
+		es4 es8 d es4 r8 es
+		es4 f b,2
+		b r \bar "||" %53 finis
 	}
 }
 
 IchWascheTenoreLyrics = \lyricmode {
-	
+	[Ü -- ber uns, ü -- ber %45
+	uns] kom --
+	me ſein Blut, ſein
+	Blut und
+	ü -- ber unſ -- re Kin --
+	[der, ſein Blut kom -- me ü -- ber %50
+	uns, ü -- ber uns und
+	unſ -- re Kin --
+	der.] %53 finis
 }
 
 % TenoreNotes = {

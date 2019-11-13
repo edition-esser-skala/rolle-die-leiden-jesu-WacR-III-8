@@ -153,12 +153,29 @@ IchWascheAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
-		
+		\partial 4 r4 R1*44 %44
+		\tempoIchWascheB r4 es8 g f4 b8 b %45
+		b4 b2 as8 as
+		as4 g~ g8 c4 c8
+		b4 r8 b as as as as
+		g4 g f2
+		g8 g as([ b)] c b b b %50
+		b4 b8 b b4 r8 b
+		as4 as \appoggiatura g f2
+		g r \bar "||" %53 finis
 	}
 }
 
 IchWascheAltoLyrics = \lyricmode {
-	
+	[Ü -- ber uns, ü -- ber %45
+	uns] kom -- me ſein
+	Blut, kom -- me ſein
+	Blut und ü -- ber, ü -- ber
+	unſ -- re Kin --
+	[der, ſein Blut kom -- me ü -- ber %50
+	uns, ü -- ber uns und
+	unſ -- re Kin --
+	der.] %53 finis
 }
 
 % AltoNotes = {

@@ -153,12 +153,29 @@ IchWascheSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
-		
+		\partial 4 r4 R1*44 %44
+		\tempoIchWascheB r4 b'8 es d4 b8 g' %45
+		f4 r c c8 c
+		b4 es8 es es4 es
+		d g g f
+		f es es( d)\trill
+		es8 g, as([ b)] c d es f %50
+		g4 g8 f g4 r8 b,
+		c4 f \appoggiatura es d2
+		es r \bar "||" %53 finis
 	}
 }
 
 IchWascheSopranoLyrics = \lyricmode {
-	
+	Ü -- ber uns, ü -- ber %45
+	uns kom -- me ſein
+	Blut, ü -- ber uns ſein
+	Blut und ü -- ber
+	unſ -- re Kin --
+	der, ſein Blut kom -- me ü -- ber %50
+	uns, ü -- ber uns und
+	unſ -- re Kin --
+	der. %53 finis
 }
 
 % SopranoNotes = {

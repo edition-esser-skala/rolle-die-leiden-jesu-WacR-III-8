@@ -143,12 +143,29 @@ IchWascheBassoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
-		
+		\partial 4 r4 R1*44 %44
+		\tempoIchWascheB r4 g'8 es b'4 g8 es %45
+		b'4 r r2
+		r4 b2 a8 a
+		b4 r r2
+		r8 es, g es as f b4
+		es,8 es f([ g)] as b c d %50
+		es4 b8 d es4 r8 g,
+		as4 f b2
+		es, r \bar "||" %53 finis
 	}
 }
 
 IchWascheBassoLyrics = \lyricmode {
-	
+	Ü -- ber uns, ü -- ber %45
+	uns
+	kom -- me ſein
+	Blut
+	und ü -- ber unſ -- re Kin --
+	der, ſein Blut kom -- me ü -- ber %50
+	uns, ü -- ber uns und
+	unſ -- re Kin --
+	der. %53 finis
 }
 
 % BassoNotes = {
