@@ -285,3 +285,12 @@ IchWascheViola = {
 		b b8 b b2 \bar "||" %53 finis
 	}
 }
+
+OChristViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoOChrist
+		\partial 2
+		
+	}
+}

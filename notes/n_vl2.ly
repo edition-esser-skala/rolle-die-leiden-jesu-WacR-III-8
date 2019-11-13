@@ -285,3 +285,12 @@ IchWascheViolinoII = {
 		g8 b16 g es8 es es2 \bar "||" %53 finis
 	}
 }
+
+OChristViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoOChrist
+		\partial 2
+		
+	}
+}

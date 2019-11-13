@@ -203,83 +203,156 @@
 % 			\midi { \tempo 2 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.3" "A R I A,  C H O R" "Ich waſche meine Hände rein"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \IchWascheOboeI \IchWascheOboeII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+% 						\partcombine \IchWascheCornoI \IchWascheCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IchWascheViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IchWascheViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\IchWascheViola
+% 						}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Pilatus"
+% 					\new Voice = "Pilatus" { \dynamicUp \IchWaschePilatusNotes }
+% 				}
+% 				\new Lyrics \lyricsto Pilatus \IchWaschePilatusLyrics
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \IchWascheSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IchWascheSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \IchWascheAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IchWascheAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \IchWascheTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IchWascheTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \IchWascheBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IchWascheBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IchWascheOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IchWascheBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 45 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "A R I A,  C H O R" "Ich waſche meine Hände rein"
+			movement = \movementTitle "2.4" "C H O R A L" "O Chriſt, denk ohne Schauder nie"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \IchWascheOboeI \IchWascheOboeII
-					}
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\partcombine \IchWascheCornoI \IchWascheCornoII
-					}
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\OChristOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\OChristOboeII
+						}
+					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IchWascheViolinoI
+							\OChristViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IchWascheViolinoII
+							\OChristViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\IchWascheViola
+							\OChristViola
 						}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "Pilatus"
-					\new Voice = "Pilatus" { \dynamicUp \IchWaschePilatusNotes }
-				}
-				\new Lyrics \lyricsto Pilatus \IchWaschePilatusLyrics
 				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IchWascheSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \OChristSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \IchWascheSopranoLyrics
+					\new Lyrics \lyricsto Soprano \OChristSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IchWascheAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \OChristAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \IchWascheAltoLyrics
+					\new Lyrics \lyricsto Alto \OChristAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IchWascheTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \OChristTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \IchWascheTenoreLyrics
+					\new Lyrics \lyricsto Tenore \OChristTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \IchWascheBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \OChristBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \IchWascheBassoLyrics
+					\new Lyrics \lyricsto Basso \OChristBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IchWascheOrgano
+						\OChristOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IchWascheBassFigures
+					\OChristBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 45 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

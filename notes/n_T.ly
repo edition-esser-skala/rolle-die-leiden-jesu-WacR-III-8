@@ -179,6 +179,72 @@ IchWascheTenoreLyrics = \lyricmode {
 	der.] %53 finis
 }
 
+OChristTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoOChrist
+		\partial 2 d2 c b
+		c d
+		es f
+		es\fermata f
+		f f %5
+		f f
+		g( f)
+		f\fermata g
+		es f
+		f d %10
+		f f
+		es\fermata f
+		f c
+		b d
+		d( c) %15
+		b\fermata b
+		c f
+		f d
+		f f
+		es\fermata es %20
+		f b,
+		b c
+		d f
+		f\fermata a,
+		d es %25
+		f es
+		f( es)
+		d\breve*1/2\fermata \bar "||" %28 finis
+	}
+}
+
+OChristTenoreLyrics = \lyricmode {
+	O Chriſt, denk
+	oh -- ne
+	Schau -- der
+	nie an
+	die -- ſe %5
+	Wuth der
+	Sün --
+	der. Du
+	ſprichſt, die
+	Ra -- che %10
+	ſtraf -- te
+	ſie, und
+	ſtraft noch
+	ih -- re
+	Kin -- %15
+	der. O
+	See -- le,
+	denkſt du
+	auch da --
+	bey an %20
+	dei -- ne
+	Sün -- den!
+	biſt du
+	frey von
+	Schuld am %25
+	To -- de
+	Je --
+	ſu. %28 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

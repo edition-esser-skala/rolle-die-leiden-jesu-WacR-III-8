@@ -168,6 +168,72 @@ IchWascheBassoLyrics = \lyricmode {
 	der. %53 finis
 }
 
+OChristBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoOChrist
+		\partial 2 b'2\fE a g
+		f4( es) d2
+		c b
+		es\fermata b'
+		a f %5
+		b d,
+		c( f)
+		b,\fermata g'
+		c, d4( es)
+		f2 g %10
+		d b
+		es\fermata b'
+		a f
+		b h
+		c( c,) %15
+		g'\fermata g
+		c, d4( es)
+		f2 g
+		d b
+		es\fermata c %20
+		b d
+		es es
+		d b
+		f'\fermata es
+		d c %25
+		b g'
+		f1
+		b,\breve*1/2\fermata \bar "||" %28 finis
+	}
+}
+
+OChristBassoLyrics = \lyricmode {
+	O Chriſt, denk
+	oh -- ne
+	Schau -- der
+	nie an
+	die -- ſe %5
+	Wuth der
+	Sün --
+	der. Du
+	ſprichſt, die __
+	Ra -- che %10
+	ſtraf -- te
+	ſie, und
+	ſtraft noch
+	ih -- re
+	Kin -- %15
+	der. O
+	See -- le, __
+	denkſt du
+	auch da --
+	bey an %20
+	dei -- ne
+	Sün -- den!
+	biſt du
+	frey von
+	Schuld am %25
+	To -- de
+	Je --
+	ſu. %28 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -123,3 +123,12 @@ IchWascheOboeI = {
 		es r \bar "||" %53 finis
 	}
 }
+
+OChristOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoOChrist
+		\partial 2
+		
+	}
+}

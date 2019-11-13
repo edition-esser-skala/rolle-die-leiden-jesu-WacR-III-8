@@ -178,6 +178,72 @@ IchWascheSopranoLyrics = \lyricmode {
 	der. %53 finis
 }
 
+OChristSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoOChrist
+		\partial 2 b' f b
+		a b
+		c d
+		b\fermata d
+		f f %5
+		d f
+		es1
+		d2\fermata d
+		es d
+		c b %10
+		d d
+		b\fermata d
+		f f
+		d f
+		es1 %15
+		d2\fermata d
+		es d
+		c b
+		d d
+		b\fermata c %20
+		d d
+		g, a
+		b d
+		c\fermata f,
+		b c %25
+		d es
+		d( c)
+		b\breve*1/2\fermata \bar "||" %28 finis
+	}
+}
+
+OChristSopranoLyrics = \lyricmode {
+	O Chriſt, denk
+	oh -- ne
+	Schau -- der
+	nie an
+	die -- ſe %5
+	Wuth der
+	Sün --
+	der. Du
+	ſprichſt, die
+	Ra -- che %10
+	ſtraf -- te
+	ſie, und
+	ſtraft noch
+	ih -- re
+	Kin -- %15
+	der. O
+	See -- le,
+	denkſt du
+	auch da --
+	bey an %20
+	dei -- ne
+	Sün -- den!
+	biſt du
+	frey von
+	Schuld am %25
+	To -- de
+	Je --
+	ſu. %28 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

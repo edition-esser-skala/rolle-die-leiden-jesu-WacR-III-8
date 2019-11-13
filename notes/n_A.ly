@@ -178,6 +178,72 @@ IchWascheAltoLyrics = \lyricmode {
 	der.] %53 finis
 }
 
+OChristAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoOChrist
+		\partial 2 f f e
+		f f
+		a b
+		g\fermata b
+		c a %5
+		b b
+		b( a)
+		b\fermata b
+		b4( a) b2
+		a g %10
+		b b
+		g\fermata b
+		c a
+		f g
+		g1 %15
+		g2\fermata g
+		g4( a) b2
+		a g
+		b b
+		g\fermata a %20
+		b f
+		g f
+		f b
+		a\fermata f
+		f a %25
+		b b
+		b( a)
+		f\breve*1/2\fermata \bar "||" %28 finis
+	}
+}
+
+OChristAltoLyrics = \lyricmode {
+	O Chriſt, denk
+	oh -- ne
+	Schau -- der
+	nie an
+	die -- ſe %5
+	Wuth der
+	Sün --
+	der. Du
+	ſprichſt, die
+	Ra -- che %10
+	ſtraf -- te
+	ſie, und
+	ſtraft noch
+	ih -- re
+	Kin -- %15
+	der. O
+	See -- le,
+	denkſt du
+	auch da --
+	bey an %20
+	dei -- ne
+	Sün -- den!
+	biſt du
+	frey von
+	Schuld am %25
+	To -- de
+	Je --
+	ſu. %28 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

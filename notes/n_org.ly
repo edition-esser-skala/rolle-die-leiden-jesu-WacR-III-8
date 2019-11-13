@@ -776,6 +776,72 @@ IchWascheBassFigures = \figuremode {
 	r1 %53 finis
 }
 
+OChristOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoOChrist
+		\partial 2 b'2\fE a g
+		f4( es) d2
+		c b
+		es\fermata b'
+		a f %5
+		b d,
+		c( f)
+		b,\fermata g'
+		c, d4( es)
+		f2 g %10
+		d b
+		es\fermata b'
+		a f
+		b h
+		c( c,) %15
+		g'\fermata g
+		c, d4( es)
+		f2 g
+		d b
+		es\fermata c %20
+		b d
+		es es
+		d b
+		f'\fermata es
+		d c %25
+		b g'
+		f1
+		b,\breve*1/2\fermata \bar "||" %28 finis
+	}
+}
+
+OChristBassFigures = \figuremode {
+	r2 <6> <6!>
+	r4 <2> <6>2
+	q1
+	r
+	<6> %5
+	r2 q
+	<7> q
+	r1
+	<7>4 <6> q <\t>
+	r1 %10
+	<6>
+	r
+	<6>
+	r2 <6 5>
+	<9> <8> %15
+	r1
+	<5>4 <6> q <\t>
+	r1
+	<6>
+	r2 <6> %20
+	r q
+	r <2>
+	<6>1
+	r2 <2>
+	<6> q %25
+	r q
+	<6 4> <5 3>
+	r1 %28 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
