@@ -154,8 +154,8 @@ LassMichViolinoI = {
 		d8 d d e16( d)
 		d( c) c( h) h( a) g( fis) %5
 		g( h) a8 a a16( c)
-		c8( \once \override Script.avoid-slur = #'outside b-!) r a16( c)
-		c8( \once \override Script.avoid-slur = #'outside b-!) r a16( c)
+		c8( \scriptOut b-!) r a16( c)
+		c8( \scriptOut b-!) r a16( c)
 		c( h) g'4 g,8
 		fis fis([\< g a)] %10
 		h16( cis) cis( d) d( e) e(\f a)
@@ -230,8 +230,59 @@ IchWascheViolinoI = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \tempoIchWasche
-		
-		
+		\partial 4 es4\fE b' b b b
+		b8( g) as4 as8( fis) g4~
+		g8 c( as f) b,( es) d( f)
+		es( b) g( b) es4 r
+		r b'\p b b %5
+		es es,2 es4~
+		es8 c'( as f) es4 d\trill
+		es8( b) g( b) es4 r
+		c' c c c
+		b b b b %10
+		b2 a
+		b r4 f'~
+		f( \scriptOut es)-! r g~
+		g( \scriptOut f)-! r es,
+		d c f8-! es'( d c) %15
+		d-! b( a b) f-! es'( d c)
+		d-! b( a b) f-! es'( d c)
+		d-! b( a b) f-! es'( d c)
+		d-! b( a b) f-! es'( d c)
+		b-! es,( d cis) d-! d( c h) %20
+		c-! c( b a) b4 g'8( es')
+		d2 c\trill
+		b4 f'\f f f
+		f8( d) es4 es8( cis) d4~
+		d8 g( es c) f,( b) a( c) %25
+		b( f) d( f) <d b'>4 r
+		r2 des'\p
+		c8 e,4 g c e8
+		f as,4 c f as,8
+		g4 g'2\f b,4\p %30
+		as8 as4 as c c8
+		b( d) d( f) \appoggiatura f4 es2\trill
+		d4 f8( a,) b-! as'?( g f)
+		g-! es( d es) b-! as'( g f)
+		g-! es( d es) b8.[\f f'16 f8. as,16] %35
+		g8-!\p es( d es) \kneeBeam b8.[\f f''16 f8. as,16]
+		g8-!\p es( d es) \kneeBeam b8.[\f f''16 f8. as,16]
+		g4 r r8. c16[ as'8. c,16]
+		d4 r r8. f16[ b8. d,16]
+		es4 b\p c f %40
+		es2 d\trill
+		es4\f des c h\p
+		c8.[ es16 d8. f16] es8.[ b16 c8. as16]
+		g2 f\trill
+		\tempoIchWascheB es4 b'8 es d4 b8 g' %45
+		f b, r4 c c8 c
+		b es, es' es es4 es8 es
+		d4 b8 g' as, g' f as,
+		g f' es g, f es' d4
+		es8 g,16 g as as b b c c d d es es f f %50
+		g8 b4 as8 g4 r8 b,
+		c4 f \appoggiatura es d2
+		es8 b16 g es8 es es2 \bar "||" %53 finis
 	}
 }
 

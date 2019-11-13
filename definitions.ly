@@ -231,6 +231,7 @@ markVSE = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remarkE "volti subito" }
 }
+scriptOut = \once \override Script.avoid-slur = #'outside
 
 
 Blind = \markup { \remark "Blindgebohrner" }

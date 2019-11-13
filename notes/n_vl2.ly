@@ -154,8 +154,8 @@ LassMichViolinoII = {
 		h8 h h c16( h)
 		h( a) a( g) e( c) h( a) %5
 		h( g') fis8 fis fis16( a)
-		a8( \once \override Script.avoid-slur = #'outside g)-! r fis16( a)
-		a8( \once \override Script.avoid-slur = #'outside g)-! r fis16( a)
+		a8( \scriptOut g)-! r fis16( a)
+		a8( \scriptOut g)-! r fis16( a)
 		g8 g4 g8
 		fis d([\< e fis)] %10
 		g g16( fis) fis( cis') cis(\f d)
@@ -230,6 +230,58 @@ IchWascheViolinoII = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \tempoIchWasche
-		
+		\partial 4 es4\fE b' b b b
+		b8( g) as4 as8( fis) g4~
+		g8 c( as f) b,( es) d( f)
+		es( b) g( b) es4 r
+		r g\p g f %5
+		es as4~ as8( fis) g4~
+		g4 c8( as) g4 f\trill
+		es8( b) g( b) es4 r
+		as as as as
+		g g g f %10
+		es2 es
+		d r4 as'~
+		as( \scriptOut g)-! r b~
+		b( \scriptOut a)-! r c,
+		b a8. b16 c8-! c'( b a) %15
+		b-! b( a b) f-! c'( b a)
+		b-! b( a b) f-! c'( b a)
+		b-! b( a b) f-! c'( b a)
+		b-! b( a b) f-! c'( b a)
+		b-! es,( d cis) d-! d( c h) %20
+		c-! c( b a) b( f') es( c')
+		b2 a\trill
+		b4 f'\f f f
+		f8( d) es4 es8( cis) d4~
+		d8 g( es c) f,( b) a( c) %25
+		b( f) d( f) <d b'>4 r
+		r2 f\p
+		e8 c4 e e g8
+		as f4 as as f8
+		e4 b'2\f g4\p %30
+		f8 f4 f f es8
+		d( f) f( as) \appoggiatura as4 g2
+		f4 d8. es16 f8-! f'( es d)
+		es-! es( d es) b-! f'( es d)
+		es-! es( d es) b8.[\f as16 as8. f16] %35
+		g8-!\p es( d es) b8.[\f as'16 as8. f16]
+		g8-!\p es( d es) b8.[\f as'16 as8. f16]
+		es4 r r8. c'16[ c8. c16]
+		b4 r r8. d16[ d8. d16]
+		es4 b\p c c8( as) %40
+		g2 f\trill
+		<g, es' b'>4\f r r es'~\p
+		es as b as8. f16
+		es2 d\trill
+		\tempoIchWascheB es4 es8 g f4 b8 es %45
+		d4 b2 as8 as
+		as4 g~ g8 c c c
+		b4 es8 g g as, as f'
+		f g, g es' es f, f4
+		g8 es16 es es es es es es es b' b b b b b %50
+		b8 g'4 f8 es4 r8 es,
+		es4 as \appoggiatura g f2
+		g8 b16 g es8 es es2 \bar "||" %53 finis
 	}
 }
