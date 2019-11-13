@@ -288,7 +288,7 @@ IchWascheViola = {
 
 OChristViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoOChrist
 		\partial 2 f\fE f b,
 		c d
