@@ -172,7 +172,7 @@ OChristBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoOChrist
-		\partial 2 b'2\fE a g
+		\partial 2 b'2 a g
 		f4( es) d2
 		c b
 		es\fermata b'

@@ -290,7 +290,33 @@ OChristViola = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoOChrist
-		\partial 2
-		
+		\partial 2 f\fE f b,
+		c d
+		es f
+		es\fermata f
+		f f %5
+		f f
+		g( f)
+		f\fermata g
+		es f
+		f d %10
+		f f
+		es\fermata f
+		f f
+		f g
+		g1 %15
+		g2\fermata g
+		c, f
+		f d
+		f f
+		es\fermata es %20
+		f b,
+		b c
+		d f
+		f\fermata a,
+		d es %25
+		f es
+		f es
+		d\breve*1/2\fermata \bar "||" %28 finis
 	}
 }

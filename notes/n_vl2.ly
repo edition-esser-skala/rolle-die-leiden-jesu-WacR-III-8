@@ -290,7 +290,33 @@ OChristViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoOChrist
-		\partial 2
-		
+		\partial 2 d\fE c e
+		f f
+		a b
+		g\fermata b
+		c a %5
+		b b
+		b( a)
+		b\fermata b
+		b4( a) b2
+		a g %10
+		b b
+		g\fermata b
+		c a
+		b d
+		d( c) %15
+		b\fermata b
+		b4( a) b2
+		a g
+		b b
+		g\fermata a %20
+		b f
+		g f
+		f b
+		a\fermata c,
+		f a %25
+		b b
+		b a
+		f\breve*1/2\fermata \bar "||" %28 finis
 	}
 }
