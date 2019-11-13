@@ -230,7 +230,58 @@ IchWascheViola = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \tempoIchWasche
-		
-		
+		\partial 4 r4 g'\fE g g f
+		es2 es~
+		es4 c b as
+		g2 r
+		es4\p es'8. d16 es4 d %5
+		c2 b
+		as4 f b2
+		es4 es, es r
+		es' es es es
+		es es es d %10
+		c2 c
+		b r4 b~
+		b2 r4 c~
+		c2 f,
+		f4 f8. g16 a4 f %15
+		b d a f
+		b d a f
+		b d a f
+		b d a f
+		b2 as8( g) as4 %20
+		g es d es
+		f f f f
+		b d'8.\f c16 d4 c
+		b b b b
+		b g f es %25
+		d2 r
+		r b\p
+		c4 c c c
+		c c c c
+		c2 e\f %30
+		f4\p f as, a
+		b2 a
+		b4 b8. c16 d4 b
+		es g d b
+		es g d\f d8. d16 %35
+		es4\p g d\f d8. d16
+		es4\p g d\f d
+		es r r es8. es16
+		f4 r r f8. f16
+		b,4 g\p as as %40
+		b b b b
+		b\f r r g\p
+		as f g as
+		b2 b
+		es8 es g\fE es b' as g es %45
+		b b' es, g r es es es
+		es4 b2 a8 a
+		b b' g es es4 f8 b,
+		b4 b8 b c c b4
+		b8 es, f g as b c d
+		es4 b8 b' b4 r8 g,
+		as g f as b4 b
+		b b8 b b2 \bar "||"
 	}
 }

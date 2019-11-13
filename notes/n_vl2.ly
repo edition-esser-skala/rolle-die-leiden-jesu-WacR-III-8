@@ -274,7 +274,7 @@ IchWascheViolinoII = {
 		<g, es' b'>4\f r r es'~\p
 		es as b as8. f16
 		es2 d\trill
-		\tempoIchWascheB es4 es8 g f4 b8 es %45
+		\tempoIchWascheB es4 es8\fE g f4 b8 es %45
 		d4 b2 as8 as
 		as4 g~ g8 c c c
 		b4 es8 g g as, as f'
