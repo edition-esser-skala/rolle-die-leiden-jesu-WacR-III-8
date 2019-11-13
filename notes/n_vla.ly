@@ -320,3 +320,11 @@ OChristViola = {
 		d\breve*1/2\fermata \bar "||" %28 finis
 	}
 }
+
+WerKannViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWerKann
+		
+	}
+}

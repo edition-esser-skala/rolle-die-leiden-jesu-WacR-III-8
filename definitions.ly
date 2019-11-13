@@ -266,6 +266,7 @@ tempoKreutzigen = \tempoMarkup "Allebreve"
 tempoIchWasche = \tempoMarkup "Con gravita"
 	tempoIchWascheB = \tempoMarkup "Vivace"
 tempoOChrist = \tempoMarkup "[Tempo deest]"
+tempoWerKann = \tempoMarkup "Poco largo"
 
 
 

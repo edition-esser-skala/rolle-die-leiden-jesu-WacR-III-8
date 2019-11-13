@@ -158,3 +158,11 @@ OChristOboeII = {
 		b\breve*1/2\fermata \bar "||" %28 finis
 	}
 }
+
+WerKannOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWerKann
+		
+	}
+}

@@ -842,6 +842,18 @@ OChristBassFigures = \figuremode {
 	r1 %28 finis
 }
 
+WerKannOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoWerKann
+		g'4\fE b g
+	}
+}
+
+WerKannBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -244,6 +244,18 @@ OChristAltoLyrics = \lyricmode {
 	ſu. %28 finis
 }
 
+WerKannAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
+		
+	}
+}
+
+WerKannAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

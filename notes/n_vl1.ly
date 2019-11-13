@@ -321,6 +321,14 @@ OChristViolinoI = {
 	}
 }
 
+WerKannViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWerKann
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -122,7 +122,7 @@ IchWaschePilatusNotes = {
 }
 
 IchWaschePilatusLyrics = \lyricmode {
-	Ich %4
+	Jch %4
 	wa -- ſche mei -- ne %5
 	Hän -- de, mei -- ne
 	Hän -- de

@@ -244,6 +244,18 @@ OChristSopranoLyrics = \lyricmode {
 	ſu. %28 finis
 }
 
+WerKannSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
+		
+	}
+}
+
+WerKannSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

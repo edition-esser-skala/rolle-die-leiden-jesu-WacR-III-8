@@ -245,6 +245,18 @@ OChristTenoreLyrics = \lyricmode {
 	ſu. %28 finis
 }
 
+WerKannTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
+		
+	}
+}
+
+WerKannTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

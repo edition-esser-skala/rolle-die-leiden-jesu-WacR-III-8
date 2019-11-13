@@ -234,6 +234,18 @@ OChristBassoLyrics = \lyricmode {
 	ſu. %28 finis
 }
 
+WerKannBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
+		
+	}
+}
+
+WerKannBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
