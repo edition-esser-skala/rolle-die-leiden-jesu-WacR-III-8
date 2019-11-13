@@ -279,9 +279,9 @@ IchWascheViola = {
 		es4 b2 a8 a
 		b b' g es es4 f8 b,
 		b4 b8 b c c b4
-		b8 es, f g as b c d
+		b8 es, f g as b c d %50
 		es4 b8 b' b4 r8 g,
 		as g f as b4 b
-		b b8 b b2 \bar "||"
+		b b8 b b2 \bar "||" %53 finis
 	}
 }
