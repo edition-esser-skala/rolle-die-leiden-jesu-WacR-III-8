@@ -106,3 +106,12 @@ KreutzigenOboeII = {
 		R1 \bar "||" %21 finis
 	}
 }
+
+IchWascheOboeII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoIchWasche
+		
+		
+	}
+}

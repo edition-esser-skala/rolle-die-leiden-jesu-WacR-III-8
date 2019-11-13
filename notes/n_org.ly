@@ -665,7 +665,58 @@ IchWascheOrgano = {
 		\clef bass
 		\key es \major \time 4/4 \tempoIchWasche
 		\partial 4 r4 es,\fE es'8. d16 es4 d
-		
+		c c' b b,
+		as2 b4 b
+		es,2 r
+		es4\p es'8. d16 es4 d %5
+		c2 b
+		as4 f b2
+		es4 es, es r
+		es' es es es
+		es es es d
+		c2 f, %10
+		b r4 d(
+		es2) r4 e(
+		f2) a,
+		b4 f'8. g16 a4 f %15
+		b d a f
+		b d a f
+		b d a f
+		b d a f
+		g g f f %20
+		es es d es
+		f f f, f
+		b b'8.\f a16 b4 a
+		g g f f
+		es es f f, %25
+		b2 r
+		r b\p
+		c4 c c c
+		c c c c
+		c2 c\f %30
+		f4\p f as,! a
+		b2 a
+		b4 b8. c16 d4 b
+		es g d b
+		es g d\f b %35
+		es\p g d\f b
+		es\p g d\f b
+		c r r as'8. as16
+		as4 r r as8. as16
+		g4 g,\p as as %40
+		b b b b
+		g'\f r r g\p
+		as f g as
+		b2 b,
+		\tempoIchWascheB es8 es g\f es b' as g es %45
+		b b' g es as as, c as
+		es'es g es c c' f, f
+		b, b' g es c as d b
+		es es g es as f b b,
+		es4 f8 g as b c d %50
+		es4 b8 d es4 r8 g,
+		as g f as b4 b,
+		es es, es2 \bar "||" %53 finis
 	}
 }
 

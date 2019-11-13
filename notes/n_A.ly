@@ -149,6 +149,18 @@ KreutzigenAltoLyrics = \lyricmode {
 	kreu -- tzi -- gen laß ihn.] %20 finis
 }
 
+IchWascheAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
+		
+	}
+}
+
+IchWascheAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

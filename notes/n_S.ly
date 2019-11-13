@@ -149,6 +149,18 @@ KreutzigenSopranoLyrics = \lyricmode {
 	kreu -- tzi -- gen laß ihn. %20 finis
 }
 
+IchWascheSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
+		
+	}
+}
+
+IchWascheSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

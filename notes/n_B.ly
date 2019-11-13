@@ -139,6 +139,18 @@ KreutzigenBassoLyrics = \lyricmode {
 	kreu -- tzi -- gen laß ihn. %20 finis
 }
 
+IchWascheBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
+		
+	}
+}
+
+IchWascheBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -263,6 +263,7 @@ tempoKreutzigen = \tempoMarkup "Allebreve"
 	tempoKreutzigenB = \tempoMarkup "Recitativ"
 	tempoKreutzigenC = \tempoMarkup "Vivace"
 tempoIchWasche = \tempoMarkup "Con gravita"
+	tempoIchWascheB = \tempoMarkup "Vivace"
 
 
 

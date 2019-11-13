@@ -150,6 +150,18 @@ KreutzigenTenoreLyrics = \lyricmode {
 	kreu -- tzi -- gen laß ihn.] %20 finis
 }
 
+IchWascheTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
+		
+	}
+}
+
+IchWascheTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
