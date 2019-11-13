@@ -248,12 +248,99 @@ WerKannSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
-		
+		R2.*4
+		\mvTrr d'4\mfE^\tuttiE g, b %5
+		b a8 b c4~
+		c8 c b([ a)] g([ fis)]
+		g([ fis)] g4 g'
+		\appoggiatura f8 es4 d r8 g
+		\appoggiatura f es4 d d~ %10
+		d8 c16([ d)] es8([ c)] c([ a)]
+		\appoggiatura a g4\trill fis8 r r4
+		r r8 \mvTr b\pE^\solo c d
+		d4( c8) \mvTr c\fE^\tutti d es
+		f g c,4. d16([ es)] %15
+		\appoggiatura es8 d4 r8 \mvTr f\pE^\solo f f
+		f4. g16([ f)] f([ es)] d8
+		d c r4 r
+		R2.
+		r4 r8 c d es %20
+		es4( d8) r r4
+		r r8 \mvTrh c\fpE^\tutti d es
+		f es16([ c)] b4 c\trill
+		b2 r4
+		R2.*4 %28
+		r8 \mvTr d\pE^\solo d([ c)] es([ d)]
+		f4. f8 es d %30
+		d([ c)] c4 r
+		R2.
+		r4 r8 \mvTr d\fE^\tutti es f
+		g([ es)] c4 d8 es
+		f([ d)] h f' es d %35
+		c f16([ d)] c4 h\trill
+		c r r
+		R2.
+		r4 r8 \mvTr f,\pE^\solo c' c
+		c4. b16([ a)] d8 c %40
+		\appoggiatura c b4 a8 \mvTr d\fE^\tutti c16([ b)] a([ g)]
+		d'4 r8 fis g b,
+		b4 a8 fis' g b,
+		b a r a'4 c,8
+		b a g4( fis) %45
+		g d'-! r8 g
+		\appoggiatura f es4 d r8 g
+		\appoggiatura f es4 d \appoggiatura f16 es8\mf d16([ c)]
+		b8 a g4( fis)
+		g2 r4 %50
+		R2.*3
+		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
 
 WerKannSopranoLyrics = \lyricmode {
+	Wer kann des %5
+	From -- men, des From --
+	men Lei -- den
+	fa -- ßen? Gott
+	Ja -- cobs, Gott
+	Ja -- cobs, haſt __ %10
+	du ihn ver --
+	la -- ßen,
+	und dei -- nen
+	Freund, den Men -- ſchen --
+	freund und dei -- nen %15
+	Freund, haſt du, Gott
+	Ja -- cobs, ihn ver --
+	la -- ßen,
 	
+	den Men -- ſchen -- %20
+	freund,
+	den Men -- ſchen --
+	freund und dei -- nen
+	Freund.
+	
+	Ein lei -- ſer %29
+	Laut iſt un -- ſre %30
+	Stim -- me.
+	
+	ſehn nicht das
+	Au -- ge, nicht das
+	Au -- ge, ſehn nicht das %35
+	Au -- ge, das ihn
+	weint.
+	
+	Du Herr er --
+	hörſt auch die -- ſes %40
+	Fle -- hen. O ei -- le
+	du, ihm bey -- zu --
+	ſte -- hen, ihm bey -- zu --
+	ſte -- hen, eil, ihm
+	bey -- zu -- ſte -- %45
+	hen, Herr! O
+	ei -- le, o
+	ei -- le, eil ihm
+	bey -- zu -- ſte --
+	hen. %50 finis
 }
 
 % SopranoNotes = {
