@@ -83,6 +83,26 @@ KreutzigenOboeII = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoKreutzigen
 			\set Staff.timeSignatureFraction = 4/4
-		
+		R1
+		d'2. \fE c4
+		b a g2
+		d'2. c4
+		h2 r %5
+		g2. f4
+		e d c e
+		f g a r
+		b a d c
+		b2 f4 f %10
+		g2 a
+		b d,4 d
+		es2 es
+		d4 \tempoKreutzigenB r r2
+		\time 2/4 R2 %15
+		\time 4/4 \tempoKreutzigenC es8 f16 g as8 b c4 r
+		f,8 g16 a b8 c d4 r
+		es, g f b
+		as8 g16 as b8 b es,4 r
+		as4. f8 es4 r %20
+		R1 \bar "||" %21 finis
 	}
 }
