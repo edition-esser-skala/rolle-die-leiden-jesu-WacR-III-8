@@ -111,7 +111,15 @@ IchWascheOboeI = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \tempoIchWasche
-		
-		
+		\partial 4 r4 R1*44 %44
+		\tempoIchWascheB r4 \pa b'8\fE es d4 b8 g' %45
+		f4 r c2
+		b4 es2 es4
+		d g2 f4~
+		f es2 d4
+		es8 g,-! as-! b-! c-! d-! es-! f-! \pd %50
+		g b4 as8 g4 r8 b,
+		c4 f \appoggiatura es d2
+		es r \bar "||" %53 finis
 	}
 }
