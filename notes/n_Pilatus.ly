@@ -71,6 +71,18 @@ KreutzigenPilatusLyrics = \lyricmode {
 	ſchul -- dig! %15 finis
 }
 
+IchWaschePilatusNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
+		
+	}
+}
+
+IchWaschePilatusLyrics = \lyricmode {
+	
+}
+
 % PilatusNotes = {
 % 	\relative c {
 % 		\clef bass

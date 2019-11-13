@@ -660,6 +660,19 @@ KreutzigenBassFigures = \figuremode {
 	<8 3>4. <7 4- 2>8 <8 3>2 %21 finis
 }
 
+IchWascheOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoIchWasche
+		\partial 4 r4 es,\fE es'8. d16 es4 d
+		
+	}
+}
+
+IchWascheBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

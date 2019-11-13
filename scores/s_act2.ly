@@ -130,77 +130,127 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.2" "C H O R" "Kreutzigen laß ihn"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \KreutzigenOboeI \KreutzigenOboeII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\KreutzigenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\KreutzigenViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\KreutzigenViola
+% 						}
+% 				>>
+% 				\new Staff {
+% 						\set Staff.instrumentName = "Pilatus"
+% 						\new Voice = "Pilatus" { \dynamicUp \KreutzigenPilatusNotes }
+% 					}
+% 				\new Lyrics \lyricsto Pilatus \KreutzigenPilatusLyrics
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \KreutzigenSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \KreutzigenSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \KreutzigenAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \KreutzigenAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \KreutzigenTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \KreutzigenTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \KreutzigenBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \KreutzigenBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KreutzigenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\KreutzigenBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.2" "C H O R" "Kreutzigen laß ihn"
+			movement = \movementTitle "2.3" "A R I A" "Ich waſche meine Hände rein"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \KreutzigenOboeI \KreutzigenOboeII
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+						\partcombine \IchWascheCornoI \IchWascheCornoII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\KreutzigenViolinoI
+							\IchWascheViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\KreutzigenViolinoII
+							\IchWascheViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\KreutzigenViola
+							\IchWascheViola
 						}
 				>>
-				\new Staff {
+				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Staff {
 						\set Staff.instrumentName = "Pilatus"
-						\new Voice = "Pilatus" { \dynamicUp \KreutzigenPilatusNotes }
+						\new Voice = "Pilatus" { \dynamicUp \IchWaschePilatusNotes }
 					}
-				\new Lyrics \lyricsto Pilatus \KreutzigenPilatusLyrics
-				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \KreutzigenSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \KreutzigenSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \KreutzigenAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \KreutzigenAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \KreutzigenTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \KreutzigenTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \KreutzigenBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \KreutzigenBassoLyrics
+					\new Lyrics \lyricsto Pilatus \IchWaschePilatusLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KreutzigenOrgano
+						\IchWascheOrgano
 					}
 				>>
 				\new FiguredBass {
-					\KreutzigenBassFigures
+					\IchWascheBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 120 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }

@@ -225,3 +225,11 @@ KreutzigenViolinoII = {
 		g, es' g es b es as, es' g,4 r \bar "||" %21 finis
 	}
 }
+
+IchWascheViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoIchWasche
+		
+	}
+}

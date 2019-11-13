@@ -262,6 +262,7 @@ tempoHilfDuIhm = \tempoMarkup "[Tempo deest]"
 tempoKreutzigen = \tempoMarkup "Allebreve"
 	tempoKreutzigenB = \tempoMarkup "Recitativ"
 	tempoKreutzigenC = \tempoMarkup "Vivace"
+tempoIchWasche = \tempoMarkup "Con gravita"
 
 
 
@@ -436,6 +437,8 @@ tempoKreutzigen = \tempoMarkup "Allebreve"
 
 \include "notes/n_tr1.ly"
 \include "notes/n_tr2.ly"
+\include "notes/n_cor1.ly"
+\include "notes/n_cor2.ly"
 \include "notes/n_timp.ly"
 \include "notes/n_ob1.ly"
 \include "notes/n_ob2.ly"

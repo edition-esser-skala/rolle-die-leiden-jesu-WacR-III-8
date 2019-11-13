@@ -199,7 +199,7 @@ LassMichViola = {
 
 KreutzigenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoKreutzigen
 			\set Staff.timeSignatureFraction = 4/4
 		d2\fE d~
@@ -223,5 +223,14 @@ KreutzigenViola = {
 		c8 g16 as b8 b es es g es
 		d4 r8 d es b g f %20
 		es b' g f es4 r \bar "||" %21 finis
+	}
+}
+
+IchWascheViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoIchWasche
+		
+		
 	}
 }

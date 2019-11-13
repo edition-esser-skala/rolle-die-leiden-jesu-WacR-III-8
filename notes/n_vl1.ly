@@ -226,6 +226,15 @@ KreutzigenViolinoI = {
 	}
 }
 
+IchWascheViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoIchWasche
+		
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
