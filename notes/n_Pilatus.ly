@@ -75,12 +75,94 @@ IchWaschePilatusNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 4/4 \autoBeamOff \tempoIchWasche
-		
+		\partial 4 r4 R1*3
+		r2 r4 es
+		b' b b b %5
+		b8([ g)] as4 as8([ fis)] g4
+		c2 \appoggiatura es,4 d2
+		es r4 es
+		as r8 as as([ c)] c([ es)]
+		es([ b)] b2 b4 %10
+		b( a8.) b16 c4 es,
+		d f as2~
+		as4 g8 a b2~
+		b8 a([ g f)] c'4 es,
+		d c r f %15
+		f f f f
+		f f f r8 f
+		b4 b, f' f
+		b b, f' r8 f
+		b2 as!8([ g)] as4 %20
+		g8([ c)] b([ a)] b4 g
+		f2( a)\trill
+		b r
+		R1*2 %25
+		r2 r8 f8 g a
+		b4 b8.([ c16)] des4 f,
+		e r8 g c4 g
+		as r8 as c4 f,
+		e des' c b %30
+		as r8 as c4 es,!
+		d8([ f)] f([ as)] \appoggiatura as4 g2\trill
+		f r
+		b b
+		b4 b b b8 b %35
+		es4 es, b' r8 b
+		es4 es, b'2
+		r4 es, c'2
+		r4 f, d' b
+		es2( c4) as %40
+		g2( f)\trill
+		es4 des' c h
+		c f, g as
+		b1
+		\tempoIchWascheB es,4 r r2 %45
+		R1*8 \bar "||" %53 finis
 	}
 }
 
 IchWaschePilatusLyrics = \lyricmode {
+	Ich %4
+	wa -- ſche mei -- ne %5
+	Hän -- de, mei -- ne
+	Hän -- de
+	rein, ich
+	will, ich will un --
+	ſchul -- dig, un -- %10
+	ſchul -- dig will ich
+	seyn am To --
+	de, am To --
+	de __ die -- ſes
+	From -- men, ich %15
+	wa -- ſche mei -- ne
+	Hän -- de rein, ich
+	will, ich will un --
+	ſchul -- dig seyn am
+	To -- de, am %20
+	To -- de die -- ſes
+	From --
+	men!
 	
+	Es mü -- ße %26
+	des Ge -- rech -- ten
+	Blut nur dir al --
+	lein, nur dir al --
+	lein, du Volk voll %30
+	Wuth, nur dir zu
+	Schul -- den kom --
+	men,
+	des Ge --
+	rech -- ten Blut mü -- ße %35
+	dir al -- lein, du
+	Volk voll Wuth,
+	nur dir,
+	nur dir zu
+	Schul -- den %40
+	kom --
+	men, nur dir al --
+	lein zu Schul -- den
+	kom --
+	men. %45 finis
 }
 
 % PilatusNotes = {
