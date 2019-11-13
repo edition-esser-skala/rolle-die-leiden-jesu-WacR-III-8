@@ -228,7 +228,7 @@ KreutzigenViola = {
 
 IchWascheViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 4/4 \tempoIchWasche
 		\partial 4 r4 g'\fE g g f
 		es2 es~
