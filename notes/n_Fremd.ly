@@ -114,12 +114,29 @@ EinPurpurFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \autoBeamOff \tempoEinPurpur
-		
+		R1*6 %6
+		r2 r4 r8 a'
+		e'4. fis16([ a,)] gis([ h)] h([ d)] d([ fis)] fis([ e)]
+		\appoggiatura e8 d4\trill cis8 r r e g8. fis32([ e)]
+		d8 r fis8. e32([ d)] cis8 e fis,8. a16 %10
+		a8 gis r e' dis16([ h)] cis8 h16([ gis)] a8
+		gis a16([ h)] h([ cis)] cis([ e)] gis,4( a8) fis
+		e4 r r2
 	}
 }
 
 EinPurpurFremdLyrics = \lyricmode {
+	Ein %7
+	Rohr trägt er in ſei -- ner
+	Rech -- ten, das ſchnö -- der
+	Spott, ſchnö -- der Spott von nie -- dern %10
+	Knech -- ten in ſei -- ne Hand ihm
+	gab, in ſei -- ne Hand ihm
+	gab.
 	
+	ihr, die ihr euch des Frevels freuet,
+	
+	Er rufet einſt in einem Wetter
 }
 
 % FremdNotes = {

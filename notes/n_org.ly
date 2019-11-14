@@ -1025,7 +1025,7 @@ EinPurpurOrgano = {
 		e~ e16. fis32 gis8 e h'4 h,
 		cis8 cis' h a h4 h,
 		e a,8\f a' gis a h h,
-		e4 r e-!\f r
+		e4 \tempoEinPurpurB r e-!\f r
 		r8 eis4 eis8\p fis4 r %15
 		fis\f r r8 ais4 ais8\p
 		h fis r ais h fis r ais
@@ -1050,7 +1050,7 @@ EinPurpurOrgano = {
 		a4 r8 cis d4 e
 		a,16\f cis e cis a cis h d cis e a cis, d fis a d,
 		e a cis a fis a d fis, e a cis a e8 e,
-		a4 r \bar "||"
+		a4 r \bar "||" %39 finis
 	}
 }
 

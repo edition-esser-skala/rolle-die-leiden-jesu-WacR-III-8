@@ -327,12 +327,74 @@ EinPurpurBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \major \time 4/4 \autoBeamOff \tempoEinPurpur
-		
+		r4 r8 e \appoggiatura d cis4 h
+		gis16([ h)] h([ d)] d([ fis)] fis([ e)] \appoggiatura e8 d4\trill cis
+		r8 e e a16([ e)] e4 r8 eis
+		eis4( fis8) a, a gis e'4
+		e e e2~ %5
+		e8. cis16 h([ a)] gis([ fis)] e4 r
+		R1*7 %13
+		r4 \tempoEinPurpurB e' e8 h16([ cis)] d8 d
+		d4( cis8) h a16([ gis)] fis8 r4 %15
+		R1
+		r4 e' d8 cis r cis
+		h ais g'4 fis \appoggiatura h,8 ais4
+		h r r2
+		r8 e d cis fis4 ais, %20
+		h r r2
+		r r4 r8 a
+		d4 d d8 a d fis
+		e a, r4 r2
+		r r4 r8 d %25
+		cis4 h a8.([ h16)] cis8 cis
+		fis e d cis h4 r
+		r2 r4 r8 h
+		e4 gis \appoggiatura gis32 fis16([ e)] \appoggiatura e32 d16([ cis)] h8 a
+		gis16([ fis)] e8 r4 r2 %30
+		r r4 r8 a
+		d4 cis fis8 fis16([ d)] cis8 h
+		a4 r r2
+		r4 e' r8 e e e
+		d4 cis d \appoggiatura cis8 h4 %35
+		a cis8 e fis4 gis,
+		a r r2
+		R1
+		r2 \bar "||" %39 finis
 	}
 }
 
 EinPurpurBlindLyrics = \lyricmode {
+	Ein Pur -- pur,
+	ei -- ne Dor -- nen -- kro -- ne,
+	ihm auf -- ge -- ſetzt vom
+	bit -- tern Hoh -- ne, Blut
+	rinnt die Schläf, __ %5
+	die Schläf he -- rab.
 	
+	Jhr, die ihr kei -- nen %14
+	Fre -- vel ſcheu -- et, %15
+	
+	ihr wißt nicht, ihr
+	wißt nicht, wen, wen ihr
+	ſchmäht,
+	ihr wißt nicht, wen ihr %20
+	ſchmäht.
+	Jhn
+	rä -- chet einſt der Gott der
+	Göt -- ter.
+	Wo %25
+	iſt, o Ju -- da, wo,
+	wo iſt dein Pro -- phet?
+	Jhn
+	rä -- chet einſt der Gott der
+	Göt -- ter. %30
+	Wo
+	iſt, o Ju -- da, dein Pro --
+	phet?
+	Wo, wo iſt, o
+	Ju -- da, dein Pro -- %35
+	phet? Wo iſt dein Pro --
+	phet? %37 finis
 }
 
 % BlindNotes = {

@@ -270,6 +270,7 @@ tempoWerKann = \tempoMarkup "Poco largo"
 tempoHoerestDu = \tempoMarkup "[Tempo deest]"
 	tempoHoerestDuB = \tempoMarkup "Andante"
 tempoEinPurpur = \tempoMarkup "Poco largo"
+	tempoEinPurpurB = \tempoMarkup "Poco vivace"
 
 
 
