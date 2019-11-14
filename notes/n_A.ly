@@ -248,12 +248,99 @@ WerKannAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
-		
+		R2.*4
+		\mvTrr g'4\mfE^\tuttiE g g %5
+		g fis8 g a4~
+		a8 a g([ fis)] g([ fis)]
+		g([ fis)] g4 g
+		g g r8 b
+		g4 g b8 a %10
+		g2 g4
+		d d r
+		r r8 \mvTr g\pE^\solo a b
+		b4( a8) \mvTr a\fE^\tutti b c
+		b b b4 a8([ b16 c)] %15
+		\appoggiatura c8 b4 r8 \mvTr d\pE^\solo d d
+		d4. es16([ d)] d([ c)] b8
+		b a r4 r
+		R2.
+		r4 r8 a b c %20
+		c4( b8) r r4
+		r r8 \mvTrh a\fpE^\tutti b c
+		b b b4 a
+		b2 r4
+		R2.*4 %28
+		r8 \mvTr b\pE^\solo b([ a)] c([ b)]
+		d4. d8 c b %30
+		b([ a)] a4 r
+		R2.
+		r4 r8 \mvTr g\fE^\tutti g as
+		g4 es f8 g
+		as4 g8 as g h %35
+		c as g4 g
+		g r r
+		R2.
+		r4 r8 \mvTr f\pE^\solo a! a
+		a4. g8 fis a %40
+		\appoggiatura a g4 fis8 \mvTr d'\fE^\tutti c16([ b)] a([ g)]
+		d'4 r8 a d, g
+		g4 fis8 a b g
+		g fis r c'4 a8
+		g a g4( fis) %45
+		g g-! r8 b
+		g4 g r8 b
+		g4 a \appoggiatura d16 c8\mf b16([ a)]
+		g8 es d2
+		d r4 %50
+		R2.*3
+		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
 
 WerKannAltoLyrics = \lyricmode {
+	[Wer kann des %5
+	From -- men, des From --
+	men Lei -- den
+	fa -- ßen? Gott
+	Ja -- cobs, Gott
+	Ja -- cobs,] haſt du %10
+	ihn [ver --
+	la -- ßen,]
+	und dei -- nen
+	Freund, den Men -- ſchen --
+	freund [und dei -- nen __ %15
+	Freund,] haſt du, Gott
+	Ja -- cobs, ihn ver --
+	la -- ßen,
 	
+	den Men -- ſchen -- %20
+	freund,
+	[den Men -- ſchen --
+	freund und dei -- nen
+	Freund.]
+	
+	Ein lei -- ſer %29
+	Laut iſt un -- ſre %30
+	Stim -- me.
+	
+	[ſehn nicht das
+	Au -- ge, nicht das
+	Au -- ge, ſehn nicht das %35
+	Au -- ge, das ihn
+	weint.]
+	
+	Du Herr er --
+	hörſt auch die -- ſes %40
+	Fle -- hen. [O ei -- le
+	du, ihm bey -- zu --
+	ſte -- hen, ihm bey -- zu --
+	ſte -- hen, eil, ihm
+	bey -- zu -- ſte -- %45
+	hen, Herr! O
+	ei -- le, o
+	ei -- le, eil ihm
+	bey -- zu -- ſte --
+	hen.] %50 finis
 }
 
 % AltoNotes = {
