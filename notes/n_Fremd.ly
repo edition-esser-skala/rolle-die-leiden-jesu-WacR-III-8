@@ -90,6 +90,18 @@ HilfDuIhmFremdLyrics = \lyricmode {
 	we -- gung. %8 finis
 }
 
+HoerestDuFremdNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHoerestDu
+		
+	}
+}
+
+HoerestDuFremdLyrics = \lyricmode {
+	
+}
+
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -960,6 +960,54 @@ WerKannBassFigures = \figuremode {
 	<7+ 4 2>4 <8 3>2 %54 finis
 }
 
+HoerestDuOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoHoerestDu
+			\set Staff.timeSignatureFraction = 4/4
+		f1~
+		f2 r8 f f f
+		f2 e~
+		e r8 c( c c)
+		c2 r %5
+		r ais'~
+		ais h
+		gis1~
+		gis
+		a4 ais2.~ %10
+		ais1~
+		ais4 r \tempoHoerestDuB h,8 h16( d) d( fis) fis( h)
+		\time 2/4 h8 fis16( h) h( d) d( h)
+		\time 4/4 eis,1~
+		eis~ %15
+		eis4 r fis,8 fis16( a) a( cis) cis( fis)
+		fis8 a,16( cis) cis( fis) fis( a) a2
+		fis e4 e,8 e \bar "||" %18 finis
+		\unset Staff.timeSignatureFraction \key a \major \time 4/4
+	}
+}
+
+HoerestDuBassFigures = \figuremode {
+	<4 2>1
+	r
+	<4 2>2 <_+>
+	r1
+	r
+	r2 <7>
+	r1
+	<6>
+	r
+	r4 <6>2.
+	r1
+	r1
+	r2
+	<6>1
+	r
+	r
+	r
+	<6\\>2 <_+>
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

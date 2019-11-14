@@ -267,6 +267,8 @@ tempoIchWasche = \tempoMarkup "Con gravita"
 	tempoIchWascheB = \tempoMarkup "Vivace"
 tempoOChrist = \tempoMarkup "[Tempo deest]"
 tempoWerKann = \tempoMarkup "Poco largo"
+tempoHoerestDu = \tempoMarkup "[Tempo deest]"
+	tempoHoerestDuB = \tempoMarkup "Andante"
 
 
 

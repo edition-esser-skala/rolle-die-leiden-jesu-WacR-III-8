@@ -275,6 +275,18 @@ HilfDuIhmBlindLyrics = \lyricmode {
 	ſpre -- chen! %14 finis
 }
 
+HoerestDuBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoHoerestDu
+		
+	}
+}
+
+HoerestDuBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

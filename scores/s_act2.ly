@@ -355,72 +355,106 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.5" "C H O R" "Wer kann des Frommen Leiden faßen"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \WerKannOboeI \WerKannOboeII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WerKannViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WerKannViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\WerKannViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D.     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \WerKannSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WerKannSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \WerKannAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WerKannAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \WerKannTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WerKannTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \WerKannBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WerKannBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WerKannOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\WerKannBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 45 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.5" "C H O R" "Wer kann des Frommen Leiden faßen"
+			movement = \movementTitle "2.6" "R E C I T A T I V" "Höreſt du das Häuflein ſchwacher Freunde?"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \WerKannOboeI \WerKannOboeII
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WerKannViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WerKannViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\WerKannViola
-						}
-				>>
 				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D.     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \WerKannSopranoNotes }
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \HoerestDuFremdNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WerKannSopranoLyrics
+					\new Lyrics \lyricsto Fremd \HoerestDuFremdLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WerKannAltoNotes }
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \HoerestDuBlindNotes }
 					}
-					\new Lyrics \lyricsto Alto \WerKannAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WerKannTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \WerKannTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \WerKannBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \WerKannBassoLyrics
+					\new Lyrics \lyricsto Blind \HoerestDuBlindLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WerKannOrgano
+						\HoerestDuOrgano
 					}
 				>>
 				\new FiguredBass {
-					\WerKannBassFigures
+					\HoerestDuBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 45 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
