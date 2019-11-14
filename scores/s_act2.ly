@@ -459,7 +459,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "D U E T T O" "Ein Purpur, eine Dornenkrone"
+			movement = \movementTitle "2.7" "D U E T T" "Ein Purpur, eine Dornenkrone"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -504,7 +504,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 45 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

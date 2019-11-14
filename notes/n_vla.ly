@@ -380,7 +380,7 @@ WerKannViola = {
 
 EinPurpurViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 4/4 \tempoEinPurpur
 		r2 a4\p e
 		r2 e'4. e8

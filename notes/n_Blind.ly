@@ -349,7 +349,7 @@ EinPurpurBlindNotes = {
 		cis4 h a8.([ h16)] cis8 cis
 		fis e d cis h4 r
 		r2 r4 r8 h
-		e4 gis \appoggiatura gis32 fis16([ e)] \appoggiatura e32 d16([ cis)] h8 a
+		e4 gis \appoggiatura gis32 fis16([ e)] \appoggiatura e32 dis16([ cis)] h8 a
 		gis16([ fis)] e8 r4 r2 %30
 		r r4 r8 a
 		d4 cis fis8 fis16([ d)] cis8 h
