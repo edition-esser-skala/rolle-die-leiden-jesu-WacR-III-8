@@ -381,6 +381,14 @@ WerKannViolinoI = {
 	}
 }
 
+EinPurpurViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoEinPurpur
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

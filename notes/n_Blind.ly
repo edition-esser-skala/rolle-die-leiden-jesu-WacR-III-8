@@ -323,6 +323,18 @@ HoerestDuBlindLyrics = \lyricmode {
 	Got -- tes! welch ein An -- blick! %18 finis
 }
 
+EinPurpurBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 4/4 \autoBeamOff \tempoEinPurpur
+		
+	}
+}
+
+EinPurpurBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

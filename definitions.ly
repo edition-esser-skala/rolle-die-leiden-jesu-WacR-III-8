@@ -269,6 +269,7 @@ tempoOChrist = \tempoMarkup "[Tempo deest]"
 tempoWerKann = \tempoMarkup "Poco largo"
 tempoHoerestDu = \tempoMarkup "[Tempo deest]"
 	tempoHoerestDuB = \tempoMarkup "Andante"
+tempoEinPurpur = \tempoMarkup "Poco largo"
 
 
 

@@ -1008,6 +1008,18 @@ HoerestDuBassFigures = \figuremode {
 	<6\\> <_+> %18 finis
 }
 
+EinPurpurOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoEinPurpur
+		e,4\fE r a\p e
+	}
+}
+
+EinPurpurBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

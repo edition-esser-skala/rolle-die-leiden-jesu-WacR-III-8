@@ -423,38 +423,88 @@
 % 			\midi { \tempo 2 = 45 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.6" "R E C I T A T I V" "Höreſt du das Häuflein ſchwacher Freunde?"
+% 		}
+% 		\paper { systems-per-page = #3 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fremdling"
+% 						\new Voice = "Fremd" { \dynamicUp \HoerestDuFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \HoerestDuFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \HoerestDuBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \HoerestDuBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\HoerestDuOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\HoerestDuBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.6" "R E C I T A T I V" "Höreſt du das Häuflein ſchwacher Freunde?"
+			movement = \movementTitle "2.7" "D U E T T O" "Ein Purpur, eine Dornenkrone"
 		}
-		\paper { systems-per-page = #3 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\EinPurpurViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\EinPurpurViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\EinPurpurViola
+						}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \HoerestDuFremdNotes }
+						\new Voice = "Fremd" { \dynamicUp \EinPurpurFremdNotes }
 					}
-					\new Lyrics \lyricsto Fremd \HoerestDuFremdLyrics
+					\new Lyrics \lyricsto Fremd \EinPurpurFremdLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \HoerestDuBlindNotes }
+						\new Voice = "Blind" { \dynamicUp \EinPurpurBlindNotes }
 					}
-					\new Lyrics \lyricsto Blind \HoerestDuBlindLyrics
+					\new Lyrics \lyricsto Blind \EinPurpurBlindLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\HoerestDuOrgano
+						\EinPurpurOrgano
 					}
 				>>
 				\new FiguredBass {
-					\HoerestDuBassFigures
+					\EinPurpurBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 45 }
 		}
 	}
 }

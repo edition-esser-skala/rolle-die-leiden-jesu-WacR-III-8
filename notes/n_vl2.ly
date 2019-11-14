@@ -380,3 +380,11 @@ WerKannViolinoII = {
 		a( b) b2\fermata \bar "||" %54 finis
 	}
 }
+
+EinPurpurViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoEinPurpur
+		
+	}
+}
