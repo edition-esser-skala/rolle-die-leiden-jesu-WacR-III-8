@@ -163,6 +163,51 @@ WerKannOboeI = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWerKann
-		
+		R2.*4 %4
+		d'4\mfE g, b %5
+		b4( a8) b c4~
+		c8 c b( a) g( fis)
+		g( fis) g4 g'
+		\appoggiatura f8 es4\trill d r8 g
+		\appoggiatura f8 es4\trill d4 d~ %10
+		d8 c16 d es8( c) c( a)
+		\appoggiatura a g4\trill fis8 r r4
+		r r8 \mvTr b\pE-\solo c d
+		d4( c8) \mvTr c[\f-\tuttiE d es]
+		f g c,4. d16 es %15
+		\appoggiatura es8 d4 r8 \mvTr f\pE-\solo f f
+		f4. g16( f) f( es) d8
+		\appoggiatura es16 d8 c4 r8 r4
+		R2.
+		r4 r8 c d es %20
+		es4( d8) r r4
+		r r8 \mvTrh c[\fpE-\tuttiE d es]
+		f es16( c) b4 c\trill
+		b2 r4
+		R2.*4 %28
+		r8 \mvTr d\pE-\solo d( c) es( d)
+		f4. f8 es d
+		d( c) c4 r
+		R2.
+		r4 r8 \mvTr d\f-\tuttiE es f
+		g es c4 d8 es
+		f d h[ as'( g f)] %35
+		es \once \slurDashed f16( d) c4 h\trill
+		c2 r4
+		R2.
+		r4 r8 \mvTr c4\pE-\solo c8
+		c4. b16 a d8 c %40
+		\appoggiatura c b4\trill a8 d\f \slurDashed c16( b) a( g) \slurSolid
+		d'4 r8 fis g b,
+		b4( a8) fis' g b,
+		b a r a'4 c,8
+		b a g4 fis\trill %45
+		g d' r8 g
+		\appoggiatura f es4\trill d r8 g
+		\appoggiatura f8 es4\trill d \appoggiatura f16 es8 d16 c
+		b8 a g4 fis\trill
+		g2 r4 %50
+		R2.*3
+		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
