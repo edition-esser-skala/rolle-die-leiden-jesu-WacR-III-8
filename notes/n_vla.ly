@@ -382,6 +382,44 @@ EinPurpurViola = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoEinPurpur
-		
+		r2 a4\p e
+		r2 e'4. e8
+		e(-. e-. e-. e-.) e(-. e-. e-. cis-.)
+		r d d, dis e4 h'
+		a a h h %5
+		h h e, e'8\f e
+		e4 h8 h e,8. fis16 e16. d'!32 cis16.\p h32
+		a8 a16. gis32 a8 d e4 r
+		e a,8 a gis4 a8 ais
+		h4 gis8 gis a4 d8 dis %10
+		e4 e8 e h4 h
+		cis8 cis h a h4 h
+		e, a8\f cis e e h h
+		e,4 \tempoEinPurpurB r e'-!\f r
+		r8 eis4\f cis8\p cis4 r %15
+		fis-!\f r r8 ais,4\f fis'8\p
+		fis fis r fis fis fis r fis
+		fis fis cis4^\tenuto d8.[ e16 fis8 fis,]
+		h g' fis e d8.[ e16 fis8 fis,]
+		g g fis e d h' fis fis %20
+		h d\f e cis fis fis fis h
+		h d,16. h32 e16. cis32 fis16. fis32 h,8 h'\p a!16 g fis e
+		d a fis a d a fis a d a fis a d a fis d
+		a' cis e cis a4 <a e'>-! r
+		q-! r r16 d\f fis a d4 %25
+		r8 a\p r e fis \once \slurDashed e16( d) cis8 a
+		d4 r e\f cis'8 a
+		gis16[ e] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a) e'4 r
+		e-!\p r h-! r
+		e\pocoF r h r %30
+		e-! r r8 gis(\p a) a,
+		r gis'( a) a, d4 e
+		a, r r8 a a a
+		e4 a16 cis e cis a4 r
+		e fis r8 d' e e, %35
+		a4 r r2
+		a16\f cis e cis a cis h d cis e a cis, d fis a d,
+		e a cis a fis a d fis, e a cis a e8 e,
+		a4 r \bar "||" %39 finis
 	}
 }
