@@ -163,6 +163,51 @@ WerKannOboeII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWerKann
-		
+		R2.*4 %4
+		b'4\mfE d, g %5
+		g4( fis8) g a4~
+		a4 g8( fis) g( fis)
+		g( fis) g4 d'
+		\appoggiatura d8 c4\trill b r8 d
+		\appoggiatura d8 c4\trill b4 b8 a %10
+		g4 g g
+		d r r
+		r r8 \mvTr g\pE-\solo a b
+		b4( a8) \mvTr a[\f-\tuttiE b c]
+		b b b4( a8) b16 c %15
+		\appoggiatura c8 b4 r8 \mvTr d\pE-\solo d d
+		d4. es16( d) d( c) b8
+		\appoggiatura c16 b8 a4 r8 r4
+		R2.
+		r4 r8 a b c %20
+		c4( b8) r r4
+		r r8 \mvTrh a[\fpE-\tuttiE b c]
+		b b b4 a\trill
+		b2 r4
+		R2.*4 %28
+		r8 \mvTr b\pE-\solo b( a) c( b)
+		d4. d8 c b
+		b( a) a4 r
+		R2.
+		r4 r8 \mvTr h\f-\tuttiE c d
+		c4 c h8 c
+		c4 h8 f'( es d) %35
+		c \once \slurDashed as16( f) es4 d\trill
+		es2 r4
+		R2.
+		r4 r8 \mvTr a!4\pE-\solo a8
+		a4. g8 fis a %40
+		\appoggiatura a g4\trill fis8 d'\f \slurDashed c16( b) a( g) \slurSolid
+		d'4 r8 d4 g,8
+		g4( fis8) a b g
+		g fis r c'4 a8
+		g es d4 fis\trill %45
+		g g r8 d'
+		\appoggiatura d c4 b r8 d
+		\appoggiatura d8 c4 c \appoggiatura d16 c8 b16 a
+		g8 a g4 fis\trill
+		g2 r4 %50
+		R2.*3
+		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
