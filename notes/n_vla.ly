@@ -325,6 +325,55 @@ WerKannViola = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWerKann
-		
+		g4\fE b g
+		d' d, r
+		c' d d,
+		g b d
+		g\mf b, d %5
+		d d es~
+		es8 es d4 d,
+		es es'8 d16 c h8 g'
+		g4 g g
+		g g g8 f %10
+		es4 es es
+		d d, d'\p
+		g, g g'
+		f f, f'8\f g
+		f b, f'4 f %15
+		f2 r4
+		R2.*5 %21
+		r4 r8 f\fp f g
+		f g16( es) d4 es\trill
+		d f b\f
+		b b r %25
+		a b g
+		f f, f'
+		b, r8 b' f d
+		b4 r r
+		R2. %30
+		r4 r c\p
+		d g, g
+		g g g'8\f f
+		es f16 g as8 g f es
+		d es16 f g8 h c g %35
+		as f g4 g,
+		c c, c'8\p c
+		c4. b!16( c) d8-! c-!
+		\appoggiatura c b4 a r
+		R2. %40
+		r4 r8 d'\f \slurDashed c16( b) a( g) \slurSolid
+		d'8 d, d d' c16( b) a( g)
+		d'8 d, d d cis4
+		d fis8 fis g d
+		d c d4 d, %45
+		g b b8 b'
+		g4 g g
+		g a r8 fis
+		g es b4 a
+		g g8\f b d g %50
+		g4 g r
+		fis g c,8 cis
+		d4 d,\p d
+		g2.\fermata \bar "||" %54 finis
 	}
 }
