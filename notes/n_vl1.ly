@@ -385,7 +385,45 @@ EinPurpurViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoEinPurpur
-		
+		r4 r8 e'\p \appoggiatura d cis4 h
+		gis16( h) h( d) d( fis) fis( e) \appoggiatura e8 d4\trill cis8 a'16( e)
+		d4( cis8) a'16( e) d4( cis8) a'16( eis)
+		eis?4( fis8) cis cis h r16 h'( gis e)
+		cis4 r16 e( cis a) gis h'( a gis) r gis( fis e) %5
+		r e( h cis) h( a gis fis) e h''(\f gis e) h4
+		cis16( e dis cis) h( a gis fis) \appoggiatura fis8 e4 r8 a\p
+		e'4. fis16( a,) gis( h) h( d) d( fis) fis( e)
+		\appoggiatura e8 d4\trill cis8 a'16( e) e4. e8
+		d h'16( d,) d4( cis8) e e16( d) d( cis) %10
+		cis8 h r e dis cis h16( gis a8)
+		gis a16( h) h( cis) cis( e) e8([ gis,)] a( fis)
+		e gis16([\f h)] cis( eis) fis( a) h,( e?) cis( a) gis8 fis\trill
+		e4 \tempoEinPurpurB r <gis h e>-!\f r
+		r8 gis'4\f h,8\p a fis a cis %15
+		<ais' cis, fis,>4\f r r8 cis4\f e,8\p
+		d cis e4^\tenuto d8 cis e4^\tenuto
+		d8 cis g'4^\tenuto fis8.[ e16 d8 cis]
+		h e16( cis) d( h) cis( ais) fis'8.[ e16 d8 cis]
+		h e,16( cis) d( h) cis( ais) fis'4 r %20
+		r8 fis'16.(\f\trill e64 fis)] g8-! ais16.([ gis?64 ais)] h8-! cis,16.([\trill h64 cis)] d8-\parenthesize-! e16.([\trill d64 e)]
+		fis8-\parenthesize-! d,16.[ h32] e16. cis32 fis16. fis32 h,4 r
+		<a fis' d'>4\f r q r
+		<a e'a e'> r cis16\pocoP e a e cis e a e
+		cis e a e cis e a e d\f d fis a d8 fis\p %25
+		e r d r cis8. d16 e8 e
+		d16( h) cis( a) h( gis) a8 <gis h e>16[\f e'] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a)
+		<gis h e>16[ e] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a) e'4 r
+		h'-!\p r h-! r
+		e,16\pocoF gis h gis e gis h gis dis fis h fis dis fis h dis, %30
+		e gis h gis e e gis h d!4(\p cis16) a cis e
+		fis4( e16) cis e a h,4 a8 gis
+		a4 cis2 cis4
+		h a a,16 cis e cis a cis e cis
+		gis h e gis, a a cis a d8 fis' \appoggiatura a, gis4 %35
+		a r r2
+		r8 a\f a'8.( gis32 fis) e8 a, fis'8.( e32 d)
+		cis8 a, d'8.( cis32 h) e4 e,16. a32 gis16. h32
+		a8 a, r4 \bar "||" %39 finis
 	}
 }
 
