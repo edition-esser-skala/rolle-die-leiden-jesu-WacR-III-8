@@ -390,7 +390,7 @@ EinPurpurViolinoI = {
 		d4( cis8) a'16( e) d4( cis8) a'16( eis)
 		eis?4( fis8) cis cis h r16 h'( gis e)
 		cis4 r16 e( cis a) gis h'( a gis) r gis( fis e) %5
-		r e( h cis) h( a gis fis) e h''(\f gis e) h4
+		r e h( cis) h( a gis fis) e h''(\f gis e) h4
 		cis16( e dis cis) h( a gis fis) \appoggiatura fis8 e4 r8 a\p
 		e'4. fis16( a,) gis( h) h( d) d( fis) fis( e)
 		\appoggiatura e8 d4\trill cis8 a'16( e) e4. e8
@@ -410,7 +410,7 @@ EinPurpurViolinoI = {
 		<a fis' d'>4\f r q r
 		<a e'a e'> r cis16\pocoP e a e cis e a e
 		cis e a e cis e a e d\f d fis a d8 fis\p %25
-		e r d r cis8. d16 e8 e
+		e r d r cis8.[ d16 e8 e]
 		d16( h) cis( a) h( gis) a8 <gis h e>16[\f e'] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a)
 		<gis h e>16[ e] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a) e'4 r
 		h'-!\p r h-! r

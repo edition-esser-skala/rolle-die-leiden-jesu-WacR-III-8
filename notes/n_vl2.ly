@@ -385,6 +385,44 @@ EinPurpurViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoEinPurpur
-		
+		r4 r8 cis'\p \appoggiatura h a4 gis
+		e16( gis) gis( h) h( d) d( cis) \appoggiatura cis8 h4\trill a8 cis
+		h4( a8) cis h4( a8) a
+		a4. a8 a gis r4
+		r16 e'( cis a) e4~ e16 gis'( fis e) r h( a gis) %5
+		r gis gis( a) gis( fis e dis) e4 r16 h''(\f gis e)
+		cis cis( h a) gis( fis e dis) \appoggiatura dis8 e4 r8 a\p
+		cis4. a8 e16( gis) gis( h) h( d!) d( cis)
+		\appoggiatura cis8 h4\trill a8 cis d4( cis8) cis
+		h d16( h) h4( a8) cis cis16( h) h( a) %10
+		a8 gis16. a32 h8 gis fis a gis16( e fis8)
+		e e16( gis) gis( a) a8 gis e4 dis8
+		e gis16([\f h)] cis( eis) fis( a) h,( e?) cis( a) e8 dis\trill
+		e4 \tempoEinPurpurB r <gis h e>-!\f r
+		r8 h4\f gis8\p fis fis a cis %15
+		<ais' cis, fis,>4\f r r8 e4\f cis8\p
+		h ais cis4^\tenuto h8 ais cis4^\tenuto
+		h8 ais ais4^\tenuto h8.[ cis16 h8 ais]
+		h h4 ais8 h8.[ cis16 h8 ais]
+		h h,4 ais8 h4 r %20
+		r8 fis''16.(\f\trill e64 fis)] g8-! ais16.([ gis?64 ais)] h8-! cis,16.([\trill h64 cis)] d8-\parenthesize-! e16.([\trill d64 e)]
+		fis8-\parenthesize-! d,16.[ h32] e16. cis32 fis16. fis32 h,4 r
+		<a fis' d'>4\f r q r
+		<a e'a e'> r cis16\pocoP e a e cis e a e
+		cis e a e cis e a e d\f d fis a d8 d\p %25
+		cis r h r a8.[ h16 cis8 cis,]
+		fis16( d) e( cis) d( h) cis8 <gis' h e>16[\f e'] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a)
+		<gis h e>16[ e] \appoggiatura a32 gis16( fis32 e) a16[ a,] \appoggiatura d32 cis16( h32 a) e'4 r
+		gis-!\p r fis-! r
+		e16\pocoF gis h gis e gis h gis dis fis h fis dis fis h dis, %30
+		e gis h gis e e gis h h4(\p a16) a cis e
+		d4( cis16) cis e cis h8 fis16( d) cis8 h
+		cis4 e2 e4~
+		e e a,16 cis e cis a cis e cis
+		gis h e gis, a a cis a d4 \appoggiatura cis8 h4 %35
+		cis r r2
+		r8 a'\f a'8.( gis32 fis) e8 a, fis'8.( e32 d)
+		cis8 a, d'8.( cis32 h) e4 e,16. cis32 h16. d32
+		cis4 r \bar "||" %39 finis
 	}
 }
