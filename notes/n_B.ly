@@ -238,12 +238,95 @@ WerKannBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
-		
+		R2.*4
+		\mvTrr g'4\mfE^\tuttiE b g %5
+		d d r
+		r d d
+		es es h'
+		c g r8 g
+		c4 g g8 f %10
+		es2 es4
+		d d8 \mvTr fis\pE^\solo g a
+		a4( g8) r r4
+		r r8 \mvTr f!\fE^\tutti f es
+		d es f4 f %15
+		b,2 r4
+		R2.
+		r4 r8 \mvTr a'\pE^\solo b c
+		d4. es16([ d)] d([ c)] b8
+		b a r4 r %20
+		r r8 a b c
+		c4( b8) \mvTrh f\fpE^\tutti f es
+		d es f4 f
+		b,2 r4
+		R2.*6 %30
+		r4 r8 \mvTr c'\pE^\solo d c
+		h d g,4. h8
+		\grace { h16.[ d32] } c4 h8 \mvTr g\fE^\tutti g f
+		es4 as8([ g)] f es
+		d4 g8 h c g %35
+		as f g4 g
+		c, r8 \mvTr g'\pE^\solo c c
+		c4. b!16([ c)] d8 c
+		\appoggiatura c b4 a8 r r4
+		R2. %40
+		r4 r8 \mvDll \mvTr d\fE^\tutti c16([ b)] a([ g)]
+		d'4 r8 d c16([ b)] a([ g)]
+		d'4 d,8 d' cis cis
+		d4 d,8 d([ e)] fis
+		g c, d2 %45
+		g4 b-! r8 g
+		c4 g r8 g
+		c4 fis, fis8\mf fis
+		g c, d2
+		g r4 %50
+		R2.*3
+		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
 
 WerKannBassoLyrics = \lyricmode {
+	Wer kann des %5
+	From -- men 
+	Lei -- den
+	fa -- ßen? Gott
+	Ja -- cobs, Gott
+	Ja -- cobs, haſt du %10
+	ihn ver --
+	la -- ßen, den Men -- ſchen --
+	freund,
+	den Men -- ſchen --
+	freund und dei -- nen %15
+	Freund,
 	
+	Gott Ja -- cobs,
+	haſt du  ihn ver --
+	la -- ßen, %20
+	und dei -- nen
+	Freund, den Men -- ſchen --
+	freund und dei -- nen
+	Freund.
+	
+	Sie hö -- ren %31
+	nicht in ih -- rem
+	Grim -- me, ſehn nicht das
+	Au -- ge, nicht das
+	Au -- ge, ſehn nicht das %35
+	Au -- ge, das ihn
+	weint. Du Herr er --
+	hörſt auch die -- ſes
+	Fle -- hen.
+	%40
+	O ei -- le
+	du, ihm bey -- zu --
+	ſte -- hen, ihm bey -- zu --
+	ſte -- hen, eil, ihm
+	bey -- zu -- ſte -- %45
+	hen, Herr! O
+	ei -- le, o
+	ei -- le, eil ihm
+	bey -- zu -- ſte --
+	hen. %50 finis
 }
 
 % BassoNotes = {

@@ -290,7 +290,7 @@ WerKannTenoreNotes = {
 		\appoggiatura d c4 b r8 d
 		\appoggiatura d c4 c a8\mf d
 		d c b4( a)
-		g2 r4 %50
+		b2 r4 %50
 		R2.*3
 		R2.\fermataMarkup \bar "||" %54 finis
 	}
