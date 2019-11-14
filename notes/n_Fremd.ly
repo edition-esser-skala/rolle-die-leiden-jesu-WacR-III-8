@@ -122,6 +122,31 @@ EinPurpurFremdNotes = {
 		a8 gis r e' dis16([ h)] cis8 h16([ gis)] a8
 		gis a16([ h)] h([ cis)] cis([ e)] gis,4( a8) fis
 		e4 r r2
+		R1
+		r2 r4 fis' %15
+		fis8 cis16([ d)] e8 e e4( d8) cis
+		\appoggiatura { h16[ cis] } d8 cis r cis h ais e'4
+		d8 cis r4 h8.([ cis16)] \appoggiatura d8 cis4
+		h8 e d cis fis4 \appoggiatura h,8 ais4
+		h r h cis\trill %20
+		h r r2
+		R1*2
+		r4 r8 a e'4 e
+		e8 a, e' g fis16([ e)] d8 r fis %25
+		e4 d cis8.([ d16)] e8 e
+		d cis h a gis4 r
+		R1
+		r2 r4 r8 h
+		e4 gis \appoggiatura gis32 fis16([ e)] \appoggiatura e32 dis16([ cis)] h8 a %30
+		gis16([ fis)] e8 r e d'4 cis
+		fis e h8 d16([ h)] a8 gis
+		a4 e' r8 e e e
+		d4 cis r8 cis cis cis
+		h4 a fis' \appoggiatura a,8 gis4 %35
+		a e'8 a, d4 h
+		a r r2
+		R1
+		r2 \bar "||" %39 finis
 	}
 }
 
@@ -134,9 +159,29 @@ EinPurpurFremdLyrics = \lyricmode {
 	gab, in ſei -- ne Hand ihm
 	gab.
 	
-	ihr, die ihr euch des Frevels freuet,
+	ihr, %15
+	die ihr euch des Fre -- vels
+	freu -- et, ihr wißt nicht, ihr
+	wißt nicht, wen __ ihr
+	ſchmäht, ihr wißt nicht, wen ihr
+	ſchmäht, wen ihr %20
+	ſchmäht.
 	
-	Er rufet einſt in einem Wetter
+	
+	Er ru -- fet %24
+	einſt in ei -- nem Wet -- ter: Wo %25
+	iſt, o Ju -- da, wo,
+	wo iſt dein Pro -- phet?
+	
+	Er
+	ru -- fet einſt in ei -- nem %30
+	Wet -- ter: Wo iſt, o
+	Ju -- da, wo iſt dein Pro --
+	phet? Wo, wo iſt, o
+	Ju -- da, wo iſt, o
+	Ju -- da, dein Pro -- %35
+	phet? Wo iſt dein Pro --
+	phet? %37 finis
 }
 
 % FremdNotes = {
