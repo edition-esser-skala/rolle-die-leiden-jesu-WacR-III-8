@@ -211,3 +211,13 @@ WerKannOboeII = {
 		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
+
+IhrVaeterOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoIhrVaeter
+		R1*2 \bar "||"
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		
+	}
+}

@@ -343,6 +343,20 @@ WerKannSopranoLyrics = \lyricmode {
 	hen. %50 finis
 }
 
+IhrVaeterSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
+		R1*2 \bar "||"
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		
+	}
+}
+
+IhrVaeterSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

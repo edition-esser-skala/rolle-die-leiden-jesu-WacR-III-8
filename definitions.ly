@@ -271,6 +271,8 @@ tempoHoerestDu = \tempoMarkup "[Tempo deest]"
 	tempoHoerestDuB = \tempoMarkup "Andante"
 tempoEinPurpur = \tempoMarkup "Poco largo"
 	tempoEinPurpurB = \tempoMarkup "Poco vivace"
+tempoIhrVaeter = \tempoMarkup "[Tempo deest]"
+	tempoKreutzigeIhn = \tempoMarkup "Allegro"
 
 
 

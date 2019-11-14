@@ -427,6 +427,16 @@ EinPurpurViolinoI = {
 	}
 }
 
+IhrVaeterViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoIhrVaeter
+		R1*2 \bar "||"
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

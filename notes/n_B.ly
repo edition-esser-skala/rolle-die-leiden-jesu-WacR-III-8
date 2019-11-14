@@ -329,6 +329,20 @@ WerKannBassoLyrics = \lyricmode {
 	hen. %50 finis
 }
 
+IhrVaeterBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
+		R1*2 \bar "||"
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		
+	}
+}
+
+IhrVaeterBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

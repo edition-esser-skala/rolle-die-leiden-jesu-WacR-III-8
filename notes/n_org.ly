@@ -1096,6 +1096,20 @@ EinPurpurBassFigures = \figuremode {
 	r2 %39 finis
 }
 
+IhrVaeterOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoIhrVaeter
+		ais1~\pE
+		ais2 r \bar "||"
+		\key h \minor \grace s4 h2 \tempoKreutzigeIhn h'8\fE h h h
+	}
+}
+
+IhrVaeterBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

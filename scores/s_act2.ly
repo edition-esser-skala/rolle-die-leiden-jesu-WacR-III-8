@@ -457,50 +457,123 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.7" "D U E T T" "Ein Purpur, eine Dornenkrone"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EinPurpurViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\EinPurpurViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\EinPurpurViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fremdling"
+% 						\new Voice = "Fremd" { \dynamicUp \EinPurpurFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \EinPurpurFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \EinPurpurBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \EinPurpurBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EinPurpurOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\EinPurpurBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "D U E T T" "Ein Purpur, eine Dornenkrone"
+			movement = \movementTitle "2.8" "R E C I T A T I V,  C H O R" "Jhr Väter Jſraels ſeht"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \IhrVaeterOboeI \IhrVaeterOboeII
+					}
+				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EinPurpurViolinoI
+							\IhrVaeterViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EinPurpurViolinoII
+							\IhrVaeterViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\EinPurpurViola
+							\IhrVaeterViola
 						}
 				>>
+				\new Staff {
+					\set Staff.instrumentName = "Pilatus"
+					\new Voice = "Pilatus" { \dynamicUp \IhrVaeterPilatusNotes }
+				}
+				\new Lyrics \lyricsto Pilatus \IhrVaeterPilatusLyrics
 				\new ChoirStaff <<
+					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     P  R  I  E  S  T  E  R" \hspace #15 }
 					\new Staff {
-						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \EinPurpurFremdNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \IhrVaeterSopranoNotes }
 					}
-					\new Lyrics \lyricsto Fremd \EinPurpurFremdLyrics
+					\new Lyrics \lyricsto Soprano \IhrVaeterSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \EinPurpurBlindNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \IhrVaeterAltoNotes }
 					}
-					\new Lyrics \lyricsto Blind \EinPurpurBlindLyrics
+					\new Lyrics \lyricsto Alto \IhrVaeterAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \IhrVaeterTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IhrVaeterTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \IhrVaeterBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IhrVaeterBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EinPurpurOrgano
+						\IhrVaeterOrgano
 					}
 				>>
 				\new FiguredBass {
-					\EinPurpurBassFigures
+					\IhrVaeterBassFigures
 				}
 			>>
 			\layout { }

@@ -340,6 +340,20 @@ WerKannTenoreLyrics = \lyricmode {
 	hen.] %50 finis
 }
 
+IhrVaeterTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
+		R1*2 \bar "||"
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		
+	}
+}
+
+IhrVaeterTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -165,6 +165,22 @@ IchWaschePilatusLyrics = \lyricmode {
 	men. %45 finis
 }
 
+IhrVaeterPilatusNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
+		r8 cis' cis cis cis8. fis,16 fis4
+		g!2 g4 fis \bar "||"
+		\key h \minor \appoggiatura e4 d2 \tempoKreutzigeIhn
+	}
+}
+
+IhrVaeterPilatusLyrics = \lyricmode {
+	Jhr Vä -- ter Jſ -- ra -- els
+	ſeht, welch ein
+	Menſch!
+}
+
 % PilatusNotes = {
 % 	\relative c {
 % 		\clef bass
