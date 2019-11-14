@@ -94,12 +94,20 @@ HoerestDuFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHoerestDu
-		
+			\set Staff.timeSignatureFraction = 4/4
+		R1*6 %6
+		r2 r4 d'8 fis
+		e h r4 r2
+		R1*4 %12
+		R2
+		R1*5 \markVSE \bar "||" %18 finis
+		\unset Staff.timeSignatureFraction \key a \major \time 4/4
 	}
 }
 
 HoerestDuFremdLyrics = \lyricmode {
-	
+	Wo iſt %7
+	Je -- ſus? %8 finis
 }
 
 % FremdNotes = {

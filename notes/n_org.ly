@@ -982,7 +982,7 @@ HoerestDuOrgano = {
 		eis~ %15
 		eis4 r fis,8 fis16( a) a( cis) cis( fis)
 		fis8 a,16( cis) cis( fis) fis( a) a2
-		fis e4 e,8 e \bar "||" %18 finis
+		fis e4 e,8 e \markVSE \bar "||" %18 finis
 		\unset Staff.timeSignatureFraction \key a \major \time 4/4
 	}
 }
@@ -991,21 +991,21 @@ HoerestDuBassFigures = \figuremode {
 	<4 2>1
 	r
 	<4 2>2 <_+>
-	r1
-	r
-	r2 <7>
-	r1
-	<6>
-	r
-	r4 <6>2.
-	r1
-	r1
-	r2
+	r2 r8 <[6]>4.
+	<[\t]>1 %5
+	r2 <7 [_+]>
+	r2 <[5+]>
 	<6>1
 	r
+	r4 <[6+ _+]>2. %10
+	r1
+	r2 <[5+]>
 	r
-	r
-	<6\\>2 <_+>
+	<[6+ _+]>1
+	r %15
+	r2 <[5+]>
+	r <[6+ _+]>
+	<6\\> <_+> %18 finis
 }
 
 % Organo = {

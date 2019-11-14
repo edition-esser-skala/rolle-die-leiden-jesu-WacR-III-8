@@ -279,12 +279,48 @@ HoerestDuBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoHoerestDu
-		
+			\set Staff.timeSignatureFraction = 4/4
+		r2 g8 g g a
+		h! h h c d d r4
+		d r8 h gis4 gis
+		gis8 gis gis a a e r4
+		e'8 a, r a16 h c8 c c d %5
+		e e16 e e8 dis e4 r8 e
+		g e e cis d!4 r4
+		r gis,8 a h r16 h h8 cis
+		d4 d d8 d e h
+		cis16 cis cis8 r4 cis cis8 fis %10
+		fis cis cis d e e r e
+		e e e d h h r4
+		\time 2/4 R2
+		\time 4/4 r4 r16 gis cis his cis4 r8 cis
+		cis gis eis fis gis gis r a %15
+		h h cis gis a4 r
+		r2 r8. cis16 cis8 fis
+		dis dis r a16 gis h8 h r4 \markVSE \bar "||" %18 finis
+		\unset Staff.timeSignatureFraction \key a \major \time 4/4
 	}
 }
 
 HoerestDuBlindLyrics = \lyricmode {
+	Hö -- reſt du das
+	Häuf -- lein ſchwa -- cher Freun -- de?
+	Ach, ſie kla -- gen
+	den Pro -- phe -- ten Got -- tes!
+	A -- ber, wel -- ches Ohr iſt nicht ver -- %5
+	ſchlo -- ßen des Mit -- leids Stimm im
+	Sturm der Lei -- den -- ſchaft!
+	Sahſt du nicht, wie Krie -- ges --
+	knech -- te ſich um ihn ver --
+	ſam -- mel -- ten? Jhn hat Pi -- %10
+	la -- tus, gleich Ver -- bre -- chern, der
+	Gei -- ßel ü -- ber -- ge -- ben.
 	
+	Jch ir -- re nicht: dort
+	ſteigt er mit dem Rö -- mer das %15
+	Tri -- bu -- nal he -- rauf.
+	Jhr En -- gel
+	Got -- tes! welch ein An -- blick! %18 finis
 }
 
 % BlindNotes = {
