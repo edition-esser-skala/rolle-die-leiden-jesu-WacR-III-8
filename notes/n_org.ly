@@ -945,8 +945,8 @@ WerKannBassFigures = \figuremode {
 	<7>4 r4. <4 3>8
 	<7 _+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %40
 	r4 <_+> <5 2>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff
-	<_+>2 <5 2>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff
-	<_+>2 <7 _!>4
+	<6 4>4 <5 _+> <5 2>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6 4>4 <5 _+> <7 _!>
 	<6 4>8 <5 _+> <\t \t>4 <7>8 <6 5>
 	r <6 5> <6 4>4 <5 _+> %45
 	r <6> r

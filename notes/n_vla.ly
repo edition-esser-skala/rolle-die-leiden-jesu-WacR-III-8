@@ -323,7 +323,7 @@ OChristViola = {
 
 WerKannViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 3/4 \tempoWerKann
 		g4\fE b g
 		d' d, r
