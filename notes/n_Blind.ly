@@ -334,7 +334,7 @@ EinPurpurBlindNotes = {
 		e e e2~ %5
 		e8. cis16 h([ a)] gis([ fis)] e4 r
 		R1*7 %13
-		r4 \tempoEinPurpurB e' e8 h16([ cis)] d8 d
+		r4 \tempoEinPurpurB e' e8 h16([ cis)] d!8 d
 		d4( cis8) h a16([ gis)] fis8 r4 %15
 		R1
 		r4 e' d8 cis r cis
