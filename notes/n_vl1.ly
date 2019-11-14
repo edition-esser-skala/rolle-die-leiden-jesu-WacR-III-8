@@ -368,16 +368,16 @@ WerKannViolinoI = {
 		b4( a8) <d, a' fis'> <d b' g'>[ b']
 		b4( a8) <d, a' fis'> <d b' g'>[ b']
 		b a a'4. c,8
-		b a g4 fis\trill
+		b a g4 fis\trill %45
 		g d' \once \slurDashed g,16( b d g)
 		\appoggiatura f8 es4\trill d g,16( b d g)
 		\appoggiatura f8 es4\trill d r
 		R2.
-		r4 r g,16(\f b d g)
+		r4 r g,16(\f b d g) %50
 		\appoggiatura f8 es4\trill d g,16( b d g)
 		\appoggiatura d8 c4\trill b a~
 		a8 c4 a8(\p g fis)
-		fis( g) g2\fermata \bar "||"
+		fis( g) g2\fermata \bar "||" %54 finis
 	}
 }
 

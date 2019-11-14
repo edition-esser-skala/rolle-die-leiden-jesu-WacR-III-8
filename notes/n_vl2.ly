@@ -325,6 +325,58 @@ WerKannViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWerKann
-		
+		d'8\fE([ b)] g d4 g8
+		g4( fis8.) g16 es4~
+		es8 es d( c) b( a)
+		b2.
+		b'8\mf([ g)] d d4 g8 %5
+		g4( fis8) g a4~
+		a8 es d( c) b( a)
+		g( a) g4 g'16( h d g)
+		\appoggiatura f8 es4\trill d g,16( b d g)
+		\appoggiatura f8 es4\trill d4 b8 a %10
+		g c16( d) es8([ c) g( c,)]
+		\appoggiatura c b4\trill a8 a[\p b c]
+		c4( b8) r r4
+		r r8 a'\f b c
+		b b b4 a8 b16 c %15
+		\appoggiatura c8 b4 b, r
+		R2.
+		r4 r8 a\p b c
+		d4. es16( d) d( c) b8
+		b a4 r8 r4 %20
+		r r8 a( b c)
+		c4( b8) a'[\fp b c]
+		b b b4 a\trill
+		b2 b16(\f d f b)
+		\appoggiatura a8 g4\trill f b,16( d f b) %25
+		\appoggiatura f8 es4\trill d8 b4 b8
+		a g4 es8( d c)
+		c4( d8) r r4
+		R2.*2 %30
+		r4 r f\p
+		f4 f es8 d
+		d16.( f32) es8 d h'[-!\f c-! d-!]
+		c4 es,8 c' h c
+		c4 h8 f' es d %35
+		c as16( f) es4 d\trill
+		es2 es8\p es
+		es4. d16( es) f8-! es-!
+		\appoggiatura es d4 c r
+		R2. %40
+		r4 r8 <d a' fis'>\f <d b' g'>[ g]
+		g4( fis8) <d a' fis'> <d b' g'>[ g]
+		g4( fis8) <d a' fis'> <d b' g'>[ g]
+		g fis c'4. a8
+		g es16( c) b4 a\trill %45
+		b g' \once \slurDashed g16( b d g)
+		\appoggiatura f8 es4\trill d g,16( b d g)
+		\appoggiatura f8 es4\trill d r
+		R2.
+		r4 r g,16(\f b d g) %50
+		\appoggiatura f8 es4\trill d g,16( b d g)
+		\appoggiatura d8 c4\trill b8 g4 g8(
+		fis) es!4 c8(\p b a)
+		a( b) b2\fermata \bar "||" %54 finis
 	}
 }
