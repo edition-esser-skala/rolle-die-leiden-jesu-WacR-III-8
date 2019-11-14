@@ -325,7 +325,59 @@ WerKannViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWerKann
-		
+		d'8\fE([ b)] g d4 b'8
+		b4( a8.) b16 c4~
+		c8 c b( a) g( fis)
+		g d d2
+		d'8\mf([ b)] g d4 b'8 %5
+		b4( a8) b c4~
+		c8 c b( a) g( fis)
+		g( fis) g4 g16( h d g)
+		\appoggiatura f8 es4\trill d g,16( b d g)
+		\appoggiatura f8 es4\trill d4 d %10
+		g~ g8( es) c( a)
+		\appoggiatura a g4\trill fis8 fis[\p g a]
+		a4( g8) r r4
+		r r8 c\f d es
+		f g c,4. d16 es %15
+		\appoggiatura es8 d4 b, r
+		R2.
+		r4 r8 c\p d es
+		f4. g16( f) f( es) d8
+		d c4 r8 r4 %20
+		r r8 c( d es)
+		es4( d8) c'[\fp d es]
+		f es16( c) b4 c\trill
+		b2 b16(\f d f b)
+		\appoggiatura a8 g4\trill f b,16( d f b) %25
+		\appoggiatura f8 es4\trill d c~
+		c8 es4 c8( b a)
+		a4( b8) r r4
+		R2.*2 %30
+		r4 r c\p
+		h d c8 h
+		h16.( d32) c8 h d[-!\f es-! f-!]
+		g es c[ c d es]
+		f d h[ as' g f] %35
+		es f16( d) c4 h\trill
+		c8( g) es( c) g[\p g']
+		f2 f4
+		f2 r4
+		R2. %40
+		r4 r8 <d a' fis'>\f <d b' g'>[ b']
+		b4( a8) <d, a' fis'> <d b' g'>[ b']
+		b4( a8) <d, a' fis'> <d b' g'>[ b']
+		b a a'4. c,8
+		b a g4 fis\trill
+		g d' \once \slurDashed g,16( b d g)
+		\appoggiatura f8 es4\trill d g,16( b d g)
+		\appoggiatura f8 es4\trill d r
+		R2.
+		r4 r g,16(\f b d g)
+		\appoggiatura f8 es4\trill d g,16( b d g)
+		\appoggiatura d8 c4\trill b a~
+		a8 c4 a8(\p g fis)
+		fis( g) g2\fermata \bar "||"
 	}
 }
 

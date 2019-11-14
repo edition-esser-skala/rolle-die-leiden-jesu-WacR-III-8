@@ -412,14 +412,14 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\transpose c c, \WerKannOrgano
+						\WerKannOrgano
 					}
 				>>
 				\new FiguredBass {
 					\WerKannBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 2 = 45 }
 		}
 	}
