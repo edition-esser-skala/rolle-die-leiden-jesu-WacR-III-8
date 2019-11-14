@@ -249,12 +249,95 @@ WerKannTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \minor \time 3/4 \autoBeamOff \tempoWerKann
-		
+		R2.*4
+		\mvTrr b4\mfE^\tuttiE d d %5
+		d d8 d es4~
+		es8 es d([ c)] b([ a)]
+		g([ a)] b4 d
+		\appoggiatura d8 c4 b! r8 d
+		\appoggiatura d c4 b g8 f %10
+		g4( c) c
+		\appoggiatura c8 b4 a8 \mvTr a\pE^\solo b c
+		c4( b8) r r4
+		r r8 \mvTr f'\fE^\tutti f g
+		f b, f4 f %15
+		f2 r4
+		R2.
+		r4 r8 \mvTr c'\pE^\solo d es
+		f4. g16([ f)] f([ es)] d8
+		d c r4 r %20
+		r r8 c d es
+		es4( d8) \mvTrh f\fpE^\tutti f g
+		f g16([ es)] d4 es\trill
+		d2 r4
+		R2.*6 %30
+		r4 r8 \mvTr c\pE^\solo f f
+		f4. f8 es d
+		\grace { d16.[ f32] } es4 d8 \mvTr h\fE^\tutti c d
+		c4 c h8 c
+		c4 h8 d es f %35
+		es d es4 d
+		es r8 \mvTr g,\pE^\solo es' es
+		es4. d16([ es)] f8 es
+		\appoggiatura es d4 c8 r r4
+		R2. %40
+		r4 r8 \mvTr d\fE^\tutti c16([ b)] a([ g)]
+		d'4 r8 d d d
+		d4 d8 d cis cis
+		d4 d8 fis([ g)] d
+		d es16([ c)] b4( a) %45
+		b d-! r8 d
+		\appoggiatura d c4 b r8 d
+		\appoggiatura d c4 c a8\mf d
+		d c b4( a)
+		g2 r4 %50
+		R2.*3
+		R2.\fermataMarkup \bar "||" %54 finis
 	}
 }
 
 WerKannTenoreLyrics = \lyricmode {
+	[Wer kann des %5
+	From -- men,] des From --
+	men Lei -- den
+	[fa -- ßen? Gott
+	Ja -- cobs, Gott
+	Ja -- cobs, haſt du %10
+	ihn __ ver --
+	la -- ßen,] den Men -- ſchen --
+	freund,
+	[den Men -- ſchen --
+	freund und dei -- nen %15
+	Freund,]
 	
+	Gott Ja -- cobs,
+	haſt du  ihn ver --
+	la -- ßen, %20
+	und dei -- nen
+	Freund, [den Men -- ſchen --
+	freund und dei -- nen
+	Freund.]
+	
+	Sie hö -- ren %31
+	nicht in ih -- rem
+	Grim -- me, [ſehn nicht das
+	Au -- ge, nicht das
+	Au -- ge, ſehn nicht das %35
+	Au -- ge, das ihn
+	weint.] Du Herr er --
+	hörſt auch die -- ſes
+	Fle -- hen.
+	%40
+	[O ei -- le
+	du, ihm bey -- zu --
+	ſte -- hen, ihm bey -- zu --
+	ſte -- hen, eil, ihm
+	bey -- zu -- ſte -- %45
+	hen, Herr! O
+	ei -- le, o
+	ei -- le, eil ihm
+	bey -- zu -- ſte --
+	hen.] %50 finis
 }
 
 % TenoreNotes = {
