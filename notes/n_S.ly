@@ -434,7 +434,14 @@ SehtWelchSopranoNotes = {
 		e d
 		cis h %5
 		a( g)
-		fis\fermata \bar ":|." fis
+		fis\fermata fis
+		h ais
+		h cis
+		d\fermata d
+		e d
+		cis h %5
+		a( g)
+		fis\fermata fis
 		fis e
 		fis gis
 		a\fermata fis %10
@@ -450,33 +457,94 @@ SehtWelchSopranoNotes = {
 	}
 }
 
-SehtWelchSopranoLyrics = \lyricmode {
-% 	Seht! welch ein Menſch, ach, ſeht!
-% 	Schmerzhafte Dornen krönen
-% 	ſein majeſtätiſch Haupt,
-% 	doch mag die Welt dich höhnen.
-% 	Mein Jeſus, mir bleibſt du
-% 	ein König auch noch hier.
-% 	Voll Ehrerbietigkeit
-% 	beug ich die Knie vor dir.
-% 	
-% 	Seht! welch ein Menſch! er muß
-% 	vom Rohrſtab frech zerſchlagen
-% 	noch in der eignen Hand
-% 	des Frevlers Werkzeug tragen.
-% 	Ach wißt, daß dieſe Hand
-% 	ein eiſern Zepter trägt.
-% 	Sorgt, Frevler, daß ſie euch
-% 	nicht einſt im Zorn zerſchlägt.
-% 	
-% 	Seht! welch ein Menſch! mein Herz
-% 	im Leibe will mir brechen,
-% 	ob dieſe Leiden ſchon
-% 	mir ewgen Preis verſprechen.
-% 	Herr! ich kan ihrer nie
-% 	mich ohne Wehmuth freun.
-% 	Ach, laß mich ja für dich
-% 	nie Spott und Schande ſcheun.
+SehtWelchLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Seht! welch ein
+	Menſch, ach,
+	ſeht! Schmerz --
+	haf -- te
+	Dor -- nen %5
+	krö --
+	nen ſein
+	ma -- je --
+	ſtä -- tiſch
+	Haupt, doch %10
+	mag die
+	Welt dich
+	höh --
+	nen. Mein
+	Je -- ſus, %15
+	mir bleibſt
+	du ein
+	Kö -- nig
+	auch noch
+	hier. Voll %20
+	Ehr -- er --
+	bie -- tig --
+	keit beug
+	ich die
+	Knie vor %25
+	dir. %26 FINIS
+}
+
+SehtWelchLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Seht! welch ein
+	Menſch! er
+	muß vom
+	Rohr -- ſtab
+	frech zer -- %5
+	ſchla --
+	gen noch
+	in der
+	eig -- nen
+	Hand des %10
+	Frev -- lers
+	Werk -- zeug
+	tra --
+	gen. Ach
+	wißt, daß %15
+	die -- ſe
+	Hand ein
+	ei -- ſern
+	Zep -- ter
+	trägt. Sorgt, %20
+	Frev -- ler,
+	daß ſie
+	euch nicht
+	einſt im
+	Zorn zer -- %25
+	ſchlägt. %26 FINIS
+}
+
+SehtWelchLyricsC = \lyricmode {
+	\set stanza = #"3 "
+	Seht! welch ein
+	Menſch! mein
+	Herz im
+	Lei -- be
+	will mir %5
+	bre --
+	chen, ob
+	die -- ſe
+	Lei -- den
+	ſchon mir %10
+	ew -- gen
+	Preis ver --
+	ſpre --
+	chen. Herr!
+	ich kan %15
+	ih -- rer
+	nie mich
+	oh -- ne
+	Weh -- muth
+	freun. Ach, %20
+	laß mich
+	ja für
+	dich nie
+	Spott und
+	Schan -- de %25
+	ſcheun. %26 FINIS
 }
 
 % SopranoNotes = {

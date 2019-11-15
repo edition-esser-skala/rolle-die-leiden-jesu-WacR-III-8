@@ -1211,20 +1211,27 @@ SehtWelchOrgano = {
 		d,\fermata h'
 		ais h
 		fis g %5
-		a!1 \noBreak
-		d,2\fermata \bar ":|." d \noBreak
-		fis a
+		a!1
+		d,2\fermata h
+		d cis
+		h4( h') a2
+		d,\fermata h' %10
+		ais h
+		fis g
+		a!1
+		d,2\fermata d
+		fis a %15
 		d, h
-		a\fermata ais %10
+		a\fermata ais
 		h4( cis) d2
 		g a
-		d,\fermata d
+		d,\fermata d %20
 		fis a
-		a gis %15
+		a gis
 		fis\fermata d4( cis)
 		h2 g'
-		fis fis
-		h,\fermata \bar "|." %19 FINIS
+		fis fis %25
+		h,\fermata \bar "|." %26 FINIS
 	}
 }
 
@@ -1236,18 +1243,25 @@ SehtWelchBassFigures = \figuremode {
 	r %5
 	<[8 6]>2 <[7 5]>
 	r1
-	<[6]>
+	<[6]>2 <[6\\]>
+	r1
+	r %10
+	<[6 5]>
+	r
+	<[8 6]>2 <[7 5]>
+	r1
+	<[6]> %15
 	r2 <[6\\]>
-	r <[6 5]> %10
+	r <[6 5]>
 	<6 3>1
 	<6 5>2 <3>
-	r1
+	r1 %20
 	<6>
-	<4\+ 2>2 <6\\> %15
+	<4\+ 2>2 <6\\>
 	r <6>4 <6\\>
 	r2 <6>
-	<6 4> <5 _+>
-	r2 %19 FINIS
+	<6 4> <5 _+> %25
+	r2 %26 FINIS
 }
 
 % Organo = {

@@ -206,6 +206,18 @@ violinGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+threeStanzaDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 22)
+			 (minimum-distance . 22)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 18)
+       (minimum-distance . 18)
+       (padding . -100)
+			 (stretchability . 0)) }
+
 twofourtime = {
 	\overrideTimeSignatureSettings
 		2/4
@@ -435,6 +447,8 @@ tempoSehtWelch = \tempoMarkup "[Tempo deest]"
 		\Lyrics
 		\override LyricText.font-size = #-1
 		\override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #-100
+		\override StanzaNumber.font-series = #'medium
+		\override StanzaNumber.font-size = #-1
 	}
 	\context {
 		\FiguredBass

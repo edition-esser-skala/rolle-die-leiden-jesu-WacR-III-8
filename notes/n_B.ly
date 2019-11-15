@@ -423,30 +423,33 @@ SehtWelchBassoNotes = {
 	\relative c {
 		\clef bass
 		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
-		\partial 2 h2\fE d cis
+		\partial 2 h2 d cis
 		h4( h') a2
 		d,\fermata h'
 		ais h
 		fis g %5
-		a!1 \noBreak
-		d,2\fermata \bar ":|." d \noBreak
-		fis a
+		a!1
+		d,2\fermata h
+		d cis
+		h4( h') a2
+		d,\fermata h' %10
+		ais h
+		fis g
+		a!1
+		d,2\fermata d
+		fis a %15
 		d, h
-		a\fermata ais %10
+		a\fermata ais
 		h4( cis) d2
 		g a
-		d,\fermata d
+		d,\fermata d %20
 		fis a
-		a gis %15
+		a gis
 		fis\fermata d4( cis)
 		h2 g'
-		fis fis
-		h,\fermata \bar "|." %19 FINIS
+		fis fis %25
+		h,\fermata \bar "|." %26 FINIS
 	}
-}
-
-SehtWelchBassoLyrics = \lyricmode {
-	
 }
 
 % BassoNotes = {

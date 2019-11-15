@@ -441,24 +441,27 @@ SehtWelchTenoreNotes = {
 		fis fis
 		fis d %5
 		d( cis)
-		a\fermata \bar ":|." a
+		a\fermata h
+		h e
+		d e
+		fis\fermata fis %10
+		fis fis
+		fis d
+		d( cis)
+		a\fermata a
+		a a %15
+		a h
+		cis\fermata cis
+		h a
+		h a
+		fis\fermata a %20
 		a a
 		a h
-		cis\fermata cis %10
-		h a
-		h a
-		fis\fermata a
-		a a
-		a h %15
 		cis\fermata d4( e)
 		fis2 e
-		fis e
-		d\fermata \bar "|." %19 FINIS
+		fis e %25
+		d\fermata \bar "|." %26 FINIS
 	}
-}
-
-SehtWelchTenoreLyrics = \lyricmode {
-	
 }
 
 % TenoreNotes = {

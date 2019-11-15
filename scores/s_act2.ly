@@ -614,35 +614,43 @@
 							\SehtWelchViola
 						}
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \threeStanzaDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \SehtWelchSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SehtWelchSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SehtWelchLyricsA
+					\new Lyrics \lyricsto Soprano \SehtWelchLyricsB
+					\new Lyrics \lyricsto Soprano \SehtWelchLyricsC
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \SehtWelchAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SehtWelchAltoLyrics
+					\new Lyrics \lyricsto Alto \SehtWelchLyricsA
+					\new Lyrics \lyricsto Alto \SehtWelchLyricsB
+					\new Lyrics \lyricsto Alto \SehtWelchLyricsC
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \SehtWelchTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SehtWelchTenoreLyrics
+					\new Lyrics \lyricsto Tenore \SehtWelchLyricsA
+					\new Lyrics \lyricsto Tenore \SehtWelchLyricsB
+					\new Lyrics \lyricsto Tenore \SehtWelchLyricsC
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \SehtWelchBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SehtWelchBassoLyrics
+					\new Lyrics \lyricsto Basso \SehtWelchLyricsA
+					\new Lyrics \lyricsto Basso \SehtWelchLyricsB
+					\new Lyrics \lyricsto Basso \SehtWelchLyricsC
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\transpose c c, \SehtWelchOrgano
+						\SehtWelchOrgano
 					}
 				>>
 				\new FiguredBass {
