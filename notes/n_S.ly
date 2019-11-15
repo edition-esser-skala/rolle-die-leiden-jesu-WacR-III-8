@@ -437,23 +437,23 @@ SehtWelchSopranoNotes = {
 		fis\fermata fis
 		h ais
 		h cis
-		d\fermata d
+		d\fermata d %10
 		e d
-		cis h %5
+		cis h
 		a( g)
 		fis\fermata fis
-		fis e
+		fis e %15
 		fis gis
-		a\fermata fis %10
+		a\fermata fis
 		g fis
 		e e
-		d\fermata fis
+		d\fermata fis %20
 		fis e
-		fis gis %15
+		fis gis
 		a\fermata h4( cis)
 		d2 e
-		d cis
-		h\fermata \bar "|." %19 FINIS
+		d cis %25
+		h\fermata \bar "|." %26 FINIS
 	}
 }
 

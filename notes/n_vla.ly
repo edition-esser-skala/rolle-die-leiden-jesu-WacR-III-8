@@ -477,7 +477,31 @@ SehtWelchViola = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 h2\fE h e
+		d e
+		fis\fermata fis
+		fis fis
+		fis d %5
+		d( cis)
+		a\fermata h
+		h e
+		d e
+		fis\fermata fis %10
+		fis fis
+		fis d
+		d( cis)
+		a\fermata a
+		a a %15
+		a h
+		cis\fermata cis
+		h a
+		h a
+		fis\fermata a %20
+		a a
+		a h
+		cis\fermata d4( e)
+		fis2 e
+		fis e %25
+		d\fermata \bar "|." %26 FINIS
 	}
 }

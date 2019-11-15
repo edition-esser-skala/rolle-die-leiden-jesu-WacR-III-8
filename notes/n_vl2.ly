@@ -477,7 +477,31 @@ SehtWelchViolinoII = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 d2\fE fis fis
+		fis a
+		a\fermata h
+		cis h
+		a g %5
+		fis( e)
+		d\fermata d
+		fis fis
+		fis a
+		a\fermata h %10
+		cis h
+		a g
+		fis( e)
+		d\fermata d
+		d cis %15
+		d d
+		e\fermata e
+		d d
+		d cis
+		d\fermata d %20
+		d cis
+		dis eis
+		fis\fermata fis4( ais)
+		h2 h
+		h ais %25
+		fis\fermata \bar "|." %26 FINIS
 	}
 }

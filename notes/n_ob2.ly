@@ -257,7 +257,31 @@ SehtWelchOboeII = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 fis2\fE h ais
+		h cis
+		d\fermata d
+		e d
+		cis h %5
+		a( g)
+		fis\fermata fis
+		h ais
+		h cis
+		d\fermata d %10
+		e d
+		cis h
+		a( g)
+		fis\fermata fis
+		fis e %15
+		fis gis
+		a\fermata fis
+		g fis
+		e e
+		d\fermata fis %20
+		fis e
+		fis gis
+		a\fermata h4( cis)
+		d2 e
+		d cis %25
+		h\fermata \bar "|." %26 FINIS
 	}
 }
