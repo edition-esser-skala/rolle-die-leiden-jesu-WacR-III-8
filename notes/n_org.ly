@@ -1119,7 +1119,7 @@ IhrVaeterOrgano = {
 		cis h a4 d,8 d16 d fis8 gis
 		a2 a8 h16 cis d8 d,
 		g4. gis8 a a a h16 cis
-		d4 g,8 gis a4 a, \mark \markup { \musicglyph #"scripts.ufermata" } %20
+		d4 g,8 gis a4 a, \markFermata %20
 		r4 a'8 a a4 a,8 a'
 		a4 a,8 g' fis e d e
 		fis e d e fis e fis gis
