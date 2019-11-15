@@ -432,43 +432,43 @@ IhrVaeterViolinoII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoIhrVaeter
 		R1*2 \bar "||"
-		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
-		
-% 		a,8\fE a16 a h cis d4. cis8
-% 		h h16 h cis8 dis e4 r
-% 		r2 d8 d16 d e fis
-% 		g4. fis8 e e fis gis
-% 		a4 a8 g fis fis g a %15
-% 		h a g fis g g a h
-% 		e, d cis g' fis2
-% 		e8 a16 a h8 cis d4. d8
-% 		d cis16 d e8 d d4 cis8 e
-% 		d fis e d d4 cis \markFermata %20
-% 		R1*3
-% 		r4 a a a4 a,8 a'
-% 		a4 a,8 g' fis e fis g %25
-% 		a g fis g a g fis gis
-% 		a e cis d e d cis d
-% 		e d e fis h4 g8 a
-% 		h a g a h a h c
-% 		fis,4 g8 a h a g a %30
-% 		h a g a a g fis g
-% 		a g fis g a4 d,
-% 		r a'8 a a4 a,8 a'
-% 		a4 a,8 g'' fis e d16 a cis a
-% 		d a cis a d a cis a d a cis a d8 h %35
-% 		fis4 e\trill fis16 a d cis d a cis a
-% 		d a cis a d a cis a d a cis a d8 d
-% 		d4 d,8 d' d4 h8 g
-% 		d4 r8 d' d4 h8 g
-% 		d4 fis8 a d a fis a %40
-% 		d a r4 h g8 g
-% 		a4 a, h r
-% 		h' g8 e a4 a,
-% 		d d d r \bar "||"
-% 		\key c \major \tempoIhrWollts fis1\pE %45
-% 		g2 dis
-% 		e2 e4 r
-% 		r fis h,2 \bar "||" %48 finis
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn fis16\fE fis fis fis ais ais ais ais
+		h h d fis h fis d h ais ais ais ais h h h h
+		h h h h d d d d d d d d cis8 cis
+		cis2 \tempoKannNur r2
+		R1*4 \bar "||" %10
+		\tempoLaessestDu a,8\fE a16 a h8 cis d4. cis8
+		h h16 h cis8 dis e4 r
+		r2 d8 d16 d e8 fis
+		g4. fis8 e e fis gis
+		a4 a8 g fis fis g a %15
+		h a g fis g g a h
+		e, d cis g' fis2
+		e8 a16 a h8 cis d4. d8
+		d cis16 d e8 d d4 cis8 e
+		d fis e d d4 cis \markFermata %20
+		R1*3
+		r4 a8 a a4 a,8 a'
+		a4 a,8 g' fis e fis g %25
+		a g fis g a g fis gis
+		a e cis d e d cis d
+		e d e fis h4 g8 a
+		h a g a h a h c
+		fis,4 g8 a h a g a %30
+		h a g a a g fis g
+		a g fis g a4 d,
+		r a'8 a a4 a,8 a'
+		a4 \kneeBeam a,8 g'' fis e d16 a cis a
+		d a cis a d a cis a d a cis a d8 h %35
+		fis4 e\trill fis16 a d cis d a cis a
+		d a cis a d a cis a d a cis a d8 d
+		d4 d,8 d' d16 d, e fis g a h cis
+		d d, fis a d d, fis a d d, e fis g a h cis
+		d d, fis a d a cis a d a cis a d a cis a %40
+		d8 cis r4 g'8.(\trill fis32 g) h16 g fis e
+		d4 cis d r
+		g8 h16 g e8 e d4 cis\trill
+		d8 d,16 fis a8 fis16 a <fis d'>4 r \bar "||"
+		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 	}
 }
