@@ -348,13 +348,83 @@ IhrVaeterAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
 		R1*2 \bar "||"
-		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn fis8 fis16 fis ais8 ais16 ais
+		h2 ais8 ais16 ais h8 h16 h
+		h4 h8 h16 h h4 ais8 ais16 ais %5
+		ais?2 \tempoKannNur r
+		R1*4 \bar "||" %10
+		\tempoLaessestDu R1*2
+		r2 d,8 d16 d e8 fis
+		g4 r8 fis e e fis gis
+		a4 a8 g fis fis g a %15
+		h([ a)] g fis g g a h
+		a a16 a h8 g fis2
+		e8 a16 a h8 cis d4 r8 d
+		d cis16([ d)] e8 d d4 cis8 a
+		a a h d a4 a \markFermata %20
+		R1*3
+		r4 a8 a a4 a,8 a'
+		a4 a,8 g' fis([ e)] fis g %25
+		a([ g)] fis g a([ g)] fis gis
+		a4 cis,8 d e([ d)] cis d
+		e([ d)] e fis h4 g8 a
+		h([ a)] g a h([ a)] h c
+		fis,4 g8 a h([ a)] g a %30
+		h([ a)] g a a4 fis8 g
+		a([ g)] fis g a4 d,
+		r a'8 a a4 a,8 a'
+		a4 a,8 a' a4 a8 a
+		a4 a8 a a4 a8 h %35
+		a2 a4 r
+		r2 r4 d8 d
+		d4 d,8 d' d4 h8 g
+		d4 r8 d' d4 h8 g
+		d4 a'8 a a4 a8 a %40
+		a a r4 g h8 h
+		a4( g) fis r
+		h g8 e a2
+		d,4 r r2 \bar "||"
+		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 		
 	}
 }
 
 IhrVaeterAltoLyrics = \lyricmode {
+	[Kreu -- tzi -- ge, kreu -- tzi -- ge %3
+	ihn, kreu -- tzi -- ge, kreu -- tzi -- ge
+	ihn, kreu -- tzi -- ge ihn, kreu -- tzi -- ge %5
+	ihn!]
 	
+	Lä -- ßeſt du die -- ſen %13
+	los, biſt du des Kay -- ſers
+	Freund nicht, biſt du des Kay -- ſers %15
+	Freund nicht, des Kay -- ſers Freund nicht.
+	Lä -- ßeſt du die -- ſen los,
+	lä -- ßeſt du die -- ſen los, biſt
+	du des Kay -- ſers Freund nicht, biſt
+	du des Kay -- ſers Freund nicht. %20
+	
+	Wer ſich ſel -- ber zum %24
+	Kö -- ni -- ge macht, der iſt %25
+	wi -- der den Kay -- ser, den
+	Kay -- ser, iſt wi -- der, iſt
+	wi -- der den Kay -- ser, iſt
+	wi -- der, iſt wi -- der den
+	Kay -- ser, iſt wi -- der, iſt %30
+	wi -- der den Kay -- ser, iſt
+	wi -- der den Kay -- ser.
+	Wer ſich ſel -- ber zum
+	Kö -- ni -- ge macht, der iſt
+	wi -- der, iſt wi -- der den %35
+	Kay -- ser.
+	[Wer ſich
+	ſel -- ber zum Kö -- ni -- ge
+	macht, zum Kö -- ni -- ge
+	macht, der iſt wi -- der den %40
+	Kay -- ser, wi -- der den
+	Kay -- ser,
+	wi -- der den Kay --
+	ser.] %44 finis
 }
 
 % AltoNotes = {
