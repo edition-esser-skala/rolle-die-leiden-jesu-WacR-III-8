@@ -429,7 +429,46 @@ IhrVaeterViola = {
 		\clef treble
 		\key c \major \time 4/4 \tempoIhrVaeter
 		R1*2 \bar "||"
-		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn d16\fE d d d e e e e
+		fis2 e16 e e e fis fis fis fis
+		gis gis gis gis h h h h h h h h ais8 ais
+		ais?2 \tempoKannNur r2
+		R1*4 \bar "||" %10
+		\tempoLaessestDu a,8\fE a16 a h8 cis d4. cis8
+		h h16 h cis8 dis e4. d8
+		cis cis d e fis e d4
+		d8 d16 d e8 fis h, g a h
+		a e' d cis d d16 d e8 fis %15
+		g4. fis8 e e fis gis
+		a4 a, a8 a16 a a8 gis
+		a2 a8 h16 cis d8 a
+		h4. gis8 a a a a'
+		a4 h8 gis a4 a, \markFermata %20
+		R1
+		r2 r4 d8 d
+		d4 d,8 d' d4 d,8 d'
+		cis h a h cis h a h
+		cis h a cis d4 d8 e %25
+		fis e d e fis e d e
+		a,4 a e' e
+		r2 r4 e8 e
+		e4 e,8 e' e4 e,8 e'
+		d4 h8 c d c h c %30
+		d c h cis d4 d8 d
+		d4 fis8 e d4 d8 e
+		e d cis d e d cis d
+		e d cis e d cis a a'
+		a a a a a a a g %35
+		a4 a, d a'8 a
+		a4 a8 a a4 a8 d
+		d4 d,8 d' d16 d, e fis g a h cis
+		d d, fis a d d, fis a d d, e fis g a h cis
+		d d, fis a a8 a a a a a %40
+		a a r4 d h8 h
+		fis4 g fis r
+		d' h8 h a4( a,)
+		d <fis a,>8 q q4 r \bar "||"
+		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 		
 	}
 }
