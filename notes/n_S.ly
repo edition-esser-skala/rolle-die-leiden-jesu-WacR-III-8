@@ -451,7 +451,32 @@ SehtWelchSopranoNotes = {
 }
 
 SehtWelchSopranoLyrics = \lyricmode {
-	
+% 	Seht! welch ein Menſch, ach, ſeht!
+% 	Schmerzhafte Dornen krönen
+% 	ſein majeſtätiſch Haupt,
+% 	doch mag die Welt dich höhnen.
+% 	Mein Jeſus, mir bleibſt du
+% 	ein König auch noch hier.
+% 	Voll Ehrerbietigkeit
+% 	beug ich die Knie vor dir.
+% 	
+% 	Seht! welch ein Menſch! er muß
+% 	vom Rohrſtab frech zerſchlagen
+% 	noch in der eignen Hand
+% 	des Frevlers Werkzeug tragen.
+% 	Ach wißt, daß dieſe Hand
+% 	ein eiſern Zepter trägt.
+% 	Sorgt, Frevler, daß ſie euch
+% 	nicht einſt im Zorn zerſchlägt.
+% 	
+% 	Seht! welch ein Menſch! mein Herz
+% 	im Leibe will mir brechen,
+% 	ob dieſe Leiden ſchon
+% 	mir ewgen Preis verſprechen.
+% 	Herr! ich kan ihrer nie
+% 	mich ohne Wehmuth freun.
+% 	Ach, laß mich ja für dich
+% 	nie Spott und Schande ſcheun.
 }
 
 % SopranoNotes = {

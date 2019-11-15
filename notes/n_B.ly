@@ -423,8 +423,25 @@ SehtWelchBassoNotes = {
 	\relative c {
 		\clef bass
 		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 h2\fE d cis
+		h4( h') a2
+		d,\fermata h'
+		ais h
+		fis g %5
+		a!1 \noBreak
+		d,2\fermata \bar ":|." d \noBreak
+		fis a
+		d, h
+		a\fermata ais %10
+		h4( cis) d2
+		g a
+		d,\fermata d
+		fis a
+		a gis %15
+		fis\fermata d4( cis)
+		h2 g'
+		fis fis
+		h,\fermata \bar "|." %19 FINIS
 	}
 }
 

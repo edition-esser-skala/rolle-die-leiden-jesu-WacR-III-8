@@ -435,8 +435,25 @@ SehtWelchTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 h2 h e
+		d e
+		fis\fermata fis
+		fis fis
+		fis d %5
+		d( cis)
+		a\fermata \bar ":|." a
+		a a
+		a h
+		cis\fermata cis %10
+		h a
+		h a
+		fis\fermata a
+		a a
+		a h %15
+		cis\fermata d4( e)
+		fis2 e
+		fis e
+		d\fermata \bar "|." %19 FINIS
 	}
 }
 

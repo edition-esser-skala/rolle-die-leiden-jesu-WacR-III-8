@@ -431,8 +431,25 @@ SehtWelchAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 d2 fis fis
+		fis a
+		a\fermata h
+		cis h
+		a g %5
+		fis( e)
+		d\fermata \bar ":|." d
+		d cis
+		d d
+		e\fermata e %10
+		d d
+		d cis
+		d\fermata d
+		d cis
+		dis eis %15
+		fis\fermata fis4( ais)
+		h2 h
+		h ais
+		fis\fermata \bar "|." %19 FINIS
 	}
 }
 

@@ -642,7 +642,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SehtWelchOrgano
+						\transpose c c, \SehtWelchOrgano
 					}
 				>>
 				\new FiguredBass {

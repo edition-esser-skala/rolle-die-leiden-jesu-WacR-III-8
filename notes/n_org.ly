@@ -1206,7 +1206,7 @@ SehtWelchOrgano = {
 	\relative c {
 		\clef bass
 		\key h \minor \time 4/4 \tempoSehtWelch
-		\partial 2 h\fE d cis
+		\partial 2 h2\fE d cis
 		h4( h') a2
 		d,\fermata h'
 		ais h
@@ -1234,11 +1234,11 @@ SehtWelchBassFigures = \figuremode {
 	r
 	<[6 5]>
 	r %5
-	<[8]>2 <[7]>
+	<[8 6]>2 <[7 5]>
 	r1
 	<[6]>
 	r2 <[6\\]>
-	r <[6]> %10
+	r <[6 5]> %10
 	<6 3>1
 	<6 5>2 <3>
 	r1
