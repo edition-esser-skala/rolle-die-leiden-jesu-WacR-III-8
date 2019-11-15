@@ -1103,11 +1103,70 @@ IhrVaeterOrgano = {
 		ais1~\pE
 		ais2 r \bar "||"
 		\key h \minor \grace s4 h2 \tempoKreutzigeIhn h'8\fE h h h
+		h h, h h' h h a a
+		gis gis g g fis fis, fis fis %5
+		fis2 \tempoKannNur ais~\pE
+		ais r
+		ais h
+		cis d
+		g4 r r a \bar "||" %10
+		\tempoLaessestDu fis4\fE r8 e d d16 d e8 fis
+		g4. fis8 e e fis gis
+		a4 a8 g fis fis g a
+		h4 h8 a g e r4
+		a8 a16 a h8 cis d4. cis8 %15
+		h h cis dis e4. d8
+		cis h a4 d,8 d16 d fis8 gis
+		a2 a8 h16 cis d8 d,
+		g4. gis8 a a a h16 cis
+		d4 g,8 gis a4 a, \mark \markup { \musicglyph #"scripts.ufermata" } %20
+		r4 a'8 a a4 a,8 a'
+		a4 a,8 g' fis e d e
+		fis e d e fis e fis gis
+		a4 cis8 h a h cis h
+		a h cis a d4 d, %25
+		d r r2
+		r4 a'8 a a4 a,8 a'
+		a4 a,8 a' g fis e fis
+		g fis e fis g fis g a
+		h a g4 r2 %30
+		r r4 d'8 d
+		d4 d,8 d' d4 d,8 d'
+		cis h a h cis h a h
+		cis h a cis d a fis a
+		d a fis a d a fis g %35
+		a4 a, d d8 e
+		fis e d e fis e d d'
+		d4 d,8 d' d4 h8 g
+		d4 r8 d' d4 h8 g
+		d4 fis8 a d a fis a %40
+		d a r4 h g8 g
+		a4 a, h r
+		h' g8 e a4 a,
+		d d d r \bar "||"
+		\key c \major \tempoIhrWollts fis1\pE %45
+		g2 dis
+		e2 e4 r
+		r fis h,2 \bar "||" %48 finis
 	}
 }
 
 IhrVaeterBassFigures = \figuremode {
-	
+	<6 [_+]>1
+	<7 \t>
+	r
+	r
+	r %5
+	r2 <6 [_+]>
+	r1
+	<[6 _+]>
+	<6>
+	r %10
+	r1*34 %44
+	<6>1 %45
+	r2 <6 [_+]>
+	r <[6+] 4\+ [2+]>
+	r4 <[5+] _+> <[5+ _!]>2
 }
 
 % Organo = {

@@ -273,6 +273,9 @@ tempoEinPurpur = \tempoMarkup "Poco largo"
 	tempoEinPurpurB = \tempoMarkup "Poco vivace"
 tempoIhrVaeter = \tempoMarkup "[Tempo deest]"
 	tempoKreutzigeIhn = \tempoMarkup "Allegro"
+	tempoKannNur = \tempoMarkup "[Recitat:]"
+	tempoLaessestDu = \tempoMarkup "Vivace"
+	tempoIhrWollts = \tempoMarkup "[Recitat:]"
 
 
 
