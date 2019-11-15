@@ -217,7 +217,38 @@ IhrVaeterOboeII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoIhrVaeter
 		R1*2 \bar "||"
-		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
-		
+		\key h \minor \grace s4 R1*8 \bar "||" %10
+		\tempoLaessestDu R1*2
+		r2 d8\fE d16 d e8 fis
+		g4. fis8 e e fis gis
+		a4 a8 g fis fis g a %15
+		R1
+		a8 a16 a g8 e fis2
+		e8 a16 a h8 cis d4. d8
+		d cis16 d e8 d d4 cis8 e
+		d fis e d d4 cis \markFermata %20
+		R1*3
+		r4 a8 a a4 a8 a
+		a4 a8 g fis e d e %25
+		fis e d e fis e fis gis
+		a4 e r e
+		e8 d e fis h4 g8 a
+		h a g a h a h c
+		fis,4 g8 a h a g a %30
+		h a g a a g fis g
+		a g fis g a4 d8 h
+		a4 a8 a a4 a8 a
+		a4 a8 a a4 a
+		a a a a8 h %35
+		fis4 e\trill fis r
+		r2 r4 d'8 d
+		d4 d,8 d' d4 h8 g
+		d4 r8d' d4 h8 g
+		d4 a'8 cis d cis d cis %40
+		d cis r4 d h
+		a cis\trill d r
+		h g8 e a2\trill
+		d,4 r r2 \bar "||"
+		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 	}
 }
