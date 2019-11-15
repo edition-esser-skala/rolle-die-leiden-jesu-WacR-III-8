@@ -345,13 +345,90 @@ IhrVaeterTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
 		R1*2 \bar "||"
-		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn d8 d16 d e8 e16 e
+		fis2 e8 e16 e fis8 fis16 fis
+		e4 d8 d16 d d4 cis8 cis16 cis %5
+		cis2 \tempoKannNur r
+		R1*4 \bar "||" %10
+		\tempoLaessestDu a8 a16 a h8 cis d4 r
+		h8 h16 h cis8 dis e4 r8 d
+		cis cis d e fis([ e)] d4
+		d8 d16 d e8 fis h,4 a8 h
+		a4 r d8 d16 d e8 fis %15
+		g4 r8 fis e e fis gis
+		a4 a, a8 a16 a a8 gis
+		a2 a8 h16 cis d8 a
+		h4. gis8 a a a h16([ cis)]
+		d8 fis e d d4 cis \markFermata %20
+		R1
+		r2 r4 d8 d
+		d4 d,8 d' d4 d,8 d'
+		cis([ h)] a h cis([ h)] a h
+		cis([ h)] a4 r d8 e %25
+		fis([ e)] d e fis([ e)] d e
+		a,4 a r2
+		r r4 e'8 e
+		e4 e,8 e' e4 e,8 e'
+		d4 h8 c d([ c)] h c %30
+		d([ c?)] h cis d4 d
+		r fis8 e d4 d8 e
+		e([ d)] cis d e([ d)] cis d
+		e([ d)] cis e d([ cis)] d cis
+		d([ cis)] d cis d([ cis)] d g %35
+		fis4( e) fis r
+		r2 r4 d8 d
+		d4 d,8 d' d4 h8 g
+		d4 r8 d' d4 h8 g
+		d4 d'8 cis d([ cis)] d cis %40
+		d cis r4 d e8 g
+		fis4( e)\trill d r
+		h g8 e a2
+		d,4 r r2 \bar "||"
+		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 		
 	}
 }
 
 IhrVaeterTenoreLyrics = \lyricmode {
+	[Kreu -- tzi -- ge, kreu -- tzi -- ge %3
+	ihn, kreu -- tzi -- ge, kreu -- tzi -- ge
+	ihn, kreu -- tzi -- ge ihn, kreu -- tzi -- ge %5
+	ihn!]
 	
+	Lä -- ßeſt du die -- ſen los, %11
+	lä -- ßeſt du die -- ſen los, biſt
+	du des Kay -- ſers Freund nicht,
+	lä -- ßeſt du die -- ſen los, die -- ſen 
+	los, lä -- ßeſt du die -- ſen  %15
+	los, biſt du des Kay -- ſers
+	Freund nicht, lä -- ßeſt du die -- ſen
+	los, lä -- ßeſt du die -- ſen
+	los, biſt du des Kay -- ſers
+	Freund, des Kay -- ſers Freund nicht. %20
+	
+	Wer ſich
+	ſel -- ber zum Kö -- ni -- ge
+	macht, der iſt wi -- der den
+	Kay -- ser, der iſt
+	wi -- der den Kay -- ser, den
+	Kay -- ser.
+	Wer ſich
+	ſel -- ber zum Kö -- ni -- ge
+	macht, der iſt wi -- der, iſt
+	wi -- der den Kay -- ser,
+	der iſt wi -- der den
+	Kay -- ser, iſt wi -- der, iſt
+	wi -- der den Kay -- ser, iſt
+	wi -- der, iſt wi -- der den
+	Kay -- ser.
+	[Wer ſich
+	ſel -- ber zum Kö -- ni -- ge
+	macht, zum Kö -- ni -- ge
+	macht, der iſt wi -- der den %40
+	Kay -- ser, wi -- der den
+	Kay -- ser,
+	wi -- der den Kay --
+	ser.] %44 finis
 }
 
 % TenoreNotes = {

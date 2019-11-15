@@ -1121,7 +1121,7 @@ IhrVaeterOrgano = {
 		g4. gis8 a a a h16 cis
 		d4 g,8 gis a4 a, \markFermata %20
 		r4 a'8 a a4 a,8 a'
-		a4 a,8 g' fis e d e
+		a4 a,8 g'! fis e d e
 		fis e d e fis e fis gis
 		a4 cis8 h a h cis h
 		a h cis a d4 d, %25
