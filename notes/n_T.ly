@@ -397,11 +397,11 @@ IhrVaeterTenoreLyrics = \lyricmode {
 	
 	Lä -- ßeſt du die -- ſen los, %11
 	lä -- ßeſt du die -- ſen los, biſt
-	du des Kay -- ſers Freund nicht,
-	lä -- ßeſt du die -- ſen los, die -- ſen 
+	du des Kay -- ſers Freund nicht.
+	Lä -- ßeſt du die -- ſen los, die -- ſen 
 	los, lä -- ßeſt du die -- ſen  %15
 	los, biſt du des Kay -- ſers
-	Freund nicht, lä -- ßeſt du die -- ſen
+	Freund nicht. Lä -- ßeſt du die -- ſen
 	los, lä -- ßeſt du die -- ſen
 	los, biſt du des Kay -- ſers
 	Freund, des Kay -- ſers Freund nicht. %20
@@ -409,17 +409,17 @@ IhrVaeterTenoreLyrics = \lyricmode {
 	Wer ſich
 	ſel -- ber zum Kö -- ni -- ge
 	macht, der iſt wi -- der den
-	Kay -- ser, der iſt
+	Kay -- ser, der iſt %25
 	wi -- der den Kay -- ser, den
 	Kay -- ser.
 	Wer ſich
 	ſel -- ber zum Kö -- ni -- ge
-	macht, der iſt wi -- der, iſt
+	macht, der iſt wi -- der, iſt %30
 	wi -- der den Kay -- ser,
 	der iſt wi -- der den
 	Kay -- ser, iſt wi -- der, iſt
 	wi -- der den Kay -- ser, iſt
-	wi -- der, iſt wi -- der den
+	wi -- der, iſt wi -- der den %35
 	Kay -- ser.
 	[Wer ſich
 	ſel -- ber zum Kö -- ni -- ge

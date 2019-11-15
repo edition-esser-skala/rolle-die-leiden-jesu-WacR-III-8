@@ -1103,7 +1103,7 @@ IhrVaeterOrgano = {
 		ais1~\pE
 		ais2 r \bar "||"
 		\key h \minor \grace s4 h2 \tempoKreutzigeIhn h'8\fE h h h
-		h h, h h' h h a a
+		h h, h h' h h a! a
 		gis gis g g fis fis, fis fis %5
 		fis2 \tempoKannNur ais~\pE
 		ais r

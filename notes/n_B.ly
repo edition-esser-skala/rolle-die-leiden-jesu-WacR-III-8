@@ -334,13 +334,89 @@ IhrVaeterBassoNotes = {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
 		R1*2 \bar "||"
-		\key h \minor \grace s4 r2 \tempoKreutzigeIhn
-		
+		\key h \minor \grace s4 r2 \tempoKreutzigeIhn h'8 h16 h h8 h16 h
+		h2 h8 h16 h a!8 a16 a
+		gis4 g8 g16 g fis4 fis8 fis16 fis %5
+		fis2 \tempoKannNur r
+		R1*4 \bar "||" %10
+		\tempoLaessestDu r2 d8 d16 d e8 fis
+		g4 r8 fis e e fis gis
+		a4 a8 g fis fis g a
+		h h h a g e r4
+		a8 a16 a h8 cis d4 r8 cis %15
+		h h cis dis e e e d
+		cis([ h)] a4 d,8 d16 d fis8 gis
+		a2 a8 h16 cis d8 d,
+		g4. gis8 a a a h16([ cis)]
+		d8 d g, gis a4 a, \markFermata %20
+		r4 a'8 a a4 a,8 a'
+		a4 a,8 g'! fis([ e)] d e
+		fis([ e)] d e fis([ e)] fis gis
+		a4 cis8 h a([ h)] cis h
+		a([ h)] cis a d4 d, %25
+		R1
+		r4 a'8 a a4 a,8 a'
+		a4 a,8 a' g([ fis)] e fis
+		g([ fis)] e fis g([ fis)] g a
+		h([ a)] g4 r2 %30
+		r r4 d'8 d
+		d4 d,8 d' d4 d,8 d'
+		cis([ h)] a h cis([ h)] a h
+		cis([ h)] a cis d([ a)] fis a
+		d([ a)] fis a d([ a)] fis g %35
+		a2 d,4 r
+		r2 r4 d'8 d
+		d4 d,8 d' d4 h8 g
+		d4 r8 d' d4 h8 g
+		d4 fis8 a d([ a)] fis a %40
+		d a r4 h g8 g
+		a2 h4 r
+		h g8 e a2
+		d,4 r r2 \bar "||"
+		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 	}
 }
 
 IhrVaeterBassoLyrics = \lyricmode {
+	Kreu -- tzi -- ge, kreu -- tzi -- ge %3
+	ihn, kreu -- tzi -- ge, kreu -- tzi -- ge
+	ihn, kreu -- tzi -- ge ihn, kreu -- tzi -- ge %5
+	ihn!
 	
+	Lä -- ßeſt du die -- ſen %11
+	los, biſt du des Kay -- ſers
+	Freund nicht, biſt du des Kay -- ſers
+	Freund, des Kay -- ſers Freund nicht.
+	Lä -- ßeſt du die -- ſen los, biſt %15
+	du des Kay -- ſers Freund, des Kay -- ſers
+	Freund nicht. Lä -- ßeſt du die -- ſen
+	los, lä -- ßeſt du die -- ſen
+	los, biſt du des Kay -- ſers
+	Freund, des Kay -- ſers Freund nicht. %20
+	Wer ſich ſel -- ber zum
+	Kö -- ni -- ge macht, der iſt
+	wi -- der den Kay -- ser, den
+	Kay -- ser, iſt wi -- der, iſt
+	wi -- der den Kay -- ser. %25
+	
+	Wer ſich ſel -- ber zum
+	Kö -- ni -- ge macht, der iſt
+	wi -- der, iſt wi -- der den
+	Kay -- ser. %30
+	Wer ſich
+	ſel -- ber zum Kö -- ni -- ge
+	macht, der iſt wi -- der, iſt
+	wi -- der den Kay -- ser, iſt
+	wi -- der, iſt wi -- der den %35
+	Kay -- ser.
+	Wer ſich
+	ſel -- ber zum Kö -- ni -- ge
+	macht, zum Kö -- ni -- ge
+	macht, der iſt wi -- der den %40
+	Kay -- ser, wi -- der den
+	Kay -- ser,
+	wi -- der den Kay --
+	ser. %44 finis
 }
 
 % BassoNotes = {

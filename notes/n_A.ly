@@ -398,8 +398,8 @@ IhrVaeterAltoLyrics = \lyricmode {
 	Lä -- ßeſt du die -- ſen %13
 	los, biſt du des Kay -- ſers
 	Freund nicht, biſt du des Kay -- ſers %15
-	Freund nicht, des Kay -- ſers Freund nicht,
-	lä -- ßeſt du die -- ſen los,
+	Freund nicht, des Kay -- ſers Freund nicht.
+	Lä -- ßeſt du die -- ſen los,
 	lä -- ßeſt du die -- ſen los, biſt
 	du des Kay -- ſers Freund nicht, biſt
 	du des Kay -- ſers Freund nicht. %20
