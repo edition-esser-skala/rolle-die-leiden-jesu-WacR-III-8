@@ -475,7 +475,7 @@ IhrVaeterViola = {
 
 SehtWelchViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key h \minor \time 4/4 \tempoSehtWelch
 		\partial 2 h2\fE h e
 		d e
