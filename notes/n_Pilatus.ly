@@ -171,7 +171,18 @@ IhrVaeterPilatusNotes = {
 		\key c \major \time 4/4 \autoBeamOff \tempoIhrVaeter
 		r8 cis' cis cis cis8. fis,16 fis4
 		g!2 g4 fis \bar "||"
-		\key h \minor \appoggiatura e4 d2 \tempoKreutzigeIhn
+		\key h \minor \appoggiatura e4 d2 \tempoKreutzigeIhn r
+		R1*2 %5
+		r2 \tempoKannNur r8 fis fis eis
+		fis4 r8 fis ais ais ais h
+		cis e,! g! fis d d r d
+		a' e fis g fis fis r a
+		h r16 h cis8 d d a r4 \bar "||" %10
+		\tempoLaessestDu R1*34 \bar "||" %44
+		\key c \major \tempoIhrWollts r4 r8 d, a' r16 a d8 r16 ais %45
+		h8. h16 h8 r16 h h8 fis g a
+		g16. g32 g8 r e ais ais ais h
+		h fis r4 r2 \bar "||" %48 finis
 	}
 }
 
@@ -179,6 +190,17 @@ IhrVaeterPilatusLyrics = \lyricmode {
 	Jhr Vä -- ter Jſ -- ra -- els
 	ſeht, welch ein
 	Menſch!
+	
+	Kann nur ſein %6
+	Tod den hei -- ßen Durſt nach
+	ſei -- nem Blu -- te ſtil -- len, ſo
+	kreu -- tzi -- get ihn ſel -- ber, er
+	iſt, er iſt nicht ſchul -- dig. %10
+	
+	Jhr wollts, ihr wollts! ihr %45
+	Wü -- then -- den! So werd er denn ge --
+	kreu -- tzi -- get, ge -- kreu -- tzigt eu -- er
+	Kö -- nig. %48 finis
 }
 
 % PilatusNotes = {

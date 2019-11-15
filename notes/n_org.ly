@@ -1166,7 +1166,7 @@ IhrVaeterBassFigures = \figuremode {
 	<6>1 %45
 	r2 <6 [_+]>
 	r <[6+] 4\+ [2+]>
-	r4 <[5+] _+> <[5+ _!]>2
+	r4 <[5+] _+> <[5+ _!]>2 %48 finis
 }
 
 % Organo = {
