@@ -1207,12 +1207,47 @@ SehtWelchOrgano = {
 		\clef bass
 		\key h \minor \time 4/4 \tempoSehtWelch
 		\partial 2 h\fE d cis
-		
+		h4( h') a2
+		d,\fermata h'
+		ais h
+		fis g %5
+		a!1 \noBreak
+		d,2\fermata \bar ":|." d \noBreak
+		fis a
+		d, h
+		a\fermata ais %10
+		h4( cis) d2
+		g a
+		d,\fermata d
+		fis a
+		a gis %15
+		fis\fermata d4( cis)
+		h2 g'
+		fis fis
+		h,\fermata \bar "|." %19 FINIS
 	}
 }
 
 SehtWelchBassFigures = \figuremode {
-	
+	r2 r1
+	r
+	r
+	r
+	r
+	r
+	r
+	r
+	r
+	r
+	<6 3>
+	<6 5>2 <3>
+	r1
+	<6>
+	<4\+ 2>2 <6\\>
+	r <6>4 <6\\>
+	r2 <6>
+	<6 4> <5 _+>
+	r2
 }
 
 % Organo = {
