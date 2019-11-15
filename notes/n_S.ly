@@ -428,8 +428,25 @@ SehtWelchSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
-		\partial 2
-		
+		\partial 2 fis2 h ais
+		h cis
+		d\fermata d
+		e d
+		cis h %5
+		a( g)
+		fis\fermata \bar ":|." fis
+		fis e
+		fis gis
+		a\fermata fis %10
+		g fis
+		e e
+		d\fermata fis
+		fis e
+		fis gis %15
+		a\fermata h4( cis)
+		d2 e
+		d cis
+		h\fermata \bar "|." %19 FINIS
 	}
 }
 
