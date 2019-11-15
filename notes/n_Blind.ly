@@ -397,6 +397,18 @@ EinPurpurBlindLyrics = \lyricmode {
 	phet? %37 finis
 }
 
+SieFuehrenBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSieFuehren
+		
+	}
+}
+
+SieFuehrenBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

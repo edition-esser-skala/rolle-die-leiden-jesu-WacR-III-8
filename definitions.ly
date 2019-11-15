@@ -291,6 +291,8 @@ tempoIhrVaeter = \tempoMarkup "[Tempo deest]"
 	tempoIhrWollts = \tempoMarkup "[Recitat:]"
 tempoSehtWelch = \tempoMarkup "[Tempo deest]"
 
+tempoSieFuehren = \tempoMarkup "[Tempo deest]"
+
 
 
 

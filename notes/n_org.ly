@@ -1264,6 +1264,18 @@ SehtWelchBassFigures = \figuremode {
 	r2 %26 FINIS
 }
 
+SieFuehrenOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSieFuehren
+		gis'1~
+	}
+}
+
+SieFuehrenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
