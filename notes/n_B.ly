@@ -419,6 +419,19 @@ IhrVaeterBassoLyrics = \lyricmode {
 	ser. %44 finis
 }
 
+SehtWelchBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
+		\partial 2
+		
+	}
+}
+
+SehtWelchBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

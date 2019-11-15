@@ -252,3 +252,12 @@ IhrVaeterOboeII = {
 		\key c \major \tempoIhrWollts R1*4 \bar "||" %48 finis
 	}
 }
+
+SehtWelchOboeII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoSehtWelch
+		\partial 2
+		
+	}
+}

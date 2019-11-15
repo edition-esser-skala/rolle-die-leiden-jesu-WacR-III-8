@@ -1202,6 +1202,19 @@ IhrVaeterBassFigures = \figuremode {
 	r4 <[5+] _+> <[5+ _!]>2 %48 finis
 }
 
+SehtWelchOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoSehtWelch
+		\partial 2 h\fE d cis
+		
+	}
+}
+
+SehtWelchBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

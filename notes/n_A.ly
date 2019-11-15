@@ -427,6 +427,19 @@ IhrVaeterAltoLyrics = \lyricmode {
 	ser.] %44 finis
 }
 
+SehtWelchAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
+		\partial 2
+		
+	}
+}
+
+SehtWelchAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

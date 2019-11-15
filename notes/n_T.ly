@@ -431,6 +431,19 @@ IhrVaeterTenoreLyrics = \lyricmode {
 	ser.] %44 finis
 }
 
+SehtWelchTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
+		\partial 2
+		
+	}
+}
+
+SehtWelchTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

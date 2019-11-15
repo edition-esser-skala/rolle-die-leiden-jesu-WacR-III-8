@@ -471,6 +471,15 @@ IhrVaeterViolinoI = {
 	}
 }
 
+SehtWelchViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoSehtWelch
+		\partial 2
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -472,3 +472,12 @@ IhrVaeterViola = {
 		
 	}
 }
+
+SehtWelchViola = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoSehtWelch
+		\partial 2
+		
+	}
+}

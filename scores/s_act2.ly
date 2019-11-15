@@ -507,77 +507,150 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.8" "R E C I T A T I V,  C H O R" "Jhr Väter Jſraels ſeht"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \IhrVaeterOboeI \IhrVaeterOboeII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IhrVaeterViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IhrVaeterViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\IhrVaeterViola
+% 						}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Pilatus"
+% 					\new Voice = "Pilatus" { \dynamicUp \IhrVaeterPilatusNotes }
+% 				}
+% 				\new Lyrics \lyricsto Pilatus \IhrVaeterPilatusLyrics
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     P  R  I  E  S  T  E  R" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \IhrVaeterSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IhrVaeterSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \IhrVaeterAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IhrVaeterAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \IhrVaeterTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IhrVaeterTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \IhrVaeterBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IhrVaeterBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IhrVaeterOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IhrVaeterBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.8" "R E C I T A T I V,  C H O R" "Jhr Väter Jſraels ſeht"
+			movement = \movementTitle "2.9" "C H O R A L" "Seht! welch ein Menſch, ach ſeht!"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \IhrVaeterOboeI \IhrVaeterOboeII
-					}
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\SehtWelchOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\SehtWelchOboeII
+						}
+					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IhrVaeterViolinoI
+							\SehtWelchViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IhrVaeterViolinoII
+							\SehtWelchViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\IhrVaeterViola
+							\SehtWelchViola
 						}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "Pilatus"
-					\new Voice = "Pilatus" { \dynamicUp \IhrVaeterPilatusNotes }
-				}
-				\new Lyrics \lyricsto Pilatus \IhrVaeterPilatusLyrics
 				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     P  R  I  E  S  T  E  R" \hspace #15 }
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IhrVaeterSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SehtWelchSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \IhrVaeterSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SehtWelchSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IhrVaeterAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SehtWelchAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \IhrVaeterAltoLyrics
+					\new Lyrics \lyricsto Alto \SehtWelchAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IhrVaeterTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \SehtWelchTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \IhrVaeterTenoreLyrics
+					\new Lyrics \lyricsto Tenore \SehtWelchTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \IhrVaeterBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \SehtWelchBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \IhrVaeterBassoLyrics
+					\new Lyrics \lyricsto Basso \SehtWelchBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IhrVaeterOrgano
+						\SehtWelchOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IhrVaeterBassFigures
+					\SehtWelchBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

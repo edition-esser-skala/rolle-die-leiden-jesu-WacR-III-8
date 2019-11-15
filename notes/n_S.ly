@@ -424,6 +424,19 @@ IhrVaeterSopranoLyrics = \lyricmode {
 	ser. %44 finis
 }
 
+SehtWelchSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoSehtWelch
+		\partial 2
+		
+	}
+}
+
+SehtWelchSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
