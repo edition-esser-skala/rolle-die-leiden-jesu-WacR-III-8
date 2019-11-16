@@ -80,6 +80,16 @@ DuStaerkestFlautoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuStaerkest
-		
+			\override Script.avoid-slur = #'outside
+		R1*2 \bar "||"
+		\tempoDuStaerkestB r4 r8 b'(\p a)-! r r a(
+		g)-! r r f( e)-! r r e(
+		e)-! r r e( e)-! r r4 %5
+		R1
+		r2 r4 r8 g(
+		fis)-! r r a( g)-! r r4
+		r2 r4 r8 cis(
+		h)-! r r4 r2 %10
+		R1 \markVSE \bar "||" %11 finis
 	}
 }

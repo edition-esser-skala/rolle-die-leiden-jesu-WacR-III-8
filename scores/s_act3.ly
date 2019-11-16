@@ -150,6 +150,7 @@
 		\header {
 			movement = \movementTitle "3.3" "R E C I T A T I V" "Du ſtärkeſt mich"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
