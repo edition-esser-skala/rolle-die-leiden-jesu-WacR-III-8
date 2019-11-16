@@ -1522,12 +1522,33 @@ DuStaerkestOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoDuStaerkest
-		
+			\override Script.avoid-slur = #'outside
+		fis2\pE f
+		e e \bar "||"
+		\tempoDuStaerkestB f4 r8 e( f)-! r r h,!(
+		cis)-! r r gis( a-!) r r b(
+		a)-! r r a ais2~ %5
+		ais2~ais4 r8 ais~
+		ais4-! r h r8 ais(
+		h)-! r r dis( e)-! r r4
+		r2 r4 r8 fis
+		h,-! r \tempoDuStaerkestC r4 h2~-\tenuto %10
+		h4 r r h \markVSE \bar "||"
 	}
 }
 
 DuStaerkestBassFigures = \figuremode {
-	
+	<6>2 <4 2>
+	<6> <6 5->
+	r1
+	r
+	r %5
+	r
+	r
+	r
+	r
+	r2 <7 [5+] _+> %10
+	r1 %11 finis
 }
 
 % Organo = {

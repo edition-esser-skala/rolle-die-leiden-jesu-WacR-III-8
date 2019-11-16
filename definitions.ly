@@ -286,15 +286,17 @@ tempoEinPurpur = \tempoMarkup "Poco largo"
 	tempoEinPurpurB = \tempoMarkup "Poco vivace"
 tempoIhrVaeter = \tempoMarkup "[Tempo deest]"
 	tempoKreutzigeIhn = \tempoMarkup "Allegro"
-	tempoKannNur = \tempoMarkup "[Recitat:]"
+	tempoKannNur = \tempoMarkup "[Recitativ]"
 	tempoLaessestDu = \tempoMarkup "Vivace"
-	tempoIhrWollts = \tempoMarkup "[Recitat:]"
+	tempoIhrWollts = \tempoMarkup "[Recitativ]"
 tempoSehtWelch = \tempoMarkup "[Tempo deest]"
 
 tempoSieFuehren = \tempoMarkup "[Tempo deest]"
 	tempoSieFuehrenB = \tempoMarkup "Arioso"
 tempoJesusChristus = \tempoMarkup "Allegro"
 tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
+	tempoDuStaerkestB = \tempoMarkup "Poco largo"
+	tempoDuStaerkestC = \tempoMarkup "Recitativ"
 
 
 

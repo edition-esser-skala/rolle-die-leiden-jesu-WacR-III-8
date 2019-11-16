@@ -188,12 +188,30 @@ DuStaerkestFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoDuStaerkest		
-		
+		r8 d' d a h r16 h h8 c
+		c g r c16 d \appoggiatura c8 b8. b16 b8 a \bar "||"
+		\tempoDuStaerkestB f f r4 r2
+		R1*2 %5
+		cis'8 cis cis d e8. e16 e4
+		r fis8 cis d d r4
+		r2 r4 e8 e
+		g e e d \appoggiatura cis?16 h8 h r4
+		r \tempoDuStaerkestC h8 c! \appoggiatura h a8. a16 a4 %10
+		dis8 dis dis e h4 r \markVSE \bar "||" %11 finis
 	}
 }
 
 DuStaerkestFremdLyrics = \lyricmode {
+	Du ſtär -- keſt mich! Er wird nicht
+	ſter -- ben. Laß dem Lei -- den -- den uns
+	fol -- gen.
 	
+	Hö -- reſt du nicht Kla -- ge -- ton, %6
+	leis und ſeit -- wärts!
+	Noch ſind
+	Ed -- le, die ihn kla -- gen!
+	Laß den Kla -- gen -- den %10
+	uns von fer -- ne nahn! %11 finis
 }
 
 % FremdNotes = {
