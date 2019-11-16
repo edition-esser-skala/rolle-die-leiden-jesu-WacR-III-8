@@ -90,6 +90,6 @@ DuStaerkestFlautoII = {
 		fis)-! r r a( g)-! r r4
 		r2 r4 r8 cis(
 		h)-! r r4 r2 %10
-		R1 \markVSE \bar "||" %11 finis
+		R1 \bar "||" %11 finis
 	}
 }

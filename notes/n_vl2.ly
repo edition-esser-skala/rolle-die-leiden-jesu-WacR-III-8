@@ -629,7 +629,7 @@ DuStaerkestViolinoII = {
 		e2~ e4 r8 cis'(
 		\scriptOut cis4)-! r r8 d,( \scriptOut e)-! r
 		r dis( \scriptOut fis)-! r r e( \scriptOut g)-! r
-		r2 r8 h( \scriptOut a)-! r
+		r2 r8 h( \scriptOut ais)-! r
 		R1*2 \markVSE \bar "||" %11 finis
 	}
 }

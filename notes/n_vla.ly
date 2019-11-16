@@ -618,7 +618,7 @@ JesusChristusViola = {
 
 DuStaerkestViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoDuStaerkest
 		R1*2 \bar "||"
 		\tempoDuStaerkestB r8 f,(\p \scriptOut e)-! r r a( \scriptOut h!)-! r

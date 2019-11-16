@@ -197,7 +197,7 @@ DuStaerkestFremdNotes = {
 		r2 r4 e8 e
 		g e e d \appoggiatura cis?16 h8 h r4
 		r \tempoDuStaerkestC h8 c! \appoggiatura h a8. a16 a4 %10
-		dis8 dis dis e h4 r \markVSE \bar "||" %11 finis
+		dis8 dis dis e h4 r \bar "||" %11 finis
 	}
 }
 
