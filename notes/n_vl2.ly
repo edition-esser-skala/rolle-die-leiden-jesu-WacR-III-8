@@ -510,6 +510,110 @@ JesusChristusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoJesusChristus
-		
+		<h d>2\fE <g d'>
+		<d' h'> q
+		g4 e'16( c8.) h4( a)\trill
+		g2 r4 <h, d>-!
+		<c d>-! <h d>-! r <h d>-\parenthesize-! %5
+		<c d>-! <h d>-! g''8. d16 d4\trill
+		e8. a,16 a4\trill e' d16( cis h a)
+		g4( fis8) e-! d c h a
+		h2\p g'
+		h h %10
+		g4 e'16( c8.) h4( a)\trill
+		g r r <h, d>
+		<c d>-!\f <h d>-! r <h d>\p
+		<c d>-!\f <h d>-! d\p g
+		g2 g4 fis %15
+		g g,8\f h16 d g8 h16 d g8 g
+		<g h, d, g,>4 r g,4.\p a8
+		h4( fis8) g a( g) h( a)
+		a4( \scriptOut g)-! g4. fis8
+		fis4( e8) fis g( fis) a( g) %20
+		fis4-! r a-! r
+		a8 fis4 a d8 fis( e16 d)
+		cis4-! r cis-! r
+		cis8 a4 cis e d16( cis)
+		d4-! r e-! r %25
+		fis-! r g-! e-!
+		d8 d e16( d cis d) e8 e fis16( e d e)
+		fis8 fis g16( fis e fis) g8( fis16 g) e8( d16 e)
+		d4 d~ d8( h) \grace h16 a8( g)
+		fis2 cis'\trill %30
+		d8.\f a'16 a4\trill h8( g) \grace g16 fis8( e)
+		a,16( d fis a) g( fis e d) cis4.(\trill h16 cis)
+		d4 d,8( fis16 a) d4 r
+		fis,2\p a
+		fis fis %35
+		g4 h16( g8.) fis4( e)\trill
+		d r r fis
+		g-!\f fis-! r fis\p
+		g-!\f fis-! r2
+		h,\p g' %40
+		h h
+		g4 e'16( c8.) h4( a)\trill
+		g r r <h, d>
+		<c d>-!\f <h d>-! r q\p
+		<c d>-!\f <h d>-! c-! r %45
+		h'2(\p c4) h
+		c c,8\f e16 g c8 e16 g e8 e
+		e4-! r c4.\p a8
+		a4( gis8) h h( d) d( h)
+		h4( a) a2 %50
+		gis8 h \appoggiatura c16 h( a h c) h4-! \appoggiatura c16 h( a h c)
+		h4-! r h-! r
+		c-! \appoggiatura d16 c( h c d) c4-! \appoggiatura d16 c( h c d)
+		c4-! r a-! r
+		a( gis) r2 %55
+		<c e, g,>4\f r r g\p
+		f-!\f e-! r g\p
+		f-!\f e-! r g\p
+		f-!\f e-! g\p g
+		a2 a %60
+		h h
+		c~ c8 c d a
+		h4 c2 h4
+		c8\f c4 e e8( d f)
+		e4 r c\p r %65
+		a8\f a4 fis' a8( g h)
+		a4 r a,\p r
+		g8.\f h16 h8.(\trill a32 h) g8.[ h16 h8. g16]
+		g4\trill fis r2
+		h,2\p g' %70
+		h h
+		g4 e'16( c8.) h4( a)\trill
+		g e'16( c8.) h4( a)\trill
+		g4 r r2
+		c,8\f e16 g c4-! r2 %75
+		d,8\f fis!16 a d4-! r a\p
+		g8 g a16( g fis g) a8 a h16( a g a)
+		h8 h c16( h a h) c8( h16 c) a8( g16 a)
+		h4 d g, a
+		g2 fis\trill %80
+		g4 r r2
+		c,1~
+		c
+		h4 <g d' h'>\f q r
+		c1\p %85
+		h4 <g d' h'>\f q r
+		<c d>-!\f <h d>-! r q\p
+		<c d>-!\f <h d>-! d'2
+		c4\p g e e
+		d e h a %90
+		g d''-\parenthesize-!\f c-! a\p
+		g2 r
+		<h, d>\f q
+		<d h'> q
+		g4 e'16( c8.) h4( a)\trill %95
+		g4-! r g-! r
+		g8. h16 h8.(\trill a32 h) g'8. g,16 g8.(\trill fis32 g)
+		a4-! r a-\parenthesize-! r
+		a8. a16 a8.(\trill g32 a) c8. a16 a8.(\trill g32 a)
+		g8. d'16 d4\trill e16 d c h a g fis e %100
+		d2 a'4.(\trill g16 a)
+		h8. g'16 g4\trill e16 d c h a g fis e
+		d2 fis4.(\trill e16 fis)
+		g4 g,8 h16 d g8 h16 d <d, h'>8 q
+		<d h' g'>4 r r2 \bar "||" %105 finis
 	}
 }

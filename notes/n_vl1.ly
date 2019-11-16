@@ -509,7 +509,7 @@ JesusChristusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoJesusChristus
-		g'2 h
+		g'2\fE h
 		d g
 		e16([ c8.) g'16( e8.)] d4( c\trill)
 		h2 d8( h) \grace h16 a8( g)
@@ -575,7 +575,7 @@ JesusChristusViolinoI = {
 		c8\f e4 g c8( h d)
 		c4 r e,\p r %65
 		fis!8\f fis4 a c8( h d)
-		c4-! r c,\p r
+		c4 r c,\p r
 		h8.\f g'16 g8.(\trill fis32 g) h,8.[ g'16 g8. h,16]
 		h4\trill a r2
 		g2\p h %70
@@ -584,7 +584,7 @@ JesusChristusViolinoI = {
 		h g'16( e8.) d4( c)\trill
 		h d8. fis,16 g4 r
 		c,8\f e16 g c4-! a\p r %75
-		d,8\f fis16 a d4-! r c\p
+		d,8\f fis!16 a d4-! r c\p
 		h8 h c16( h a h) c8 c d16( c h c)
 		d8 d e16( d c d) e8( d16 e) fis8( e16 fis)
 		g4 g8( d) e( c) c( a)
@@ -593,8 +593,8 @@ JesusChristusViolinoI = {
 		e1~
 		e
 		d4 g8\f h16 d g4-! r
-		e,1(\p %85
-		d4) g8\f h16 d g4 r
+		e,1\p %85
+		d4 g8\f h16 d g4 r
 		fis,-!\f g-! d'8(\p h) a( g)
 		fis4-!\f g-! g'2
 		e8(\p g) e( c) a( e') c( a)
@@ -609,7 +609,7 @@ JesusChristusViolinoI = {
 		c4-! r c-! r
 		c8. fis16 fis8.(\trill e32 fis) a8. c,16 c8.(\trill h32 c)
 		h8. d16 d4\trill e16 d c h a g fis e %100
-		d2  c'4.(\trill h16 c)
+		d2 c'4.(\trill h16 c)
 		h8. g'16 g4\trill e16 d c h a g fis e
 		d2 a'4.(\trill g16 a)
 		g4 g,8 h16 d g8 h16 d g8 g
