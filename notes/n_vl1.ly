@@ -621,7 +621,15 @@ DuStaerkestViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuStaerkest
-		
+		R1*2 \bar "||"
+		\tempoDuStaerkestB r8 c(\p \scriptOut d)-! r r c( \scriptOut f)-! r
+		r g( \scriptOut f)-! r r g(-. g-.) r
+		r g(-. g-.) r g2~ %5
+		g2~ g4 r8 e'(
+		\scriptOut e4)-! r r8 fis,( \scriptOut g)-! r
+		r fis( \scriptOut a)-! r r g( \scriptOut h)-! r
+		r2 r8 d( \scriptOut cis)-! r
+		R1*2 \markVSE \bar "||" %11 finis
 	}
 }
 

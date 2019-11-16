@@ -620,6 +620,13 @@ DuStaerkestViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuStaerkest
-		
+		R1*2 \bar "||"
+		\tempoDuStaerkestB r8 f,(\p \scriptOut e)-! r r a( \scriptOut h!)-! r
+		r cis( \scriptOut d)-! r r a( \scriptOut b-!) r
+		r a(-. a-.) r ais2~ %5
+		ais2~ ais4 r8 g'(
+		\scriptOut fis4)-! r r8 h,( \scriptOut ais)-! r
+		r h( \scriptOut c!)-! r r2
+		R1*3 \markVSE \bar "||" %11 finis
 	}
 }
