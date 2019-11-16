@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+JesusChristusFlautoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoJesusChristus
+		
+	}
+}

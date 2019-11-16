@@ -1298,6 +1298,18 @@ SieFuehrenBassFigures = \figuremode {
 	r1 %12 finis
 }
 
+JesusChristusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoJesusChristus
+		g8\fE g' d h g g' d h
+	}
+}
+
+JesusChristusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

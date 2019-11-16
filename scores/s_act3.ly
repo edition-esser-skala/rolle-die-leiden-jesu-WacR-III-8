@@ -59,32 +59,91 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.1" "R E C I T A T I V,  A R I O S O" "Sie führen! ach! ſie führen ihn zum Tode"
+% 		}
+% 		\paper { systems-per-page = #3 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \SieFuehrenBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \SieFuehrenBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SieFuehrenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SieFuehrenBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.1" "R E C I T A T I V,  A R I O S O" "Sie führen! ach! ſie führen ihn zum Tode"
+			movement = \movementTitle "3.2" "A R I A" "Jeſus Chriſtus wird das Leben"
 		}
-		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new ChoirStaff \with { \smallerGroupDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \SieFuehrenBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \SieFuehrenBlindLyrics
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Flauto I"
+							\JesusChristusFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Flauto II"
+							\JesusChristusFlautoII
+						}
+					>>
 				>>
 				\new StaffGroup <<
 					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in G" } }
+						\partcombine \JesusChristusCornoI \JesusChristusCornoII
+					}
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\JesusChristusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\JesusChristusViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\JesusChristusViola
+					}
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \JesusChristusBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \JesusChristusBlindLyrics
+				\new StaffGroup <<
+					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SieFuehrenOrgano
+						\JesusChristusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SieFuehrenBassFigures
+					\JesusChristusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

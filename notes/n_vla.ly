@@ -505,3 +505,11 @@ SehtWelchViola = {
 		d\fermata \bar "|." %26 FINIS
 	}
 }
+
+JesusChristusViola = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoJesusChristus
+		
+	}
+}

@@ -48,3 +48,11 @@ IchWascheCornoI = {
 		e e8 e e2 \bar "||" %53 finis
 	}
 }
+
+JesusChristusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoJesusChristus
+		
+	}
+}

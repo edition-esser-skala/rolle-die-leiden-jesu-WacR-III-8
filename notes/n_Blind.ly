@@ -430,6 +430,18 @@ SieFuehrenBlindLyrics = \lyricmode {
 	und gehn her -- vor.“
 }
 
+JesusChristusBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoJesusChristus
+		
+	}
+}
+
+JesusChristusBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
