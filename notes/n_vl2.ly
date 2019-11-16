@@ -513,8 +513,8 @@ JesusChristusViolinoII = {
 		<h d>2\fE <g d'>
 		<d' h'> q
 		g4 e'16( c8.) h4( a)\trill
-		g2 r4 <h, d>-!
-		<c d>-! <h d>-! r <h d>-\parenthesize-! %5
+		g2 r4 <h, d>
+		<c d>-! <h d>-! r <h d> %5
 		<c d>-! <h d>-! g''8. d16 d4\trill
 		e8. a,16 a4\trill e' d16( cis h a)
 		g4( fis8) e-! d c h a
