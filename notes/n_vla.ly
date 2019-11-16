@@ -508,7 +508,7 @@ SehtWelchViola = {
 
 JesusChristusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 4/4 \tempoJesusChristus
 		g8\fE g' d h g g' d h
 		g g' d h g g' h g

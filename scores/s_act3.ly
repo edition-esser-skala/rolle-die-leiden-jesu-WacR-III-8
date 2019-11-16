@@ -108,7 +108,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in G" } }
-						\partcombine \JesusChristusCornoI \JesusChristusCornoII
+						\JesusChristusCornoI \JesusChristusCornoII
 					}
 				>>
 				\new StaffGroup <<
@@ -143,7 +143,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 2 = 75 }
 		}
 	}
 }
