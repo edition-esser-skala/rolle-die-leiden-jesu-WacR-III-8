@@ -51,18 +51,19 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partActTitle "" "Act: 3"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partActTitle "" "Act: 3"
+% 	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\markup \null
+% 	}
 	\bookpart {
 		\header {
 			movement = \movementTitle "3.1" "R E C I T A T I V,  A R I O S O" "Sie führen! ach! ſie führen ihn zum Tode"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff \with { \smallerGroupDistance } <<

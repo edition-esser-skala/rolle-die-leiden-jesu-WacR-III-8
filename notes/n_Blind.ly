@@ -401,12 +401,33 @@ SieFuehrenBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoSieFuehren
-		
+		r4 r8 e e h d r16 d
+		f!8 f f e c4 c
+		r c8 e d a r a16 h
+		c8 c c4 c8 c e d
+		h h r \tempoSieFuehrenB g c4 c %5
+		c8 d16 e f8 f f e r g
+		h,4 c8.([ d32 e)] d8([ h)] c4
+		g8( f'4) e8 e d r d
+		e4. c16([ a)] d4. h16([ g)]
+		c4. h16([ a)] h8.([ c16)] d8 r %10
+		r e fis g d4 r
+		R1 \bar "||" %12 finis
 	}
 }
 
 SieFuehrenBlindLyrics = \lyricmode {
-	
+	Sie füh -- ren! ach! ſie
+	füh -- ren ihn zum To -- de!
+	Er ſoll ſter -- ben, er ſoll
+	ſter -- ben, er, den ich ſa -- gen
+	hör -- te: „Einſt kommt die %5
+	Stun -- de, in wel -- cher al -- le, die
+	in den __ ſtil -- len
+	Grä -- bern ſchla -- fen, des
+	Men -- ſchen -- ſoh -- nes
+	Stim -- me hö -- ren
+	und gehn her -- vor.“
 }
 
 % BlindNotes = {

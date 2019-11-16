@@ -1269,11 +1269,33 @@ SieFuehrenOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoSieFuehren
 		gis'1~
+		gis2 a~
+		a fis~
+		fis1
+		r8 g, g' \tempoSieFuehrenB f e c' a f %5
+		e c d g, c c' c,4
+		g8 f' e c g f' e c
+		h4 c g8 g' h g
+		c, e a4 h,8 d g4
+		a,8 a' fis d g, g'16. a32 h8 g %10
+		c,4 r r d
+		g,2 r \bar "||" %12 finis
 	}
 }
 
 SieFuehrenBassFigures = \figuremode {
-	
+	<6>1
+	r
+	r2 <6>
+	r1
+	r4. <[2]>8 <6>4 q %5
+	q <7>8 q <[9 4]> <[8 3]>4.
+	r8 <2> <6>4 r8 <2> <6>4
+	<6 5> <[\t \t]>8 <[8 3]> <6 4> <5 3> <[6]>4
+	r2 <6>
+	r4 <6 5>8 <[7 _+]> r4 <[6]> %10
+	r2. <_+>4
+	r1 %12 finis
 }
 
 % Organo = {

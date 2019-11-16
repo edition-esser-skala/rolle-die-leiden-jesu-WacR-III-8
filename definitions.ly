@@ -292,6 +292,7 @@ tempoIhrVaeter = \tempoMarkup "[Tempo deest]"
 tempoSehtWelch = \tempoMarkup "[Tempo deest]"
 
 tempoSieFuehren = \tempoMarkup "[Tempo deest]"
+	tempoSieFuehrenB = \tempoMarkup "Arioso"
 
 
 
