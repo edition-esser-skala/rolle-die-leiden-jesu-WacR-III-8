@@ -434,12 +434,177 @@ JesusChristusBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \major \time 4/4 \autoBeamOff \tempoJesusChristus
-		
+		R1*8 %8
+		g2 h
+		d g %10
+		e4 g8([ e)] \appoggiatura d4 c2\trill
+		h4 r d8([ h)] \appoggiatura h16 a8([ g)]
+		a4 g d'8([ h)] \appoggiatura h16 a8([ g)]
+		a4 g g' g
+		a,4. e'8 \tuplet 3/2 4 { d8([ c h)] } c4 %15
+		\tuplet 3/2 4 { h8([ a g)] } g4 r2
+		r h4. c8
+		h4( a8) h c([ h)] d([ c)]
+		\appoggiatura c4 h2 h4. d8
+		d4( cis8) d e([ d)] fis([ e)] %20
+		d1~
+		d8 a4 d fis e16[ d]
+		cis1~
+		cis8 a4 cis? e d16[ cis]
+		<< \context Voice = "Blind" {
+			\voiceOne d4 d8.([\trill cis32 d)] e4 e8.([\trill d32 e)] %25
+			fis4 fis8.([\trill e32 fis)] \oneVoice
+		} \\ {
+			\voiceTwo d2 e
+			fis
+		} >> g4. fis16[ e]
+		d4 e16([ d cis d)] e4 fis16([ e d e)]
+		fis4 g16([ fis e fis)] g4. fis16[ e]
+		d4 a h e
+		a,2 e'\trill %30
+		d r
+		R1*2
+		d2 fis
+		d a %35
+		h4 d8([ h)] a4( g)\trill
+		fis r d'8([ cis)] d([ a)]
+		h4 a d8([ cis)] d([ a)]
+		h4 a r2
+		g h %40
+		d g
+		e4 g8([ e)] d4( c)\trill
+		h r d8([ h)] \appoggiatura h16 a8([ g)]
+		a4 g d'8([ h)] \appoggiatura h16 a8([ g)]
+		a4 g f' f %45
+		f4. e16([ d)] c4 h
+		\appoggiatura d16 c8([ h)] c4 r2
+		r e4. c8
+		c4( h) f'4. d8
+		d4( c8) e d([ c)] h([ a)] %50
+		e'1~
+		e8 h4 d f e16([ d)]
+		c1~
+		c8[ a] a([ c)] c([ e)] e([ c)]
+		\appoggiatura c4 h2 r4 g!8 h %55
+		c4 e g8([ e)] \appoggiatura e16 d8([ c)]
+		d4 c g'8([ e)] \appoggiatura e16 d8([ c)]
+		d4 c g'8([ e)] \appoggiatura e16 d8([ c)]
+		d4 c r c8 e
+		e([ c)] h([ a)] d4. f8 %60
+		f([ d)] c([ h)] e4. g8
+		g([ e)] d([ c)] f2~
+		f8([ d)] e([ c)] \appoggiatura c4 h4. c8
+		c2 r
+		R1*5 %69
+		g2 h %70
+		d g
+		e4 g8([ e)] d4( c)\trill
+		h g' d( c)
+		h r g f'
+		f e a, g' %75
+		\tuplet 3/2 4 { fis8([ e d)] } c2.
+		h4 c16([ h a h)] c4 d16([ c h c)]
+		d4 e16([ d c d)] e16([ c8.)] fis16([ d8.)]
+		g4 d e8([ c)] c([ a)]
+		g2( a)\trill %80
+		g4 r r2
+		c r4 g
+		c c c8([ e)] e([ g)]
+		g([ d)] d4 r g,
+		c8([ g)] g([ c)] c([ e)] e([ g)] %85
+		g([ d)] d4 r d8 g,
+		a4 g d'8([ h)] a([ g)]
+		a4 g r g
+		e'2 a,
+		d4( e8) c h4( a)\trill %90
+		g g'8 d e c h a
+		g2( a)\trill
+		g4 r r2
+		R1*12 \bar "||" %105 finis
 	}
 }
 
 JesusChristusBlindLyrics = \lyricmode {
+	Je -- ſus %9
+	Chri -- ſtus %10
+	wird das Le --
+	ben al -- len
+	Tod -- ten wie -- der --
+	ge -- ben, al -- len
+	Tod -- ten wie -- der -- %15
+	ge -- ben,
+	und der
+	Staub ſoll auf -- er --
+	ſtehn, und der
+	Staub ſoll auf -- er -- %20
+	ſtehn, __
+	_ _ _ _
+	_
+	_ _ _ _
+	_ _ _ _ %25
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ der Staub ſoll
+	auf -- er -- %30
+	ſtehn.
 	
+	Je -- ſus %34
+	Chri -- ſtus %35
+	wird das Le --
+	ben al -- len
+	Tod -- ten wie -- der --
+	ge -- ben, 
+	Je -- ſus %40
+	Chri -- ſtus
+	wird das Le --
+	ben al -- len
+	Tod -- ten wie -- der --
+	ge -- ben, al -- len %45
+	Tod -- ten wie -- der --
+	ge -- ben,
+	und der
+	Staub, und der
+	Staub ſoll auf -- er -- %50
+	ſtehn, __
+	_ _ _ _
+	_
+	ſoll auf -- er --
+	ſtehn. Auf -- er -- %55
+	ſtehn, nicht mehr zu
+	ſter -- ben, und des
+	Va -- ters Reich zu
+	er -- ben, mit ihm
+	hin zum Thron zu %60
+	gehn, zum Thron zu
+	gehn, mit ihm __
+	zum Thron zu
+	gehn.
+	
+	Den kann %70
+	To -- des
+	Nacht nicht de --
+	cken, nicht de --
+	cken, der die
+	Tod -- ten wird er -- %75
+	we -- _
+	_ _ _ _
+	_ _ cken, die
+	Tod -- ten wird er --
+	we -- %80
+	cken,
+	den kann
+	To -- des Nacht nicht
+	de -- cken, kann
+	To -- des Nacht nicht %85
+	de -- cken, der die
+	Tod -- ten wird er --
+	we -- cken, die
+	Tod -- ten
+	wird er -- we -- %90
+	cken, der die Tod -- ten wird er --
+	we --
+	cken. %93 finis
 }
 
 % BlindNotes = {

@@ -127,10 +127,10 @@
 						\JesusChristusViola
 					}
 				>>
-				\new Staff {
+				\new Staff <<
 					\set Staff.instrumentName = "Blindgeb."
 					\new Voice = "Blind" { \dynamicUp \JesusChristusBlindNotes }
-				}
+				>>
 				\new Lyrics \lyricsto Blind \JesusChristusBlindLyrics
 				\new StaffGroup <<
 					\new Staff {
