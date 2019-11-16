@@ -104,7 +104,7 @@ JesusChristusCornoI = {
 		R1*4 %92
 		c2\f e
 		g r
-		r r4 g, %95
+		r r4 \pao g, %95
 		g2 g4 g
 		g2 r
 		g g4 g
