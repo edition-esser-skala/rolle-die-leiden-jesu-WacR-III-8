@@ -510,6 +510,108 @@ JesusChristusViola = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoJesusChristus
-		
+		g8\fE g' d h g g' d h
+		g g' d h g g' h g
+		c4 c, d2
+		d r
+		fis4-! g-! r2 %5
+		fis4-! g-! h,8 d g h,
+		c e g c, cis4 e
+		a,4. e'8-! d c h a
+		g\p g' d h g g' d h
+		g g' d h g4 h8 g %10
+		c4 c d2
+		g,8 g' d h g4 r
+		fis'-!\f g-! r2
+		fis4-!\f g-! d\p d
+		e e d d %15
+		d d8\f h g g' d h
+		g4 r r2
+		d1\p
+		g2 r4 e'
+		a,2 r4 a %20
+		d-! r d-! r
+		d d, d d'
+		a-! r a-! r
+		a a a a
+		d r r2 %25
+		R1*3
+		a8 a fis fis g g g g
+		a a a a a a a a %30
+		a\f a d d d h' a g
+		a a a a a a g g
+		fis fis fis fis fis4 r
+		r8 d,\p fis a d d, fis a
+		d d, fis a d a fis d %35
+		g4 g a a
+		d d, r d'
+		d-!\f d-! r d\p
+		d-!\f d-! d8\p c! h a
+		g g' d h g g' d h %40
+		g g' d h g g h g
+		c4 c d2
+		g,8 g' d h g4 r
+		fis'-!\f g-! r2
+		fis4-! g-! a-! r %45
+		g2.\p f4
+		e <e g,>\f q q
+		q r r a,\p
+		e'2 r4 e
+		a,2 f %50
+		e4 r r2
+		e4 e e e
+		e r r2
+		e4 e e e
+		e e r2 %55
+		<g e'>4\f r r e'\p
+		d-!\f c-! r e\p
+		d-!\f c-! r e\p
+		d\f c8. d16 e4\p c
+		f,2 r4 d %60
+		g2 r4 e
+		a2 r4 a
+		g2~ g4 g
+		c\f c c c
+		c r c\p r %65
+		d\f d d d
+		d r d\p r
+		d8\f g h d, cis4 cis
+		d~ d8. e16 d8 c h a
+		g\p g' d h g g' d h %70
+		g g' d h g d' h g
+		c4 c, d2
+		e4 c d2
+		g4 h8. c16 d4 r
+		c8\f e16 g c4-! r2 %75
+		d,8\f fis!16 a d4-! d,\p d
+		g, r r2
+		g4 r r2
+		g4 h c c
+		d2 d4 d, %80
+		e r r2
+		g1~
+		g~
+		g4 g'-!\f g,-! r
+		g1~\p %85
+		g4 g'-!\f g,-! r
+		a-!\f g-! r2
+		a4-!\f g-! h2
+		c4\p c c c
+		h c d d %90
+		e g\f g c,\p
+		d2 r
+		g,8\f g' d h g g' d h
+		g g' d h g g' h g
+		c4 c, d2 %95
+		g,4-! r g-\parenthesize-! r
+		d' g, g g
+		d'-! r d-! r
+		d d d d
+		d g c,8 e a c, %100
+		d d' h g fis a fis d
+		g4 d c8 e a c,
+		d d' h g d4 d
+		h8 g' d h g g' d h
+		g4 r r2 \bar "||" %105 finis
 	}
 }
