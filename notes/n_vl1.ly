@@ -520,7 +520,7 @@ JesusChristusViolinoI = {
 		g\p h
 		d g %10
 		e16([ c8.) g'16( e8.)] d4( c\trill)
-		h2 d8( h) \grace h16 a8( g)
+		h r d8( h) \grace h16 a8( g)
 		<fis a>4-!\f g-! d'8(\p h) \grace h16 a8( g)
 		<fis a>4-!\f g-! g\p h
 		a2 h4 a %15
