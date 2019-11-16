@@ -615,3 +615,11 @@ JesusChristusViola = {
 		g4 r r2 \bar "||" %105 finis
 	}
 }
+
+DuStaerkestViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuStaerkest
+		
+	}
+}

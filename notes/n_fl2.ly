@@ -75,3 +75,11 @@ JesusChristusFlautoII = {
 		h4 r r2 \bar "||" %105 finis
 	}
 }
+
+DuStaerkestFlautoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuStaerkest
+		
+	}
+}

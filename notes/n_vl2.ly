@@ -617,3 +617,11 @@ JesusChristusViolinoII = {
 		<d h' g'>4 r r2 \bar "||" %105 finis
 	}
 }
+
+DuStaerkestViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuStaerkest
+		
+	}
+}

@@ -294,6 +294,7 @@ tempoSehtWelch = \tempoMarkup "[Tempo deest]"
 tempoSieFuehren = \tempoMarkup "[Tempo deest]"
 	tempoSieFuehrenB = \tempoMarkup "Arioso"
 tempoJesusChristus = \tempoMarkup "Allegro"
+tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
 
 
 

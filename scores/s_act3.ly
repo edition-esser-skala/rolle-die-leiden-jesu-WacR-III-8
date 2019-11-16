@@ -87,63 +87,110 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.2" "A R I A" "Jeſus Chriſtus wird das Leben"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto I"
+% 							\JesusChristusFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto II"
+% 							\JesusChristusFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in G" } }
+% 						\JesusChristusCornoI \JesusChristusCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JesusChristusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JesusChristusViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\JesusChristusViola
+% 					}
+% 				>>
+% 				\new Staff <<
+% 					\set Staff.instrumentName = "Blindgeb."
+% 					\new Voice = "Blind" { \dynamicUp \JesusChristusBlindNotes }
+% 				>>
+% 				\new Lyrics \lyricsto Blind \JesusChristusBlindLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JesusChristusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\JesusChristusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 75 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.2" "A R I A" "Jeſus Chriſtus wird das Leben"
+			movement = \movementTitle "3.3" "R E C I T A T I V" "Du ſtärkeſt mich"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Flauto I"
-							\JesusChristusFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Flauto II"
-							\JesusChristusFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in G" } }
-						\JesusChristusCornoI \JesusChristusCornoII
+						\set Staff.instrumentName = "Flauto I, II"
+						\partcombine \DuStaerkestFlautoI \DuStaerkestFlautoII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\JesusChristusViolinoI
+							\DuStaerkestViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\JesusChristusViolinoII
+							\DuStaerkestViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\JesusChristusViola
+						\DuStaerkestViola
 					}
 				>>
 				\new Staff <<
-					\set Staff.instrumentName = "Blindgeb."
-					\new Voice = "Blind" { \dynamicUp \JesusChristusBlindNotes }
+					\set Staff.instrumentName = "Fremdling"
+					\new Voice = "Fremd" { \dynamicUp \DuStaerkestFremdNotes }
 				>>
-				\new Lyrics \lyricsto Blind \JesusChristusBlindLyrics
+				\new Lyrics \lyricsto Fremd \DuStaerkestFremdLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JesusChristusOrgano
+						\DuStaerkestOrgano
 					}
 				>>
 				\new FiguredBass {
-					\JesusChristusBassFigures
+					\DuStaerkestBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 75 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

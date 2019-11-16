@@ -1518,6 +1518,18 @@ JesusChristusBassFigures = \figuremode {
 	r %105 finis
 }
 
+DuStaerkestOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDuStaerkest
+		
+	}
+}
+
+DuStaerkestBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

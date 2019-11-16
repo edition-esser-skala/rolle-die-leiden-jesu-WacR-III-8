@@ -184,6 +184,18 @@ EinPurpurFremdLyrics = \lyricmode {
 	phet? %37 finis
 }
 
+DuStaerkestFremdNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDuStaerkest		
+		
+	}
+}
+
+DuStaerkestFremdLyrics = \lyricmode {
+	
+}
+
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble

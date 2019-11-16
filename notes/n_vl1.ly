@@ -617,6 +617,14 @@ JesusChristusViolinoI = {
 	}
 }
 
+DuStaerkestViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuStaerkest
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
