@@ -1303,6 +1303,110 @@ JesusChristusOrgano = {
 		\clef bass
 		\key g \major \time 4/4 \tempoJesusChristus
 		g8\fE g' d h g g' d h
+		g g' d h g g' h g
+		c4 c, d2
+		g,8 g' d h g4 r
+		d'-! g,-! r g' %5
+		d-! g,-! h8 d g h,
+		c e g c, cis e a cis,
+		d4. e8-! d c h a
+		g\p g' d h g g' d h
+		g g' d h g g' h g %10
+		c4 c, d2
+		g,8 g' d h g4 r
+		d'-!\f g,-! r2
+		d'4-!\f g,-! h\p h
+		c c d d %15
+		g,8\f g' d h g g' d h
+		g4 r r2
+		d1\p
+		g2 r4 e'
+		a,2 r4 a %20
+		d8 fis a d d, fis a d
+		d,4 r d r
+		a8 cis e a a, cis e a
+		a,4 r a r
+		d8 d d d d d d d %25
+		d d d d d d d d
+		d4 r r2
+		d4 r r2
+		fis8 fis fis fis g g g g
+		a a a a a, a a a %30
+		fis'\f fis fis fis g g g g
+		a a a a a, a a a
+		d d' a fis d4 r
+		r8 d\p fis a d d, fis a
+		d d, fis a d a fis d %35
+		g,4 g' a a,
+		d d, r2
+		g'4-!\f d-! r2
+		g4-!\f d-! d8\p c! h a
+		g g' d h g g' d h %40
+		g g' d h g g' h g
+		c4 c, d2
+		g,8 g' d h g4 r
+		d'-!\f g,-! r2
+		d'4-!\f g-! a-! r %45
+		g2.\p f4
+		e8 c'[\f g e] c c' g e
+		c4 r r a\p
+		e'2 r4 e
+		a, a' f2 %50
+		e8 gis h e e, gis h e
+		e,4 r e r
+		e8 a c e e, a c e
+		e,4 r e r
+		e e, r2 %55
+		c'4\f r r c'\p
+		g-!\f c,-! r2
+		g'4-!\f c,-! r2
+		g'4\f c,8. d16 e4\p c
+		f f f d %60
+		g g g e
+		a a a d,
+		g2~ g4 g,
+		c\f r c r
+		c8\p e g c c, e g c %65
+		d,4\f r d r
+		d8\p fis! a d d, fis a d
+		d,\f g h d cis4 cis,
+		d4~ d8.e16 d8 c h a
+		g\p g' d h g g' d h %70
+		g g' d h g g' h g
+		c4 c, d2
+		e4 c d2
+		g4 g,8. a16 h2
+		c8\f e16 g c4 cis,2\p %75
+		d8\f fis16 a d4 d,\p d
+		g r r2
+		g4 r r2
+		g4 h c c,
+		d8 d' h g d'4 d, %80
+		e r r2
+		c1~
+		c
+		g4 g'-!\f g,-! r
+		g1~\p %85
+		g4 g'-!\f g,-! r
+		d'-!\f g-! r2
+		d4-!\f g,-! h2
+		c4\p c c c
+		h c d d %90
+		e h'\f c c,\p
+		d1
+		g,8\f g' d h g g' d h
+		g g' d h g g' h g
+		c4 c, d2 %95
+		g,8 h d g g, h d g
+		g,4 r g' r
+		d8 fis a d d, fis a d
+		d,4 r d r
+		g, h c8 e a c, %100
+		d d' h g d a' fis d
+		g4 h, c8 e a c,
+		d d' h g d'4 d,
+		g,8 g' d h g g' d h
+		g4 r r2 \bar "||" %105 finis
 	}
 }
 
