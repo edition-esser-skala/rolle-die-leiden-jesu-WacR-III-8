@@ -464,12 +464,82 @@ GrossIstAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 4/4 \autoBeamOff \tempoGrossIst
-		
+		R1*3
+		e4 e e e
+		e2~ e4 r %5
+		h' cis h h,
+		e2 r
+		e4. e8 e4 eis
+		fis2 r
+		fis4. fis8 fis4 fis %10
+		h,2 r
+		r h'8([ gis)] gis([ eis)]
+		fis2 fis
+		e4 e e eis
+		fis2 r %15
+		r gis4 gis
+		fis2 e
+		dis gis4 g
+		fis2 fis
+		h, r %20
+		R1*2
+		h'4 h, fis' fis
+		h,2 r
+		dis4. dis8 dis4 dis %25
+		e2 r
+		e4. e8 e4 e
+		a,2 r
+		fis'4 fis fis fis
+		h,2 h'8([ gis)] gis([ e)] %30
+		e1
+		dis4( fis e) gis
+		gis8([ a)] a([ gis)] gis([ fis)] fis([ e)]
+		\appoggiatura e4 dis2 r
+		r4 cis2 cis4 %35
+		h2 h
+		h r
+		h h
+		e r
+		R1*3 \bar "||" %42 finis
 	}
 }
 
 GrossIstAltoLyrics = \lyricmode {
+	Gros iſt ſei -- ne %4
+	Quaal, %5
+	blu -- tig ſein Ge --
+	ſicht,
+	wie die Roſ’ im
+	Thal,
+	die der Sturm -- wind %10
+	bricht,
+	ſinkt der
+	Ed -- le,
+	ſinkt der Ed -- le
+	hin! %15
+	Schwe -- ſtern
+	wei -- net
+	ihn, wei -- net,
+	wei -- net
+	ihn! %20
 	
+	Gros iſt ſei -- ne %23
+	Quaal,
+	blu -- tig ſein Ge -- %25
+	ſicht,
+	wie die Roſ’ im
+	Thal,
+	die der Sturm -- wind
+	bricht, ſinkt der %30
+	Ed --
+	_ le, 
+	ſinkt der Ed -- le
+	hin.
+	Schwe -- ſtern %35
+	wei -- net
+	ihn,
+	wei -- net
+	ihn. %39 finis
 }
 
 % AltoNotes = {
