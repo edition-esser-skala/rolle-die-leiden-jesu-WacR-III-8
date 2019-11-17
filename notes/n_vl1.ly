@@ -709,6 +709,39 @@ GrossIstViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 4/4 \tempoGrossIst
-		
+		e'4\fE e gis8( e) e( h)
+		h( cis) cis4 cis e,8( cis')
+		h( e4) fis,8~ fis( a) fis( dis)
+		e4 r r2
+		r4 a8(\p e) e( cis) cis( a) %5
+		R1
+		r4 e''8( h) h( gis) gis( e)
+		R1
+		r4 cis'8( ais) ais( fis) fis( cis)
+		R1 %10
+		r4 h'8( fis) dis4 r
+		R1*3
+		r4 cis'8( ais) ais( fis) fis( ais,) %15
+		h4 r r2
+		R1*3
+		h'4\f h dis8( h) h( fis) %20
+		fis( gis) gis2 h,8( gis')
+		fis h4 gis8 fis e'( cis ais)
+		h2 r
+		r4 h8(\p fis) fis( dis) dis( h)
+		R1 %25
+		r4 e'8( h) h( gis) gis( e)
+		R1
+		r4 a8( e) e( cis) cis( a)
+		R1
+		r4 fis'8( dis) h4 r %30
+		R1*3
+		r4 h'8( fis) fis( dis) dis( h)
+		e4 r r2 %35
+		R1*3
+		r4 e8(\p h) h4 fis'8( h,)
+		h4 e8( h) h4 fis'8( a,) %40
+		gis4 e''8( h) h( gis) gis( e)
+		e2 r \bar "||" %42 finis
 	}
 }

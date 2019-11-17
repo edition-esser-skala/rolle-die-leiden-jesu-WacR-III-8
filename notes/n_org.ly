@@ -1750,7 +1750,7 @@ GrossIstCello = {
 		e4\fE e e e
 		a, a a a'
 		gis a h h
-		e( e) e( e)
+		e(\pE e) e( e)
 		a,2 r %5
 		gis4 a h h
 		e,2 r
@@ -1766,10 +1766,10 @@ GrossIstCello = {
 		fis( fis) e( e)
 		dis( dis) gis( g)
 		fis2 fis,
-		h4 h, h h %20
+		h4\f h, h h %20
 		e, e e' e
 		dis e fis fis
-		h( h) fis( fis)
+		h(\pE h) fis( fis)
 		h2 r
 		h4( h) h( h) %25
 		e2 r
@@ -1800,7 +1800,7 @@ GrossIstOrgano = {
 		a, a a a'
 		gis a h h,
 		e r r2
-		r4 a,-\pizz a a %5
+		r4 \mvTr a,\pE-\pizz a a %5
 		R1
 		r4 e' e e 
 		R1
@@ -1811,11 +1811,11 @@ GrossIstOrgano = {
 		r4 fis' fis fis %15
 		gis4 r r2
 		R1*3
-		h,4-\collArco h h h %20
+		\mvTr h,4\f-\collArco h h h %20
 		e, e e' e
 		dis e fis fis
 		h,2 r
-		r4 h-\pizz h h
+		r4 \mvTr h\pE-\pizz h h
 		R1 %25
 		r4 e e e
 		R1
