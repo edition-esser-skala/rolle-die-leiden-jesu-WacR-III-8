@@ -637,7 +637,7 @@ SiehErViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \tempoSiehEr
-		r16 h'\fE^\markup { \remarkE "con sordino" } h( a) a( g)
+		r16 h'\f^\markup { \remarkE "con sordino" } h([ a) a( g)]
 		g( fis) fis( e) e( dis)
 		dis( c') c( h) h( a)
 		g\p g32 fis e8[ fis]\trill

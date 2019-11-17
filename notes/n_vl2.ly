@@ -638,6 +638,70 @@ SiehErViolinoII = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \tempoSiehEr
-		
+		h4.\f^\markup { \remarkE "con sordino" }
+		h
+		dis8( e dis)
+		e4\p dis8
+		e( dis) e %5
+		fis4 fis8~
+		fis16 a a([ fis) fis( dis)]
+		\appoggiatura dis? e8 dis r
+		e~ e16( cis) cis( e)
+		d!8~ d16( h) h( d) %10
+		c!4 h8
+		c4 f8
+		f?( e) r
+		r c h
+		\appoggiatura h c4 e16.( f32) %15
+		d8( c16) b a8
+		a([ g)] c
+		d( c) f~
+		f f?4
+		d8( c) c16([ e)] %20
+		e8~ e16( d) d( fis!)
+		fis8~ fis16( e) e8
+		e4.
+		e16( d) d( c) c( h)
+		e4. %25
+		e16( d) d( c) c( h)
+		e c'8 h16([ a gis)]
+		gis?8([ a)] gis
+		a~ a16( f) d( h)
+		\appoggiatura h a4 cis8 %30
+		d4 e8
+		e( d16) d'(-. d-. d-.)
+		d([-. d-.)] d8 cis
+		\appoggiatura e16 d8 cis r
+		d16( f,) f( f) f( f) %35
+		f(-. f-. f-. f-. e-. e-.)
+		f([ a) a( c)] f,8
+		f?4 b8
+		b?([ a)] c~
+		c[ b] b, %40
+		a d'16([\f c) c( b)]
+		b?( a) a( g) g( f)
+		f4\p e16( g)
+		g8( f) r
+		a4\fp fis8 %45
+		fis?( e16) h(-. h-. h-.)
+		h( h) h( h) h( h)
+		h( h) h( h) h( h)
+		h( h) h( h) h( h)
+		h( ais) ais( g') fis( e) %50
+		e8( dis) r
+		e e e
+		e16 a a8 gis
+		a e r
+		r cis' cis, %55
+		\appoggiatura cis? h4 r8
+		h'4.\f
+		h16(\p a) a( g) g( fis)
+		h,4.
+		h16( a) a( g) g( a) %60
+		g8 ais4
+		h16( dis) dis( fis) a!( fis)
+		e4.
+		r8 fis16(-. fis-. fis-. fis-.)
+		fis4\fermata r8 \bar "||" %65 finis
 	}
 }
