@@ -146,48 +146,100 @@
 % 			\midi { \tempo 2 = 75 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.3" "R E C I T A T I V" "Du ſtärkeſt mich"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Flauto I, II"
+% 						\partcombine \DuStaerkestFlautoI \DuStaerkestFlautoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DuStaerkestViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DuStaerkestViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DuStaerkestViola
+% 					}
+% 				>>
+% 				\new Staff <<
+% 					\set Staff.instrumentName = "Fremdling"
+% 					\new Voice = "Fremd" { \dynamicUp \DuStaerkestFremdNotes }
+% 				>>
+% 				\new Lyrics \lyricsto Fremd \DuStaerkestFremdLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DuStaerkestOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DuStaerkestBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.3" "R E C I T A T I V" "Du ſtärkeſt mich"
+			movement = \movementTitle "3.4" "W E C H S E L G E S A N G" "Sieh! er träget ſein Kreutz"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Flauto I, II"
-						\partcombine \DuStaerkestFlautoI \DuStaerkestFlautoII
-					}
-				>>
-				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DuStaerkestViolinoI
+							\SiehErViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DuStaerkestViolinoII
+							\SiehErViolinoII
 						}
 					>>
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DuStaerkestViola
+							\set Staff.instrumentName = "Viola"
+							\SiehErViola
+						}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \JosephIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Joseph" { \dynamicUp \SiehErJosephNotes }
 					}
+					\new Lyrics \lyricsto Joseph \SiehErJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Nicodemus"
+						\new Voice = "Nico" { \dynamicUp \SiehErNicoNotes }
+					}
+					\new Lyrics \lyricsto Nico \SiehErNicoLyrics
 				>>
-				\new Staff <<
-					\set Staff.instrumentName = "Fremdling"
-					\new Voice = "Fremd" { \dynamicUp \DuStaerkestFremdNotes }
-				>>
-				\new Lyrics \lyricsto Fremd \DuStaerkestFremdLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DuStaerkestOrgano
+						\SiehErOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DuStaerkestBassFigures
+					\SiehErBassFigures
 				}
 			>>
 			\layout { }

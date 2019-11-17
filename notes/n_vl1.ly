@@ -633,6 +633,14 @@ DuStaerkestViolinoI = {
 	}
 }
 
+SiehErViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \tempoSiehEr
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -633,3 +633,11 @@ DuStaerkestViolinoII = {
 		R1*2 \markVSE \bar "||" %11 finis
 	}
 }
+
+SiehErViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \tempoSiehEr
+		
+	}
+}

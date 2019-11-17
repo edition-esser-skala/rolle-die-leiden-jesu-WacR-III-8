@@ -297,6 +297,7 @@ tempoJesusChristus = \tempoMarkup "Allegro"
 tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
 	tempoDuStaerkestB = \tempoMarkup "Poco largo"
 	tempoDuStaerkestC = \tempoMarkup "Recitativ"
+tempoSiehEr = \tempoMarkup "Poco largo"
 
 
 
@@ -486,10 +487,12 @@ tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"
 \include "notes/n_Fremd.ly"   %S
+\include "notes/n_Joseph.ly"  %A
 \include "notes/n_Blind.ly"   %T
 \include "notes/n_Petrus.ly"  %T
 \include "notes/n_Judas.ly"   %B
 \include "notes/n_Kaiphas.ly" %B
+\include "notes/n_Nico.ly"    %B
 \include "notes/n_Pilatus.ly" %B
 \include "notes/n_Soli.ly"
 \include "notes/n_S.ly"

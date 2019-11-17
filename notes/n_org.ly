@@ -1551,6 +1551,18 @@ DuStaerkestBassFigures = \figuremode {
 	r1 %11 finis
 }
 
+SiehErOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 3/8 \tempoSiehEr
+		
+	}
+}
+
+SiehErBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

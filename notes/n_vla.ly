@@ -630,3 +630,11 @@ DuStaerkestViola = {
 		R1*3 \markVSE \bar "||" %11 finis
 	}
 }
+
+SiehErViola = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \tempoSiehEr
+		
+	}
+}
