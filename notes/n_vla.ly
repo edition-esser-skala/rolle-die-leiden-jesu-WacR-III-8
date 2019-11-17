@@ -635,6 +635,70 @@ SiehErViola = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \tempoSiehEr
-		
+		h8(\f^\markup { \remarkE "con sordino" } dis) e
+		h16( a) a( g) g( fis)
+		a8( g fis)
+		e\p g h~
+		h a g %5
+		c4 c8
+		h4 h8
+		h h r
+		r ais( a)
+		r gis( g) %10
+		fis4 f8
+		e f g
+		a4 c8
+		c4 g8
+		c,4 r8 %15
+		c c c
+		c4 r8
+		g' c, r
+		c' c f,
+		g c, r %20
+		r a' a
+		r h h
+		a( gis) a
+		e'4.
+		c8( gis a) %25
+		e'4 e8
+		c d e
+		f4 e8
+		a, d e
+		a,4 r8 %30
+		R4.
+		r8 a a
+		g a a
+		a a r
+		d, d' c! %35
+		b c c
+		f4 a,8
+		b b c
+		d4 a8
+		b b c %40
+		f,4 r8
+		r c'\f c
+		b4\p c8
+		f,4 r8
+		r r h! %45
+		h4 h8
+		a4 h8
+		h dis e
+		e dis r
+		e c, c' %50
+		h4 r8
+		gis gis h
+		a e' e,
+		a a g!
+		fis!4 ais8 %55
+		h~ h16(\f dis) dis( e)
+		e8( dis e)
+		h4.\p
+		h8 dis e
+		h4 h8 %60
+		c r r
+		h h h
+		c4 c8
+		h h h
+		h4\fermata r8 \bar "||" %65 finis
 	}
 }
