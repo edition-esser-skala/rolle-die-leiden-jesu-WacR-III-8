@@ -748,6 +748,37 @@ WeintNichtViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoWeintNicht
-		
+		g4\p g e e
+		f1
+		f'4 f f f
+		f( e) r g,
+		a a g g %5
+		c,~ \kneeBeam c8[ r16 c'']\f c8.[ g16 g8. es16]
+		c8 c4\p c c es8~
+		es es?4\fp \once \tieDashed es8~ es es4\fp es8~
+		es es4\fp es8 es2
+		d8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g8 d[\p b g] %10
+		d'8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g16( d) d( b) b( g) g( d')
+		d8. d16 d16. d32 d16. d32 d4\fermata r
+		r4 es,(\p es es)
+		es2 es
+		d r4\fermata r %15
+		r b'8. c16 d4 f
+		g2 f
+		f4 r8. f,16\f es?4 f
+		f2 r
+		r4 b8. c16 d4 d %20
+		es2 d
+		d c\f
+		b4 g\p g g
+		es'8\fp es4 es8 f\fp f4 f8
+		g\fp g4 g8 g g4 g8 %25
+		g4 c16\f g es c g4 r
+		r c'16\f g es c g4 r
+		r c'16\f g es c cis4 r
+		d,1\p
+		g8 g' es c d4 d %30
+		g, es''16 c a fis g d b g d'8 d
+		g,4 r r2 \markVSE \bar "|" %32 finis
 	}
 }
