@@ -667,7 +667,7 @@ SiehErViolinoII = {
 		e c'8 h16([ a gis)]
 		gis?8([ a)] gis
 		a~ a16( f) d( h)
-		\appoggiatura h a4 cis8 %30
+		\appoggiatura h8 a4 cis8 %30
 		d4 e8
 		e( d16) d'(-. d-. d-.)
 		d([-. d-.)] d8 cis

@@ -633,7 +633,7 @@ DuStaerkestViola = {
 
 SiehErViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 3/8 \tempoSiehEr
 		h8(\f^\markup { \remarkE "con sordino" } dis) e
 		h16( a) a( g) g( fis)

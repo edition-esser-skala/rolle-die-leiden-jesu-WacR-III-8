@@ -16,7 +16,7 @@ SiehErNicoNotes = {
 		a g16([ f)] e([ d)]
 		\appoggiatura c h8 c r %20
 		g'8.([ fis!16)] fis8
-		a8.([ g16)] g8
+		a8.([ gis16)] gis8
 		e e e
 		e4 r8
 		c' h a %25
