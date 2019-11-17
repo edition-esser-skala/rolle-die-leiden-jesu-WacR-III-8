@@ -683,7 +683,7 @@ SiehErViolinoII = {
 		f4\p e16( g)
 		g8( f) r
 		a4\fp fis8 %45
-		fis?( e16) h(-. h-. h-.)
+		fis( e16) h(-. h-. h-.)
 		h( h) h( h) h( h)
 		h( h) h( h) h( h)
 		h( h) h( h) h( h)
