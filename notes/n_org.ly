@@ -1894,6 +1894,37 @@ WeintNichtOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoWeintNicht
 		c4\p c e e
+		f1
+		g4 g g, g
+		a2 e'4 e
+		f2 g4 g, %5
+		c4~ c8[ r16 c']\f c8.[ g16 g8. es16]
+		c2 c4\p c(
+		b)\f b(\p a)\f a(\p
+		g)\f g(\p fis) fis'
+		g8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g8 d[\p b g] %10
+		d'8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g16( d) d( b) b( g) g( d')
+		d8. d16 d16. d32 d16. d32 d4\fermata r
+		es4\p es es es
+		es2 es
+		d4 d, d\fermata r %15
+		r b'8. c16 d4 d
+		es2 f
+		b,4~ b8. d16\f c4 f,
+		b2 r
+		r4 g8.\p a16 b4 b %20
+		c2 d
+		g,4~ g8. b16\f a4 d,
+		g g\p g' g
+		g\f g\p g\f g\p
+		g\f g\p g g %25
+		c, c'16\f g es c g4 r
+		r c'16\f g es c g4 r
+		r c'16\f g es c cis4 r
+		d1\p
+		g,8 g' es c d4 d, %30
+		g\f es''16 c a fis g d b g d'8 d
+		g,4 r r2 \markVSE \bar "|" %32 finis
 	}
 }
 
