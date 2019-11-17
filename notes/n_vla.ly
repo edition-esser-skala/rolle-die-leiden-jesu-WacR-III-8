@@ -707,6 +707,39 @@ GrossIstViola = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 4/4 \tempoGrossIst
-		
+		h4\f h e e
+		e a, a a
+		h cis h h
+		e, r r2
+		r4 \mvTr cis'\pE-\pizz cis cis %5
+		R1
+		r4 h h h
+		R1
+		r4 fis' cis ais
+		R1 %10
+		r4 h h r
+		R1*3
+		r4 fis' cis ais %15
+		h r r2
+		R1*3
+		\mvTr fis'4\f-\collArco fis h, h %20
+		h h h gis'
+		fis gis8 e fis4 fis
+		h,2 r
+		r4 \mvTr h\pE-\pizz h h
+		R1 %25
+		r4 h h h
+		R1
+		r4 a a a
+		R1
+		r4 h h r %30
+		R1*3
+		r4 h h h
+		cis r r2 %35
+		R1*3
+		r4 h\pE h r
+		r gis a r %40
+		r gis gis gis
+		gis2 r \bar "||" %42 finis
 	}
 }
