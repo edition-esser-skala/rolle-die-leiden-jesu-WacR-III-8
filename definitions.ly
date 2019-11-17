@@ -254,6 +254,10 @@ Pilatus = \markup { \remark "Pilatus" }
 Kaiphas = \markup { \remark "Kaiphas" }
 ChorDesVolkes = \markup { \remark "Chor des Volks" }
 
+pizz = \markup { \remark "pizz." }
+collArco = \markup { \remark "coll’arco" }
+collArcoE = \markup { \remarkE "coll’arco" }
+
 tempoMarkup =
 	#(define-music-function
 		(parser location arg)

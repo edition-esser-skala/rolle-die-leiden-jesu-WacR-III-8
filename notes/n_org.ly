@@ -1747,7 +1747,48 @@ GrossIstCello = {
 	\relative c {
 		\clef bass
 		\key e \major \time 4/4 \tempoGrossIst
-		
+		e4\fE e e e
+		a, a a a'
+		gis a h h
+		e( e) e( e)
+		a,2 r %5
+		gis4 a h h
+		e,2 r
+		e'4( e) e( eis)
+		fis2 r
+		fis4( fis) \once \slurDashed fis,( fis) %10
+		h( h) dis( dis)
+		e( e) eis( eis)
+		fis( fis) fis( fis)
+		e2 e4 eis
+		fis2 r %15
+		r4 gis gis gis
+		fis( fis) e( e)
+		dis( dis) gis( g)
+		fis2 fis,
+		h4 h, h h %20
+		e, e e' e
+		dis e fis fis
+		h( h) fis( fis)
+		h2 r
+		h4( h) h( h) %25
+		e2 r
+		e4( e) e( e)
+		a,2 r
+		\slurDashed fis'4( fis) fis( fis) \slurSolid
+		h,4.( a8) gis4( gis) %30
+		a( a) ais( ais)
+		h( h) h( h)
+		a2. ais4
+		h2 r
+		r4 cis(-. cis-. cis-.) %35
+		h(-. h-.) a(-. a-.)
+		gis(-. gis-.) cis(-. cis-.)
+		h(-. h-.) h,(-. h-.)
+		e(-. e-.) dis(-. dis-.)
+		e(-. e-.) h(-. h-.) %40
+		e,2 e4 e
+		e2 r \bar "||" %42 finis
 	}
 }
 
@@ -1756,6 +1797,39 @@ GrossIstOrgano = {
 		\clef bass
 		\key e \major \time 4/4 \tempoGrossIst
 		e4\fE e e e
+		a, a a a'
+		gis a h h,
+		e r r2
+		r4 a,-\pizz a a %5
+		R1
+		r4 e' e e 
+		R1
+		r4 fis fis fis
+		R1 %10
+		r4 h, h r
+		R1*3
+		r4 fis' fis fis %15
+		gis4 r r2
+		R1*3
+		h,4-\collArco h h h %20
+		e, e e' e
+		dis e fis fis
+		h,2 r
+		r4 h-\pizz h h
+		R1 %25
+		r4 e e e
+		R1
+		r4 a, a a
+		R1
+		r4 h' gis r %30
+		R1*3
+		r4 h, h h
+		cis r r2 %35
+		R1*3
+		e4-\collArcoE r dis r
+		e r h r %40
+		e,2 e4 e
+		e2 r \bar "||" %42 finis
 	}
 }
 
