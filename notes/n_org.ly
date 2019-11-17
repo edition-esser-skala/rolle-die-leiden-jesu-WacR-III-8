@@ -1786,7 +1786,7 @@ GrossIstCello = {
 		gis(-. gis-.) cis(-. c?-.)
 		h(-. h-.) h,(-. h-.)
 		e(-. e-.) dis(-. dis-.)
-		e(-. e-.) h(-. h-.) %40
+		e(-.\pE e-.) h(-. h-.) %40
 		e,2 e4 e
 		e2 r \bar "||" %42 finis
 	}
@@ -1826,7 +1826,7 @@ GrossIstOrgano = {
 		r4 h, h h
 		cis r r2 %35
 		R1*3
-		e4-\collArcoE r dis r
+		e4\pE r dis r
 		e r h r %40
 		e,2 e4 e
 		e2 r \bar "||" %42 finis
