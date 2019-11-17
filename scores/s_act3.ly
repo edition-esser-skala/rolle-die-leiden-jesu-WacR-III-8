@@ -399,6 +399,7 @@
 		\header {
 			movement = \movementTitle "3.8" "A R I E" "Weint nicht um mich"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

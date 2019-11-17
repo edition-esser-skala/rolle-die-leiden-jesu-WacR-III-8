@@ -758,7 +758,7 @@ WeintNichtViolinoI = {
 		f( e8[) r16 c]\f c8.[ g16 g8. es16]
 		c8 g'4\p g g g8~
 		g g4\fp g8 fis fis4\fp fis8(
-		g) g4\fp g8 a2
+		g) g4\fp g8 a!2
 		g8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g8 d[\p b g] %10
 		d'8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g16( d) d( b) b( g) g( d')
 		d8. d16 d16. d32 d16. d32 d4\fermata r

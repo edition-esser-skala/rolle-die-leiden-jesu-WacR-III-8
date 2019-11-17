@@ -1902,7 +1902,7 @@ WeintNichtOrgano = {
 		c2 c4\p c(
 		b)\f b(\p a)\f a(\p
 		g)\f g(\p fis) fis'
-		g8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g8 d[\p b g] %10
+		g8 r16 \mvTr g,64(\f-\unisonoE a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g8 d[\p b g] %10
 		d'8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g16( d) d( b) b( g) g( d')
 		d8. d16 d16. d32 d16. d32 d4\fermata r
 		es4\p es es es
@@ -1929,7 +1929,38 @@ WeintNichtOrgano = {
 }
 
 WeintNichtBassFigures = \figuremode {
-	
+	r2 <6>4 <6\\>
+	<5+> <6>2.
+	<4!>2 <3>
+	<6 4 2>4 <5 3> <6>2
+	<6 5>2. <7>4 %5
+	<9 4> <8 3>8. <1>16 q8. q16 q8. q16
+	<_->1
+	<6 4- _->2 <6\\ 5->
+	<6- 4> <7->
+	<_->1 %10
+	r
+	r
+	<7 5->4 <6\\ \t>2.
+	<\t \t>1
+	<6- 4>4 <5 _+>2. %15
+	r4.. <6 _->16 <6->2
+	<6 5-> <5 4->4 <\t 3>
+	<9 4-> <8 3>8. <6->16 <7- _->4 <7->
+	<4-> <3>2.
+	r4 <_->8. <6\\>16 <6>2 %20
+	<6 5 _-> <5 4>4 <\t _+>
+	<9 4> <8 _->8. <6>16 <7 5->4 <7 _+>
+	<_->1
+	<6- 4 2->2 <7 5 _!>
+	<6- 4> <7 5 _!> %25
+	<_-> <_!>
+	r4 <_-> <_!> r
+	r <_-> <7- _!>2
+	<8 5 _+>4 \bassFigureExtendersOn <9- 7 _+> <8 6- _+> <7! 5 _+> \bassFigureExtendersOff
+	<_->4 <6>8 <_-> <_+>2 %30
+	<_->4 <1>16 q q q q q q q q8 <_+>
+	<_->1 %32 finis
 }
 
 % Organo = {
