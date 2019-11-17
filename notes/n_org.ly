@@ -1555,7 +1555,71 @@ SiehErOrgano = {
 	\relative c {
 		\clef bass
 		\key e \minor \time 3/8 \tempoSiehEr
-		
+		g'8(\f fis) e
+		dis( e) h
+		a'( g fis)
+		e\p g, h
+		e4 r8 %5
+		e16( a) a( c) c( a)
+		dis,4 h8
+		e h r
+		r ais( a)
+		r gis( g) %10
+		fis4 f8
+		e f g
+		a4 e'8
+		f f, g
+		c,4 r8 %15
+		c' c c
+		c c, r
+		h' c r
+		f, f f
+		g c, r %20
+		r \once \slurDashed cis'( d)
+		r dis( e)
+		c'( h) a
+		gis( a) e
+		c'( h) a %25
+		gis( a) e
+		c d e
+		f4 e8
+		a d, e
+		a,4 a'8~ %30
+		a g16 fis! g8~
+		g f16 e d8
+		g a a,
+		d a r
+		d, d' c %35
+		b c c
+		f4 a8
+		b b, c
+		d4 a'8
+		b b, c %40
+		f?4 r8
+		r e\f f?
+		b,4\p c8
+		f4 r8
+		dis dis dis %45
+		e4 g8
+		fis4 g8
+		dis h e
+		h r16 h( h h)
+		c( c) c( c) c( c) %50
+		h8 h r
+		gis' gis gis
+		a e e
+		a, a' g!
+		fis!4 fis,8 %55
+		h h'16([\f a) a( g)]
+		g8( fis e)
+		dis(\p e) h
+		g' fis e
+		dis e h %60
+		c c c
+		h h h
+		c4 c8
+		h h h
+		h4\fermata r8 \bar "||" %65 finis
 	}
 }
 
