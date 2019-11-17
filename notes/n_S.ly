@@ -570,7 +570,7 @@ GrossIstSopranoINotes = {
 		h,4~ h8[ cis] h4( ais)\trill
 		h2 r %20
 		R1*2
-		fis'4 fis fis8([ dis)] dis([ fis)]
+		fis'4 fis fis8([ dis)] dis([ e)]
 		\appoggiatura e4 dis2 r
 		fis4. a,!8 cis4( h8) a %25
 		\appoggiatura a4 gis2 r
@@ -610,35 +610,105 @@ GrossIstSopranoILyrics = \lyricmode {
 	wei -- net
 	ihn! %20
 	
-	Gros iſt ſei -- ne
+	Gros iſt ſei -- ne %23
 	Quaal,
-	blu -- tig ſein Ge --
+	blu -- tig ſein Ge -- %25
 	ſicht,
 	wie die Roſ’ im
 	Thal,
 	die der Sturm -- wind
-	bricht,
+	bricht, %30
 	ſinkt der
 	Ed -- le, 
 	ſinkt der Ed -- le
 	hin.
-	Schwe -- ſtern
+	Schwe -- ſtern %35
 	wei -- net
 	ihn, wei -- net,
 	wei -- net
-	ihn.
+	ihn. %39 finis
 }
 
 GrossIstSopranoIINotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 4/4 \autoBeamOff \tempoGrossIst
-		
+		R1*3
+		gis'4 gis h8([ gis)] gis4
+		\appoggiatura { gis16.[ h32] } a2~ a4 r %5
+		e e e4. dis8
+		\appoggiatura fis4 e2 r
+		gis4. ais16([ h)] cis4 h
+		\appoggiatura h ais2 r
+		ais4. h16([ cis)] dis4 \appoggiatura dis16 cis8([ h16 cis)] %10
+		\appoggiatura cis4 h2 fis'8([ dis)] dis([ h)]
+		h1
+		ais4( cis h) dis
+		dis8([ e)] e([ dis)] dis([ cis)] cis([ h)]
+		\appoggiatura h4 ais2 r %15
+		r h4 h
+		h4~ h8[ cis] h4( ais)\trill
+		h2 h4 h
+		dis4~ dis8[ e] dis4( cis)\trill
+		h2 r %20
+		R1*2
+		dis4 dis dis8([ h)] h([ cis)]
+		\appoggiatura cis4 h2 r
+		a!4. a8 a4( gis8) fis %25
+		\appoggiatura fis4 e2 r
+		gis4. a16([ h)] cis4 h
+		\appoggiatura h4 a2 r
+		ais4. h16([ cis)] dis4 \appoggiatura dis16 cis8([ h16 cis)]
+		\appoggiatura cis4 h2 r %30
+		cis8([ a!)] a([ fis)] fis2~
+		fis4( a) gis e'
+		e2. e,4
+		h2 r
+		r4 e2 e4 %35
+		e4~ e8[ fis] e4( dis)
+		e2 a8([ ais)] ais([ h)]
+		e,4~ e8[ fis] e4( dis)\trill
+		e2 r
+		R1*3 \bar "||" %42 finis
 	}
 }
 
 GrossIstSopranoIILyrics = \lyricmode {
+	[Gros iſt ſei -- ne %4
+	Quaal, %5
+	blu -- tig ſein Ge --
+	ſicht,
+	wie die Roſ’ im
+	Thal,
+	die der Sturm -- wind %10
+	bricht,] ſinkt der
+	Ed --
+	_ le,
+	[ſinkt der Ed -- le
+	hin!] %15
+	Schwe -- ſtern
+	wei -- net
+	[ihn, wei -- net,
+	wei -- net
+	ihn!] %20
 	
+	[Gros iſt ſei -- ne %23
+	Quaal,
+	blu -- tig ſein Ge -- %25
+	ſicht,
+	wie die Roſ’ im
+	Thal,
+	die der Sturm -- wind
+	bricht,] %30
+	ſinkt der Ed -- 
+	le, der
+	Ed -- le
+	hin.
+	[Schwe -- ſtern %35
+	wei -- net
+	ihn, wei -- net,
+	wei -- net
+	ihn.] %39 finis
 }
 
 % SopranoNotes = {
