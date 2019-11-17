@@ -126,12 +126,25 @@ ODassIchNicoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoODassIch
-		
+		g'4 g8 a b b b a
+		f f r c' c es, es f
+		d d r16 f b a b8 f g as
+		g b b f r2
+		r4 r8 c g'4 g %5
+		c8 c c g e4 r16 g g a
+		b b b a f8 f r2
+		R1*10 \bar "||" %17 finis
 	}
 }
 
 ODassIchNicoLyrics = \lyricmode {
-	
+	Ta -- ge des Jam -- mers nicht er --
+	le -- be! daß die -- ſes Au -- ge
+	bre -- che, eh die -- ſer Schau -- platz vol -- ler
+	Greul ſich öff -- net!
+	Sein Blut, ach, %5
+	des Ge -- rech -- ten Blut wird Got -- tes
+	Ra -- che ſchnell be -- flü -- geln. %7 finis
 }
 
 % NicoNotes = {

@@ -343,3 +343,46 @@ JesusWendetSoliLyrics = \lyricmode {
 	nahms, was er ge -- ſpro -- chen, Freun -- de!
 	Schre -- ckens -- vol -- le Wor -- te: %13 finis
 }
+
+ODassIchSoliNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoODassIch
+		g'4^\Nico g8 a b b b a
+		f f r c' c es, es f
+		d d r16 f b a b8 f g as
+		g b b f r2
+		r4 r8 c g'4 g %5
+		c8 c c g e4 r16 g g a
+		b b b a f8 f \clef treble c''4^\Joseph a8 c
+		c f, r a16 a \appoggiatura g fis4 fis
+		r8 c'4 a8 fis8. fis16 fis4
+		r8 a4 c,8 es8. es16 es8 d %10
+		\appoggiatura c b4 r r e!8 f
+		f c r4 \tempoODassIchB r2
+		r4 r8 f16 e f8 f r4
+		r \tempoODassIchC c'8 r16 c c8 f, f e
+		f f f g a!4 a %15
+		a8 a a b b f r4
+		R1 \bar "||" %17 finis
+	}
+}
+
+ODassIchSoliLyrics = \lyricmode {
+	Ta -- ge des Jam -- mers nicht er --
+	le -- be! daß die -- ſes Au -- ge
+	bre -- che, eh die -- ſer Schau -- platz vol -- ler
+	Greul ſich öff -- net!
+	Sein Blut, ach, %5
+	des Ge -- rech -- ten Blut wird Got -- tes
+	Ra -- che ſchnell be -- flü -- geln. O Ni -- ko --
+	de -- mus! es er -- lie -- get
+	der Er -- mü -- de -- te,
+	der Er -- mü -- de -- te der %10
+	Laſt, er ſinkt
+	nie -- der.
+	Welch Ge -- tüm -- mel!
+	ach! ſie zwin -- gen, die Blut --
+	gier -- gen, ei -- nen Wand -- rer, %15
+	ihm ſein Kreutz zu tra -- gen. %16 finis
+}

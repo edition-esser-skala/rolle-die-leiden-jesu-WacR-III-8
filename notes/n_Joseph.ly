@@ -132,12 +132,32 @@ ODassIchJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoODassIch
-		
+		R1*6 %6
+		r2 c'4 a8 c
+		c f, r a16 a \appoggiatura g fis4 fis
+		r8 c'4 a8 fis8. fis16 fis4
+		r8 a4 c,8 es8. es16 es8 d %10
+		\appoggiatura c b4 r r e!8 f
+		f c r4 \tempoODassIchB r2
+		r4 r8 f16 e f8 f r4
+		r \tempoODassIchC c'8 r16 c c8 f, f e
+		f f f g a!4 a %15
+		a8 a a b b f r4
+		R1 \bar "||" %17 finis
 	}
 }
 
 ODassIchJosephLyrics = \lyricmode {
-	
+	O Ni -- ko -- %7
+	de -- mus! es er -- lie -- get
+	der Er -- mü -- de -- te,
+	der Er -- mü -- de -- te der %10
+	Laſt, er ſinkt
+	nie -- der.
+	Welch Ge -- tüm -- mel!
+	ach! ſie zwin -- gen, die Blut --
+	gier -- gen, ei -- nen Wand -- rer, %15
+	ihm ſein Kreutz zu tra -- gen. %16 finis
 }
 
 % JosephNotes = {

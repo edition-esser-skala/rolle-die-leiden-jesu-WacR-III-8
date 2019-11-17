@@ -1988,7 +1988,7 @@ ODassIchOrgano = {
 }
 
 ODassIchBassFigures = \figuremode {
-	r2 <[6- _-]>
+	r2 <_->
 	<6>1
 	r2 <6->
 	<5->1

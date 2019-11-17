@@ -439,13 +439,14 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.9" "R E C I T A T I V" "O, daß ich dieſe Tage"
+			movement = \movementTitle "3.9" "R E C I T A T I V" "O, daß ich dieſe Tage des Jammers nicht erlebe"
 		}
-% 		\paper {
-% 			system-system-spacing.basic-distance = #22
-% 			system-system-spacing.minimum-distance = #22
-% 			systems-per-page = #4
-% 		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+			page-count = #1
+		}
 		\score {
 			<<
 				\new ChoirStaff <<
