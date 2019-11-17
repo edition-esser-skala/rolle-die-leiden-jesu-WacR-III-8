@@ -1779,11 +1779,11 @@ GrossIstCello = {
 		h,4.( a8) gis4( gis) %30
 		a( a) ais( ais)
 		h( h) h( h)
-		a2. ais4
+		a!2. ais4
 		h2 r
 		r4 cis(-. cis-. cis-.) %35
 		h(-. h-.) a(-. a-.)
-		gis(-. gis-.) cis(-. cis-.)
+		gis(-. gis-.) cis(-. c?-.)
 		h(-. h-.) h,(-. h-.)
 		e(-. e-.) dis(-. dis-.)
 		e(-. e-.) h(-. h-.) %40

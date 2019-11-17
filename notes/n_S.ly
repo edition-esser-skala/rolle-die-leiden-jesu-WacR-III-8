@@ -551,12 +551,82 @@ GrossIstSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 4/4 \autoBeamOff \tempoGrossIst
-		
+		R1*3
+		e'4 e gis8([ e)] e([ h)]
+		\appoggiatura { h16.[ dis32] } cis2~ cis4 r %5
+		e4. fis,8 fis4( gis8) a
+		\appoggiatura a4 gis2 r
+		h4. cis16([ dis)] e4 dis
+		\appoggiatura dis cis2 r
+		cis4. dis16([ e)] fis4 \appoggiatura fis16 e8([ dis16 e)] %10
+		\appoggiatura e4 dis2 r
+		gis8([ e)] e([ cis)] cis2~
+		cis4( e dis) fis
+		fis8([ gis)] gis([ fis)] fis([ e)] e([ dis)]
+		\appoggiatura dis4 cis2 r %15
+		e e
+		dis4~ dis8[ e] dis4( cis)\trill
+		h2 e8([ eis)] eis([ fis)]
+		h,4~ h8[ cis] h4( ais)\trill
+		h2 r %20
+		R1*2
+		fis'4 fis fis8([ dis)] dis([ fis)]
+		\appoggiatura e4 dis2 r
+		fis4. a,!8 cis4( h8) a %25
+		\appoggiatura a4 gis2 r
+		h4. cis16([ d)] e4 d
+		\appoggiatura d? cis2 r
+		cis4. dis16([ e)] fis4 \appoggiatura fis16 e8([ dis16 e)]
+		\appoggiatura e4 dis2 r %30
+		r fis8([ cis)] cis8.([ dis32 cis)]
+		h2 h
+		h8([ cis)] cis([ h)] h([ a)] a([ gis)]
+		\appoggiatura gis4 fis2 r
+		a a %35
+		gis4~ gis8[ a] gis4( fis)\trill
+		e2 a8([ ais)] ais([ h)]
+		gis4~ gis8[ a] gis4( fis)\trill
+		e2 r
+		R1*3 \bar "||" %42 finis
 	}
 }
 
 GrossIstSopranoILyrics = \lyricmode {
+	Gros iſt ſei -- ne %4
+	Quaal, %5
+	blu -- tig ſein Ge --
+	ſicht,
+	wie die Roſ’ im
+	Thal,
+	die der Sturm -- wind %10
+	bricht,
+	ſinkt der Ed --
+	le, 
+	ſinkt der Ed -- le
+	hin! %15
+	Schwe -- ſtern
+	wei -- net
+	ihn, wei -- net,
+	wei -- net
+	ihn! %20
 	
+	Gros iſt ſei -- ne
+	Quaal,
+	blu -- tig ſein Ge --
+	ſicht,
+	wie die Roſ’ im
+	Thal,
+	die der Sturm -- wind
+	bricht,
+	ſinkt der
+	Ed -- le, 
+	ſinkt der Ed -- le
+	hin.
+	Schwe -- ſtern
+	wei -- net
+	ihn, wei -- net,
+	wei -- net
+	ihn.
 }
 
 GrossIstSopranoIINotes = {
