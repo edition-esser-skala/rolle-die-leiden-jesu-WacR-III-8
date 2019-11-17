@@ -298,6 +298,7 @@ tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
 	tempoDuStaerkestB = \tempoMarkup "Poco largo"
 	tempoDuStaerkestC = \tempoMarkup "Recitativ"
 tempoSiehEr = \tempoMarkup "Poco largo"
+tempoSeydMir = \tempoMarkup "[Tempo deest]"
 
 
 

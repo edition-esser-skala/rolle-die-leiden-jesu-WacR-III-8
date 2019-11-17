@@ -194,56 +194,96 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.4" "W E C H S E L G E S A N G" "Sieh! er träget ſein Kreutz"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SiehErViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SiehErViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\SiehErViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \JosephIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Joseph" { \dynamicUp \SiehErJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \SiehErJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \SiehErNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \SiehErNicoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SiehErOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SiehErBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 45 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.4" "W E C H S E L G E S A N G" "Sieh! er träget ſein Kreutz"
+			movement = \movementTitle "3.5" "R E C I T A T I V" "Seyd mir geſegnet"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SiehErViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SiehErViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\SiehErViola
-						}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \JosephIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Joseph" { \dynamicUp \SiehErJosephNotes }
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \SeydMirJosephNotes }
 					}
-					\new Lyrics \lyricsto Joseph \SiehErJosephLyrics
+					\new Lyrics \lyricsto Joseph \SeydMirJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \SeydMirFremdNotes }
+					}
+					\new Lyrics \lyricsto Fremd \SeydMirFremdLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \SiehErNicoNotes }
+						\new Voice = "Nico" { \dynamicUp \SeydMirNicoNotes }
 					}
-					\new Lyrics \lyricsto Nico \SiehErNicoLyrics
+					\new Lyrics \lyricsto Nico \SeydMirNicoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SiehErOrgano
+						\SeydMirOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SiehErBassFigures
+					\SeydMirBassFigures
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 4 = 45 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

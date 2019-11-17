@@ -92,6 +92,18 @@ SiehErNicoLyrics = \lyricmode {
 	zeihn? %64 finis
 }
 
+SeydMirNicoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
+		
+	}
+}
+
+SeydMirNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass

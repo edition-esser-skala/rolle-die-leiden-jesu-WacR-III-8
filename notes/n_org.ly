@@ -1691,6 +1691,18 @@ SiehErBassFigures = \figuremode {
 	<\t \t>4. %65 finis
 }
 
+SeydMirOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSeydMir
+		
+	}
+}
+
+SeydMirBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

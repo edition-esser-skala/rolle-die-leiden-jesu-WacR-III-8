@@ -84,6 +84,18 @@ SiehErJosephLyrics = \lyricmode {
 	zei -- hen?
 }
 
+SeydMirJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
+		
+	}
+}
+
+SeydMirJosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble
