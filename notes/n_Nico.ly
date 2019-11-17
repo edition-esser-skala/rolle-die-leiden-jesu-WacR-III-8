@@ -96,12 +96,30 @@ SeydMirNicoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
-		
+		R1*7 %7
+		r2 r4 e8 e
+		a4 a r a8 cis
+		a a r a16 e g8 g g a %10
+		fis fis r d16 e fis8 fis a d,
+		gis4 d'8 h h gis gis gis
+		h eis, eis fis fis cis r4
+		r a'8 cis a8. a16 a8 fis
+		h4 fis8 gis a8. a16 a8 h %15
+		\appoggiatura a gis4 r4 r2
+		R1*5 \bar "||" %21 finis
 	}
 }
 
 SeydMirNicoLyrics = \lyricmode {
-	
+	Biſt du %8
+	hier? du, der mit
+	Mu -- the unſ -- re Aelt’ -- ſten ſtraft’ und %10
+	ſag -- te: „Wä -- re die -- ſer nicht von
+	Gott, nim -- mer, nim -- mer könnt’ er
+	Blin -- den Au -- gen ge -- ben.“
+	Ach, viel mu -- thi -- ger warſst
+	du, wa -- reſt ſe -- li -- ger als %15
+	ich. %16 finis
 }
 
 % NicoNotes = {

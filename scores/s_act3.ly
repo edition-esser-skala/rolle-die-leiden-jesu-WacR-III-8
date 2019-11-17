@@ -250,7 +250,11 @@
 		\header {
 			movement = \movementTitle "3.5" "R E C I T A T I V" "Seyd mir geſegnet"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			systems-per-page = #3
+		}
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -261,10 +265,10 @@
 					\new Lyrics \lyricsto Joseph \SeydMirJosephLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \SeydMirFremdNotes }
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \SeydMirBlindNotes }
 					}
-					\new Lyrics \lyricsto Fremd \SeydMirFremdLyrics
+					\new Lyrics \lyricsto Blind \SeydMirBlindLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Nicodemus"

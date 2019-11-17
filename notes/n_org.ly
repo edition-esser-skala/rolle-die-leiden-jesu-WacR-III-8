@@ -1695,12 +1695,52 @@ SeydMirOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoSeydMir
-		
+		r2 dis~
+		dis e
+		fis1~
+		fis2 g
+		h,1 %5
+		e
+		c
+		r4 d cis2~
+		cis1~
+		cis %10
+		d
+		h~
+		h2 r4 cis
+		fis1
+		dis %15
+		e~
+		e2 his~
+		his cis4 dis~
+		dis2 e~
+		e4 r r fis %20
+		h,2 r \bar "||" %21 finis
 	}
 }
 
 SeydMirBassFigures = \figuremode {
-	
+	r2 <6 [_+]>
+	r1
+	<6>
+	r
+	<6> %5
+	q
+	q
+	r4 <_+> <6>2
+	r1
+	r %10
+	<_+>
+	<6\\>
+	<[6\\] 4\+ 2\+>2. <[5+] _+>4
+	<[5+ _!]>1
+	<6 [_+]> %15
+	<_+>
+	r2 <6\\ [5+ _+]>
+	r <[5+] _!>4 <6 [_+]>
+	r2 <[_+]>
+	r2. <[5+] _+>4 %20
+	q1 %21 finis
 }
 
 % Organo = {

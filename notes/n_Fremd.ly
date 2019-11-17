@@ -214,18 +214,6 @@ DuStaerkestFremdLyrics = \lyricmode {
 	uns von fer -- ne nahn! %11 finis
 }
 
-SeydMirFremdNotes = {
-	\relative c' {
-		\clef treble
-		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
-		
-	}
-}
-
-SeydMirFremdLyrics = \lyricmode {
-	
-}
-
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble

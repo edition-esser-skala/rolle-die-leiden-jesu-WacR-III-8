@@ -88,12 +88,22 @@ SeydMirJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
-		
+		R1*15 %15
+		r4 h'16 h gis h h8 e, r e16 fis
+		gis8 gis gis a fis fis r dis
+		gis4 gis16. gis32 gis16 dis e4 r
+		h'8 fis fis16 fis gis a gis?8 gis r4
+		gis8 gis ais h fis4 r %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 SeydMirJosephLyrics = \lyricmode {
-	
+	Hörſt du, Ni -- co -- de -- mus, wie ihn %16
+	Zi -- ons Töch -- ter klag -- en? Auch
+	ſie mu -- thi -- ger als wir!
+	Mit -- ten un -- ter ſei -- nen Mör -- dern
+	ſteigt ihr Lied em -- por. %20 finis
 }
 
 % JosephNotes = {

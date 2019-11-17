@@ -607,6 +607,33 @@ JesusChristusBlindLyrics = \lyricmode {
 	cken. %93 finis
 }
 
+SeydMirBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
+		h8 h dis dis16 fis fis8 h, r h16 c
+		a8 a a a g g r16 g a h
+		\appoggiatura h8 a4 r8 a c8. c16 c8 a
+		d a h c h r16 h h8 c
+		d4 g d8 d f! e %5
+		c4 g8 g c4 c8 e
+		e a, r a c c c h
+		g4 r r2
+		R1*13 \bar "||" %21 finis
+	}
+}
+
+SeydMirBlindLyrics = \lyricmode {
+	Seyd, ach ſeyd mir ge -- ſeg -- net, ſtil -- le
+	Freun -- de des Pro -- phe -- ten! Jch kenn euch
+	wohl, ihr wil -- lig -- tet in
+	ih -- ren Blut -- [rauſch] nicht, nicht in den
+	Rath, mich in den Bann zu %5
+	thun, als ich den laut be --
+	kann -- te, der mir das Au -- ge
+	ſchuf. %8 finis
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
