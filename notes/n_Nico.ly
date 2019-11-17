@@ -147,6 +147,19 @@ ODassIchNicoLyrics = \lyricmode {
 	Ra -- che ſchnell be -- flü -- geln. %7 finis
 }
 
+ErhoereDiesesNicoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \autoBeamOff \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}
+
+ErhoereDiesesNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass

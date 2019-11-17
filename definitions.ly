@@ -312,6 +312,7 @@ tempoWeintNicht = \tempoMarkup "Andante"
 tempoODassIch = \tempoMarkup "[Tempo deest]"
 	tempoODassIchB = \tempoMarkup "Vivace"
 	tempoODassIchC = \tempoMarkup "Lento"
+tempoErhoereDieses = \tempoMarkup "Sostenuto"
 
 
 

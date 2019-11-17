@@ -160,6 +160,19 @@ ODassIchJosephLyrics = \lyricmode {
 	ihm ſein Kreutz zu tra -- gen. %16 finis
 }
 
+ErhoereDiesesJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}
+
+ErhoereDiesesJosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble

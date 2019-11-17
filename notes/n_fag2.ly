@@ -46,3 +46,12 @@ LassMichFagottoII = {
 		g4 r\fermata \bar "|." %46 FINIS
 	}
 }
+
+ErhoereDiesesFagottoII = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}

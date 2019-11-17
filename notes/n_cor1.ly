@@ -117,3 +117,12 @@ JesusChristusCornoI = {
 		g4 r r2 \bar "||" %105 finis
 	}
 }
+
+ErhoereDiesesCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}

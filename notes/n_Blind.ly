@@ -740,6 +740,19 @@ WeintNichtBlindLyrics = \lyricmode {
 	O, daß ich die -- ſe %32 finis
 }
 
+ErhoereDiesesBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 3/4 \autoBeamOff \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}
+
+ErhoereDiesesBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

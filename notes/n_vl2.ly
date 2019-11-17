@@ -785,3 +785,12 @@ WeintNichtViolinoII = {
 		<g, d' b' g'>4 r r2 \markVSE \bar "|" %32 finis
 	}
 }
+
+ErhoereDiesesViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}

@@ -437,43 +437,111 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.9" "R E C I T A T I V" "O, daß ich dieſe Tage des Jammers nicht erlebe"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #4
+% 			page-count = #1
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \ODassIchJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \ODassIchJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \ODassIchNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \ODassIchNicoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\ODassIchOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ODassIchBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.9" "R E C I T A T I V" "O, daß ich dieſe Tage des Jammers nicht erlebe"
-		}
-		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #4
-			page-count = #1
+			movement = \movementTitle "3.10" "A R I E,  T E R Z E T T" "Erhöre dieſes heiße Flehen"
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fagotto I, II"
+						\partcombine \ErhoereDiesesFagottoI \ErhoereDiesesFagottoII
+					}
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+						\partcombine \ErhoereDiesesCornoI \ErhoereDiesesCornoII
+					}
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ErhoereDiesesViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ErhoereDiesesViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\ErhoereDiesesViola
+						}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \ODassIchJosephNotes }
+						\new Voice = "Joseph" { \dynamicUp \ErhoereDiesesJosephNotes }
 					}
-					\new Lyrics \lyricsto Joseph \ODassIchJosephLyrics
+					\new Lyrics \lyricsto Joseph \ErhoereDiesesJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \ErhoereDiesesBlindNotes }
+					}
+					\new Lyrics \lyricsto Blind \ErhoereDiesesBlindLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \ODassIchNicoNotes }
+						\new Voice = "Nico" { \dynamicUp \ErhoereDiesesNicoNotes }
 					}
-					\new Lyrics \lyricsto Nico \ODassIchNicoLyrics
+					\new Lyrics \lyricsto Nico \ErhoereDiesesNicoLyrics
+						
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\ODassIchOrgano
+						\ErhoereDiesesOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ODassIchBassFigures
+					\ErhoereDiesesBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

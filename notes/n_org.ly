@@ -2007,6 +2007,18 @@ ODassIchBassFigures = \figuremode {
 	r %17 finis
 }
 
+ErhoereDiesesOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoErhoereDieses
+		\partial 4 r4 es\f b r
+	}
+}
+
+ErhoereDiesesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

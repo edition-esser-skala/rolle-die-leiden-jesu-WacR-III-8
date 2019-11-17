@@ -47,10 +47,11 @@ LassMichFagottoI = {
 	}
 }
 
-% FagottoI = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
+ErhoereDiesesFagottoI = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}

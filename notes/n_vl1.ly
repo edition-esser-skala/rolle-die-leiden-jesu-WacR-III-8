@@ -785,6 +785,15 @@ WeintNichtViolinoI = {
 	}
 }
 
+ErhoereDiesesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoErhoereDieses
+		\partial 4 r4
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
