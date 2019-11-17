@@ -750,7 +750,38 @@ WeintNichtViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoWeintNicht
-		
+		c'4\p c c cis
+		r gis'8( a) gis( a) f( d)
+		c!2 h4 h
+		r h8( c) h( c) g( e')
+		d4 d d f %5
+		f( e8[) r16 c]\f c8.[ g16 g8. es16]
+		c8 g'4\p g g g8~
+		g g4\fp g8 fis fis4\fp fis8(
+		g) g4\fp g8 a2
+		g8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g8 d[\p b g] %10
+		d'8 r16 g,64(\f a b c) d8. \tuplet 3/2 16 { d32( e! fis) } g16( d) d( b) b( g) g( d')
+		d8. d16 d16. d32 d16. d32 d4\fermata r
+		r4 cis'(\p cis cis)
+		cis?2. g4
+		b a r\fermata r %15
+		r f! b d
+		c c2 es4~
+		es( d8.) b,16\f b4( a8.) es'16
+		es?4( d) r2
+		r4 d'\p g b, %20
+		a a2 c4
+		c( b8.) g16\f g4( fis8.) c16
+		b8. g16 g'8\p g4 g g8
+		as\fp as4 as8 h!\fp h4 h8
+		c\fp c4 c8 d d4 d8 %25
+		es4 c16\f g es c g4 h'!\p
+		r c16\f g es c g4 h'!\p
+		r c16\f g es c cis4 r
+		d'16\p d, d d es' es, es es d' d, d d c'! c, c c
+		b8 g' es c d4 r %30
+		g'16\f d b g es' c a fis g d b g d'8 <d a' fis'>
+		<g, d' b' g'>4 r r2 \markVSE \bar "|" %32 finis
 	}
 }
 
