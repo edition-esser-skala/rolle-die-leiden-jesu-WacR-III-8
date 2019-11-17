@@ -292,7 +292,7 @@ GrossIstOboeI = {
 		\clef treble
 		\key g \major \time 4/4 \tempoGrossIst
 		R1*3
-		g''2 g4 d
+		g''2\pE g4 d
 		d8( e) e2 r4 %5
 		d4 e a, h8( c)
 		\appoggiatura c4 h2 r
@@ -306,11 +306,11 @@ GrossIstOboeI = {
 		fis4( \scriptOut e)-! r2 %15
 		r4 g(-. g-. g-.)
 		fis4~ fis8( g) fis4( e)\trill
-		d2 g8( gis) gis( a)
+		\pao d2 g8( gis) gis( a)
 		fis4~ fis8( g) fis4( e)\trill
-		d2 r %20
+		\pao d2 r %20
 		R1*2
-		a'4 a a8( fis) fis( a)
+		a'4\pE a a8( fis) fis( a)
 		g4( fis2) r4
 		a4 c,! e( d8) c %25
 		c4( h2) r4
@@ -324,11 +324,11 @@ GrossIstOboeI = {
 		\appoggiatura h4 a2 r
 		r4 c(-. c-. c-.) %35
 		h4~ h8( c) h4( a)\trill
-		g2 g'
+		\pao g2 g'
 		h,4~ h8( c) h4( a)\trill
-		g2 r4 c(
-		h) r r a( %40
-		g2) r
+		\pao g2 r4 c(
+		h) r r \pa a( %40
+		g2) \pd r
 		R1 \bar "||" %42 finis
 	}
 }
