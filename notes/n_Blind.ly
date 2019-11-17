@@ -669,13 +669,75 @@ JesusWendetBlindLyrics = \lyricmode {
 WeintNichtBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
-		
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoWeintNicht
+		c2 g'8([ e)] e([ cis)]
+		\appoggiatura cis?4 d2 r
+		d f8([ d)] d([ h)]
+		\appoggiatura h4 c2 g'4 c,
+		d r8 d g,([ h)] d([ f)] %5
+		\appoggiatura f4 e2 r
+		r4 es es es
+		es? es2 es4~
+		es es es c8 a
+		b4 r8 d g d b g %10
+		d'4 r8. d16 g8 d b g
+		d'4 r r\fermata d
+		d8([ cis)] cis4 g'2~
+		g8([ es)] es([ d)] d([ cis)] cis([ g)]
+		g4 fis r\fermata b %15
+		f'2. d8([ b)]
+		g'4-! es8([ c)] b4( a8) es'
+		\appoggiatura es4 d2 r
+		r r4 g,
+		d'2. b8([ g)] %20
+		es'4 c8([ a)] g4( fis8) c'
+		\appoggiatura c4 b2 r
+		r r4 g
+		as c h! g'
+		c,~( c8.[ es16] d4) f %25
+		es8.([ d16)] c4 r8 g' d f
+		\appoggiatura f4 es2 r8 g d f
+		es8.([\trill d16]) c4 r8 g' g g,
+		d'4 es8. es16 d4 c8. c16
+		b8 g' es c d2 %30
+		g,4 r r2
+		\clef bass r4 d^\Nico d8 d g fis \markVSE \bar "||" %32 finis
 	}
 }
 
 WeintNichtBlindLyrics = \lyricmode {
-	
+	„Weint nicht um
+	mich!
+	weint ü -- ber
+	euch, nicht um
+	mich, weint ü -- ber %5
+	euch!
+	Es na -- hen
+	ſich angſt -- vol --
+	le Ta -- ge von
+	fern, Ge -- wit -- tern Got -- tes %10
+	gleich, Ge -- wit -- tern Got -- tes
+	gleich. Dann
+	hört man die --
+	ſe Jam -- mer --
+	kla -- ge: Heil %15
+	der, die
+	nicht ge -- boh -- ren
+	hat.
+	Heil
+	der! die %20
+	nicht ge -- ſäu -- get
+	hat!
+	Dann
+	ru -- fen ſie mit
+	To -- des -- %25
+	ſchre -- cken: Fallt auf uns,
+	Berg’, uns zu be --
+	de -- cken, fallt auf uns,
+	Berg’, fallt auf uns, fallt auf
+	uns, uns zu be -- de -- %30
+	cken.“
+	O, daß ich die -- ſe %32 finis
 }
 
 % BlindNotes = {
