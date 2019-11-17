@@ -634,6 +634,18 @@ SeydMirBlindLyrics = \lyricmode {
 	ſchuf. %8 finis
 }
 
+JesusWendetBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoJesusWendet
+		
+	}
+}
+
+JesusWendetBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

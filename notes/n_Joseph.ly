@@ -106,6 +106,18 @@ SeydMirJosephLyrics = \lyricmode {
 	ſteigt ihr Lied em -- por. %20 finis
 }
 
+JesusWendetJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoJesusWendet
+		
+	}
+}
+
+JesusWendetJosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble

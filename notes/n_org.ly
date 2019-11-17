@@ -1853,6 +1853,18 @@ GrossIstBassFigures = \figuremode {
 	r1*2 %42 finis
 }
 
+JesusWendetOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoJesusWendet
+		g!'1
+	}
+}
+
+JesusWendetBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

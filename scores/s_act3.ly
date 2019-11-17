@@ -290,71 +290,105 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.6" "C H O R" "Groß iſt ſeine Quaal"
+% 		}
+% 		\paper { indent = 3.5\cm }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Oboe d’amore" "I, II" } }
+% 						\partcombine \GrossIstOboeI \GrossIstOboeII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GrossIstViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GrossIstViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\GrossIstViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 \center-column { "C  H  O  R     D  E  R" "T  Ö  C  H  T  E  R     Z  I  O  N  S" } \hspace #18 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano I"
+% 						\new Voice = "SopranoI" { \dynamicUp \GrossIstSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \GrossIstSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano II"
+% 						\new Voice = "SopranoII" { \dynamicUp \GrossIstSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \GrossIstSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GrossIstAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GrossIstAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Violoncello"
+% 						\GrossIstCello
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\GrossIstOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GrossIstBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 45 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.6" "C H O R" "Groß iſt ſeine Quaal"
+			movement = \movementTitle "3.7" "R E C I T A T I V" "Jeſus wendet ſich hin zu denen"
 		}
-		\paper { indent = 3.5\cm }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Oboe d’amore" "I, II" } }
-						\partcombine \GrossIstOboeI \GrossIstOboeII
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GrossIstViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GrossIstViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\GrossIstViola
-						}
-				>>
 				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 \center-column { "C  H  O  R     D  E  R" "T  Ö  C  H  T  E  R     Z  I  O  N  S" } \hspace #18 }
 					\new Staff {
-						\set Staff.instrumentName = "Soprano I"
-						\new Voice = "SopranoI" { \dynamicUp \GrossIstSopranoINotes }
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \JesusWendetJosephNotes }
 					}
-					\new Lyrics \lyricsto SopranoI \GrossIstSopranoILyrics
+					\new Lyrics \lyricsto Joseph \JesusWendetJosephLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Soprano II"
-						\new Voice = "SopranoII" { \dynamicUp \GrossIstSopranoIINotes }
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \JesusWendetBlindNotes }
 					}
-					\new Lyrics \lyricsto SopranoII \GrossIstSopranoIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GrossIstAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \GrossIstAltoLyrics
+					\new Lyrics \lyricsto Blind \JesusWendetBlindLyrics
 				>>
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violoncello"
-						\GrossIstCello
-					}
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\GrossIstOrgano
+						\JesusWendetOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GrossIstBassFigures
+					\JesusWendetBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 45 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

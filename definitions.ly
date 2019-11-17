@@ -304,6 +304,7 @@ tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
 tempoSiehEr = \tempoMarkup "Poco largo"
 tempoSeydMir = \tempoMarkup "[Tempo deest]"
 tempoGrossIst = \tempoMarkup "Andante"
+tempoJesusWendet = \tempoMarkup "[Tempo deest]"
 
 
 

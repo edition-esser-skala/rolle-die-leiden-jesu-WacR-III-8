@@ -705,7 +705,7 @@ SiehErViola = {
 
 GrossIstViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \major \time 4/4 \tempoGrossIst
 		h4\f h e e
 		e a, a a
