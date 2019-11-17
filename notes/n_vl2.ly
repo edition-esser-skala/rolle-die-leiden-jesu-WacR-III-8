@@ -623,7 +623,7 @@ DuStaerkestViolinoII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuStaerkest
 		R1*2 \bar "||"
-		\tempoDuStaerkestB r8 a(\p \scriptOut b)-! r r c( \scriptOut a)-! r
+		\tempoDuStaerkestB r8 a(\p^\markup { \remark "con sordino" } \scriptOut b)-! r r c( \scriptOut a)-! r
 		r e'( \scriptOut d)-! r r e(-. e-.) r
 		r e(-. e-.) r e2~ %5
 		e2~ e4 r8 cis'(

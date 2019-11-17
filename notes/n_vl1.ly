@@ -622,7 +622,7 @@ DuStaerkestViolinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuStaerkest
 		R1*2 \bar "||"
-		\tempoDuStaerkestB r8 c(\p \scriptOut d)-! r r c( \scriptOut f)-! r
+		\tempoDuStaerkestB r8 c(\p^\markup { \remark "con sordino" } \scriptOut d)-! r r c( \scriptOut f)-! r
 		r g( \scriptOut f)-! r r g(-. g-.) r
 		r g(-. g-.) r g2~ %5
 		g2~ g4 r8 e'(
@@ -637,7 +637,71 @@ SiehErViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \tempoSiehEr
-		
+		r16 h'\fE^\markup { \remarkE "con sordino" } h( a) a( g)
+		g( fis) fis( e) e( dis)
+		dis( c') c( h) h( a)
+		g\p g32 fis e8[ fis]\trill
+		g fis16( dis) e8 %5
+		a4 a8~
+		a16[ c] c([ a) a( fis)]
+		\appoggiatura fis g8 fis r
+		g~ g16( e) e( g)
+		\once \tieDashed f8~ f16( d) d( f) %10
+		e4 d8
+		g( a h)
+		h( c16) e( c gis)
+		gis?8( \scriptOut a)-! d16([ f,)]
+		\appoggiatura f?8 e4 e16.( f32) %15
+		d8( c16) e f8
+		f([ e)] e
+		f( e) a~
+		a a4
+		f8([ e)] e16( g) %20
+		g8~ g16( fis) fis( a)
+		a8~ a16( gis) gis( h)
+		e, ( e') e( d) d( c)
+		c( h) h( a) a( gis)
+		e ( e') e( d) d( c) %25
+		c( h) h( a) a( gis)
+		a e'8 d16([ c h)]
+		h8( a16) dis( e h)
+		c f8 d16 h([ gis)]
+		\appoggiatura gis?8 a4 r8 %30
+		b4 g16( e')
+		cis8( d16) f(-. f-. f-.)
+		e(-. e-.) e8.[ g,16]
+		\appoggiatura g f8 e r
+		f16( a) a( a) a( a) %35
+		g(-. g-. g-. g-. g-. g-.)
+		a( c) c( f) f( c)
+		c8( d) e-!
+		e( f16) a( f c)
+		d( d,) d( f) e( g) %40
+		f8 f'16([\f e) e( d)]
+		d( c) c( b) b( a)
+		g4\p b8
+		b?( a) r
+		fis'!4\fp a,8 %45
+		a( g16) h h( e,)
+		\appoggiatura e8 dis4 e8
+		fis a16( fis) g8
+		g[ fis] h,
+		h16( ais) ais( g') fis( e) %50
+		e8( dis) r
+		h' h d!
+		c c h
+		a e16( c') c( h)
+		r8 e e, %55
+		\appoggiatura e dis4 r8
+		h'16(\f h') h( a) a( g)
+		g(\p fis) fis( e) e( dis)
+		h,16( h') h( a) a( g)
+		g( fis) fis( e) e( dis) %60
+		e4.
+		dis16( fis) fis( h) h( dis)
+		e4.
+		r8 dis16(-. dis-. dis-. dis-.)
+		dis?4\fermata r8 \bar "||" %65 finis
 	}
 }
 
