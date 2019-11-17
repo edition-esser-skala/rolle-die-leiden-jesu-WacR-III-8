@@ -285,3 +285,11 @@ SehtWelchOboeII = {
 		h\fermata \bar "|." %26 FINIS
 	}
 }
+
+GrossIstOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoGrossIst
+		
+	}
+}

@@ -1743,6 +1743,26 @@ SeydMirBassFigures = \figuremode {
 	q1 %21 finis
 }
 
+GrossIstCello = {
+	\relative c {
+		\clef bass
+		\key e \major \time 4/4 \tempoGrossIst
+		
+	}
+}
+
+GrossIstOrgano = {
+	\relative c {
+		\clef bass
+		\key e \major \time 4/4 \tempoGrossIst
+		e4\fE e e e
+	}
+}
+
+GrossIstBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

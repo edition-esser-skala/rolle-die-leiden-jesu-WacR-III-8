@@ -299,6 +299,7 @@ tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
 	tempoDuStaerkestC = \tempoMarkup "Recitativ"
 tempoSiehEr = \tempoMarkup "Poco largo"
 tempoSeydMir = \tempoMarkup "[Tempo deest]"
+tempoGrossIst = \tempoMarkup "Andante"
 
 
 

@@ -75,7 +75,7 @@
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
+% 						\set Staff.instrumentName = "Fondamento"
 % 						\SieFuehrenOrgano
 % 					}
 % 				>>
@@ -134,7 +134,7 @@
 % 				\new Lyrics \lyricsto Blind \JesusChristusBlindLyrics
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
+% 						\set Staff.instrumentName = "Fondamento"
 % 						\JesusChristusOrgano
 % 					}
 % 				>>
@@ -182,7 +182,7 @@
 % 				\new Lyrics \lyricsto Fremd \DuStaerkestFremdLyrics
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
+% 						\set Staff.instrumentName = "Fondamento"
 % 						\DuStaerkestOrgano
 % 					}
 % 				>>
@@ -234,7 +234,7 @@
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
+% 						\set Staff.instrumentName = "Fondamento"
 % 						\SiehErOrgano
 % 					}
 % 				>>
@@ -246,48 +246,115 @@
 % 			\midi { \tempo 4 = 45 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.5" "R E C I T A T I V" "Seyd mir geſegnet"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #25
+% 			system-system-spacing.minimum-distance = #25
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \SeydMirJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \SeydMirJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \SeydMirBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \SeydMirBlindLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \SeydMirNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \SeydMirNicoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\SeydMirOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SeydMirBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.5" "R E C I T A T I V" "Seyd mir geſegnet"
+			movement = \movementTitle "3.6" "C H O R" "Groß iſt ſeine Quaal"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #25
-			system-system-spacing.minimum-distance = #25
-			systems-per-page = #3
-		}
+		\paper { indent = 3.5\cm }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Oboe d’amore" "I, II" } }
+						\partcombine \GrossIstOboeI \GrossIstOboeII
+					}
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\GrossIstViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\GrossIstViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\GrossIstViola
+						}
+				>>
 				\new ChoirStaff <<
+					\set ChoirStaff.instrumentName = \markup { \rotate #90 \center-column { "C  H  O  R     D  E  R" "T  Ö  C  H  T  E  R     Z  I  O  N  S" } \hspace #18 }
 					\new Staff {
-						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \SeydMirJosephNotes }
+						\set Staff.instrumentName = "Soprano I"
+						\new Voice = "SopranoI" { \dynamicUp \GrossIstSopranoINotes }
 					}
-					\new Lyrics \lyricsto Joseph \SeydMirJosephLyrics
+					\new Lyrics \lyricsto SopranoI \GrossIstSopranoILyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \SeydMirBlindNotes }
+						\set Staff.instrumentName = "Soprano II"
+						\new Voice = "SopranoII" { \dynamicUp \GrossIstSopranoIINotes }
 					}
-					\new Lyrics \lyricsto Blind \SeydMirBlindLyrics
+					\new Lyrics \lyricsto SopranoII \GrossIstSopranoIILyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \SeydMirNicoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GrossIstAltoNotes }
 					}
-					\new Lyrics \lyricsto Nico \SeydMirNicoLyrics
+					\new Lyrics \lyricsto Alto \GrossIstAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\SeydMirOrgano
+						\set Staff.instrumentName = "Violoncello"
+						\GrossIstCello
+					}
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\GrossIstOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SeydMirBassFigures
+					\GrossIstBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

@@ -702,3 +702,11 @@ SiehErViola = {
 		h4\fermata r8 \bar "||" %65 finis
 	}
 }
+
+GrossIstViola = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \tempoGrossIst
+		
+	}
+}

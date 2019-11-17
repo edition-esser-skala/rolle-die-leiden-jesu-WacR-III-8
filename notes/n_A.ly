@@ -460,6 +460,18 @@ SehtWelchAltoNotes = {
 	}
 }
 
+GrossIstAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \autoBeamOff \tempoGrossIst
+		
+	}
+}
+
+GrossIstAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

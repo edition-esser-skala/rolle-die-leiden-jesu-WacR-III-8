@@ -547,6 +547,30 @@ SehtWelchLyricsC = \lyricmode {
 	ſcheun. %26 FINIS
 }
 
+GrossIstSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \autoBeamOff \tempoGrossIst
+		
+	}
+}
+
+GrossIstSopranoILyrics = \lyricmode {
+	
+}
+
+GrossIstSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \autoBeamOff \tempoGrossIst
+		
+	}
+}
+
+GrossIstSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

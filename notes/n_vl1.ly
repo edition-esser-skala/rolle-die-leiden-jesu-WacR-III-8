@@ -705,10 +705,10 @@ SiehErViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
+GrossIstViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/4 \tempoGrossIst
+		
+	}
+}
