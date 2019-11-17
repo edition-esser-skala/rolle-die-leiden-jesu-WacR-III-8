@@ -309,6 +309,9 @@ tempoGrossIst = \tempoMarkup "Andante"
 tempoJesusWendet = \tempoMarkup "[Tempo deest]"
 	tempoJesusWendetB = \tempoMarkup "Poco largo"
 tempoWeintNicht = \tempoMarkup "Andante"
+tempoODassIch = \tempoMarkup "[Tempo deest]"
+	tempoODassIchB = \tempoMarkup "Vivace"
+	tempoODassIchC = \tempoMarkup "Lento"
 
 
 

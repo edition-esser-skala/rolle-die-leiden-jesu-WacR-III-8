@@ -122,15 +122,15 @@ SeydMirNicoLyrics = \lyricmode {
 	ich. %16 finis
 }
 
-NicoNotes = {
+ODassIchNicoNotes = {
 	\relative c {
 		\clef bass
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoODassIch
 		
 	}
 }
 
-NicoLyrics = \lyricmode {
+ODassIchNicoLyrics = \lyricmode {
 	
 }
 

@@ -128,15 +128,15 @@ JesusWendetJosephLyrics = \lyricmode {
 	den Pro -- phe -- ten ret -- ten. %11 finis
 }
 
-JosephNotes = {
+ODassIchJosephNotes = {
 	\relative c' {
 		\clef treble
-		
+		\key c \major \time 4/4 \autoBeamOff \tempoODassIch
 		
 	}
 }
 
-JosephLyrics = \lyricmode {
+ODassIchJosephLyrics = \lyricmode {
 	
 }
 

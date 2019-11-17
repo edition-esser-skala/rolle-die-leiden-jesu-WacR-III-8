@@ -395,46 +395,84 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.8" "A R I E" "Weint nicht um mich"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WeintNichtViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WeintNichtViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\WeintNichtViola
+% 						}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Blindgeb."
+% 					\new Voice = "Blind" { \dynamicUp \WeintNichtBlindNotes }
+% 				}
+% 				\new Lyrics \lyricsto Blind \WeintNichtBlindLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\WeintNichtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\WeintNichtBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.8" "A R I E" "Weint nicht um mich"
+			movement = \movementTitle "3.9" "R E C I T A T I V" "O, daß ich dieſe Tage"
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #4
+% 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WeintNichtViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WeintNichtViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\WeintNichtViola
-						}
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \ODassIchJosephNotes }
+					}
+					\new Lyrics \lyricsto Joseph \ODassIchJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Nicodemus"
+						\new Voice = "Nico" { \dynamicUp \ODassIchNicoNotes }
+					}
+					\new Lyrics \lyricsto Nico \ODassIchNicoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "Blindgeb."
-					\new Voice = "Blind" { \dynamicUp \WeintNichtBlindNotes }
-				}
-				\new Lyrics \lyricsto Blind \WeintNichtBlindLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\WeintNichtOrgano
+						\ODassIchOrgano
 					}
 				>>
 				\new FiguredBass {
-					\WeintNichtBassFigures
+					\ODassIchBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

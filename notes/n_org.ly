@@ -1963,6 +1963,50 @@ WeintNichtBassFigures = \figuremode {
 	<_->1 %32 finis
 }
 
+ODassIchOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoODassIch
+		r2 g
+		a1
+		b2 d
+		es r4 f
+		e1~ %5
+		e~
+		e4 f a,2~
+		a r8 es'8 es c
+		a( es') es( c) a( es') es( c)
+		a( c) c( a) fis2 %10
+		r8 g'( d b) g4 r
+		r8 a'( f c) \tempoODassIchB a16\f c f c a c f c
+		a4 r a16 c f c a c f c
+		a4 \tempoODassIchC r r2
+		r es'2~ %15
+		es r4 f
+		b,2 r \bar "||" %17 finis
+	}
+}
+
+ODassIchBassFigures = \figuremode {
+	r2 <[6- _-]>
+	<6>1
+	r2 <6->
+	<5->1
+	<6> %5
+	r
+	r2 <6>
+	r1
+	r
+	r2 <[7-]> %10
+	r8 <_->4. r4 <6! [_-]>
+	r8 <[6]>4. r2
+	<[6]>1
+	q
+	r2 <4 2> %15
+	r1
+	r %17 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
