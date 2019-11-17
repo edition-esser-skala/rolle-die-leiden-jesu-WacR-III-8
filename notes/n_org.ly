@@ -1857,12 +1857,36 @@ JesusWendetOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoJesusWendet
-		g!'1
+		g'!1
+		fis2 r4 fis
+		h,1
+		cis2 d~
+		d1~ %5
+		d2 fis
+		f e
+		r16 c e g c4 r2
+		a,1~
+		a~ %10
+		a2 b~
+		b2. h4~
+		h2 \tempoJesusWendetB e8 c e g \markVSE \bar "||" %13 finis
 	}
 }
 
 JesusWendetBassFigures = \figuremode {
-	
+	<6>1
+	<[5+] _+>2. q4
+	<[5+] _!>1
+	<6 5>2 <[_+]>
+	r1 %5
+	r2 <6>
+	<4 2> <6>
+	r1
+	<6>1
+	<6\\> %10
+	r2 <6>
+	r2. <6 5>4
+	r2 <6> %13 finis
 }
 
 % Organo = {
