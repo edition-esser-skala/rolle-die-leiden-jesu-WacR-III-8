@@ -256,3 +256,90 @@ HoerestDuSoliLyrics = \lyricmode {
 	Jhr En -- gel
 	Got -- tes! welch ein An -- blick! %18 finis
 }
+
+SeydMirSoliNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoSeydMir
+		h8^\Blind h dis dis16 fis fis8 h, r h16 c
+		a8 a a a g g r16 g a h
+		\appoggiatura h8 a4 r8 a c8. c16 c8 a
+		d a h c h r16 h h8 c
+		d4 g d8 d f! e %5
+		c4 g8 g c4 c8 e
+		e a, r a c c c h
+		g4 r r \clef bass e8^\Nico e
+		a4 a r a8 cis
+		a a r a16 e g8 g g a %10
+		fis fis r d16 e fis8 fis a d,
+		gis4 d'8 h h gis gis gis
+		h eis, eis fis fis cis r4
+		r a'8 cis a8. a16 a8 fis
+		h4 fis8 gis a8. a16 a8 h %15
+		\appoggiatura a gis4 \clef treble h'16^\Joseph h gis h h8 e, r e16 fis
+		gis8 gis gis a fis fis r dis
+		gis4 gis16. gis32 gis16 dis e4 r
+		h'8 fis fis16 fis gis a gis?8 gis r4
+		gis8 gis ais h fis4 r %20
+		R1 \bar "||" %21 finis
+	}
+}
+
+SeydMirSoliLyrics = \lyricmode {
+	Seyd, ach ſeyd mir ge -- ſeg -- net, ſtil -- le
+	Freun -- de des Pro -- phe -- ten! Jch kenn euch
+	wohl, ihr wil -- lig -- tet in
+	ih -- ren Blut -- [rauſch] nicht, nicht in den
+	Rath, mich in den Bann zu %5
+	thun, als ich den laut be --
+	kann -- te, der mir das Au -- ge
+	ſchuf. Biſt du
+	hier? du, der mit
+	Mu -- the unſ -- re Aelt’ -- ſten ſtraft’ und %10
+	ſag -- te: „Wä -- re die -- ſer nicht von
+	Gott, nim -- mer, nim -- mer könnt’ er
+	Blin -- den Au -- gen ge -- ben.“
+	Ach, viel mu -- thi -- ger warſst
+	du, wa -- reſt ſe -- li -- ger als %15
+	ich. Hörſt du, Ni -- co -- de -- mus, wie ihn
+	Zi -- ons Töch -- ter klag -- en? Auch
+	ſie mu -- thi -- ger als wir!
+	Mit -- ten un -- ter ſei -- nen Mör -- dern
+	ſteigt ihr Lied em -- por. %20 finis
+}
+
+JesusWendetSoliNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoJesusWendet
+		r4 h8^\Blind h e e16 e e8 cis
+		ais ais ais h h fis r4
+		h8 h h cis d8. d16 d4
+		e8 e e g, fis fis r a16^\markup { \remark "(lebhaft)" } a
+		d8 d d fis d d d cis %5
+		d r16 d d8 d d a r a16 c
+		\appoggiatura c4 h4. c8 c g \clef "treble" e'8^\Joseph f
+		g4 r b8. b16 b8 a
+		\appoggiatura g f!8. f16 f4 r a8 a
+		fis4 fis c'8 fis, r fis16 g %10
+		a8 a a b g g \clef "treble_8" d8^\Blind d
+		g r16 g g d b d d8 g, r4
+		f'!8. f16 f8 e \tempoJesusWendetB c c r4 \markVSE \bar "||" %13 finis
+	}
+}
+
+JesusWendetSoliLyrics = \lyricmode {
+	Je -- ſus wen -- det ſich hin zu
+	de -- nen, die ihn kla -- gen.
+	Möcht ich von den Lei -- den -- den
+	ei -- nen Laut noch hö -- ren! Ei -- len
+	will ich durch die Hau -- fen, ei -- nen %5
+	Laut von ſei -- nen Lip -- pen, eh er
+	ſtirbt, zu hö -- ren. Wie er
+	eilt! mu -- thig iſt der
+	Red -- li -- che! ſter -- ben
+	würd’ er, ſter -- ben, könnt er %10
+	den Pro -- phe -- ten ret -- ten. Jch ver --
+	nahms, was er ge -- ſpro -- chen, Freun -- de!
+	Schre -- ckens -- vol -- le Wor -- te: %13 finis
+}

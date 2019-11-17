@@ -110,12 +110,22 @@ JesusWendetJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoJesusWendet
-		
+		R1*6 %6
+		r2 r4 e8 f
+		g4 r b8. b16 b8 a
+		\appoggiatura g f!8. f16 f4 r a8 a
+		fis4 fis c'8 fis, r fis16 g %10
+		a8 a a b g g r4
+		R1*2 \markVSE \bar "||" %13 finis
 	}
 }
 
 JesusWendetJosephLyrics = \lyricmode {
-	
+	Wie er %7
+	eilt! mu -- thig iſt der
+	Red -- li -- che! ſter -- ben
+	würd’ er, ſter -- ben, könnt er %10
+	den Pro -- phe -- ten ret -- ten. %11 finis
 }
 
 % JosephNotes = {

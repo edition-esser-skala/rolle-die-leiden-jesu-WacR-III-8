@@ -638,12 +638,32 @@ JesusWendetBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoJesusWendet
-		
+		r4 h8 h e e16 e e8 cis
+		ais ais ais h h fis r4
+		h8 h h cis d8. d16 d4
+		e8 e e g, fis fis r a16^\markup { \remark "(lebhaft)" } a
+		d8 d d fis d d d cis %5
+		d r16 d d8 d d a r a16 c
+		\appoggiatura c4 h4. c8 c g r4
+		R1*3 %10
+		r2 r4 d'8 d
+		g r16 g g d b d d8 g, r4
+		f'!8. f16 f8 e \tempoJesusWendetB c c r4 \markVSE \bar "||" %13 finis
 	}
 }
 
 JesusWendetBlindLyrics = \lyricmode {
+	Je -- ſus wen -- det ſich hin zu
+	de -- nen, die ihn kla -- gen.
+	Möcht ich von den Lei -- den -- den
+	ei -- nen Laut noch hö -- ren! Ei -- len
+	will ich durch die Hau -- fen, ei -- nen %5
+	Laut von ſei -- nen Lip -- pen, eh er
+	ſtirbt, zu hö -- ren.
 	
+	Jch ver -- %11
+	nahms, was er ge -- ſpro -- chen, Freun -- de!
+	Schre -- ckens -- vol -- le Wor -- te: %13 finis
 }
 
 % BlindNotes = {

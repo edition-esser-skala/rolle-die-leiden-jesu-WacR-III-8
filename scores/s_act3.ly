@@ -361,7 +361,11 @@
 		\header {
 			movement = \movementTitle "3.7" "R E C I T A T I V" "Jeſus wendet ſich hin zu denen"
 		}
-		\paper { systems-per-page = #3 }
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
 		\score {
 			<<
 				\new ChoirStaff <<

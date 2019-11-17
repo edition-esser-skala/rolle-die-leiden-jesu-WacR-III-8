@@ -248,11 +248,13 @@ scriptOut = \once \override Script.avoid-slur = #'outside
 
 
 Blind = \markup { \remark "Blindgebohrner" }
-Fremd = \markup { \remark "Fremdling" }
-Judas = \markup { \remark "Judas" }
-Pilatus = \markup { \remark "Pilatus" }
-Kaiphas = \markup { \remark "Kaiphas" }
 ChorDesVolkes = \markup { \remark "Chor des Volks" }
+Fremd = \markup { \remark "Fremdling" }
+Joseph = \markup { \remark "Joseph" }
+Judas = \markup { \remark "Judas" }
+Kaiphas = \markup { \remark "Kaiphas" }
+Nico = \markup { \remark "Nicodemus" }
+Pilatus = \markup { \remark "Pilatus" }
 
 pizz = \markup { \remark "pizz." }
 collArco = \markup { \remark "coll’arco" }
