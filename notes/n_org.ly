@@ -1931,7 +1931,7 @@ WeintNichtOrgano = {
 WeintNichtBassFigures = \figuremode {
 	r2 <6>4 <6\\>
 	<5+> <6>2.
-	<4!>2 <3>
+	<7 4!>2 <\t 3>
 	<6 4 2>4 <5 3> <6>2
 	<6 5>2. <7>4 %5
 	<9 4> <8 3>8. <1>16 q8. q16 q8. q16

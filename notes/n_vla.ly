@@ -746,7 +746,7 @@ GrossIstViola = {
 
 WeintNichtViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoWeintNicht
 		g4\p g e e
 		f1
