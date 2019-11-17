@@ -746,3 +746,11 @@ GrossIstViolinoII = {
 		h2 r \bar "||" %42 finis
 	}
 }
+
+WeintNichtViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoWeintNicht
+		
+	}
+}

@@ -128,6 +128,18 @@ JesusWendetJosephLyrics = \lyricmode {
 	den Pro -- phe -- ten ret -- ten. %11 finis
 }
 
+JosephNotes = {
+	\relative c' {
+		\clef treble
+		
+		
+	}
+}
+
+JosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble

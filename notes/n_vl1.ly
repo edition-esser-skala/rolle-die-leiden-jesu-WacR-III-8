@@ -745,3 +745,19 @@ GrossIstViolinoI = {
 		e2 r \bar "||" %42 finis
 	}
 }
+
+WeintNichtViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoWeintNicht
+		
+	}
+}
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 		
+% 	}
+% }

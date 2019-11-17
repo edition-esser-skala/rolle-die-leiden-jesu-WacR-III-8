@@ -122,6 +122,18 @@ SeydMirNicoLyrics = \lyricmode {
 	ich. %16 finis
 }
 
+NicoNotes = {
+	\relative c {
+		\clef bass
+		
+		
+	}
+}
+
+NicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -1889,6 +1889,18 @@ JesusWendetBassFigures = \figuremode {
 	r2 <6> %13 finis
 }
 
+WeintNichtOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoWeintNicht
+		c4\p c e e
+	}
+}
+
+WeintNichtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

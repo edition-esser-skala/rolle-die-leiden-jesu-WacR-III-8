@@ -205,7 +205,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "A R I A,  C H O R" "Jch waſche meine Hände rein"
+			movement = \movementTitle "2.3" "A R I E,  C H O R" "Jch waſche meine Hände rein"
 		}
 		\score {
 			<<

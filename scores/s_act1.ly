@@ -176,7 +176,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.3" "A R I A" "Gram lag auf mir"
+			movement = \movementTitle "1.3" "A R I E" "Gram lag auf mir"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -264,7 +264,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.5" "A R I A" "Wer faßt die Zahl"
+			movement = \movementTitle "1.5" "A R I E" "Wer faßt die Zahl"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -342,7 +342,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "A R I A" "Laß mich dieſen bangen Stunden"
+			movement = \movementTitle "1.7" "A R I E" "Laß mich dieſen bangen Stunden"
 		}
 		\paper { systems-per-page = #2 }
 		\score {

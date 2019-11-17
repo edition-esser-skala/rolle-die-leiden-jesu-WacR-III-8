@@ -357,42 +357,83 @@
 % 			\midi { \tempo 2 = 45 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.7" "R E C I T A T I V" "Jeſus wendet ſich hin zu denen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \JesusWendetJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \JesusWendetJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \JesusWendetBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \JesusWendetBlindLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\JesusWendetOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\JesusWendetBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.7" "R E C I T A T I V" "Jeſus wendet ſich hin zu denen"
-		}
-		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #4
+			movement = \movementTitle "3.8" "A R I E" "Weint nicht um mich"
 		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\WeintNichtViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\WeintNichtViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \JesusWendetJosephNotes }
-					}
-					\new Lyrics \lyricsto Joseph \JesusWendetJosephLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \JesusWendetBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \JesusWendetBlindLyrics
+							\set Staff.instrumentName = "Viola"
+							\WeintNichtViola
+						}
 				>>
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \WeintNichtBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \WeintNichtBlindLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\JesusWendetOrgano
+						\WeintNichtOrgano
 					}
 				>>
 				\new FiguredBass {
-					\JesusWendetBassFigures
+					\WeintNichtBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 45 }
 		}
 	}
 }

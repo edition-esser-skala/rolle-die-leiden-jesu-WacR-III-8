@@ -308,6 +308,7 @@ tempoSeydMir = \tempoMarkup "[Tempo deest]"
 tempoGrossIst = \tempoMarkup "Andante"
 tempoJesusWendet = \tempoMarkup "[Tempo deest]"
 	tempoJesusWendetB = \tempoMarkup "Poco largo"
+tempoWeintNicht = \tempoMarkup "Andante"
 
 
 

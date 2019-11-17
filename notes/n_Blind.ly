@@ -666,6 +666,18 @@ JesusWendetBlindLyrics = \lyricmode {
 	Schre -- ckens -- vol -- le Wor -- te: %13 finis
 }
 
+WeintNichtBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		
+		
+	}
+}
+
+WeintNichtBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
