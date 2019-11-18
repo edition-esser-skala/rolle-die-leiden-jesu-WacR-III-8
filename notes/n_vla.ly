@@ -861,6 +861,14 @@ ErhoereDiesesViola = {
 		as( g) es'4 f
 		b,8 c b4 as
 		g2 r4 \bar "||" %74 finis
+	}
+}
+
+EinOpferViola = {
+	\relative c' {
+		\clef treble
+		\key as \major \time 4/4 \tempoEinOpfer
+		\partial 2
 		
 	}
 }

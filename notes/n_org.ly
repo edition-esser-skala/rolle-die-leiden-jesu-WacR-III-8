@@ -2165,6 +2165,19 @@ ErhoereDiesesBassFigures = \figuremode {
 	r2. %74 finis
 }
 
+EinOpferOrgano = {
+	\relative c {
+		\clef bass
+		\key as \major \time 4/4 \tempoEinOpfer
+		\partial 2 as'2\fE f des
+		
+	}
+}
+
+EinOpferBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

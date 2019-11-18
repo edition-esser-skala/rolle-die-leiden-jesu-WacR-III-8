@@ -476,78 +476,151 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.10" "A R I E,  T E R Z E T T" "Erhöre dieſes heiße Flehen"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Fagotto I"
+% 							\ErhoereDiesesFagottoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Fagotto II"
+% 							\ErhoereDiesesFagottoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+% 						\partcombine \ErhoereDiesesCornoI \ErhoereDiesesCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ErhoereDiesesViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ErhoereDiesesViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\ErhoereDiesesViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \ErhoereDiesesJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \ErhoereDiesesJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \ErhoereDiesesBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \ErhoereDiesesBlindLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \ErhoereDiesesNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \ErhoereDiesesNicoLyrics
+% 						
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\ErhoereDiesesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ErhoereDiesesBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.10" "A R I E,  T E R Z E T T" "Erhöre dieſes heiße Flehen"
+			movement = \movementTitle "3.11" "C H O R A L" "Ein Opfer nach dem ewgen Rath"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Fagotto I"
-							\ErhoereDiesesFagottoI
+							\set Staff.instrumentName = "Oboe I"
+							\EinOpferOboeI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Fagotto II"
-							\ErhoereDiesesFagottoII
+							\set Staff.instrumentName = "Oboe II"
+							\EinOpferOboeII
 						}
 					>>
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\partcombine \ErhoereDiesesCornoI \ErhoereDiesesCornoII
-					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\ErhoereDiesesViolinoI
+							\EinOpferViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\ErhoereDiesesViolinoII
+							\EinOpferViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\ErhoereDiesesViola
+							\EinOpferViola
 						}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \ErhoereDiesesJosephNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EinOpferSopranoNotes }
 					}
-					\new Lyrics \lyricsto Joseph \ErhoereDiesesJosephLyrics
+					\new Lyrics \lyricsto Soprano \EinOpferSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \ErhoereDiesesBlindNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EinOpferAltoNotes }
 					}
-					\new Lyrics \lyricsto Blind \ErhoereDiesesBlindLyrics
+					\new Lyrics \lyricsto Alto \EinOpferAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \ErhoereDiesesNicoNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EinOpferTenoreNotes }
 					}
-					\new Lyrics \lyricsto Nico \ErhoereDiesesNicoLyrics
-						
+					\new Lyrics \lyricsto Tenore \EinOpferTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EinOpferBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EinOpferBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\ErhoereDiesesOrgano
+						\EinOpferOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ErhoereDiesesBassFigures
+					\EinOpferBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

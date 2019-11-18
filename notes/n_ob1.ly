@@ -332,3 +332,12 @@ GrossIstOboeI = {
 		R1 \bar "||" %42 finis
 	}
 }
+
+EinOpferOboeI = {
+	\relative c' {
+		\clef treble
+		\key as \major \time 4/4 \tempoEinOpfer
+		\partial 2
+		
+	}
+}

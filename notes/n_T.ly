@@ -464,6 +464,19 @@ SehtWelchTenoreNotes = {
 	}
 }
 
+EinOpferTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
+		\partial 2
+		
+	}
+}
+
+EinOpferTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

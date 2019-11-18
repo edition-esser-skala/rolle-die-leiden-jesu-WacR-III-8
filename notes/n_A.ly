@@ -542,6 +542,19 @@ GrossIstAltoLyrics = \lyricmode {
 	ihn. %39 finis
 }
 
+EinOpferAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
+		\partial 2
+		
+	}
+}
+
+EinOpferAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

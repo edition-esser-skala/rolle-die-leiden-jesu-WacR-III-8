@@ -866,6 +866,15 @@ ErhoereDiesesViolinoI = {
 	}
 }
 
+EinOpferViolinoI = {
+	\relative c' {
+		\clef treble
+		\key as \major \time 4/4 \tempoEinOpfer
+		\partial 2
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

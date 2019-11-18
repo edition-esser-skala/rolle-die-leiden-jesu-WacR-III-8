@@ -452,6 +452,19 @@ SehtWelchBassoNotes = {
 	}
 }
 
+EinOpferBassoNotes = {
+	\relative c {
+		\clef bass
+		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
+		\partial 2
+		
+	}
+}
+
+EinOpferBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

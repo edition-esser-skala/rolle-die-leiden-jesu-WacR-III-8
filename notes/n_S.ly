@@ -711,6 +711,19 @@ GrossIstSopranoIILyrics = \lyricmode {
 	ihn.] %39 finis
 }
 
+EinOpferSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
+		\partial 2
+		
+	}
+}
+
+EinOpferSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
