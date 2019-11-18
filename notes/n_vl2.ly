@@ -790,7 +790,79 @@ ErhoereDiesesViolinoII = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \tempoErhoereDieses
-		\partial 4 r4
-		
+		\partial 4 es4\fE es d b16( d) d( f)
+		f4 es as~
+		as8 es es16( f) f( g) g8 es16( g)
+		\appoggiatura f8 es4\trill d r
+		es\p d b16( d) d( f)
+		f4 es as~
+		as es~ es8 c
+		\appoggiatura b as4 g r8 es'
+		g g g8.( as16) g( f es8)
+		es4 d r8 d %10
+		f( as) as4. g16( f)
+		es8 f es es es es
+		d b'16( a) a( g) g( f) f( es) es( d)
+		d8 f es es es es
+		d d4\f d8\p d d %15
+		r g4\f g\p g8~
+		g g4\f g8(\p f[) f]
+		g4 f8 c'4 b8
+		r a a16( b) b( c) c4~
+		c16( es) es( c) c4 \appoggiatura c16 b( a b8) %20
+		b8 a c,16( des) des( es) es4~
+		es16( ges) ges( es) es4 des
+		c8 a' a16( b) b( c) c4~
+		c4 b8 f f16( b) d( b)
+		f4 f f8 f %25
+		es es c' c a c
+		c([ b)] b r r4
+		r8 d,16( es) es( fis) fis( g) g8 f
+		e8 e16( f!) f( gis) gis( a?) a8 g
+		fis8 fis16( g!) g( a) a( b) b8 g %30
+		f a, a4 r
+		r8 b'4\fp b16( g) f8 es!
+		d r r b'4 b8~
+		b b4 b b8~
+		b b4 b\f b8 %35
+		b([ a)] r es'~ es16( c a c)
+		\appoggiatura c8 b4 r8 g'~ g16( es c es)
+		d!( f) es( g) b,4 a
+		b8 f b,4 r
+		r8 a'\p r a as[\f f] %40
+		r es\p g g c c
+		c4 b2~
+		b4 as f
+		g b\f g\p
+		f8 f as as a a %45
+		r a \noBeam a c4 a8
+		g d d d d d
+		es c c c c c
+		h h h h h h'
+		c f, g g c,[ h] %50
+		c8 d g,4 r
+		r r es'\f
+		es d b16( d) d( f)
+		f4 es as~
+		as8 es es16( f) f( g) g8 es16( g) %55
+		f8 es d4 es\p
+		es d b16( d) d( f)
+		f4 es as~
+		as es~ es8 c
+		\appoggiatura b8 as4 g r8 es' %60
+		g g g8. as16 g( f es8)
+		es4 d r8 d
+		f as as4. g16( f)
+		es8 es es es d d
+		es b' as as as as %65
+		g as( g fis) r fis(
+		g) as([ g fis)] r fis(
+		g) es es d es as
+		g es es4 d
+		es r r %70
+		r r8 as\f as16( f) d( f)
+		\appoggiatura f8 es4 r8 c' c16( as) f( as)
+		g( b) as( c) es,4 d
+		es8 b g2 \bar "||" %74 finis
 	}
 }

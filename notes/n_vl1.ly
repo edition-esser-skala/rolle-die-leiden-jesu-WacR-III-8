@@ -804,8 +804,8 @@ ErhoereDiesesViolinoI = {
 		b d16(c) c( b) b( a) a( g) g( f)
 		f8 b b b a a
 		b f4\f f8\p f f~ %15
-		f f4\f f8\p e e~
-		e a4\f a\p c8
+		f f4\f f8\p e[ e~]
+		e a4\f a8~\p a[ c]
 		b4 c8 es!4 d8
 		r f16( c) c( des) des( es) es4~
 		es16( ges) ges( es) es4 \appoggiatura es16 des( c des8) %20
