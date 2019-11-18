@@ -121,7 +121,52 @@ ErhoereDiesesCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoErhoereDieses
-		\partial 4 r4
+		\partial 4 r4 c'4\f g2
+		g4 c2
+		c4 r c
+		g8 c g4 r
+		r4 g2\p %5
+		r4 c c
+		c r r
+		r4 r8 e,16( g) g( c) c( e)
+		e4 r r
+		R2.*2 %11
+		R2.
+		r4 g, g
+		g r r
+		R2.*5 %19
+		r4 d'(\p d) %20
+		d2 r4
+		r d( d)
+		d2 r4
+		R2.*2 %25
+		R2.*7 %32
+		r4 r g,\p
+		g2 g4
+		g2 r4 %35
+		R2.
+		r4 r c\f
+		g8 c d4 d
+		g,2 r4
+		R2.*13 %52
+		c4\fE g2
+		g4 c2
+		c4 r c %55
+		g8 c g4 r
+		R2.*2
+		c2\p r4
+		r r8 e,16( g) g( c) c( e) %60
+		e4 r c
+		g g r
+		R2.*3 %65
+		c2\p r4
+		c2 r4
+		c2 r4
+		R2.*2 %70
+		r4 g2\fE
+		r4 c g
+		c4 c g
+		e2 r4 \bar "||" %74 finis
 		
 	}
 }
