@@ -51,7 +51,50 @@ ErhoereDiesesFagottoI = {
 	\relative c {
 		\clef bass
 		\key es \major \time 3/4 \tempoErhoereDieses
-		\partial 4 r4
-		
+		\partial 4 es4\fE g f b,16( d) d( f)
+		as4 g c~
+		c8 h16( c) c( d) d( es) es8 g,16( b?)
+		as8( g)\trill f4 r
+		R2.*5 %9
+		r4 r8 f16(\p b) b( d) d( f) %10
+		f4 r r
+		R2.
+		r8 d16( c) c( b) b( a) a( g) g( f)
+		f4 r r
+		R2. %15
+		r4 f'( e8) r
+		r4 g( f8) r
+		R2.
+		r8 c c16( des) des( es) es4~
+		es r r %20
+		r8 c c16( des) des( es) es4~
+		es r r
+		r8 c c16( d!) d( es) es4
+		r r8 f, f16( b) d( f)
+		es4( d8) r r4 %25
+		R2.*2
+		r4 b~ b16( h) h( c)
+		c2~ c16( cis) cis( d)
+		d2 r4 %30
+		R2.*4
+		r4 r8 des4 des8 %35
+		des?( c) es2~
+		es8 d g2
+		f8 es d4 c\trill
+		b2 r4
+		R2.*12 %51
+		r4 r es,\fE
+		g f b,16( d) d( f)
+		as4 g c~
+		c8 h16( c) c( d) d( es) es8 g,16( b?) %55
+		as8 g f4 r
+		R2.*5 %61
+		r4 r8 f16(\pE b) b( d) d( f)
+		f4 r r
+		R2.*7 %70
+		r4 as,2\f
+		as8 g c2
+		b8 as g4 f\trill
+		es2 r4 \bar "||" %74 finis
 	}
 }

@@ -483,10 +483,16 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Fagotto I, II"
-						\partcombine \ErhoereDiesesFagottoI \ErhoereDiesesFagottoII
-					}
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Fagotto I"
+							\ErhoereDiesesFagottoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Fagotto II"
+							\ErhoereDiesesFagottoII
+						}
+					>>
 				>>
 				\new StaffGroup <<
 					\new Staff {

@@ -791,7 +791,7 @@ ErhoereDiesesViolinoI = {
 		\key es \major \time 3/4 \tempoErhoereDieses
 		\partial 4 es4\fE g f b,16( d) d( f)
 		as4 g c~
-		c8 h16( c) c( d) d( es) es( g,) g( b)
+		c8 h16( c) c( d) d( es) es( g,) g( b?)
 		\appoggiatura as8 g4\trill f es\p
 		g f b,16( d) d( f) %5
 		as4 g c~
