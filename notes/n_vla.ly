@@ -785,7 +785,7 @@ WeintNichtViola = {
 
 ErhoereDiesesViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 3/4 \tempoErhoereDieses
 		\partial 4 r4 b\fE b r
 		b es, r

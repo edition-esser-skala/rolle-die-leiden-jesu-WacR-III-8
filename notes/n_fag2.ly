@@ -78,7 +78,7 @@ ErhoereDiesesFagottoII = {
 		r4 r8 b4 b8 %35
 		b( a) c2~
 		c8 b es2
-		d8 c b4 a\trill
+		d8 b b4 a\trill
 		b2 r4
 		R2.*12 %51
 		r4 r es,\fE
