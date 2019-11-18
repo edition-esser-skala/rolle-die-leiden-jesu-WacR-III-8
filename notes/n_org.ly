@@ -2019,7 +2019,7 @@ ErhoereDiesesOrgano = {
 		d es r
 		as as as,
 		b es, r
-		es' r8 es as, a
+		es' r8 es as,[ a]
 		b b'16. a32 b8 b, b4 %10
 		r r8 d d d
 		es d c4 f,
@@ -2027,7 +2027,7 @@ ErhoereDiesesOrgano = {
 		b8 d c4 f,
 		b b\f b\p %15
 		h h\f c\p
-		cis cis\f d
+		cis cis\f d\p
 		g8 g a a b b
 		f4 f, r8 ges'16( f)
 		f8 a, r b16( a) b( des) des( e) %20
@@ -2062,7 +2062,7 @@ ErhoereDiesesOrgano = {
 		g g g8 g'
 		c, d es e f g %50
 		as f g4 g,
-		c8 c'\f b as g f
+		c8 c'\f b! as g f
 		es4 b r
 		d es r
 		as as, a %55

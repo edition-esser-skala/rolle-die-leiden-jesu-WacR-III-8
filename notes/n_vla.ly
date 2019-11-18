@@ -787,7 +787,80 @@ ErhoereDiesesViola = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \tempoErhoereDieses
-		\partial 4 r4
+		\partial 4 r4 b\fE b r
+		b es, r
+		es' es16( f) f( g) g8 es
+		b4 b r
+		b\p b r %5
+		b es, r
+		es' as, as
+		b es, r
+		es' r8 es as,[ a]
+		b b16. a32 b4 r %10
+		r r8 d d d
+		es d c c c c
+		b2 r4
+		r8 d c c c c
+		b4 b\f b\p %15
+		h h\f c\p
+		cis cis\f d\p
+		d8 d a a b b
+		f'4 f, r8 ges16( f)
+		f4 r8 b16( a) b( des) des( e) %20
+		f4 f, r8 ges16( f)
+		f4 r8 b16( a) b( des) des( e)
+		f4 f, r
+		f'8(-. f-. f-. f-. f-. f-.)
+		f f f4 d8 d %25
+		c c f, f f f
+		b4 r r
+		r8 b16( c) c( d) d( es) es8 d
+		r c16( d) d( e) e( f) f8 es
+		r d16( e) e( fis) fis( g) g8 es %30
+		f4 f, r
+		r8 e'4\fp e8 f[ c]
+		b4 r ges'
+		ges? r ges
+		g r e8\f g16. e32 %35
+		f8 f, f4 a8 f
+		g4 g8 b c a
+		b g' f4 es
+		d2 b4\p
+		c c d8\f r %40
+		es4\p es es
+		f8( f) g( g) f( f)
+		e( e) f( f) des( des)
+		c c e4\f e\p
+		f f es %45
+		d d fis
+		g g, g
+		g g g
+		g g g8 g
+		g d' es c f,[ g] %50
+		as f g4 g
+		c8 es\f d c b!4
+		b b r
+		b es, r
+		es'~ es16( f) f( g) g8 es %55
+		b4 b8 as g\p as
+		b4 b r
+		b es, r
+		es' es as,
+		g8 f es4 r %60
+		es' r8 es c es
+		b b16. a32 b4 b
+		r r8 f f f
+		es g f4 b
+		es,8 g f4 b %65
+		b8 c( b a) r a(
+		b) c([ b a)] r a(
+		b) c b as g f
+		es as b4 b
+		c8 as b2 %70
+		es,4 b'\f b8 as
+		as( g) es'4 f
+		b,8 c b4 as
+		g2 r4 \bar "||" %74 finis
 		
 	}
 }
