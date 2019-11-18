@@ -2012,6 +2012,79 @@ ErhoereDiesesOrgano = {
 		\clef bass
 		\key es \major \time 3/4 \tempoErhoereDieses
 		\partial 4 r4 es\f b r
+		d es r
+		as, as a
+		b b'8\p as! g f
+		es4 b r %5
+		d es r
+		as as as,
+		b es, r
+		es' r8 es as, a
+		b b'16. a32 b8 b, b4 %10
+		r r8 d d d
+		es d c4 f,
+		b2 r4
+		b8 d c4 f,
+		b b\f b\p %15
+		h h\f c\p
+		cis cis\f d
+		g8 g a a b b
+		f4 f, r8 ges'16( f)
+		f8 a, r b16( a) b( des) des( e) %20
+		f4 f, r8 ges'16( f)
+		f8 f, r b16( a) b( des) des( e)
+		f4 f, r
+		a' b r
+		a b d,8 d %25
+		c c f, f f' f
+		b4 b, r
+		r8 b16( c) c( d) d( es) es8 d
+		r c16( d) d( e) e( f) f8 es
+		r d16( e) e( fis) fis( g) g8 es %30
+		f4 f, r8 f
+		g4 g a
+		b r8 b'16. f32 ges8 ges16. des32
+		b8 des16. b32 ges8 b'16. f32 ges8 ges16. f32
+		e8 g16. f32 e8\f b'16. g32 e8 g16. e32 %35
+		f8 f, f4 f'
+		g! g a
+		b8 g f4 f,
+		b2 b4\p
+		c c d8-!\f r %40
+		es4\p es es
+		f8( f) g( g) f( f)
+		e( e) f( f) des( des)
+		c c c4-!\f c\p
+		f f es! %45
+		d d d
+		g, g g
+		g g g
+		g g g8 g'
+		c, d es e f g %50
+		as f g4 g,
+		c8 c'\f b as g f
+		es4 b r
+		d es r
+		as as, a %55
+		b b'8\p as g f
+		es4 b r
+		d es r
+		as as, as
+		b es, r %60
+		es' r8 es as, a
+		b8 b'16. a32 b8 b, b4
+		r r8 d d d
+		es g f4 b,
+		es8 g f4 b, %65
+		es8 c'( b a) r a(
+		b) \once \slurDashed c( b a) r a(
+		b) c b as g f
+		es as b4 b,
+		c8 as b2 %70
+		es,4 b'\f b
+		c c d
+		es8 c b4 b
+		es es,2 \bar "||"
 	}
 }
 
