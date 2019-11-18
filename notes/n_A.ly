@@ -546,13 +546,90 @@ EinOpferAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
-		\partial 2
-		
+		\partial 2 as'2 as as
+		as a
+		b b
+		as!\fermata es
+		es f %5
+		g as
+		as( g)
+		es\fermata as
+		as as
+		as a %10
+		b b
+		as!\fermata es
+		es f
+		g as
+		as( g) %15
+		es\fermata f
+		g as
+		as g
+		as g
+		es\fermata es %20
+		as as
+		b c
+		c as
+		g\fermata as
+		as c %25
+		b a
+		b1
+		a2\fermata b
+		b b
+		b a %30
+		b a
+		f\fermata b
+		as! g
+		f f
+		es d %35
+		es\fermata es
+		es g
+		as as
+		as( g)
+		es\fermata \bar "|." %40 FINIS
 	}
 }
 
 EinOpferAltoLyrics = \lyricmode {
-	
+	Ein Op -- fer
+	nach dem
+	ew -- gen
+	Rath, be --
+	legt mit %5
+	un -- ſern
+	Pla --
+	gen, um
+	dei -- nes
+	Vol -- kes %10
+	Mi -- ße
+	that ge --
+	mar -- tert
+	und ge --
+	ſchla -- %15
+	gen, gehſt
+	du den
+	Weg zum
+	Kreu -- tzes --
+	ſtamm in %20
+	Un -- ſchuld
+	ſtumm, gleich
+	als ein
+	Lamm, das
+	man zur %25
+	Schlacht -- bank
+	füh --
+	ret. Frey --
+	wil -- lig,
+	als der %30
+	Hel -- den
+	Held, trägſt
+	du aus
+	Lie -- be
+	für die %35
+	Welt den
+	Tod, der
+	uns ge --
+	büh --
+	ret. %40 FINIS
 }
 
 % AltoNotes = {

@@ -715,13 +715,90 @@ EinOpferSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
-		\partial 2
-		
+		\partial 2 es'2 f f
+		c4( des) es2
+		des des
+		c\fermata b
+		c des %5
+		es c
+		c( b)
+		as\fermata es'2
+		f f
+		c4( des) es2 %10
+		des des
+		c\fermata b
+		c des
+		es c
+		c( b) %15
+		as\fermata as
+		b c
+		des b
+		c b
+		as\fermata as %20
+		c d
+		es f
+		c d
+		es\fermata c
+		f es %25
+		des! c
+		b2.( c8[ des)]
+		c2\fermata f
+		f f
+		b, es %30
+		des c
+		b\fermata des
+		c b
+		as b
+		ges f %35
+		es \fermata es
+		as b
+		c es
+		c( b)
+		as\fermata \bar "|." %40 FINIS
 	}
 }
 
 EinOpferSopranoLyrics = \lyricmode {
-	
+	Ein Op -- fer
+	nach dem
+	ew -- gen
+	Rath, be --
+	legt mit %5
+	un -- ſern
+	Pla --
+	gen, um
+	dei -- nes
+	Vol -- kes %10
+	Mi -- ße
+	that ge --
+	mar -- tert
+	und ge --
+	ſchla -- %15
+	gen, gehſt
+	du den
+	Weg zum
+	Kreu -- tzes --
+	ſtamm in %20
+	Un -- ſchuld
+	ſtumm, gleich
+	als ein
+	Lamm, das
+	man zur %25
+	Schlacht -- bank
+	füh --
+	ret. Frey --
+	wil -- lig,
+	als der %30
+	Hel -- den
+	Held, trägſt
+	du aus
+	Lie -- be
+	für die %35
+	Welt den
+	Tod, der
+	uns ge --
+	büh --
+	ret. %40 FINIS
 }
 
 % SopranoNotes = {

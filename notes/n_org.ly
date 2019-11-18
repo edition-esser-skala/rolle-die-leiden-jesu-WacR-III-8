@@ -2172,7 +2172,7 @@ EinOpferOrgano = {
 		\partial 2 as'2\fE f des
 		f c
 		b b'
-		f\fermata f
+		f\fermata g
 		as f %5
 		es as
 		es1
@@ -2180,7 +2180,7 @@ EinOpferOrgano = {
 		f des
 		f c %10
 		b b'
-		f\fermata f
+		f\fermata g
 		as f
 		es as
 		es1 %15
@@ -2214,45 +2214,45 @@ EinOpferOrgano = {
 
 EinOpferBassFigures = \figuremode {
 	r2 <6>1
-	r
-	r
-	r
-	r %5
-	r
-	r
-	r
-	<6>1
-	r %10
-	r
-	r
-	r
-	r
-	r %15
-	r
+	r2 <[6!]>
+	r1
+	<[_-]>2 <[6]>
+	r q %5
+	r1
+	<[6 4]>2 <[5 3]>
+	r1
+	<6>
+	r2 <[6!]> %10
+	r1
+	<[_-]>2 <[6]>
+	r q
+	r1
+	<[6 4]>2 <[5 3]> %15
+	r1
 	r2 <6>
 	<7>1
-	r
-	r %20
-	r2 <6>
-	r <6>
-	r <7>
+	r2 <[7]>
+	r1 %20
+	r2 <[6!]>
+	r <6>4 <\t>
+	<[6]>2 <7 [_!]>
 	r1
 	r2 <6 5> %25
 	r <6!>
 	<6>1
-	<_!>
-	r
-	r %30
-	r
-	r
-	r
-	r
-	r %35
-	r
-	r
-	r
-	r
-	r2%40 FINIS 
+	<_!>2 <[6]>
+	<\t> <[4! 2]>
+	<[6]> <[7 _!]> %30
+	r <[7 _!]>
+	r <[6 5]>
+	r q
+	r <[6]>
+	<[_-]> <[7 _!]> %35
+	<[_-]> <[4! 2]>
+	<[6]> q
+	r q
+	<[6 4]> <[5 3]>
+	r %40 FINIS 
 }
 
 % Organo = {

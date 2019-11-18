@@ -871,7 +871,45 @@ EinOpferViolinoII = {
 	\relative c' {
 		\clef treble
 		\key as \major \time 4/4 \tempoEinOpfer
-		\partial 2
-		
+		\partial 2 as'2 as as
+		as a
+		b b
+		as!\fermata es
+		es f %5
+		g as
+		as( g)
+		es\fermata as
+		as as
+		as a %10
+		b b
+		as!\fermata es
+		es f
+		g as
+		as( g) %15
+		es\fermata f
+		g as
+		as g
+		as g
+		es\fermata es %20
+		as as
+		b c
+		c as
+		g\fermata as
+		as c %25
+		b a
+		b1
+		a2\fermata b
+		b b
+		b a %30
+		b a
+		f\fermata b
+		as! g
+		f f
+		es d %35
+		es\fermata es
+		es g
+		as as
+		as( g)
+		es\fermata \bar "|." %40 FINIS
 	}
 }

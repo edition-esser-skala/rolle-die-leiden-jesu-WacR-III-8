@@ -866,9 +866,47 @@ ErhoereDiesesViola = {
 
 EinOpferViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key as \major \time 4/4 \tempoEinOpfer
-		\partial 2
-		
+		\partial 2 c2 des f
+		f es
+		f f
+		f\fermata b,
+		as as %5
+		b4( es2) es4
+		es2( des)
+		c\fermata c
+		des f
+		f es %10
+		f f
+		f\fermata b,
+		as as
+		b4( es2) es4
+		es2( des) %15
+		c\fermata c
+		es es
+		f es
+		es des
+		c\fermata c
+		es f
+		g f
+		f f
+		es\fermata es
+		f f
+		f es
+		f1
+		f2\fermata f
+		b, d
+		es f
+		f es
+		des!\fermata es
+		es c
+		c b
+		b as
+		ges\fermata g
+		as des
+		es es
+		es( des)
+		c\fermata \bar "|."
 	}
 }

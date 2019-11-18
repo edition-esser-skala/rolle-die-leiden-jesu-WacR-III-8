@@ -336,7 +336,45 @@ EinOpferOboeII = {
 	\relative c' {
 		\clef treble
 		\key as \major \time 4/4 \tempoEinOpfer
-		\partial 2
-		
+		\partial 2 es'2 f f
+		c4( des) es2
+		des des
+		c\fermata b
+		c des %5
+		es c
+		c( b)
+		as\fermata es'2
+		f f
+		c4( des) es2 %10
+		des des
+		c\fermata b
+		c des
+		es c
+		c( b) %15
+		as\fermata as
+		b c
+		des b
+		c b
+		as\fermata as %20
+		c d
+		es f
+		c d
+		es\fermata c
+		f es %25
+		des! c
+		b2. c8([ des)]
+		c2\fermata f
+		f f
+		b, es %30
+		des c
+		b\fermata des
+		c b
+		as b
+		ges f %35
+		es \fermata es
+		as b
+		c es
+		c( b)
+		as\fermata \bar "|." %40 FINIS
 	}
 }

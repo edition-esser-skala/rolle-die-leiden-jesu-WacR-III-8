@@ -456,13 +456,90 @@ EinOpferBassoNotes = {
 	\relative c {
 		\clef bass
 		\key as \major \time 4/4 \autoBeamOff \tempoEinOpfer
-		\partial 2
-		
+		\partial 2 as'2\fE f des
+		f c
+		b b'
+		f\fermata g
+		as f %5
+		es as
+		es1
+		as2\fermata as
+		f des
+		f c %10
+		b b'
+		f\fermata g
+		as f
+		es as
+		es1 %15
+		as2\fermata f
+		es4( des) c2
+		b es
+		as es
+		as,\fermata as %20
+		as' f
+		es as4( g)
+		as2 b
+		es,\fermata as4( g)
+		f2 a %25
+		b c,
+		des( b)
+		f'\fermata d4.( c8)
+		d?2 as'!
+		ges f %30
+		b f
+		b,\fermata g'!
+		as e
+		f d
+		es b %35
+		es\fermata des!
+		c b
+		as c
+		es1
+		as,2\fermata \bar "|." %40 FINIS
 	}
 }
 
 EinOpferBassoLyrics = \lyricmode {
-	
+	Ein Op -- fer
+	nach dem
+	ew -- gen
+	Rath, be --
+	legt mit %5
+	un -- ſern
+	Pla --
+	gen, um
+	dei -- nes
+	Vol -- kes %10
+	Mi -- ße
+	that ge --
+	mar -- tert
+	und ge --
+	ſchla -- %15
+	gen, gehſt
+	du den
+	Weg zum
+	Kreu -- tzes --
+	ſtamm in %20
+	Un -- ſchuld
+	ſtumm, gleich
+	als ein
+	Lamm, das
+	man zur %25
+	Schlacht -- bank
+	füh --
+	ret. Frey --
+	wil -- lig,
+	als der %30
+	Hel -- den
+	Held, trägſt
+	du aus
+	Lie -- be
+	für die %35
+	Welt den
+	Tod, der
+	uns ge --
+	büh --
+	ret. %40 FINIS
 }
 
 % BassoNotes = {
