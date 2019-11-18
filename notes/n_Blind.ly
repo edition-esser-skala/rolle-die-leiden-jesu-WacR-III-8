@@ -744,13 +744,42 @@ ErhoereDiesesBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 3/4 \autoBeamOff \tempoErhoereDieses
-		\partial 4 r4
-		
+		\partial 4 r4 R2.*56 %56
+		r4 r r8 d
+		f4 es es~
+		es8 es es4. es8
+		b([ as)] g4 r %60
+		r r r8 es
+		b'4 b r
+		R2.
+		r8 es b4( as)\trill
+		g8 es' es4( d) %65
+		es8 es es4 es
+		es2 es4
+		es8 es es d es d
+		es es es4( d)\trill
+		es8 c b4( as)\trill %70
+		g r r
+		R2.*3 \bar "||"
 	}
 }
 
 ErhoereDiesesBlindLyrics = \lyricmode {
+	Er -- %57
+	hö -- re die --
+	ſes hei -- ße
+	Fle -- hen, %60
+	er --
+	hö -- re,
 	
+	nicht ſe --
+	hen, nicht ſe -- %65
+	hen, laß ihn den
+	Tod am
+	Kreutz, laß ihn den Tod am
+	Kreutz nicht ſe --
+	hen, nicht ſe -- %70
+	hen. %71 finis
 }
 
 % BlindNotes = {

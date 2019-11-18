@@ -151,13 +151,42 @@ ErhoereDiesesNicoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 3/4 \autoBeamOff \tempoErhoereDieses
-		\partial 4 r4
-		
+		\partial 4 r4 R2.*56 %56
+		r4 r4 b
+		b' es, as~
+		as8 as as4. c16([ as)]
+		\appoggiatura g8 f4 es r8 es %60
+		b' b b8. c16 b([ as)] g8
+		g4 f r8 f
+		as c c4. b16([ as)]
+		g8 g f4( b,)
+		es8 g f4( b,) %65
+		es8 c' b a a4(
+		b8) c b a a4(
+		b8) c b as g f
+		es as b4( b,)
+		c8 c'16([ as)] g4( f)\trill %70
+		es r r
+		R2.*3 \bar "||" %74 finis
 	}
 }
 
 ErhoereDiesesNicoLyrics = \lyricmode {
-	
+	Er -- %57
+	hö -- re die --
+	ſes hei -- ße
+	Fle -- hen, laß %60
+	ihn den Tod am Kreutz nicht
+	ſe -- hen, laß
+	ihn den Tod am
+	Kreutz nicht ſe --
+	hen, nicht ſe -- %65
+	hen, laß ihn den Tod __
+	am Kreutz, den Tod, __
+	laß ihn den Tod am
+	Kreutz nicht ſe --
+	hen, nicht ſe -- %70
+	hen. %71 finis
 }
 
 % NicoNotes = {
