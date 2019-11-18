@@ -164,13 +164,140 @@ ErhoereDiesesJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoErhoereDieses
-		\partial 4 r4
-		
+		\partial 4 r4 R2.*3
+		r4 r es
+		g f r8 f %5
+		as4 g c~
+		c8 h h4( c8) as16([ f)]
+		\appoggiatura es8 d4 es r8 es
+		b' b b8. c16 b([ as)] g8
+		g4( f) r8 f %10
+		as c c4. b16([ as)]
+		g8 b f4( \grace f16 es8[ d16 es])
+		d4 r r8 g
+		f b16([ g)] f4( es)\trill
+		d r8 f f8. as16 %15
+		\appoggiatura as8 g4 r8 g g b
+		\appoggiatura b a4 r8 a a c
+		b8. a32([ g)] f!4. d'16([ b)]
+		\appoggiatura b a([ g)] f8 r4 c'
+		\appoggiatura b16 a8 c c4 \appoggiatura c16 b[ a] b8 %20
+		\appoggiatura b a4 r8 f c'4~
+		c8 \tuplet 3/2 8 { a16[( b c]) } c4 \appoggiatura c16 b[ a] b8
+		\appoggiatura b a4 r r8 f
+		c'8.([ d32 es)] d4 r8 f,
+		c'8.([ d32 es)] d4 b~ %25
+		b8 a a8.([ b16 c8]) es,
+		es d r f16([ g)] g([ a)] a([ b)]
+		b4. fis16([ g)] g([ h)] h([ c)]
+		c4. gis16([ a?)] a([ cis)] cis([ d)]
+		d4. \tuplet 3/2 8 { c16([ b a)] } b8 c %30
+		a16([ g)] f8 r c' b16([ a)] g([ f)]
+		\appoggiatura f8 e4 r8 c' c8. es,16
+		d8 b' b2~
+		b b4
+		b2 r4 %35
+		R2.*3
+		r4 r8. f16 b16. a32 b16. c32
+		\appoggiatura b8 a4 r8 f as16. c32 b16. as32 %40
+		as8 g r g c c
+		c8.([ des32 c]) b8 g16([ as)] b8 b
+		b8.([ c32 b] as8) c b16([ as)] g([ f)]
+		f8 e16 des' des8([ c16)] b b8([ as16)] g
+		as([ g)] f8 r f c'16 h c a %45
+		\appoggiatura g fis8. a16 d,([ fis)] fis([ a)] a([ c)] c8
+		h16[ g as!8]~ as16[ g fis g] as[ g fis g]
+		c([ g) as!8]~ as16[ g fis g] as[ g fis g]
+		d'[ g, as!8]~  as16[ g fis g] g8 d'
+		es \tuplet 3/2 8 { d16([ c h)] } c8 \tuplet 3/2 8 { b16([ as g)] } as8 \tuplet 3/2 8 { g16([ f e)] } %50
+		f8 as16([ f)] es4( d)\trill
+		c r r
+		R2.*3 %55
+		r4 r es
+		g f r8 f
+		as4 g c~
+		c8 h h4( c8) as16([ f)]
+		\appoggiatura es8 d4 es r8 es %60
+		g g g8. as16 g([ f)] es8
+		es4 d r8 d
+		f as as4. g16([ f)]
+		es8 es es4( d)\trill
+		es8 b' b4( as) %65
+		g8 as g fis fis4(
+		g8) as g fis fis4(
+		g8) as g f b as
+		g c16([ as)] g4( f)\trill
+		es8 f es4( d)\trill %70
+		es r r
+		R2.*3 \bar "||" %74 finis
 	}
 }
 
 ErhoereDiesesJosephLyrics = \lyricmode {
+	Er -- %4
+	hö -- re, er -- %5
+	hö -- re die --
+	ſes hei -- ße
+	Fle -- hen, laß
+	ihn, du des Ge -- rech -- ten
+	Gott, __ den %10
+	lang -- ſam ban -- gen
+	Tod nicht ſe --
+	hen, den
+	Tod nicht ſe --
+	hen, den Tod am %15
+	Kreutz, den Scla -- ven --
+	tod, laß ihn den
+	ban -- gen Tod nicht
+	ſe -- hen, du
+	des Ge -- rech -- _ ten %20
+	Gott, er -- hö --
+	re die -- _ ſes
+	Flehn, er --
+	hö -- re, er --
+	hö -- re die -- %25
+	ſes hei -- ße
+	Fle -- hen, laß ihn den
+	lang -- ſam ban -- gen
+	Tod, den lang -- ſam
+	ban -- gen Tod nicht %30
+	ſe -- hen, den Tod am
+	Kreutz, den Scla -- ven --
+	tod, den Scla --
+	ven --
+	tod. %35
 	
+	Ver -- kürz ihm auf ein -- %39
+	mal die ſchreck -- lich -- ſten der %40
+	Lei -- den, daß ſich an
+	ſei -- ner, an ſei -- ner
+	Quaal __ nicht ſei -- ne
+	Mör -- der, nicht ſei -- ne Mör -- der
+	wei -- den, daß ſich an ſei -- ner %45
+	Quaal nicht ſei -- ne Mör -- der
+	wei -- _
+	_ _
+	_ den, nicht
+	ſei -- ne Mör -- der, ſei -- ne %50
+	Mör -- der wei --
+	den.
+	
+	Er -- %56
+	hö -- re, er --
+	hö -- re die --
+	ſes hei -- ße
+	Fle -- hen, laß %60
+	ihn den Tod am Kreutz nicht
+	ſe -- hen, laß
+	ihn den Tod am
+	Kreutz nicht ſe --
+	hen, nicht ſe -- %65
+	hen, laß ihn den Tod __
+	am Kreutz, den Tod, __
+	laß ihn den Tod am
+	Kreutz nicht ſe --
+	hen, nicht ſe -- %70
+	hen. %71 finis
 }
 
 % JosephNotes = {
