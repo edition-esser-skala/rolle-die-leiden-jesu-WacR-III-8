@@ -2170,12 +2170,89 @@ EinOpferOrgano = {
 		\clef bass
 		\key as \major \time 4/4 \tempoEinOpfer
 		\partial 2 as'2\fE f des
-		
+		f c
+		b b'
+		f\fermata f
+		as f %5
+		es as
+		es1
+		as2\fermata as
+		f des
+		f c %10
+		b b'
+		f\fermata f
+		as f
+		es as
+		es1 %15
+		as2\fermata f
+		es4( des) c2
+		b es
+		as es
+		as,\fermata as %20
+		as' f
+		es as4( g)
+		as2 b
+		es,\fermata as4( g)
+		f2 a %25
+		b c,
+		des( b)
+		f'\fermata d4.( c8)
+		d?2 as'!
+		ges f %30
+		b f
+		b,\fermata g'!
+		as e
+		f d
+		es b %35
+		es\fermata des!
+		c b
+		as c
+		es1
+		as,2\fermata \bar "|." %40 FINIS
 	}
 }
 
 EinOpferBassFigures = \figuremode {
-	
+	r2 <6>1
+	r
+	r
+	r
+	r %5
+	r
+	r
+	r
+	<6>1
+	r %10
+	r
+	r
+	r
+	r
+	r %15
+	r
+	r2 <6>
+	<7>1
+	r
+	r %20
+	r2 <6>
+	r <6>
+	r <7>
+	r1
+	r2 <6 5> %25
+	r <6!>
+	<6>1
+	<_!>
+	r
+	r %30
+	r
+	r
+	r
+	r
+	r %35
+	r
+	r
+	r
+	r
+	r2%40 FINIS 
 }
 
 % Organo = {
