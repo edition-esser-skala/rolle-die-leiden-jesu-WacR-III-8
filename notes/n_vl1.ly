@@ -789,8 +789,80 @@ ErhoereDiesesViolinoI = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \tempoErhoereDieses
-		\partial 4 r4
-		
+		\partial 4 es4\fE g f b,16( d) d( f)
+		as4 g c~
+		c8 h16( c) c( d) d( es) es( g,) g( b)
+		\appoggiatura as8 g4\trill f es\p
+		g f b,16( d) d( f) %5
+		as4 g c~
+		c8 h h4( c8) as
+		\appoggiatura g f4 es r8 es
+		b' b b8.( c16) b( as g8)
+		g4 f r8 f %10
+		as( c) c4. b16( as)
+		g8 b b b a a
+		b d16(c) c( b) b( a) a( g) g( f)
+		f8 b b b a a
+		b f4\f f8\p f f~ %15
+		f f4\f f8\p e e~
+		e a4\f a\p c8
+		b4 c8 es!4 d8
+		r f16( c) c( des) des( es) es4~
+		es16( ges) ges( es) es4 \appoggiatura es16 des( c des8) %20
+		c8 f16( a,) a( b) b( c) c4~
+		c16( es) es( c) c4 \appoggiatura c16 b( a b8)
+		a8 f'16( c) c( d!) d( es) es4~
+		es d8 f, f16( b) b( d)
+		c8.( d32 es) d8 f16( a,) b8 b %25
+		r es es es es es,
+		es([ d)] d-! f16( g) g( a) a( b)
+		b8 d,16( es) es( fis) fis( g) g( h) h( c)
+		c8 e,16( f) f( gis) gis( a?) a( cis) cis( d)
+		d8 fis,16( g) g( a) a( b) b8 es16( c) %30
+		a( g f8) f4 r
+		r8 c'4\fp c8 c[ es,!]
+		d r r des'4 des8~
+		des des?4 des des8~
+		des des?4 des\f des8 %35
+		des([ c)] r es~ es16( c a c)
+		\appoggiatura c8 b4 r8 g'~ g16( es c es)
+		d!( f) es( g) b,8. c16 c4\trill
+		b8 f b,4 r
+		r8 es'\p r es f[\f as,!] %40
+		r g\p c c es es
+		des2.
+		c2 b4~
+		b g'\f b,\p
+		as8 as c c c c %45
+		r c \noBeam c a'4 c,8
+		h h h h h h
+		c es, es es es es
+		d d d d d d'
+		es \tuplet 3/2 8 { d16([ c h)] } c8 \tuplet 3/2 8 { b16([ as g)] } as8 \tuplet 3/2 8 { g16([ f e)] } %50
+		f8 d c4 h\trill
+		c r es\f
+		g f b,16( d) d( f)
+		as4 g c~
+		c8 h16( c) c( d) d( es) es8 g,16( b?) %55
+		as8 g f4 es\p
+		g f b,16( d) d( f)
+		as4 g c~
+		c8 h h4( c8) as16 f
+		\appoggiatura es8 d4 es r8 es %60
+		b' b b8. c16 b( as g8)
+		g4 f r8 f
+		as c c4. b16( as)
+		g8 b b b as as
+		g es' es es d d %65
+		es as,( g fis) r fis(
+		g) as([ g fis)] r fis(
+		g) as g f b d
+		es c16( as) g4 f\trill
+		es r r %70
+		r r8 as\f as16( f) d( f)
+		\appoggiatura f8 es4 r8 c' c16( as) f( as)
+		g( b) as( c) es,8. f16 f8.(\trill es32 f)
+		es8 b es2 \bar "||" %74 finis
 	}
 }
 
