@@ -327,13 +327,80 @@ RaecherSchauJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
-		
+		R1*3
+		h'4 e, h'2~
+		h4 a8([ h)] c([ a)] a([ g)] %5
+		f([ e)] f4 r2
+		R1*9 %15
+		r2 g
+		a g
+		g f
+		e d\p
+		c1 %20
+		R
+		R\fermataMarkup
+		R
+		d'2 d
+		c c~ %25
+		c4 h8([ c] d4) c
+		c h r2
+		R1
+		r2 c~
+		c h4 r %30
+		r2 a~
+		a gis4 r
+		R1*5 %37
+		r2 a
+		a a4( gis)
+		a2 r %40
+		b1(
+		a2) a
+		gis4 a h! c
+		c h r2
+		R1*6 %50
+		r2 a
+		a a4( gis)
+		a2 d,
+		c d\p
+		c1 %55
+		R1*2 \bar "||" %57 finis
 	}
 }
 
 RaecherSchauJosephLyrics = \lyricmode {
-% 	Rächer ſchau vom Himmel nieder,
-% 	Klaget all in lauten Chören,
+	Rä -- cher ſchau __ %4
+	vom Him -- mel %5
+	nie -- der:
+	
+	[Es %16
+	fließt ſein
+	Blut, ſein
+	Blut, ſein
+	Blut.] %20
+	
+	Kla -- get
+	all in __
+	lau -- ten
+	Chö -- ren,
+	
+	kla --
+	get,
+	kla --
+	get:
+	
+	[Es %38
+	fließt ſein
+	Blut.] %40
+	Kla --
+	get
+	all in lau -- ten
+	Chö -- ren:
+	
+	[Es %51
+	fließt ſein
+	Blut, ſein
+	Blut, ſein
+	Blut.] %55 finis
 }
 
 % JosephNotes = {
