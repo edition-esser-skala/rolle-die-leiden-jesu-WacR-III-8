@@ -2319,7 +2319,7 @@ RaecherSchauOrgano = {
 		g1 %10
 		g,2 g'\f
 		g1
-		g,2 g'8\p f! e d
+		g,2 g'8\p f e! d
 		c1
 		f %15
 		g2 c
@@ -2412,19 +2412,19 @@ RaecherSchauBassFigures = \figuremode {
 	<6 5> <\t \t> <5 3> <\t \t>
 	<4\+ 2> <6> <6\\> <8>
 	<6 4> <5 _+> <8 6>2
-	<7 5 _+> <6 4>
+	<7 5 _+> <6 4> %45
 	<5 _+> <8 6>
 	<7 5 _+> <6 4>
 	<5 _+>1
 	r
-	<5>2 <6>
+	<5>2 <6> %50
 	<_+>1
 	<6 5>2 <6 4>4 <5 _+>
 	r2 <7+ 4 2>
 	<8 3> <7+ 4 2>
-	<8 3>1 \bassFigureExtendersOn
+	<8 3>1 \bassFigureExtendersOn %55
 	q
-	q2 \bassFigureExtendersOff r
+	q2 \bassFigureExtendersOff r %57 finis
 }
 
 % Organo = {

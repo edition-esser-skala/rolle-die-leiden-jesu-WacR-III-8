@@ -915,6 +915,62 @@ RaecherSchauViola = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoRaecherSchau
-		
+		c4\f e c c
+		f d8. f16 e4 e
+		e2\p e4 c8. a16
+		e2 e'4 e
+		e2 r4 e %5
+		d2 h4 h
+		c2 r4 c,
+		d2 r4 d
+		g2 g
+		g1 %10
+		g2 g4\f es'
+		d f es c
+		g2 g8\p f e! d
+		c1
+		f %15
+		g2 g
+		f g
+		c,1
+		c
+		c4 c'8( a) g( f) e( d) %20
+		c2 g'4(-. g-.)
+		g2\fermata r
+		c,4. d8 e4 c
+		fis2 gis
+		a4~ a8. g!16 f!4 e %25
+		d2. dis4
+		e2 r
+		r e'4\f r
+		r2 e4\fE r
+		r2 e4\fE r %30
+		r2 r4 a,\p
+		fis'2 gis
+		e e,
+		e1
+		e2 e'8 d c h %35
+		a1
+		d,
+		e2 a
+		d, e
+		a r4 c %40
+		d c8 d e4 d
+		cis2 d~
+		d4 c h a
+		e'1~
+		e %45
+		e,2 a4\f c
+		h d c a
+		e2 e'8\p d c h
+		a1
+		d
+		e2 e
+		d e
+		a, h
+		c h
+		a e
+		e e4(-. e-.)
+		e2 r \bar "||"
 	}
 }
