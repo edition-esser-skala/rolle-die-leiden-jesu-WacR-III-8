@@ -300,6 +300,18 @@ ErhoereDiesesJosephLyrics = \lyricmode {
 	hen. %71 finis
 }
 
+HeiligHeiligJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHeiligHeilig
+		
+	}
+}
+
+HeiligHeiligJosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble

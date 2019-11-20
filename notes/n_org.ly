@@ -2255,6 +2255,21 @@ EinOpferBassFigures = \figuremode {
 	r %40 FINIS 
 }
 
+HeiligHeiligOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoHeiligHeilig
+		f8(\p c) as'( f) e!( c) b'16( g) f( e!)
+		\slurDashed f8( c) as'( f) e!( c) b'( g)
+		as( f) des( b) as( f) des''( b)
+		as( f) des( b) f4\fermata r
+	}
+}
+
+HeiligHeiligBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

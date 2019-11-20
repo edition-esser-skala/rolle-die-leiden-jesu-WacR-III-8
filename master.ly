@@ -8,7 +8,8 @@
 
 % \include "scores/s_act1.ly"
 % \include "scores/s_act2.ly"
-\include "scores/s_act3.ly"
+% \include "scores/s_act3.ly"
+\include "scores/s_act4.ly"
 
 % \include "parts/p_vl1.ly"
 % \include "parts/p_vl2.ly"

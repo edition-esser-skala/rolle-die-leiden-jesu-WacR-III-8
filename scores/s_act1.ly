@@ -51,7 +51,7 @@
 \book {
 	\bookpart {
 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partActTitle "E R S T E R   T H E I L" "Act: 1"
+		\partActTitle "E R S T E R   T H E I L" "Act: 1."
 	}
 	\bookpart {
 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }

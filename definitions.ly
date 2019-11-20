@@ -315,6 +315,10 @@ tempoODassIch = \tempoMarkup "[Tempo deest]"
 tempoErhoereDieses = \tempoMarkup "Sostenuto"
 tempoEinOpfer = \tempoMarkup "[Tempo deest]"
 
+tempoHeiligHeilig = \tempoMarkup "Poco largo"
+	tempoHeiligHeiligB = \tempoMarkup "Recitativ"
+
+
 
 
 

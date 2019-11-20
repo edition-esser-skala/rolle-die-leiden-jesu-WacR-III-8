@@ -189,6 +189,18 @@ ErhoereDiesesNicoLyrics = \lyricmode {
 	hen. %71 finis
 }
 
+HeiligHeiligNicoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoHeiligHeilig
+		
+	}
+}
+
+HeiligHeiligNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass
