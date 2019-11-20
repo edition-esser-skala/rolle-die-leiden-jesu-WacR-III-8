@@ -2308,7 +2308,62 @@ RaecherSchauOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoRaecherSchau
 		a4\f c8. e16 a8.[ g16 f8. e16]
-		
+		d4 f8. d16 e4 e,
+		a2\p c4 a
+		e'2 e,
+		a r4 a %5
+		d2 g,4 g'
+		c,2 r4 c
+		d2 r4 d
+		g2 g
+		g1 %10
+		g,2 g'\f
+		g1
+		g,2 g'8\p f! e d
+		c1
+		f %15
+		g2 c
+		f, g
+		c,1
+		c
+		c4 c'8( a) g( f) e( d) %20
+		c4 c8( a) g( f) e( d)
+		c2\fermata r
+		c'4. d8 e4 c
+		fis a gis e
+		a, a'8. g16 f4 e %25
+		d2. dis4
+		e2 r
+		r e\f
+		r e\fE
+		r e\f %30
+		r e~\fp
+		e1
+		e2 e,~
+		e1
+		e2 e'8 d c h %35
+		a1
+		d
+		e2 a
+		d, e
+		a, r4 c %40
+		d c8 d e4 d
+		cis a r d~
+		d c h a
+		e'1~
+		e %45
+		e,2 e\f
+		e1~
+		e2 e'8\p d c h
+		a1
+		d %50
+		e2 a
+		d, e
+		a,1
+		a
+		a4 a'8( f) e( d) c( h) %55
+		a4 e8 f' e( d) c( h)
+		a2 r \bar "||" %57 finis
 	}
 }
 
