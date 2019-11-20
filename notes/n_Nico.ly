@@ -229,12 +229,101 @@ RaecherSchauNicoNotes = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
-		
+		R1*2
+		a'4\fE e a2~
+		a4 gis8([ a)] h([ gis)] e([ d)]
+		c([ h)] c4 r2 %5
+		R1
+		g'4 c, c'2~
+		c4 h8([ c)] d4 d,
+		g g, r2
+		R1*4 %13
+		r2 c
+		f f %15
+		g c
+		f, g
+		c,1
+		r2 c\p
+		c1 %20
+		R
+		R\fermataMarkup
+		r2 c'~\fE
+		c h~
+		h a~ %25
+		a4 gis8([ a)] h4 a
+		a gis r2
+		R1
+		r2 a~
+		a gis4 r %30
+		r2 c~
+		c h4 r
+		R1*3 %35
+		r2 a
+		d, d
+		e a
+		d, e
+		a, a'~ %40
+		a g~
+		g f
+		e4 fis gis a
+		a gis r2
+		R1*4 %48
+		r2 a
+		d, d %50
+		e a
+		d, e
+		a,1
+		r2 gis'\p
+		a1 %55
+		R1*2 \bar "||" %57 finis
 	}
 }
 
 RaecherSchauNicoLyrics = \lyricmode {
+	Rä -- cher ſchau __ %3
+	vom Him -- mel
+	nie -- der, %5
 	
+	Rä -- cher ſchau __
+	vom Him -- mel
+	nie -- der:
+	
+	Es %14
+	fließt ſein %15
+	Blut, es
+	fließt ſein
+	Blut,
+	ſein
+	Blut. %20
+	
+	Kla -- %23
+	get __
+	all __ %25
+	in lau -- ten
+	Chö -- ren,
+	
+	kla --
+	get, %30
+	kla --
+	get:
+	
+	Es %36
+	fließt ſein
+	Blut, es
+	fließt ſein
+	Blut. Kla -- %40
+	_
+	get
+	all in lau -- ten
+	Chö -- ren:
+	
+	Es %49
+	fließt ſein %50
+	Blut, es
+	fließt ſein
+	Blut,
+	ſein
+	Blut. %55 finis
 }
 
 % NicoNotes = {
