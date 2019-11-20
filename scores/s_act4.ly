@@ -63,11 +63,7 @@
 		\header {
 			movement = \movementTitle "4.1" "R E C I T A T I V" "Heilig, heilig, heilig biſt du Gott!"
 		}
-		\paper {
-% 			system-system-spacing.basic-distance = #25
-% 			system-system-spacing.minimum-distance = #25
-% 			systems-per-page = #3
-		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<

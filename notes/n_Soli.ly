@@ -386,3 +386,50 @@ ODassIchSoliLyrics = \lyricmode {
 	gier -- gen, ei -- nen Wand -- rer, %15
 	ihm ſein Kreutz zu tra -- gen. %16 finis
 }
+
+HeiligHeiligSoliNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoHeiligHeilig
+		R1
+		as'4^\Nico f c' c,
+		r f8 f f4 f
+		f2 r4\fermata \tempoHeiligHeiligB f8 c
+		as' as as g \tempoHeiligHeiligC es4 r %5
+		g g g8 c, r4
+		b'8 b b b b c, r4
+		b'8 b des f, e! e r4
+		R1
+		\tempoHeiligHeiligD g8 g g g b b b g %10
+		e e r e16 fis g8 g r4
+		r fis8 fis16 fis h!4 r8 h
+		h g e d! \appoggiatura cis h4 r
+		\clef treble r8 fis''^\Joseph fis fis h h h ais
+		h h r16 h h c! a8 a a g %15
+		e e r4 r2
+		r4 r16 e gis a h4 r8 e,
+		a16. a32 a8 r4 r8. f!16 b8 r16 a
+		gis8 gis gis a e4 r \markVSE \bar "|" %19 finis
+	}
+}
+
+HeiligHeiligSoliLyrics = \lyricmode {
+	Hei -- lig, hei -- lig, %2
+	hei -- lig biſt du
+	Gott! a -- ber
+	un -- er -- forſch -- lich auch. %5
+	Blu -- ten ſoll er!
+	der Ge -- rech -- te, ſter -- ben
+	un -- ter Mi -- ße -- thä -- tern!
+	
+	Wen -- de dich von die -- ſen Tie -- fen, %10
+	See -- le, die du ſchwin -- delſt,
+	wen -- de dich weg und
+	be -- te ſchwei -- gend an.
+	Laß uns am Fuß des Hü -- gels
+	wei -- len, ich kan nicht ſehn des From -- men %15
+	Ster -- ben.
+	Sie nahn ſich ihm_– die
+	Kreu -- tzi -- ger! O weh! ſie
+	hef -- ten ihn ans Kreutz. %19 finis
+}
