@@ -317,6 +317,8 @@ tempoEinOpfer = \tempoMarkup "[Tempo deest]"
 
 tempoHeiligHeilig = \tempoMarkup "Poco largo"
 	tempoHeiligHeiligB = \tempoMarkup "Recitativ"
+	tempoHeiligHeiligC = \tempoMarkup "a tempo"
+	tempoHeiligHeiligD = \tempoMarkup "Recitativ"
 
 
 

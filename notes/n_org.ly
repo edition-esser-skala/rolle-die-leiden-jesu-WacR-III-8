@@ -2260,14 +2260,47 @@ HeiligHeiligOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoHeiligHeilig
 		f8(\p c) as'( f) e!( c) b'16( g) f( e!)
-		\slurDashed f8( c) as'( f) e!( c) b'( g)
-		as( f) des( b) as( f) des''( b)
-		as( f) des( b) f4\fermata r
+		\slurDashed f8( c) as'( f) e!( c) b'( g) \slurSolid
+		as( f) des( b) \kneeBeam as( f) des''( b)
+		as( f) des( b) f4\fermata \tempoHeiligHeiligB r
+		\tempoHeiligHeiligC h r c8( g) es'( c) %5
+		h!( g) f'( d) e( c) b'( g)
+		des2 c4 \once \slurDashed b'8( g)
+		des2 c4 b'8( g)
+		e!( c) b' g16( e!) cis16. cis32 cis16. cis32 cis4~
+		\tempoHeiligHeiligD cis2\p r %10
+		r ais16( cis) e( cis) e( cis) e( cis)
+		ais2 d
+		e r4 fis
+		dis1~
+		dis2. r4 %15
+		e8( h) g'( e) dis( h) a'( fis)
+		gis( e) gis4 r8 gis,(-. gis4-.)
+		r16 a32(-\unisono c) c16-! c32( e) e16-! e32( a) a16-! c32( a) d,!2~
+		d4 r r e \markVSE \bar "||" %19 finis
 	}
 }
 
 HeiligHeiligBassFigures = \figuremode {
-	
+	<[_-]>4 <[6]> q <[2]>
+	<[_-]> <[6]> q <[2]>
+	<[6]> <[6-]> <[6]> <[6-]>
+	<[6]> <[6-]> <[_-]>2
+	<[7-]>2 <[_-]>4 <[6]> %5
+	q <4!> <6> <6 4!>
+	<[6-] 4> <\t 3> <[7-] _!> <6 4!>
+	<[6-] 4> <\t 3> <[7-] _!> <6 4!>
+	<6 5-> <6 4!> <7 -5>2
+	r1 %10
+	r2 <7! [_+]>
+	<6\\ [_+]> <6 [_+]>
+	<3>2. <[5+] _+>4
+	<6 [_+]>1
+	r %15
+	r4 <6> <6 [_+]> <[6\+] 4\+>
+	<6>2 r8 q4.
+	r2 <6->
+	<4\+>2. <_+>4 %19 finis
 }
 
 % Organo = {
