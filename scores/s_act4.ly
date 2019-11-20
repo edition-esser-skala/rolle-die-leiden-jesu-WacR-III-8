@@ -102,7 +102,7 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Flauto I, II"
-						\RaecherSchauFlautoI \RaecherSchauFlautoII
+						\partcombine \RaecherSchauFlautoI \RaecherSchauFlautoII
 					>>
 				>>
 				\new StaffGroup <<

@@ -98,6 +98,29 @@ RaecherSchauFlautoII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoRaecherSchau
-		
+		R1*13 %13
+		e'1~\p
+		e2 d~ %15
+		d c~
+		c c4 h
+		c2 d,
+		e d
+		e1 %20
+		R
+		R\fermataMarkup
+		R1*13 %35
+		c'1~\p
+		c2 h~
+		h a~
+		a a4 gis
+		a2 r %40
+		R1*8 %48
+		c1~\p
+		c2 h~ %50
+		h a~
+		a a4( gis)
+		a2 gis
+		a r
+		R1*3 \bar "||" %57 finis
 	}
 }

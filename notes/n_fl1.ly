@@ -102,6 +102,29 @@ RaecherSchauFlautoI = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoRaecherSchau
-		
+		R1*13 %13
+		g''1~\p
+		g2 f~ %15
+		f e~
+		d e4 d
+		\pao c2 h
+		c f,
+		\pao e1 %20
+		R
+		R\fermataMarkup
+		R1*13 %35
+		e'1~\p
+		e2 d~
+		d c
+		h c4 h
+		\pao a2 r %40
+		R1*8 %48
+		e'1~\p
+		e2 d~ %50
+		d c
+		h c4( h)
+		\pa a2 gis
+		a \pd r
+		R1*3 \bar "||" %57 finis
 	}
 }

@@ -964,13 +964,13 @@ RaecherSchauViola = {
 		h d c a
 		e2 e'8\p d c h
 		a1
-		d
+		d %50
 		e2 e
 		d e
 		a, h
 		c h
-		a e
+		a e %55
 		e e4(-. e-.)
-		e2 r \bar "||"
+		e2 r \bar "||" %57 finis
 	}
 }
