@@ -304,12 +304,23 @@ HeiligHeiligJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHeiligHeilig
-		
+		R1*13 %13
+		r8 fis fis fis h h h ais
+		h h r16 h h c! a8 a a g %15
+		e e r4 r2
+		r4 r16 e gis a h4 r8 e,
+		a16. a32 a8 r4 r8. f!16 b8 r16 a
+		gis8 gis gis a e4 r \markVSE \bar "|" %19 finis
 	}
 }
 
 HeiligHeiligJosephLyrics = \lyricmode {
-	
+	Laß uns am Fuß des Hü -- gels %14
+	wei -- len, ich kan nicht ſehn des From -- men %15
+	Ster -- ben.
+	Sie nahn ſich ihm_– die
+	Kreu -- tzi -- ger! O weh! ſie
+	hef -- ten ihn ans Kreutz. %19 finis
 }
 
 % JosephNotes = {

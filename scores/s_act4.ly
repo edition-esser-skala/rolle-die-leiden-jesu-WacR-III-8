@@ -61,7 +61,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.1" "R E C I T A T I V" "Heilig biſt du Gott"
+			movement = \movementTitle "4.1" "R E C I T A T I V" "Heilig, heilig, heilig biſt du Gott!"
 		}
 		\paper {
 % 			system-system-spacing.basic-distance = #25

@@ -193,12 +193,36 @@ HeiligHeiligNicoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoHeiligHeilig
-		
+		R1
+		as'4 f c' c,
+		r f8 f f4 f
+		f2 r4\fermata \tempoHeiligHeiligB f8 c
+		as' as as g \tempoHeiligHeiligC es4 r %5
+		g g g8 c, r4
+		b'8 b b b b c, r4
+		b'8 b des f, e! e r4
+		R1
+		\tempoHeiligHeiligD g8 g g g b b b g %10
+		e e r e16 fis g8 g r4
+		r fis8 fis16 fis h!4 r8 h
+		h g e d! \appoggiatura cis h4 r
+		R1*6 \markVSE \bar "|"
 	}
 }
 
 HeiligHeiligNicoLyrics = \lyricmode {
+	Hei -- lig, hei -- lig, %2
+	hei -- lig biſt du
+	Gott! a -- ber
+	un -- er -- forſch -- lich auch. %5
+	Blu -- ten ſoll er!
+	der Ge -- rech -- te, ſter -- ben
+	un -- ter Mi -- ße -- thä -- tern!
 	
+	Wen -- de dich von die -- ſen Tie -- fen, %10
+	See -- le, die du ſchwin -- delſt,
+	wen -- de dich weg und
+	be -- te ſchwei -- gend an. %13 finis
 }
 
 % NicoNotes = {

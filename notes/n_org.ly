@@ -2263,7 +2263,7 @@ HeiligHeiligOrgano = {
 		\slurDashed f8( c) as'( f) e!( c) b'( g) \slurSolid
 		as( f) des( b) \kneeBeam as( f) des''( b)
 		as( f) des( b) f4\fermata \tempoHeiligHeiligB r
-		\tempoHeiligHeiligC h r c8( g) es'( c) %5
+		h r \tempoHeiligHeiligC c8( g) es'( c) %5
 		h!( g) f'( d) e( c) b'( g)
 		des2 c4 \once \slurDashed b'8( g)
 		des2 c4 b'8( g)
@@ -2277,7 +2277,7 @@ HeiligHeiligOrgano = {
 		e8( h) g'( e) dis( h) a'( fis)
 		gis( e) gis4 r8 gis,(-. gis4-.)
 		r16 a32(-\unisono c) c16-! c32( e) e16-! e32( a) a16-! c32( a) d,!2~
-		d4 r r e \markVSE \bar "||" %19 finis
+		d4 r r e \markVSE \bar "|" %19 finis
 	}
 }
 
