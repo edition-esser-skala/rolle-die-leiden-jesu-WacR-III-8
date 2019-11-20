@@ -219,7 +219,7 @@ RaecherSchauFremdNotes = {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
 		R1*5 %5
-		r2 d'4 d
+		r2 d'4\fE d
 		d c8([ d)] e([ c)] a([ g)]
 		f([ e)] f4 f'2~
 		f4 e8([ d)] g4 c,
@@ -234,7 +234,7 @@ RaecherSchauFremdNotes = {
 		R
 		R\fermataMarkup
 		R1*4 %26
-		r2 e4 e'
+		r2 e4\fE e'
 		e d e, d'
 		d c r2
 		R1 %30

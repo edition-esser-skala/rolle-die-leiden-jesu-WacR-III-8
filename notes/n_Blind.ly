@@ -786,12 +786,88 @@ RaecherSchauBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
-		
+		R1*4
+		r2 c4\fE c %5
+		c h8([ c)] d([ h)] g([ f)]
+		e([ d)] e4 r e'~
+		e d8([ e)] f([ d)] d([ c)]
+		h([ a)] g4 r e'
+		d f e c %10
+		c h r2
+		R1*4 %15
+		r2 e
+		d e4( d)
+		e2 d
+		c h\p
+		c1 %20
+		R
+		R\fermataMarkup
+		R1*4 %25
+		r2 e,4\fE c'
+		c h e, h'
+		h a e e'
+		dis fis8([ dis)] h4 d %30
+		d c r2
+		R1
+		r2 e,4 e'
+		d h c c
+		c h r2 %35
+		R1*2
+		r2 e
+		f e4( d)
+		c2 r %40
+		R1*3
+		r2 e,4 c'
+		h d c4. a8 %45
+		a4 gis r2
+		R1*4 %50
+		r2 e'
+		f e4( d)
+		c2 h
+		a h\p
+		a1 %55
+		R1*2 \bar "||" %57 finis
 	}
 }
 
 RaecherSchauBlindLyrics = \lyricmode {
+	All ihr %5
+	En -- gel ſchau -- et
+	nie -- der, ſchau --
+	et, ſchau -- et
+	nie -- der, ihr
+	En -- gel ſchau -- et %10
+	nie -- der:
 	
+	Es %16
+	fließt ſein
+	Blut, ſein
+	Blut, ſein
+	Blut. %20
+	
+	Daß es %27
+	Höhn und Tie -- fen
+	hö -- ren, daß es
+	Höhn und Tie -- fen %30
+	hö -- ren,
+	
+	daß es
+	Höhn und Tie -- fen
+	hö -- ren: %35
+	
+	[Es %38
+	fließt ſein
+	Blut.] %40
+	
+	Daß es %44
+	Höhn und Tie -- fen %45
+	hö -- ren:
+	
+	[Es %51
+	fließt ſein
+	Blut,] ſein
+	Blut, ſein
+	Blut. %55 finis
 }
 
 % BlindNotes = {

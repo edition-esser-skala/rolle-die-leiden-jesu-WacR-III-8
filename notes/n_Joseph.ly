@@ -328,7 +328,7 @@ RaecherSchauJosephNotes = {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
 		R1*3
-		h'4 e, h'2~
+		h'4\fE e, h'2~
 		h4 a8([ h)] c([ a)] a([ g)] %5
 		f([ e)] f4 r2
 		R1*9 %15
@@ -340,7 +340,7 @@ RaecherSchauJosephNotes = {
 		R
 		R\fermataMarkup
 		R
-		d'2 d
+		d'2\fE d
 		c c~ %25
 		c4 h8([ c] d4) c
 		c h r2
@@ -378,13 +378,13 @@ RaecherSchauJosephLyrics = \lyricmode {
 	Blut, ſein
 	Blut.] %20
 	
-	Kla -- get
-	all in __
+	Kla -- get %24
+	all in __ %25
 	lau -- ten
 	Chö -- ren,
 	
 	kla --
-	get,
+	get, %30
 	kla --
 	get:
 	
