@@ -2303,6 +2303,19 @@ HeiligHeiligBassFigures = \figuremode {
 	<4\+>2. <_+>4 %19 finis
 }
 
+RaecherSchauOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoRaecherSchau
+		a4\f c8. e16 a8.[ g16 f8. e16]
+		
+	}
+}
+
+RaecherSchauBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

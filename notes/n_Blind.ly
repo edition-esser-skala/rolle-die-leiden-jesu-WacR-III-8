@@ -782,6 +782,18 @@ ErhoereDiesesBlindLyrics = \lyricmode {
 	hen. %71 finis
 }
 
+RaecherSchauBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
+		
+	}
+}
+
+RaecherSchauBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

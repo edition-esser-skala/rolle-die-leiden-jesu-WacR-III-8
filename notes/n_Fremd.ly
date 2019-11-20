@@ -214,6 +214,18 @@ DuStaerkestFremdLyrics = \lyricmode {
 	uns von fer -- ne nahn! %11 finis
 }
 
+RaecherSchauFremdNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
+		
+	}
+}
+
+RaecherSchauFremdLyrics = \lyricmode {
+	
+}
+
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble

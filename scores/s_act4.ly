@@ -59,38 +59,105 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.1" "R E C I T A T I V" "Heilig, heilig, heilig biſt du Gott!"
+% 		}
+% 		\paper { systems-per-page = #3 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \HeiligHeiligJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \HeiligHeiligJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \HeiligHeiligNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \HeiligHeiligNicoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\HeiligHeiligOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\HeiligHeiligBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.1" "R E C I T A T I V" "Heilig, heilig, heilig biſt du Gott!"
+			movement = \movementTitle "4.2" "Q U A R T E T T" "Rächer ſchau vom Himmel nieder"
 		}
-		\paper { systems-per-page = #3 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Flauto I, II"
+						\RaecherSchauFlautoI \RaecherSchauFlautoII
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\RaecherSchauViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\RaecherSchauViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\RaecherSchauViola
+						}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \HeiligHeiligJosephNotes }
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \RaecherSchauFremdNotes }
 					}
-					\new Lyrics \lyricsto Joseph \HeiligHeiligJosephLyrics
+					\new Lyrics \lyricsto Fremd \RaecherSchauFremdLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \RaecherSchauJosephNotes }
+					}
+					\new Lyrics \lyricsto Joseph \RaecherSchauJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \RaecherSchauBlindNotes }
+					}
+					\new Lyrics \lyricsto Blind \RaecherSchauBlindLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \HeiligHeiligNicoNotes }
+						\new Voice = "Nico" { \dynamicUp \RaecherSchauNicoNotes }
 					}
-					\new Lyrics \lyricsto Nico \HeiligHeiligNicoLyrics
+					\new Lyrics \lyricsto Nico \RaecherSchauNicoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\HeiligHeiligOrgano
+						\RaecherSchauOrgano
 					}
 				>>
 				\new FiguredBass {
-					\HeiligHeiligBassFigures
+					\RaecherSchauBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

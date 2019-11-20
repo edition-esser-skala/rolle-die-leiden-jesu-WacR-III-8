@@ -913,6 +913,14 @@ EinOpferViolinoI = {
 	}
 }
 
+RaecherSchauViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoRaecherSchau
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

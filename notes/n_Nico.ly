@@ -225,6 +225,18 @@ HeiligHeiligNicoLyrics = \lyricmode {
 	be -- te ſchwei -- gend an. %13 finis
 }
 
+RaecherSchauNicoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
+		
+	}
+}
+
+RaecherSchauNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass

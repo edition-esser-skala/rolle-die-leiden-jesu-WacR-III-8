@@ -323,6 +323,18 @@ HeiligHeiligJosephLyrics = \lyricmode {
 	hef -- ten ihn ans Kreutz. %19 finis
 }
 
+RaecherSchauJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
+		
+	}
+}
+
+RaecherSchauJosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -93,3 +93,11 @@ DuStaerkestFlautoII = {
 		R1 \bar "||" %11 finis
 	}
 }
+
+RaecherSchauFlautoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoRaecherSchau
+		
+	}
+}
