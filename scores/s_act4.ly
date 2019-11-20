@@ -157,7 +157,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 180 }
+			\midi { \tempo 2 = 70 }
 		}
 	}
 }

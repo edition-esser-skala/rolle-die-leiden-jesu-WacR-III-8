@@ -934,7 +934,7 @@ RaecherSchauViolinoII = {
 		r e''!4(\p c)
 		a( f) a( f) %15
 		d( h) c( e)
-		c( a) c( a)
+		c( a) c( h)
 		c e'8( c) h( a) g( f)
 		e4 g8( c) h( a) g( f)
 		e2 c %20

@@ -913,7 +913,7 @@ EinOpferViola = {
 
 RaecherSchauViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoRaecherSchau
 		c4\f e c c
 		f d8. f16 e4 e
