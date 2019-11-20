@@ -218,12 +218,86 @@ RaecherSchauFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoRaecherSchau
-		
+		R1*5 %5
+		r2 d'4 d
+		d c8([ d)] e([ c)] a([ g)]
+		f([ e)] f4 f'2~
+		f4 e8([ d)] g4 c,
+		h d c e, %10
+		e d r2
+		R1*4 %15
+		r2 c'
+		c c4( h)
+		c2 h
+		c f,\p
+		e1 %20
+		R
+		R\fermataMarkup
+		R1*4 %26
+		r2 e4 e'
+		e d e, d'
+		d c r2
+		R1 %30
+		r2 e,4 e'
+		dis fis8([ dis)] h4 d
+		d c e c
+		h gis a a
+		a gis r2 %35
+		R1*2
+		r2 c
+		h c4( h)
+		a2 r %40
+		R1*3
+		r2 e4 a
+		gis h a4. c,8 %45
+		c4 h r2
+		R1*4 %50
+		r2 c'
+		h c4( h)
+		a2 gis
+		a d,\p
+		c1 %55
+		R1*2 \bar "||" %57 finis
 	}
 }
 
 RaecherSchauFremdLyrics = \lyricmode {
+	All ihr %6
+	En -- gel ſchau -- et
+	nie -- der, ſchau --
+	et, ſchau -- et
+	nie -- der, ſchau -- et %10
+	nie -- der:
 	
+	Es %16
+	fließt ſein
+	Blut, ſein
+	Blut, ſein
+	Blut. %20
+	
+	Daß es %27
+	Höhn und Tie -- fen
+	hö -- ren,
+	%30
+	daß es
+	Höhn und Tie -- fen
+	hö -- ren, daß es
+	Höhn und Tie -- fen
+	hö -- ren: %35
+	
+	Es %38
+	fließt ſein
+	Blut. %40
+	
+	Daß es %44
+	Höhn und Tie -- fen %45
+	hö -- ren:
+	
+	Es %51
+	fließt ſein
+	Blut, ſein
+	Blut, ſein
+	Blut. %55 finis
 }
 
 % FremdNotes = {

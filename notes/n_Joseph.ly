@@ -332,7 +332,8 @@ RaecherSchauJosephNotes = {
 }
 
 RaecherSchauJosephLyrics = \lyricmode {
-	
+% 	Rächer ſchau vom Himmel nieder,
+% 	Klaget all in lauten Chören,
 }
 
 % JosephNotes = {
