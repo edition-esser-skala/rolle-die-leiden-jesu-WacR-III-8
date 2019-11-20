@@ -918,6 +918,62 @@ RaecherSchauViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoRaecherSchau
-		
+		r2 a'16\f a a a a a a a
+		a a a a a a a a gis gis gis gis gis gis gis gis
+		a\p a a a a a a a a4 r
+		h16 h h h h h h h h h h h h h h h
+		h h h h h h h h a a a a a a a a  %5
+		f f f f f f f f d' d d d d d d d
+		d d d d d d d d c c c c a a a a
+		f f f f f f f f f f f f f f f f
+		d4-\parenthesize-! r g'8( e) \appoggiatura e16 d8( c)
+		f( d) \appoggiatura d16 c8( h) c( g) e( c) %10
+		g2 g''8(\f es) d( c)
+		f( d) \appoggiatura d16 c8( h) c( g) es( c)
+		g2 r
+		r e''!4(\p c)
+		a( f) a( f) %15
+		d( h) c( e)
+		c( a) c( a)
+		c e'8( c) h( a) g( f)
+		e4 g8( c) h( a) g( f)
+		e2 c %20
+		c c4(-. c-.)
+		c2\fermata r
+		r g'4( \scriptOut c)-!
+		r2 e,4( \scriptOut gis)-!
+		r2 e4( \scriptOut c')~ %25
+		c h8 c d4 c~
+		c h e,\f c'~\p
+		c h e,\f h'~\p
+		h( a) e\f a\p
+		dis, fis e\f d~\p %30
+		d c r c'\p
+		a2 gis4 h~
+		h4 a e'8( c) \appoggiatura c16 h8( a)
+		d( h) \appoggiatura h16 a8( gis) a( e) c( a)
+		e'2 r %35
+		r c'4( a)
+		f( d) f( d)
+		h( gis) a( c)
+		a( h) a( gis)
+		a2 r %40
+		r g'4( b)
+		r2 f4( a)
+		e fis gis a
+		a gis e'8( c)\appoggiatura c16 h8( a)
+		d( h) \appoggiatura h16 a8( gis) a( e) c( a) %45
+		e'2 e'8(\f c)\appoggiatura c16 h8( a)
+		d( h) \appoggiatura h16 a8( gis) a( e) c( a)
+		e'2 r
+		r c'4(\p a)
+		f( d) f( d) %50
+		h( gis) a( c)
+		d( f) e2
+		c4 c'8( a) gis( f!) e( d)
+		c4 e8( a) gis( f!) e( d)
+		c2 a %55
+		a a4(-. a-.)
+		a2 r \bar "||" %57 finis
 	}
 }
