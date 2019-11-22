@@ -805,12 +805,97 @@ AnderenHalfSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
-		
+		R2.*5 %5
+		r4 \mvTr g''\fE^\tutti g
+		fis8([ e)] d4 r
+		r g f
+		e e d
+		c c h %10
+		a g r
+		R2.*2
+		r4 d'8 e fis d
+		g4 g f %15
+		e r r
+		r g g
+		e8([ d)] c4 r
+		r f e
+		d d c %20
+		h c r
+		r c8 d e c
+		d4 g, g'
+		g f r
+		R2. %25
+		r4 e8 fis g e
+		f4 f f
+		e2.
+		e4 d8([ c)] h([ a)]
+		e'2 e4 %30
+		e d8([ c)] h([ a)]
+		e'2\fermata r4
+		R2.*10 %42
+		r4 \mvTr g\fE^\tutti g
+		f!8 e d4 r
+		e d8([ c)] h([ a)] %45
+		gis([ fis)] e4 r
+		e' d8([ c)] h([ a)]
+		gis([ fis)] e4 r
+		r a8 h c a
+		h4 e, e' %50
+		e d d
+		d c8 d e a,
+		f'2.~
+		f4 e8[ d] c4
+		d c( h) %55
+		a r r
+		R2.*4 \bar "||" %60
 	}
 }
 
 AnderenHalfSopranoLyrics = \lyricmode {
+	Jſt er %6
+	Chri -- ſtus,
+	o ſo
+	ſteig er, ſo
+	ſteig er vom %10
+	Kreu -- tze,
 	
+	und wir al -- le %14
+	gläu -- ben an %15
+	ihn,
+	iſt er
+	Chri -- ſtus,
+	o ſo
+	ſteig er vom %20
+	Kreu -- tze,
+	und wir al -- le
+	gläu -- ben, wir
+	al -- le,
+	%25
+	und wir al -- le
+	gläu -- ben an
+	ihn,
+	gläu -- ben an
+	ihn, wir %30
+	gläu -- ben an
+	ihn.
+	
+	Jſt er %43
+	Got -- tes Sohn,
+	er ſtei -- ge %45
+	nie -- der,
+	nie -- der vom
+	Kreu -- tze,
+	er, der Got -- tes
+	Tem -- pel zer -- %50
+	bricht und in
+	drey -- en, in drey -- en
+	Ta --
+	_ gen
+	ihn bau -- %55
+	et.
+	
+% 	Gott hat er ver -- traut,
+% 	der mag ihn er -- lö -- ſen.
 }
 
 % SopranoNotes = {

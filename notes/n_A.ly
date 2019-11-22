@@ -636,12 +636,115 @@ AnderenHalfAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
-		
+		R2.*6 %6
+		r4 \mvTr d'\fE^\tutti d
+		h8([ a)] g4 r
+		r c h
+		a a g %10
+		fis g r
+		R2.
+		r4 a8 h cis a
+		d4 d c
+		h r r %15
+		r c c
+		h8([ a)] g4 r
+		r c b
+		a a g
+		f f e %20
+		d c a'
+		f e r
+		r g8 a h g
+		a4 d, d'
+		d c r %25
+		r h h
+		c h h
+		h a r
+		a a a
+		gis gis8 a h gis %30
+		a4 a a
+		gis2\fermata r4
+		R2.
+		r4 \mvTrr h\mfE^\soloZS a
+		g!8 fis e4 r %35
+		a a g!
+		fis fis e
+		dis e r
+		r a8 h cis a
+		d4 d c %40
+		h r r
+		r \mvTr c\fE^\tutti c
+		h8 a g4 r
+		r a2~
+		a4 d8([ c)] h([ a)] %45
+		gis([ fis)] e4 r
+		e d'8([ c)] h([ a)]
+		gis([ fis)] e4 r
+		r a a
+		a( g!) h %50
+		c d h
+		g2 a4~
+		a h8 c d h
+		gis2 a4
+		h a( gis) %55
+		a r r
+		R2.*4 \bar "||" %60
 	}
 }
 
 AnderenHalfAltoLyrics = \lyricmode {
+	Jſt er %7
+	Chri -- ſtus,
+	o ſo
+	ſteig er vom %10
+	Kreu -- tze,
 	
+	und wir al -- le
+	gläu -- ben an
+	ihn, %15
+	iſt er
+	Chri -- ſtus,
+	o ſo
+	ſteig er, ſo
+	ſteig er vom %20
+	Kreu -- tze, vom
+	Kreu -- tze,
+	und wir al -- le
+	gläu -- ben, wir
+	al -- le, %25
+	al -- le
+	gläu -- ben, wir
+	al -- le,
+	gläu -- ben an
+	ihn, und wir al -- le %30
+	gläu -- ben an
+	ihn.
+	
+	Jſt er
+	Got -- tes Sohn, %35
+	er ſtei -- ge
+	nie -- der vom
+	Kreu -- tze,
+	er, der Got -- tes
+	Tem -- pel zer -- %40
+	bricht,
+	iſt er
+	Got -- tes Sohn,
+	er __
+	ſtei -- ge %45
+	nie -- der,
+	nie -- der vom
+	Kreu -- tze,
+	er, der
+	Got -- tes %50
+	Tem -- pel zer --
+	bricht, und, __
+	und in drey -- en
+	Ta -- gen
+	ihn bau -- %55
+	et.
+	
+% 	Gott hat er ver -- traut,
+% 	der mag ihn er -- lö -- ſen.
 }
 
 % AltoNotes = {

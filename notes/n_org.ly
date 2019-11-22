@@ -2571,7 +2571,7 @@ AnderenHalfOrgano = {
 		e2\fermata r4
 		e8\f h e fis g! a
 		h\mf ais h cis dis h
-		e, dis e fis g e %35
+		e, dis e fis gis? e %35
 		a, gis a c e4~
 		e8 e dis h e g
 		h a gis fis e d!
@@ -2595,9 +2595,9 @@ AnderenHalfOrgano = {
 		a8 h c h c d
 		e fis gis fis gis e
 		a gis a e c a
-		d4 e e,
+		d4 e e, \noBreak
 		a2 r4 \bar "||" %60
-		\time 2/2 \tempoGottHat \newSpacingSection c1
+		\time 2/2 \tempoGottHat \newSpacingSection c1 \noBreak
 		d
 		e
 		f
@@ -2708,7 +2708,66 @@ AnderenHalfOrgano = {
 }
 
 AnderenHalfBassFigures = \figuremode {
-	
+	r2 <6>4
+	r2 <6>4
+	r2 <6 5->4
+	r2 <5 3>4
+	<6 5>2. %5
+	r4 <6>4. <7>8
+	<_+>2 <6>4
+	r2 <6 5!>4
+	r2 <5 3>8 <\t \t>
+	r4 <6 5>8 <7 _+> r <6> %10
+	<_+> <\t> <6>4. <2>8
+	<6>2 <5 3>8 <\t \t>
+	r2 <_+>8 <\t>
+	<6>4 <_+> <\t>
+	r <6> <6 5!> %15
+	r2 <6>4
+	r2 <6>4
+	r2 <6 5->4
+	r2.
+	<6 5>2. %20
+	r4 <6>2
+	<7>2.
+	<4>4 <3>2
+	<4>4 <3>2
+	<4>4 <3>2 %25
+	<4>4 <3>2
+	<6>4 <5>2
+	<6 5>8 <\t \t> <5 3>4. <\t \t>8
+	<7>4 <6>2
+	<_+>2. %30
+	<7>4 <6>2
+	<_+>2.
+	<_!>2 <6>4
+	<5+ _+>2 <6 5 _+>8 <\t \t \t>
+	r2 <6 5!>8 <\t \t> %35
+	r2 <5 _!>4
+	<4 2+> <6 5 _+>8 <\t \t> r4
+	<5+ _+>8 <\t \t> <6> <\t> <_+> <\t>
+	<6>4 <5 3>8 <\t \t> <5+ 3> <\t \t>
+	<_+>2 <5+ 3>8 <\t \t> %40
+	r2 <6 _!>8 <\t \t>
+	r2 <6>4
+	r2 <6>4
+	<_!>2 <6>4
+	r <6>8 <6 4> <6>4 %45
+	<_+>2.
+	q
+	q
+	q8 <\t> <6>2
+	<4>4 <_!>2 %50
+	<6! 5>4 <6 5> <7>
+	<9> <8> <6>
+	<5> <6>2
+	<9 _+>4 <8>8 <7> <5 3>4
+	<6 5> <6 4> <7 _+> %55
+	r2 <6>4
+	<_+>2 <6>4
+	r2 <6>4
+	<6 5> <6 4> <5 _+>
+	r2. %60
 }
 
 % Organo = {

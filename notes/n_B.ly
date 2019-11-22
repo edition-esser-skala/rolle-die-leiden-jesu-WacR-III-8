@@ -546,12 +546,105 @@ AnderenHalfBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
-		
+		r4 \mvTr c'\fE^\tutti c
+		h8([ a)] g4 r
+		r c b
+		a a g
+		f f e %5
+		d c r
+		R2.*4 %10
+		r4 g'8 a h g
+		c4 c b
+		a r r
+		R2.*2 %15
+		r4 c c
+		h8([ a)] g4 r
+		r c b
+		a a g
+		f f e %20
+		d c f
+		g c, r
+		R2.*2
+		r4 a'8 h c a %25
+		h4 e, e'
+		a, h h
+		gis a r
+		f f f
+		e2 e4 %30
+		f f f
+		e2\fermata r4
+		R2.*5 %37
+		r4 \mvTrr e8\mfE^\soloZS fis gis e
+		a4 a g
+		fis r r %40
+		r g8 a h g
+		c4 c,8([ d)] e([ f)]
+		g([ fis)] g4 r
+		r \mvDll d'\fE^\tutti d
+		c8 h a4 r %45
+		e' d8([ c)] h([ a)]
+		gis([ fis)] e4 r
+		e' d8([ c)] h([ a)]
+		gis([ fis)] e4 r
+		R2. %50
+		r4 g!8 a h g
+		c4 c, c
+		d2 d4
+		e2 a4
+		d, e2 %55
+		a,4 r r
+		R2.*4 \bar "||" %60
 	}
 }
 
 AnderenHalfBassoLyrics = \lyricmode {
+	An -- dern
+	half er,
+	kan ſich
+	ſe -- lber, ſich
+	ſe -- lber nicht %5
+	hel -- fen.
 	
+	Und wir al -- le %11
+	gläu -- ben an
+	ihn,
+	
+	iſt er %16
+	Chri -- ſtus,
+	o ſo
+	ſteig er, ſo
+	ſteig er vom %20
+	Kreu -- tze, vom
+	Kreu -- tze,
+	
+	und wir al -- le %25
+	gläu -- ben an
+	ihn, und wir
+	al -- le
+	gläu -- ben an
+	ihn, wir %30
+	gläu -- ben an
+	ihn.
+	
+	Er, der Got -- tes %38
+	Tem -- pel zer --
+	bricht %40
+	und in drey -- en
+	Ta -- gen ihn
+	bau -- et,
+	iſt er
+	Got -- tes Sohn, %45
+	er ſtei -- ge
+	nie -- der,
+	nie -- der vom
+	Kreu -- tze,
+	%50
+	und in drey -- en
+	Ta -- gen, in
+	drey -- en
+	Ta -- gen
+	ihn bau -- %55
+	et.
 }
 
 % BassoNotes = {

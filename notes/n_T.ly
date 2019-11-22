@@ -558,12 +558,115 @@ AnderenHalfTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
-		
+		R2.
+		r4 \mvTr g'\fE^\tutti g
+		e8([ d)] c4 r
+		r f e
+		d d c %5
+		h c r
+		R2.*5 %11
+		r4 c8 d e c
+		f4 f e
+		d r r
+		R2.*2 %16
+		r4 g g
+		e8([ d)] c4 r
+		r f e
+		d d c %20
+		h c f
+		d c r
+		R2.
+		r4 d8 e f d
+		e4 a, a' %25
+		a g e
+		e d d
+		d c r
+		a a a
+		h h8 c d h %30
+		a4 c d
+		h2\fermata r4
+		r \mvTrr e\mfE^\soloZS e
+		dis8 cis h4 r
+		e4 e d %35
+		c! c h
+		a a g
+		fis e r
+		R2.
+		r4 d'8 e fis d %40
+		g4 g f
+		e e e
+		d8 c \mvTr h4\fE^\tutti d
+		d8 e f!4 f
+		e8 c a4 r %45
+		e' d8([ c)] h([ a)]
+		gis([ fis)] e4 r
+		e' d8([ c)] h([ a)]
+		gis([ fis)] e4 r
+		r e'8 fis g! e %50
+		f4 f f
+		e2 r4
+		r d8 e f d
+		h2 a4
+		f' e( d) %55
+		c r r
+		R2.*4 \bar "||" %60
 	}
 }
 
 AnderenHalfTenoreLyrics = \lyricmode {
+	An -- dern %2
+	half er,
+	kan ſich
+	ſe -- lber nicht %5
+	hel -- fen.
 	
+	Und wir al -- le %12
+	gläu -- ben an
+	ihn,
+	
+	iſt er %17
+	Chri -- ſtus,
+	o ſo
+	ſteig er vom %20
+	Kreu -- tze, vom
+	Kreu -- tze,
+	
+	und wir al -- le
+	gläu -- ben, wir %25
+	al -- le, an
+	ihn, und wir
+	al -- le
+	gläu -- ben an
+	ihn, und wir al -- le %30
+	gläu -- ben an
+	ihn.
+	Jſt er
+	Got -- tes Sohn,
+	er ſtei -- ge %35
+	nie -- der vom
+	Kreu -- tze, vom
+	Kreu -- tze,
+	
+	und in drey -- en %40
+	Ta -- gen ihn
+	bau -- et, ihn
+	bau -- et, iſt er
+	Got -- tes, iſt er
+	Got -- tes Sohn, %45
+	er ſtei -- ge
+	nie -- der,
+	nie -- der vom
+	Kreu -- tze,
+	er, der Got -- tes %50
+	Tem -- pel zer --
+	bricht
+	und in drey -- en
+	Ta -- gen
+	ihn bau -- %55
+	et.
+	
+% 	Gott hat er ver -- traut,
+% 	der mag ihn er -- lö -- ſen.
 }
 
 % TenoreNotes = {

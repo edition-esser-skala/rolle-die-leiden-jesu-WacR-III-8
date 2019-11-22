@@ -134,6 +134,7 @@ movementTitle = #(define-scheme-function
 
 solo = \markup { \remark Solo }
 soloE = \markup { \remarkE Solo }
+soloZS = \markup { \remark "Soli. 2 Sänger" }
 tutti = \markup { \remark Tutti }
 tuttiE = \markup { \remarkE Tutti }
 tasto = \markup { \remark "tasto solo" }
