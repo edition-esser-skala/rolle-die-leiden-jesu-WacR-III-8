@@ -688,6 +688,86 @@ AnderenHalfAltoNotes = {
 		h a( gis) %55
 		a r r
 		R2.*4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*18 %78
+		c,1
+		d %80
+		e
+		f
+		g
+		g4 f e a
+		f( e) d2 %85
+		f4 e d g
+		e( d) c2
+		R1*4 %91
+		e2 gis
+		a2. a4
+		e2 fis
+		g!1 %95
+		g4 f! e a
+		f( e) d2
+		f4 e d g
+		e c c'2~
+		c h %100
+		b4( a) b2
+		a4( g f e)
+		d2 r
+		h' cis
+		d2. d4 %105
+		a2 h
+		c! r
+		g a
+		b2. b4
+		f2 g %110
+		a r
+		b4 a g c
+		a( g) f2~
+		f r
+		r e4 f %115
+		g2 a
+		b2. b4
+		f2 g
+		a r
+		R1 %120
+		r2 c4 h
+		a a d c
+		h( a) g r
+		h2 cis
+		d2. d4 %125
+		a2 h
+		c! c4 b
+		a( g) f( e)
+		d2 g4 fis
+		g a h2 %130
+		a a4 f!
+		g1
+		g2 g~
+		g g
+		a2. a4 %135
+		a2 a
+		g h4 d
+		d e8([ d)] c2~
+		c4 d8[ c] h2~
+		h4 c8[ h] a2~ %140
+		a2. g4
+		g2\fermata r
+		c,1
+		d
+		e %145
+		f
+		g
+		h!4 g c h
+		a( g) a2
+		a4 f h a %150
+		g( f) g2
+		g4 e a g
+		f d g f
+		e2 g4 g
+		a2 a %155
+		g1~
+		g
+		f~
+		f
+		e\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
 
@@ -743,8 +823,85 @@ AnderenHalfAltoLyrics = \lyricmode {
 	ihn bau -- %55
 	et.
 	
-% 	Gott hat er ver -- traut,
-% 	der mag ihn er -- lö -- ſen.
+	Gott %79
+	hat %80
+	er
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen, %85
+	der mag ihn er --
+	lö -- ſen,
+	
+	Gott hat %92
+	er, hat
+	er ver --
+	traut, %95
+	der mag ihn er --
+	lö -- ſen,
+	der mag ihn er --
+	lö -- ſen, der __
+	mag %100
+	ihn er --
+	lö --
+	ſen,
+	er hat
+	Gott, hat %105
+	Gott ver --
+	traut,
+	Gott hat
+	er, hat
+	er ver -- %110
+	traut,
+	der mag ihn er --
+	lö -- ſen, __
+	
+	Gott hat %115
+	er ver --
+	traut, hat
+	er ver --
+	traut,
+	%120
+	der mag
+	ihn, mag ihn er --
+	lö -- ſen,
+	er hat
+	Gott, hat %125
+	Gott ver --
+	traut, der mag
+	ihn er --
+	lö -- _ _
+	_ _ _ %130
+	_ ſen, er --
+	lö --
+	ſen, Gott __
+	hat
+	er, hat %135
+	er ver --
+	traut, der mag
+	ihn er -- lö --
+	_ _
+	_ _ %140
+	_
+	ſen.
+	Gott
+	hat
+	er %145
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen,
+	der mag ihn er -- %150
+	lö -- ſen,
+	der mag ihn er --
+	lö -- ſen, ihn er --
+	lö -- ſen, mag
+	ihn er -- %155
+	lö --
+	
+	_
+	
+	ſen. %160 finis
 }
 
 % AltoNotes = {

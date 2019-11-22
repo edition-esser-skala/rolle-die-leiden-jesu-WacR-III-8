@@ -610,6 +610,93 @@ AnderenHalfTenoreNotes = {
 		f' e( d) %55
 		c r r
 		R2.*4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*8 %68
+		g1
+		g %70
+		a
+		h
+		c
+		c4 c h e
+		c( h) a2 %75
+		c4 h a d
+		h a g2
+		a2. h8[ a]
+		g2 c~
+		c h %80
+		c4 r c2~
+		c4 h8([ c)] d4 c
+		h1
+		a~
+		a %85
+		g~
+		g2 r
+		r c~
+		c d~
+		d d %90
+		g, r
+		R1*4 %95
+		h2 cis
+		d2. d4
+		a2 h
+		c! r
+		R1*4 %103
+		d2 e
+		f2. f4 %105
+		c2 d
+		e c~
+		c4 b a d
+		b( a) g2
+		b4 a g c %110
+		a( g) f2
+		R1
+		c'2 c
+		d f
+		e! c4( d) %115
+		e2 fis
+		g r
+		R1
+		c,
+		d %120
+		e
+		f
+		g
+		g4 f e a
+		f( e) d2 %125
+		f4 e d g
+		e( d) c2
+		f f,
+		g1
+		g2 g %130
+		c1
+		d
+		c2 c~
+		c c
+		c2. c4 %135
+		d2 d
+		d d4 h
+		g2 g
+		g1
+		e'2 fis %140
+		g2. d4
+		d2\fermata r
+		c1
+		d
+		e %145
+		f
+		g
+		d4 h e d
+		c( h) c2
+		c4 a d c %150
+		h( a) h2
+		h4 g c h
+		a f h a
+		g2 e'4 e
+		e2 e %155
+		e1~
+		e
+		h~
+		h
+		g\breve*1/2\fermata \bar "|." %160 finis
 	}
 }
 
@@ -665,8 +752,92 @@ AnderenHalfTenoreLyrics = \lyricmode {
 	ihn bau -- %55
 	et.
 	
-% 	Gott hat er ver -- traut,
-% 	der mag ihn er -- lö -- ſen.
+	Gott %69
+	hat %70
+	er
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen, %75
+	der mag ihn er --
+	lö -- _ _
+	_ _
+	_ _
+	_ %80
+	ſen, Gott __
+	hat er ver --
+	traut, __
+	_
+	%85
+	_
+	
+	hat __
+	er __
+	ver -- %90
+	traut,
+	
+	Gott hat %96
+	er, hat
+	er ver --
+	traut,
+	
+	er hat %104
+	Gott, hat %105
+	Gott ver --
+	traut, der __
+	mag ihn er --
+	lö -- ſen,
+	der mag ihn er -- %110
+	lö -- ſen,
+	
+	Gott hat
+	er ver --
+	traut, hat %115
+	er ver --
+	traut,
+	
+	Gott
+	hat %120
+	er
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen, %125
+	der mag ihn er --
+	lö -- ſen,
+	ihn er --
+	lö --
+	ſen, er -- %130
+	lö --
+	_
+	ſen, Gott __
+	hat
+	er, hat %135
+	er ver --
+	traut, der mag
+	ihn er --
+	lö --
+	_ _ %140
+	_ _
+	ſen.
+	Gott
+	hat
+	er %145
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen,
+	der mag ihn er -- %150
+	lö -- ſen,
+	der mag ihn er --
+	lö -- ſen, ihn er --
+	lö -- ſen, mag
+	ihn er -- %155
+	lö --
+	
+	_
+	
+	ſen. %160 finis
 }
 
 % TenoreNotes = {

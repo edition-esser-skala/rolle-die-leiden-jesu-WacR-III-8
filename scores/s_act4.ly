@@ -309,15 +309,15 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\AnderenHalfOrgano
+						\transpose c c, \AnderenHalfOrgano
 					}
 				>>
 				\new FiguredBass {
 					\AnderenHalfBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 45 }
+% 			\layout { }
+			\midi { \tempo 1=60 } % 2. = 50 / 1 = 60
 		}
 	}
 }

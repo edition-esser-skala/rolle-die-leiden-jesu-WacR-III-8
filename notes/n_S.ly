@@ -848,6 +848,75 @@ AnderenHalfSopranoNotes = {
 		d c( h) %55
 		a r r
 		R2.*4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*26 %86
+		g1
+		g
+		a
+		h %90
+		c
+		c4 c h e
+		c( h) a2
+		c4 h a d
+		h( a) h( c) %95
+		d2 e
+		f2. f4
+		c2 d
+		e e,
+		f1 %100
+		g
+		a
+		h4( a) h c
+		d2 r
+		R1*6 %110
+		f,1
+		g
+		a
+		b
+		c %115
+		c4 b a d
+		b( a) g2
+		b4 a g c
+		a h c2~
+		c h %120
+		c r
+		R1*2
+		d2 e
+		f2. f4 %125
+		c2 d
+		e2. g4
+		f( e) d c
+		c2 h4 a
+		h c d e %130
+		f! e f a
+		g2( f)
+		e e~
+		e e
+		f f %135
+		fis fis
+		g g4 f
+		e2. f8([ e)]
+		d2.( e8[ d]
+		c2) c4 d %140
+		c2.( h4)
+		h2\fermata r
+		c1
+		d
+		e %145
+		f
+		g~
+		g~
+		g
+		f~ %150
+		f
+		e~
+		e2 d~
+		d g,4 g
+		c2 c %155
+		c1~
+		c
+		d~
+		d
+		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
 
@@ -894,8 +963,73 @@ AnderenHalfSopranoLyrics = \lyricmode {
 	ihn bau -- %55
 	et.
 	
-% 	Gott hat er ver -- traut,
-% 	der mag ihn er -- lö -- ſen.
+	Gott %87
+	hat
+	er
+	ver -- %90
+	traut,
+	der mag ihn er --
+	lö -- ſen,
+	der mag ihn er --
+	lö -- ſen, %95
+	Gott hat
+	er, hat
+	er ver --
+	traut, Gott
+	hat %100
+	er
+	ver --
+	traut, er ver --
+	traut,
+	
+	Gott %111
+	hat
+	er
+	ver --
+	traut, %115
+	der mag ihn er --
+	lö -- ſen,
+	der mag ihn er --
+	lö -- _ _
+	_ %120
+	ſen,
+	
+	Gott hat %124
+	er, hat %125
+	er ver --
+	traut, der
+	mag ihn er --
+	lö -- ſen, er --
+	lö -- _ _ _ %130
+	_ _ ſen, er --
+	lö --
+	ſen, Gott __
+	hat
+	er, hat %135
+	er ver --
+	traut, der mag
+	ihn er --
+	lö --
+	ſen, er -- %140
+	lö --
+	ſen.
+	Gott
+	hat
+	er %145
+	ver --
+	traut, __
+	
+	_ %150
+	
+	_ 
+	_
+	der mag
+	ihn er -- %155
+	lö --
+	
+	_
+	
+	ſen. %160 finis
 }
 
 % SopranoNotes = {

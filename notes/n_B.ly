@@ -594,6 +594,95 @@ AnderenHalfBassoNotes = {
 		d, e2 %55
 		a,4 r r
 		R2.*4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection c1
+		d
+		e
+		f
+		g %65
+		g4 f e a
+		f( e) d2
+		f4 e d g
+		e d c d8[ c]
+		h4 d g2~ %70
+		g4 fis8[ e] fis2
+		f4 e8[ f] g4 f
+		e2 a~
+		a gis\trill
+		a c4 h %75
+		a( g!) fis2
+		g1~
+		g4 f!8[ e] f2~
+		f4 e8[ d] e4 e
+		f2( g) %80
+		c, r
+		d h'4 a
+		g( f) e( d)
+		cis1
+		d4 e f d %85
+		h1
+		c!4 h c d
+		e d e c
+		f e f d
+		g a g f %90
+		e d c h
+		a2 r
+		R1*6 %98
+		c!1
+		d %100
+		e
+		f
+		g
+		g4 f e a
+		f!( e) d2 %105
+		f4 e d g
+		e( d) c r
+		e2 fis
+		g2. g4
+		d2 e %110
+		f! f~
+		f e
+		es4( d) es2
+		d4( c) d2
+		c r %115
+		R1
+		r2 r4 g'
+		d2 e
+		f4( g) a g
+		f d g f %120
+		e( d) c2
+		R1*7 %128
+		g'1
+		g %130
+		a
+		h
+		c
+		b4 a g c
+		a( g) f2 %135
+		c'4 h! a d
+		h( a) g g
+		g1~
+		g~
+		g~ %140
+		g
+		g2\fermata r
+		c,1
+		d
+		e %145
+		f
+		g~
+		g~
+		g~
+		g~ %150
+		g~
+		g~
+		g2 r
+		r c4 h
+		a a g fis %155
+		g1~
+		g~
+		g~
+		g
+		c,\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
 
@@ -645,6 +734,87 @@ AnderenHalfBassoLyrics = \lyricmode {
 	Ta -- gen
 	ihn bau -- %55
 	et.
+	
+	Gott %61
+	hat
+	er
+	ver --
+	traut, %65
+	der mag ihn er --
+	lö -- ſen,
+	der mag ihn er --
+	lö -- _ _ _
+	_ _ _ %70
+	_ _
+	_ _ _ _
+	_ _
+	_
+	ſen, der mag %75
+	ihn er --
+	lö --
+	_ _
+	_ ſen, er --
+	lö -- %80
+	ſen,
+	der, der mag
+	ihn er --
+	lö --
+	_ _ ſen, er -- %85
+	lö --
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %90
+	_ _ _ _
+	ſen,
+	
+	Gott %99
+	hat %100
+	er
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen, %105
+	der mag ihn er --
+	lö -- ſen,
+	Gott hat
+	er, hat
+	er ver -- %110
+	traut, Gott __
+	hat
+	er ver --
+	traut, ver --
+	traut, %115
+	
+	hat
+	er ver --
+	traut, der mag
+	ihn, mag ihn er -- %120
+	lö -- ſen,
+	
+	Gott %129
+	hat %130
+	er
+	ver --
+	traut,
+	der mag ihn er --
+	lö -- ſen, %135
+	der mag ihn er --
+	lö -- ſen, er --
+	lö --
+	
+	sen. %142
+	Gott
+	hat
+	er %145
+	ver --
+	traut, __
+	
+	der mag %154
+	ihn, mag ihn er -- %155
+	lö --
+	
+	ſen. %160 finis
 }
 
 % BassoNotes = {
