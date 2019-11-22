@@ -2427,6 +2427,18 @@ RaecherSchauBassFigures = \figuremode {
 	q2 \bassFigureExtendersOff r %57 finis
 }
 
+EmporGerichtetOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEmporGerichtet
+		f1~
+	}
+}
+
+EmporGerichtetBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

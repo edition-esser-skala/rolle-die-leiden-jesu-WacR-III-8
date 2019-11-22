@@ -300,6 +300,18 @@ RaecherSchauFremdLyrics = \lyricmode {
 	Blut. %55 finis
 }
 
+EmporGerichtetFremdNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
+		
+	}
+}
+
+EmporGerichtetFremdLyrics = \lyricmode {
+	
+}
+
 % FremdNotes = {
 % 	\relative c' {
 % 		\clef treble

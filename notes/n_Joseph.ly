@@ -403,6 +403,18 @@ RaecherSchauJosephLyrics = \lyricmode {
 	Blut.] %55 finis
 }
 
+EmporGerichtetJosephNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
+		
+	}
+}
+
+EmporGerichtetJosephLyrics = \lyricmode {
+	
+}
+
 % JosephNotes = {
 % 	\relative c' {
 % 		\clef treble

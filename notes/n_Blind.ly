@@ -870,6 +870,18 @@ RaecherSchauBlindLyrics = \lyricmode {
 	Blut. %55 finis
 }
 
+EmporGerichtetBlindNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
+		
+	}
+}
+
+EmporGerichtetBlindLyrics = \lyricmode {
+	
+}
+
 % BlindNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

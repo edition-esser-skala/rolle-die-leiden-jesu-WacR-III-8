@@ -93,71 +93,119 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.2" "Q U A R T E T T" "Rächer ſchau vom Himmel nieder"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Flauto I, II"
+% 						\partcombine \RaecherSchauFlautoI \RaecherSchauFlautoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\RaecherSchauViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\RaecherSchauViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\RaecherSchauViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fremdling"
+% 						\new Voice = "Fremd" { \dynamicUp \RaecherSchauFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \RaecherSchauFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \RaecherSchauJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \RaecherSchauJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \RaecherSchauBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \RaecherSchauBlindLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \RaecherSchauNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \RaecherSchauNicoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\RaecherSchauOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\RaecherSchauBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 70 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.2" "Q U A R T E T T" "Rächer ſchau vom Himmel nieder"
+			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreuz"
 		}
+		\paper { indent = 3\cm systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Flauto I, II"
-						\partcombine \RaecherSchauFlautoI \RaecherSchauFlautoII
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\RaecherSchauViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\RaecherSchauViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\RaecherSchauViola
-						}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \RaecherSchauFremdNotes }
+						\new Voice = "Fremd" { \dynamicUp \EmporGerichtetFremdNotes }
 					}
-					\new Lyrics \lyricsto Fremd \RaecherSchauFremdLyrics
+					\new Lyrics \lyricsto Fremd \EmporGerichtetFremdLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \RaecherSchauJosephNotes }
+						\new Voice = "Joseph" { \dynamicUp \EmporGerichtetJosephNotes }
 					}
-					\new Lyrics \lyricsto Joseph \RaecherSchauJosephLyrics
+					\new Lyrics \lyricsto Joseph \EmporGerichtetJosephLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \RaecherSchauBlindNotes }
+						\new Voice = "Blind" { \dynamicUp \EmporGerichtetBlindNotes }
 					}
-					\new Lyrics \lyricsto Blind \RaecherSchauBlindLyrics
+					\new Lyrics \lyricsto Blind \EmporGerichtetBlindLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \RaecherSchauNicoNotes }
+						\set Staff.instrumentName = \JohannesIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Johannes" { \dynamicUp \EmporGerichtetJohannesNotes }
 					}
-					\new Lyrics \lyricsto Nico \RaecherSchauNicoLyrics
+					\new Lyrics \lyricsto Johannes \EmporGerichtetJohannesLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\RaecherSchauOrgano
+						\EmporGerichtetOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RaecherSchauBassFigures
+					\EmporGerichtetBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

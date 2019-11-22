@@ -269,59 +269,58 @@ tempoMarkup =
 	#})
 %
 
-tempoDerDuVoll = \tempoMarkup "[Tempo deest]"
-tempoWohinEilt = \tempoMarkup "[Tempo deest]"
+tempoDerDuVoll = \tempoMarkup "Choral"
+tempoWohinEilt = \tempoMarkup "Recitativ"
 tempoGramLag = \tempoMarkup "Moderato"
-tempoUndDarum = \tempoMarkup "[Tempo deest]"
+tempoUndDarum = \tempoMarkup "Recitativ"
 tempoWerFasst = \tempoMarkup "Allegro di molto"
 	tempoWerFasstB = \tempoMarkup "Moderato"
-tempoFasstDich = \tempoMarkup "[Tempo deest]"
+tempoFasstDich = \tempoMarkup "Recitativ"
 tempoLassMich = \tempoMarkup "Poco largo"
 
-tempoHilfDuIhm = \tempoMarkup "[Tempo deest]"
+tempoHilfDuIhm = \tempoMarkup "Recitativ"
 tempoKreutzigen = \tempoMarkup "Allebreve"
 	tempoKreutzigenB = \tempoMarkup "Recitativ"
 	tempoKreutzigenC = \tempoMarkup "Vivace"
 tempoIchWasche = \tempoMarkup "Con gravita"
 	tempoIchWascheB = \tempoMarkup "Vivace"
-tempoOChrist = \tempoMarkup "[Tempo deest]"
+tempoOChrist = \tempoMarkup "Choral"
 tempoWerKann = \tempoMarkup "Poco largo"
-tempoHoerestDu = \tempoMarkup "[Tempo deest]"
+tempoHoerestDu = \tempoMarkup "Recitativ"
 	tempoHoerestDuB = \tempoMarkup "Andante"
 tempoEinPurpur = \tempoMarkup "Poco largo"
 	tempoEinPurpurB = \tempoMarkup "Poco vivace"
-tempoIhrVaeter = \tempoMarkup "[Tempo deest]"
+tempoIhrVaeter = \tempoMarkup "Recitativ"
 	tempoKreutzigeIhn = \tempoMarkup "Allegro"
-	tempoKannNur = \tempoMarkup "[Recitativ]"
+	tempoKannNur = \tempoMarkup "Recitativ"
 	tempoLaessestDu = \tempoMarkup "Vivace"
-	tempoIhrWollts = \tempoMarkup "[Recitativ]"
-tempoSehtWelch = \tempoMarkup "[Tempo deest]"
+	tempoIhrWollts = \tempoMarkup "Recitativ"
+tempoSehtWelch = \tempoMarkup "Choral"
 
-tempoSieFuehren = \tempoMarkup "[Tempo deest]"
+tempoSieFuehren = \tempoMarkup "Recitativ"
 	tempoSieFuehrenB = \tempoMarkup "Arioso"
 tempoJesusChristus = \tempoMarkup "Allegro"
-tempoDuStaerkest = \tempoMarkup "[Tempo deest]"
+tempoDuStaerkest = \tempoMarkup "Recitativ"
 	tempoDuStaerkestB = \tempoMarkup "Poco largo"
 	tempoDuStaerkestC = \tempoMarkup "Recitativ"
 tempoSiehEr = \tempoMarkup "Poco largo"
-tempoSeydMir = \tempoMarkup "[Tempo deest]"
+tempoSeydMir = \tempoMarkup "Recitativ"
 tempoGrossIst = \tempoMarkup "Andante"
-tempoJesusWendet = \tempoMarkup "[Tempo deest]"
+tempoJesusWendet = \tempoMarkup "Recitativ"
 	tempoJesusWendetB = \tempoMarkup "Poco largo"
 tempoWeintNicht = \tempoMarkup "Andante"
-tempoODassIch = \tempoMarkup "[Tempo deest]"
+tempoODassIch = \tempoMarkup "Recitativ"
 	tempoODassIchB = \tempoMarkup "Vivace"
 	tempoODassIchC = \tempoMarkup "Lento"
 tempoErhoereDieses = \tempoMarkup "Sostenuto"
-tempoEinOpfer = \tempoMarkup "[Tempo deest]"
+tempoEinOpfer = \tempoMarkup "Choral"
 
 tempoHeiligHeilig = \tempoMarkup "Poco largo"
 	tempoHeiligHeiligB = \tempoMarkup "Recitativ"
 	tempoHeiligHeiligC = \tempoMarkup "a tempo"
 	tempoHeiligHeiligD = \tempoMarkup "Recitativ"
 tempoRaecherSchau = \tempoMarkup "Allegro moderato"
-
-
+tempoEmporGerichtet = \tempoMarkup "Recitativ"
 
 
 
@@ -509,14 +508,15 @@ tempoRaecherSchau = \tempoMarkup "Allegro moderato"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"
-\include "notes/n_Fremd.ly"   %S
-\include "notes/n_Joseph.ly"  %A
-\include "notes/n_Blind.ly"   %T
-\include "notes/n_Petrus.ly"  %T
-\include "notes/n_Judas.ly"   %B
-\include "notes/n_Kaiphas.ly" %B
-\include "notes/n_Nico.ly"    %B
-\include "notes/n_Pilatus.ly" %B
+\include "notes/n_Fremd.ly"    %S
+\include "notes/n_Joseph.ly"   %A
+\include "notes/n_Blind.ly"    %T
+\include "notes/n_Johannes.ly" %T
+\include "notes/n_Petrus.ly"   %T
+\include "notes/n_Judas.ly"    %B
+\include "notes/n_Kaiphas.ly"  %B
+\include "notes/n_Nico.ly"     %B
+\include "notes/n_Pilatus.ly"  %B
 \include "notes/n_Soli.ly"
 \include "notes/n_S.ly"
 \include "notes/n_A.ly"
