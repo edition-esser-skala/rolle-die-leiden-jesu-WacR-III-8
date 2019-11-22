@@ -2432,11 +2432,105 @@ EmporGerichtetOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoEmporGerichtet
 		f1~
+		f
+		a,2 h!~
+		h c~
+		c1 %5
+		cis
+		d
+		e~
+		e
+		f~ %10
+		f2 d~
+		d es~
+		es1
+		g
+		as8. b16 c16. b32 as16. g32 fis2~ %15
+		fis1~
+		fis2 g~
+		g1~
+		g4 r h,!2~
+		h a8 a c e %20
+		a4 g!2.
+		fis1
+		h8 fis d h fis fis' d h
+		ais4 r8 a' gis8 gis16. fis32 gis8 a
+		g4 r8 e fis fis16. e32 d8 d %25
+		e4 r r fis
+		h8 a g fis e fis g e
+		a4 a, d8 d' a g
+		fis1~
+		fis2 g~ %30
+		g h,~
+		h e~
+		e gis ~
+		gis1~
+		gis %35
+		a2 d,
+		e1
+		fis2 a,
+		b1~
+		b2 d %40
+		es g,~
+		g r8 as c es
+		as2( g4) r
+		e!1
+		f %45
+		g
+		r8 as, c es as2
+		g8 g, g4 \bar "||" %48 finis
 	}
 }
 
 EmporGerichtetBassFigures = \figuremode {
-	
+	<5 3>1
+	r
+	<6>2 q
+	r1
+	r %5
+	<7->
+	r
+	<6>
+	r2 <5->
+	r1 %10
+	r2 <6!>
+	r <6>
+	r1
+	<6->2 <5->
+	r2 <6> %15
+	r1
+	r2 <_->
+	r1
+	r2 <6\\>
+	r <_!> %20
+	r4 <4\+ 2>2.
+	<[5+] _+>1
+	r1
+	r4. <4\+>8 <6>4. <4\+ 2>8
+	<6>4. <6\\ _!>8 <6 4> <[5+] _+> <6>4 %25
+	<6\\>2. <[5+] _+>4
+	r <3> <7> <6 5>
+	<7 _+>8 <6\\ 4> <\t \t> <5 _+> <_+>2
+	<6>1
+	<6 5!> %30
+	r2 <6>
+	r q
+	r q
+	r1
+	r %35
+	r2 <6->
+	<6\\ 5->1
+	<6>2 <6\\>
+	<6>1
+	r2 <[6-] 5-> %40
+	<[5-]> <[6-] _->
+	r1
+	r2 <7 _!>
+	<6>1
+	<_-> %45
+	<6- [_-]>
+	r2 <6\\>
+	<_!> %48 finis
 }
 
 % Organo = {

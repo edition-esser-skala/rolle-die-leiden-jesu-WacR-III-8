@@ -326,6 +326,18 @@ RaecherSchauNicoLyrics = \lyricmode {
 	Blut. %55 finis
 }
 
+EmporGerichtetNicoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
+		
+	}
+}
+
+EmporGerichtetNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass

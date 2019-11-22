@@ -193,6 +193,12 @@
 						\new Voice = "Johannes" { \dynamicUp \EmporGerichtetJohannesNotes }
 					}
 					\new Lyrics \lyricsto Johannes \EmporGerichtetJohannesLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Nicodemus"
+						\new Voice = "Nico" { \dynamicUp \EmporGerichtetNicoNotes }
+					}
+					\new Lyrics \lyricsto Nico \EmporGerichtetNicoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

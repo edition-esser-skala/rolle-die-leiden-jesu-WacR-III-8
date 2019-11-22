@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 JohannesIncipit = \markup {
-	"Johannes" \hspace #-20 \score {
+	"Johannes" \hspace #-20.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
