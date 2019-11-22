@@ -379,3 +379,11 @@ EinOpferOboeI = {
 		as\fermata \bar "|." %40 FINIS
 	}
 }
+
+AnderenHalfOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAnderenHalf
+		
+	}
+}

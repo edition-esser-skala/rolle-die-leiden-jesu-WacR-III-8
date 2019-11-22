@@ -554,6 +554,18 @@ EinOpferTenoreLyrics = \lyricmode {
 	ret. %40 FINIS
 }
 
+AnderenHalfTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
+		
+	}
+}
+
+AnderenHalfTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

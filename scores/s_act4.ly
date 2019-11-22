@@ -160,80 +160,164 @@
 % 			\midi { \tempo 2 = 70 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreuz"
+% 		}
+% 		\paper { indent = 3\cm }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \MariaIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Maria" { \dynamicUp \EmporGerichtetMariaNotes }
+% 					}
+% 					\new Lyrics \lyricsto Maria \EmporGerichtetMariaLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fremdling"
+% 						\new Voice = "Fremd" { \dynamicUp \EmporGerichtetFremdNotes }
+% 					}
+% 					\new Lyrics \lyricsto Fremd \EmporGerichtetFremdLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \MagdalenaIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Magdalena" { \dynamicUp \EmporGerichtetMagdalenaNotes }
+% 					}
+% 					\new Lyrics \lyricsto Magdalena \EmporGerichtetMagdalenaLyrics
+% 					
+% 					\new Staff \with { \extraStaffDistance } {
+% 						\set Staff.instrumentName = "Joseph"
+% 						\new Voice = "Joseph" { \dynamicUp \EmporGerichtetJosephNotes }
+% 					}
+% 					\new Lyrics \lyricsto Joseph \EmporGerichtetJosephLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Blindgeb."
+% 						\new Voice = "Blind" { \dynamicUp \EmporGerichtetBlindNotes }
+% 					}
+% 					\new Lyrics \lyricsto Blind \EmporGerichtetBlindLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \JohannesIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Johannes" { \dynamicUp \EmporGerichtetJohannesNotes }
+% 					}
+% 					\new Lyrics \lyricsto Johannes \EmporGerichtetJohannesLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nicodemus"
+% 						\new Voice = "Nico" { \dynamicUp \EmporGerichtetNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \EmporGerichtetNicoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Ein Prieſter"
+% 						\new Voice = "Priester" { \dynamicUp \EmporGerichtetPriesterNotes }
+% 					}
+% 					\new Lyrics \lyricsto Priester \EmporGerichtetPriesterLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\EmporGerichtetOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\EmporGerichtetBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreuz"
+			movement = \movementTitle "4.4" "C H O R" "Anderen half er"
 		}
-		\paper { indent = 3\cm }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\AnderenHalfOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\AnderenHalfOboeII
+						}
+					>>
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Fagotto I"
+							\AnderenHalfFagottoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Fagotto II"
+							\AnderenHalfFagottoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\AnderenHalfViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\AnderenHalfViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\AnderenHalfViola
+						}
+				>>
 				\new ChoirStaff <<
+					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     P  R  I  E  S  T  E  R" \hspace #15 }
 					\new Staff {
-						\set Staff.instrumentName = \MariaIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Maria" { \dynamicUp \EmporGerichtetMariaNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \AnderenHalfSopranoNotes }
 					}
-					\new Lyrics \lyricsto Maria \EmporGerichtetMariaLyrics
+					\new Lyrics \lyricsto Soprano \AnderenHalfSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Fremdling"
-						\new Voice = "Fremd" { \dynamicUp \EmporGerichtetFremdNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \AnderenHalfAltoNotes }
 					}
-					\new Lyrics \lyricsto Fremd \EmporGerichtetFremdLyrics
+					\new Lyrics \lyricsto Alto \AnderenHalfAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \MagdalenaIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Magdalena" { \dynamicUp \EmporGerichtetMagdalenaNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \AnderenHalfTenoreNotes }
 					}
-					\new Lyrics \lyricsto Magdalena \EmporGerichtetMagdalenaLyrics
-					
-					\new Staff \with { \extraStaffDistance } {
-						\set Staff.instrumentName = "Joseph"
-						\new Voice = "Joseph" { \dynamicUp \EmporGerichtetJosephNotes }
-					}
-					\new Lyrics \lyricsto Joseph \EmporGerichtetJosephLyrics
+					\new Lyrics \lyricsto Tenore \AnderenHalfTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \EmporGerichtetBlindNotes }
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \AnderenHalfBassoNotes }
 					}
-					\new Lyrics \lyricsto Blind \EmporGerichtetBlindLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \JohannesIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Johannes" { \dynamicUp \EmporGerichtetJohannesNotes }
-					}
-					\new Lyrics \lyricsto Johannes \EmporGerichtetJohannesLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
-						\new Voice = "Nico" { \dynamicUp \EmporGerichtetNicoNotes }
-					}
-					\new Lyrics \lyricsto Nico \EmporGerichtetNicoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Ein Prieſter"
-						\new Voice = "Priester" { \dynamicUp \EmporGerichtetPriesterNotes }
-					}
-					\new Lyrics \lyricsto Priester \EmporGerichtetPriesterLyrics
+					\new Lyrics \lyricsto Basso \AnderenHalfBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\EmporGerichtetOrgano
+						\AnderenHalfOrgano
 					}
 				>>
 				\new FiguredBass {
-					\EmporGerichtetBassFigures
+					\AnderenHalfBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 45 }
 		}
 	}
 }

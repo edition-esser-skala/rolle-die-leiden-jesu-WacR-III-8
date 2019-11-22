@@ -977,3 +977,11 @@ RaecherSchauViolinoII = {
 		a2 r \bar "||" %57 finis
 	}
 }
+
+AnderenHalfViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAnderenHalf
+		
+	}
+}

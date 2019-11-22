@@ -974,3 +974,11 @@ RaecherSchauViola = {
 		e2 r \bar "||" %57 finis
 	}
 }
+
+AnderenHalfViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAnderenHalf
+		
+	}
+}

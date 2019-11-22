@@ -632,6 +632,18 @@ EinOpferAltoLyrics = \lyricmode {
 	ret. %40 FINIS
 }
 
+AnderenHalfAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
+		
+	}
+}
+
+AnderenHalfAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

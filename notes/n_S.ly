@@ -801,6 +801,18 @@ EinOpferSopranoLyrics = \lyricmode {
 	ret. %40 FINIS
 }
 
+AnderenHalfSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
+		
+	}
+}
+
+AnderenHalfSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

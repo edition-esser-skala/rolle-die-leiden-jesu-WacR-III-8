@@ -542,6 +542,18 @@ EinOpferBassoLyrics = \lyricmode {
 	ret. %40 FINIS
 }
 
+AnderenHalfBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
+		
+	}
+}
+
+AnderenHalfBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

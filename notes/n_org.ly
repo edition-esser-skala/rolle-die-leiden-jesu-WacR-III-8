@@ -2533,6 +2533,18 @@ EmporGerichtetBassFigures = \figuremode {
 	<_!> %48 finis
 }
 
+AnderenHalfOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoAnderenHalf
+		c8\f h c d e f
+	}
+}
+
+AnderenHalfBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

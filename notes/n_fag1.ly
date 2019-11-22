@@ -98,3 +98,11 @@ ErhoereDiesesFagottoI = {
 		es2 r4 \bar "||" %74 finis
 	}
 }
+
+AnderenHalfFagottoI = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoAnderenHalf
+		
+	}
+}
