@@ -334,6 +334,7 @@ tempoHeiligHeilig = \tempoMarkup "Poco largo"
 tempoRaecherSchau = \tempoMarkup "Allegro moderato"
 tempoEmporGerichtet = \tempoMarkup "Recitativ"
 tempoAnderenHalf = \tempoMarkup "Un poco vivace"
+tempoGottHat = \tempoMarkup "Allabreve"
 
 
 

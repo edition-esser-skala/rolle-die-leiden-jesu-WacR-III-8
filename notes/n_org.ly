@@ -2538,6 +2538,172 @@ AnderenHalfOrgano = {
 		\clef bass
 		\key c \major \time 3/4 \tempoAnderenHalf
 		c8\f h c d e f
+		g fis g a h g
+		c, h c d e c
+		f e f a c c,
+		h a h g c e %5
+		g f e d e a,
+		d cis d e fis d
+		g fis g a h g
+		c, h c e g e
+		a e fis d g h %10
+		d c h a g f
+		e d c b' a g
+		f e f g a g
+		fis e d c h a
+		g g' h a h g %15
+		c g c,[\ff d e f]
+		g fis g a h g
+		c g c, d e c
+		f! e f a c c,
+		h d h g c e %20
+		g f e c f f,
+		g4 c2\mf
+		g'2.
+		d
+		a2 a'4 %25
+		e2 e'4\f
+		a,8 f! h c h a
+		gis e a h a g
+		f4 f f
+		e2 e4 %30
+		f f f
+		e2\fermata r4
+		e8\f h e fis g! a
+		h\mf ais h cis dis h
+		e, dis e fis g e %35
+		a, gis a c e4~
+		e8 e dis h e g
+		h a gis fis e d!
+		c h a g'! fis e
+		d a' d c h a %40
+		g a h c d h
+		c g c,[\f d e f]
+		g fis g a h cis
+		d a d, e f g
+		a g f e f4 %45
+		e2 r4
+		e2 r4
+		e2 r4
+		e8 d c4 a
+		e'2. %50
+		a4 h g
+		c c, c
+		d2.
+		e2 a4
+		d, e e, %55
+		a8 h c h c d
+		e fis gis fis gis e
+		a gis a e c a
+		d4 e e,
+		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection c1
+		d
+		e
+		f
+		g %65
+		g4 f e a
+		f e d2
+		f4 e d g
+		e d c d8 c
+		h4 d g2~ %70
+		g4 fis8 e fis4 d
+		f e8 f g4 f
+		e c a'2~
+		a gis
+		a c4 h %75
+		a g! fis2
+		g g~
+		g4 f!8 e f2~
+		f4 e8 d e4 e
+		f d g2 %80
+		c, r
+		d h'4 a
+		g f e d
+		cis1
+		d4 e f d %85
+		h1
+		c!4 h c d
+		e d e c
+		f e f d
+		g a g f %90
+		e d c h
+		a2 \clef treble << { 
+			h''4 e
+			c h a2
+			c4 h a d
+			h a h c %95
+		} \\ {
+			gis2-\orgE
+			a2. a4
+			e2 fis
+			g!1 %95
+		} >>
+		\clef "treble_8" h,2-\vlcE cis
+		d2. d4
+		a2 h \clef bass
+		c,!1-\bassiE
+		d %100
+		e
+		f
+		g
+		g4 f e a
+		f e d2 %105
+		f4 e d g
+		e d c d
+		e2 fis
+		g2. g4
+		d2 e %110
+		r f!~
+		f e
+		es4 d es2
+		d4 c d2
+		c \clef "treble_8" c'4-\vlcE d %115
+		e2 fis
+		g r4 \clef bass g,-\bassiE
+		d2 e
+		f4 g a g
+		f d g f %120
+		e d c2
+		\clef "treble_8" f'1-\vlcE
+		g
+		g4 f e a
+		f e d2 %125
+		f4 e d g
+		e d c2
+		f f,
+		\clef bass <g, g'>1-\bassiE
+		q %130
+		<a a'>
+		<h h'>
+		<c c'>
+		b'4 a g c
+		a g f2 %135
+		c'4 h! a d
+		h a g2
+		g1~
+		g~
+		g %140
+		g,
+		g2\fermata r
+		c1
+		d
+		e %145
+		f
+		g
+		g,~
+		g~
+		g~ %150
+		g~
+		g~
+		g2 \clef "treble_8" h'4-\vlcE a
+		g2 \clef bass c4-\bassiE h
+		a a g fis %155
+		g1~
+		g
+		g,~
+		g
+		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
 
