@@ -304,12 +304,17 @@ EmporGerichtetFremdNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
-		
+		R1*26 %26
+		r2 g''4 g
+		g8 fis fis e fis8.([ e16)] d4
+		R1*19 %47
+		r2 \bar "||" %48 finis
 	}
 }
 
 EmporGerichtetFremdLyrics = \lyricmode {
-	
+	Lie -- be, %27
+	Lie -- be, Got -- tes Lie -- be! %28 finis
 }
 
 % FremdNotes = {

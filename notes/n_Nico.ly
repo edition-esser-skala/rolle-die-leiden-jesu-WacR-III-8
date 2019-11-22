@@ -330,12 +330,17 @@ EmporGerichtetNicoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
-		
+		R1*26 %26
+		h'4 h h h
+		a8 a a a d,4 d
+		R1*19 %47
+		r2 \bar "||" %48 finis
 	}
 }
 
 EmporGerichtetNicoLyrics = \lyricmode {
-	
+	Lie -- be, Lie -- be, %27
+	Got -- tes, Got -- tes Lie -- be! %28 finis
 }
 
 % NicoNotes = {

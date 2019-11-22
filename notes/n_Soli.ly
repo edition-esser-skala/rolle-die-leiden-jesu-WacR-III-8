@@ -433,3 +433,113 @@ HeiligHeiligSoliLyrics = \lyricmode {
 	Kreu -- tzi -- ger! O weh! ſie
 	hef -- ten ihn ans Kreutz. %19 finis
 }
+
+EmporGerichtetSoliNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
+		r8 c^\Joseph f e f f f g
+		a4 r a8 a c c16 a
+		f8 f r a16 b g8 g d'8. d16
+		d8 f, a g e4 c'~
+		c g8 a \appoggiatura a b4 b~ %5
+		b e,8 f g g a e
+		f4 \clef "treble_8" a,8^\Blind r16 a d8 d d e
+		c4 c c8 c c d
+		e e e f g b, b c
+		a4 r f' r8 f %10
+		f c c d h! h h c
+		d d d es c c r g16 g
+		c8 c c h! c c r16 c c es
+		es8 b r b16^\Johannes c des8 des des c
+		as as r4 r a8 a %15
+		d d d cis d d r \appoggiatura a32 d16 \appoggiatura b32 a16
+		c8 c d a b4 r8 \clef treble d16^\Joseph d
+		g g g fis g4 \clef "treble_8" d8^\Johannes g, r g16 a
+		b8 b b a gis gis r4
+		d'8 d e h c4 r %20
+		e8 a, r4 cis8 cis e cis
+		ais4 ais e'8 e e16 e fis cis
+		d8 d r16 fis d h \appoggiatura h8 ais4 r8 h
+		fis' cis16([ h)] cis8 dis e h r h
+		e h16([ ais)] h8 cis h ais r h %25
+		cis16. cis32 cis8 e ais,16 h fis4 r
+		\clef treble d''4^\Joseph d g^\Fremd g
+		g8 fis fis e fis8.([ e16)] d4
+		\clef "treble_8" r8 d,16^\Johannes d d8 a d d d d16 e
+		c!8 c c d h h r g16 a %30
+		h8 h h c d d r d16 e
+		f!8 f f e \clef treble << \context Voice = "SoliB" { \autoBeamOff \voiceOne r8 c'^\Magdalena c g } \\ \context Voice = "Soli" { \voiceTwo c,8 c r4 \oneVoice } >>
+		\clef "treble_8" c8.^\Johannes c16 c8 d h!8. h16 h8 h
+		e4 r8 h gis gis gis a
+		h h r h d d e h %35
+		c \clef treble a'^\Magdalena a a b4 r8 g
+		cis8. cis16 cis4 r8 cis e a,
+		d r16 a a8 a c fis, fis g
+		g d \clef "treble_8" r16 d^\Johannes d g, b8 b b c
+		d d d f f as, c b %40
+		g g \clef treble es''4^\Maria es8. b16 b4
+		g'8. es16 es8 b c8. c16 c4
+		r r8 f f h, h c
+		c g \clef bass r g,^\Priester g c, r c'16 g
+		as8 as r4 as8 f es d %45
+		es es g as b b b es,
+		c' c r4 c8 c c h
+		\appoggiatura h d4 r \bar "||" %48 finis
+	}
+}
+
+EmporGerichtetSoliLyrics = \lyricmode {
+	Em -- por ge -- rich -- tet iſt das
+	Kreutz! und der bli -- cket her --
+	nie -- der! Ni -- ko -- de -- mus! die -- ſe
+	Bli -- cke ſtär -- ken dich. Ach, __
+	ſanf -- te Lie -- be! __ %5
+	und Ver -- zei -- hung re -- den
+	ſie. Sieh, Jo -- han -- nes der Ge --
+	lieb -- te drän -- get durch die
+	dich -- ten Hau -- fen ge -- gen uns ſich
+	her. Hier, Jo -- %10
+	han -- nes, ſte -- hen Freun -- de dei -- nes
+	Mei -- ſters des Ge -- rech -- ten. Wa -- reſt
+	du dem Kreu -- tze na -- he? Sahſt du ihn
+	lei -- den? Na -- he war ich, ſah ihn
+	lei -- den. Ha -- bet %15
+	ihr den Blick ge -- ſe -- hen, den er
+	auf die Mör -- der warf? Wir be --
+	merk -- ten die -- ſen Blick. A -- ber, was der
+	Mund der Lie -- be ſag -- te,
+	habt ihr nicht ge -- hört: %20
+	Kind -- lein! Nichts als Huld und
+	Lie -- be quil -- let aus der See -- le
+	Je -- ſu: He -- rab ſieht er: „Ver --
+	gieb, o Va -- ter, ih -- nen, ver --
+	gieb, o Va -- ter, ih -- nen, ſie %25
+	wi -- ßen nicht, nicht, was ſie thun.“
+	Lie -- be, Lie -- be,
+	Got -- tes, Got -- tes Lie -- be.
+	Ni -- ko -- de -- mus, ſa -- heſt du ſei -- ne
+	ſchmer -- zens -- vol -- le Mut -- ter? Je -- ſu %30
+	Wink hat mir ge -- bo -- ten, ſie zu
+	ſei -- nem Kreutz zu füh -- ren.
+	Jün -- ger -- in von Mag -- da -- la! du
+	hier? die Mut -- ter des Pro --
+	phe -- ten, ſie wird nicht fer -- ne %35
+	ſeyn. Sie ſte -- het ſtumm und
+	thrä -- nen -- los nicht fern von
+	hier, ein Schwerdt geht ihr durch ih -- re
+	See -- le. Ma -- ri -- a! Je -- ſu Wink ge --
+	both zu ſei -- nem Kreu -- tze dich zu %40
+	füh -- ren. Ach ſtär -- ke mich,
+	ſtär -- ke mich, Gott Jſ -- ra -- els!
+	Jch fol -- ge dir, Jo --
+	han -- nes. Ja folg ihm, ſieh ihn
+	blu -- ten! To -- des -- blä -- ße %45
+	ſtei -- get auf die Wan -- gen des Em --
+	pö -- rers, glaubt ihr noch an
+	ihn? %48 finis
+}
+
+EmporGerichtetSoliBLyrics = \lyricmode {
+	Jo -- han -- nes! %32
+}

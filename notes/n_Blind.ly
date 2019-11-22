@@ -874,12 +874,35 @@ EmporGerichtetBlindNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
-		
+		R1*6 %6
+		r4 a8 r16 a d8 d d e
+		c4 c c8 c c d
+		e e e f g b, b c
+		a4 r f' r8 f %10
+		f c c d h! h h c
+		d d d es c c r g16 g
+		c8 c c h! c c r16 c c es
+		es8 b r4 r2
+		R1*12 %26
+		r2 e4 e
+		e8 d d cis d4 a
+		R1*19 %47
+		r2 \bar "||" %48 finis
 	}
 }
 
 EmporGerichtetBlindLyrics = \lyricmode {
+	Sieh, Jo -- han -- nes der Ge -- %7
+	lieb -- te drän -- get durch die
+	dich -- ten Hau -- fen ge -- gen uns ſich
+	her. Hier, Jo -- %10
+	han -- nes, ſte -- hen Freun -- de dei -- nes
+	Mei -- ſters des Ge -- rech -- ten. Wa -- reſt
+	du dem Kreu -- tze na -- he? Sahſt du ihn
+	lei -- den?
 	
+	Lie -- be, %27
+	Lie -- be, Got -- tes Lie -- be! %28 finis
 }
 
 % BlindNotes = {

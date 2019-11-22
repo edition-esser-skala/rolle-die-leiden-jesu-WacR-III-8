@@ -407,12 +407,38 @@ EmporGerichtetJosephNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEmporGerichtet
-		
+		r8 c f e f f f g
+		a4 r a8 a c c16 a
+		f8 f r a16 b g8 g d'8. d16
+		d8 f, a g e4 c'~
+		c g8 a \appoggiatura a b4 b~ %5
+		b e,8 f g g a e
+		f4 r r2
+		R1*9 %16
+		r2 r4 r8 d16 d
+		g g g fis g4 r2
+		R1*8 %26
+		d'4 d d d
+		cis8 d a a a8.([ g16)] fis4
+		R1*19 %47
+		r2 \bar "||" %48 finis
 	}
 }
 
 EmporGerichtetJosephLyrics = \lyricmode {
+	Em -- por ge -- rich -- tet iſt das
+	Kreutz! und der bli -- cket her --
+	nie -- der! Ni -- ko -- de -- mus! die -- ſe
+	Bli -- cke ſtär -- ken dich. Ach, __
+	ſanf -- te Lie -- be! __ %5
+	und Ver -- zei -- hung re -- den
+	ſie.
 	
+	Wir be -- %17
+	merk -- ten die -- ſen Blick.
+	
+	Lie -- be, Lie -- be, %27
+	Got -- tes, Got -- tes Lie -- be! %28 finis
 }
 
 % JosephNotes = {

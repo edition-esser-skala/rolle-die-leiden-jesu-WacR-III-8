@@ -164,10 +164,18 @@
 		\header {
 			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreuz"
 		}
-		\paper { indent = 3\cm systems-per-page = #2 }
+		\paper { indent = 3\cm }
 		\score {
 			<<
 				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \MariaIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Maria" { \dynamicUp \EmporGerichtetMariaNotes }
+					}
+					\new Lyrics \lyricsto Maria \EmporGerichtetMariaLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Fremdling"
 						\new Voice = "Fremd" { \dynamicUp \EmporGerichtetFremdNotes }
@@ -175,6 +183,14 @@
 					\new Lyrics \lyricsto Fremd \EmporGerichtetFremdLyrics
 					
 					\new Staff {
+						\set Staff.instrumentName = \MagdalenaIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Magdalena" { \dynamicUp \EmporGerichtetMagdalenaNotes }
+					}
+					\new Lyrics \lyricsto Magdalena \EmporGerichtetMagdalenaLyrics
+					
+					\new Staff \with { \extraStaffDistance } {
 						\set Staff.instrumentName = "Joseph"
 						\new Voice = "Joseph" { \dynamicUp \EmporGerichtetJosephNotes }
 					}
@@ -199,6 +215,12 @@
 						\new Voice = "Nico" { \dynamicUp \EmporGerichtetNicoNotes }
 					}
 					\new Lyrics \lyricsto Nico \EmporGerichtetNicoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Ein Prieſter"
+						\new Voice = "Priester" { \dynamicUp \EmporGerichtetPriesterNotes }
+					}
+					\new Lyrics \lyricsto Priester \EmporGerichtetPriesterLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

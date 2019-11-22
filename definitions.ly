@@ -218,6 +218,14 @@ threeStanzaDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+extraStaffDistance = {
+	\override VerticalAxisGroup.staff-staff-spacing =
+      #'((basic-distance . 15)
+         (minimum-distance . 15)
+         (padding . -100)
+				 (stretchability . 0))
+}
+
 twofourtime = {
 	\overrideTimeSignatureSettings
 		2/4
@@ -250,11 +258,15 @@ scriptOut = \once \override Script.avoid-slur = #'outside
 Blind = \markup { \remark "Blindgebohrner" }
 ChorDesVolkes = \markup { \remark "Chor des Volks" }
 Fremd = \markup { \remark "Fremdling" }
-Joseph = \markup { \remark "Joseph" }
+Johannes = \markup { \remark "Johannes" }
+Joseph = \markup { \remark "Joſeph" }
 Judas = \markup { \remark "Judas" }
 Kaiphas = \markup { \remark "Kaiphas" }
-Nico = \markup { \remark "Nicodemus" }
+Magdalena = \markup { \remark "Maria Magdalena" }
+Maria = \markup { \remark "Maria" }
+Nico = \markup { \remark "Nikodemus" }
 Pilatus = \markup { \remark "Pilatus" }
+Priester = \markup { \remark "Ein Prieſter" }
 
 pizz = \markup { \remark "pizz." }
 collArco = \markup { \remark "coll’arco" }
@@ -508,15 +520,18 @@ tempoEmporGerichtet = \tempoMarkup "Recitativ"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"
-\include "notes/n_Fremd.ly"    %S
-\include "notes/n_Joseph.ly"   %A
-\include "notes/n_Blind.ly"    %T
-\include "notes/n_Johannes.ly" %T
-\include "notes/n_Petrus.ly"   %T
-\include "notes/n_Judas.ly"    %B
-\include "notes/n_Kaiphas.ly"  %B
-\include "notes/n_Nico.ly"     %B
-\include "notes/n_Pilatus.ly"  %B
+\include "notes/n_Fremd.ly"     %S
+\include "notes/n_Maria.ly"     %S
+\include "notes/n_Joseph.ly"    %A
+\include "notes/n_Magdalena.ly" %A
+\include "notes/n_Blind.ly"     %T
+\include "notes/n_Johannes.ly"  %T
+\include "notes/n_Petrus.ly"    %T
+\include "notes/n_Judas.ly"     %B
+\include "notes/n_Kaiphas.ly"   %B
+\include "notes/n_Nico.ly"      %B
+\include "notes/n_Pilatus.ly"   %B
+\include "notes/n_Priester.ly"  %B
 \include "notes/n_Soli.ly"
 \include "notes/n_S.ly"
 \include "notes/n_A.ly"
