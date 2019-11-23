@@ -559,7 +559,7 @@ AnderenHalfTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
 		R2.
-		r4 \mvTr g'\fE^\tutti g
+		r4 g'^\tutti g
 		e8([ d)] c4 r
 		r f e
 		d d c %5
@@ -585,7 +585,7 @@ AnderenHalfTenoreNotes = {
 		h h8 c d h %30
 		a4 c d
 		h2\fermata r4
-		r \mvTrr e\mfE^\soloZS e
+		r e^\soloZS e
 		dis8 cis h4 r
 		e4 e d %35
 		c! c h
@@ -595,7 +595,7 @@ AnderenHalfTenoreNotes = {
 		r4 d'8 e fis d %40
 		g4 g f
 		e e e
-		d8 c \mvTr h4\fE^\tutti d
+		d8 c h4^\tutti d
 		d8 e f!4 f
 		e8 c a4 r %45
 		e' d8([ c)] h([ a)]

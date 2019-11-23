@@ -104,7 +104,7 @@ AnderenHalfFagottoI = {
 		\clef bass
 		\key c \major \time 3/4 \tempoAnderenHalf
 		R2.
-		r4 g''\fE g
+		r4 g''\mfE g
 		e8 d c4 r
 		r f e
 		d d c %5
@@ -122,9 +122,9 @@ AnderenHalfFagottoI = {
 		g f e c f f,
 		g4 c r
 		R2.
-		r4 d'8 e f d
+		r4 d'8\mfE e f d
 		e4 a, a %25
-		e2 e'4
+		e2 e'4\fE
 		a,8 f! h c h a
 		gis e a h a g
 		f4 f f

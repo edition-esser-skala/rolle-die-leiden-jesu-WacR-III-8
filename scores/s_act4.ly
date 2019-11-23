@@ -317,7 +317,7 @@ showFirstLength = r2.*60
 				}
 			>>
 			\layout { }
-			\midi { \tempo 1=60 } % 2. = 50 / 1 = 60
+% 			\midi { \tempo 1=60 } % 2. = 50 / 1 = 60
 		}
 	}
 }

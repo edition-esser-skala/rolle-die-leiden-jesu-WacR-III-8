@@ -383,6 +383,52 @@ AnderenHalfOboeII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoAnderenHalf
-		
+		R2.*6 %6
+		r4 d'\mfE d
+		h8 a g4 r
+		r c h
+		a a g %10
+		fis g r
+		R2.
+		r4 a8 h cis a
+		d4 d c
+		h r r %15
+		r e\fE e
+		d8 c h4 d
+		c e g
+		f f e
+		d d c %20
+		h c r
+		R2.
+		r4 g8\mfE a h g
+		a4 d, d'~
+		d c r %25
+		r h\fE e~
+		e d d~
+		d c c8 h
+		a2 a4
+		gis gis8 a h gis %30
+		a4 a a
+		gis2\fermata r4
+		R2.*9 %41
+		r4 e'\fE e
+		d g g
+		f! f d
+		c a d, %45
+		e2 r4
+		e' d8 c h a
+		gis fis e4 r
+		r r a~
+		a g! h %50
+		c d h
+		g e a~
+		a h8 c d h
+		gis2 a4
+		h a( gis) %55
+		a-! e-! a-!
+		gis-! d'-! h-!
+		a-! e'-! e-!
+		d8 h a4 gis \noBreak
+		a2 r4 \bar "||" %60
 	}
 }

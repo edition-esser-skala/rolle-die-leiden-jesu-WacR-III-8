@@ -546,7 +546,7 @@ AnderenHalfBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
-		r4 \mvTr c'\fE^\tutti c
+		r4 c'^\tutti c
 		h8([ a)] g4 r
 		r c b
 		a a g
@@ -574,13 +574,13 @@ AnderenHalfBassoNotes = {
 		f f f
 		e2\fermata r4
 		R2.*5 %37
-		r4 \mvTrr e8\mfE^\soloZS fis gis e
+		r4 e8^\soloZS fis gis e
 		a4 a g
 		fis r r %40
 		r g8 a h g
 		c4 c,8([ d)] e([ f)]
 		g([ fis)] g4 r
-		r \mvDll d'\fE^\tutti d
+		r d'^\tutti d
 		c8 h a4 r %45
 		e' d8([ c)] h([ a)]
 		gis([ fis)] e4 r

@@ -637,7 +637,7 @@ AnderenHalfAltoNotes = {
 		\clef treble
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
 		R2.*6 %6
-		r4 \mvTr d'\fE^\tutti d
+		r4 d'^\tutti d
 		h8([ a)] g4 r
 		r c h
 		a a g %10
@@ -664,7 +664,7 @@ AnderenHalfAltoNotes = {
 		a4 a a
 		gis2\fermata r4
 		R2.
-		r4 \mvTrr h\mfE^\soloZS a
+		r4 h^\soloZS a
 		g!8 fis e4 r %35
 		a a g!
 		fis fis e
@@ -672,7 +672,7 @@ AnderenHalfAltoNotes = {
 		r a8 h cis a
 		d4 d c %40
 		h r r
-		r \mvTr c\fE^\tutti c
+		r c^\tutti c
 		h8 a g4 r
 		r a2~
 		a4 d8([ c)] h([ a)] %45

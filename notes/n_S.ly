@@ -806,7 +806,7 @@ AnderenHalfSopranoNotes = {
 		\clef treble
 		\key c \major \time 3/4 \autoBeamOff \tempoAnderenHalf
 		R2.*5 %5
-		r4 \mvTr g''\fE^\tutti g
+		r4 g''^\tutti g
 		fis8([ e)] d4 r
 		r g f
 		e e d
@@ -833,7 +833,7 @@ AnderenHalfSopranoNotes = {
 		e d8([ c)] h([ a)]
 		e'2\fermata r4
 		R2.*10 %42
-		r4 \mvTr g\fE^\tutti g
+		r4 g^\tutti g
 		f!8 e d4 r
 		e d8([ c)] h([ a)] %45
 		gis([ fis)] e4 r
