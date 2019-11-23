@@ -979,6 +979,57 @@ AnderenHalfViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoAnderenHalf
-		
+		c8\f h c d e f
+		g\mf fis g a h g
+		c, h c d e c
+		f e f a c c,
+		h a h g c e %5
+		g f e d e a,
+		d cis d e fis d
+		g fis g a h g
+		c, h c e g e
+		a e fis d g h, %10
+		d c h a g f'!
+		e d c b a g
+		f e f g a g'
+		fis e d c h a
+		g4 h8 a h g %15
+		c4 <g g'>\f q
+		q q q
+		q q c
+		c c c
+		g' g g %20
+		g g f
+		d c2\mf
+		g'2.
+		d
+		a %25
+		e'2 h'4\f
+		c h h
+		h a a8 g
+		f4 f f
+		e4 h8 c d h %30
+		a4 a a
+		h2\fermata r4
+		R2.*9 %41
+		r4 <g g'>\f q
+		q d' <d d'>
+		q a' a
+		a a d, %45
+		e e e
+		e e e
+		e e e
+		e2 e4
+		e2 g4 %50
+		f!2 f4
+		e g c,
+		d2.
+		e2 e4
+		d e e, %55
+		a e'-! e-!
+		e-! e-! e-!
+		e a a,
+		d e e, \noBreak
+		a2 r4 \bar "||" %60
 	}
 }

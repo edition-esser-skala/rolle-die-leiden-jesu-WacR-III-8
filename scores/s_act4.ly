@@ -3,7 +3,7 @@
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
-
+showFirstLength = r2.*60
 \include "../definitions.ly"
 
 \paper {
@@ -286,37 +286,37 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \AnderenHalfSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \AnderenHalfSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \AnderenHalfSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \AnderenHalfAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \AnderenHalfAltoLyrics
+% 					\new Lyrics \lyricsto Alto \AnderenHalfAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \AnderenHalfTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \AnderenHalfTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \AnderenHalfTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \AnderenHalfBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \AnderenHalfBassoLyrics
+% 					\new Lyrics \lyricsto Basso \AnderenHalfBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\transpose c c, \AnderenHalfOrgano
+						\AnderenHalfOrgano
 					}
 				>>
 				\new FiguredBass {
 					\AnderenHalfBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 1=60 } % 2. = 50 / 1 = 60
 		}
 	}

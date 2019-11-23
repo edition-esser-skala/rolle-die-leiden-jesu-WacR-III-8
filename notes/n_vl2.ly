@@ -982,6 +982,65 @@ AnderenHalfViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoAnderenHalf
-		
+		<g e' c'>4\f r <g e'>\mf
+		<g d'> r <g g'>
+		q r b'
+		a r g
+		<f g,> r <e g,> %5
+		<d g,> <e g,> g
+		fis r <d a'>
+		<d h'> r <g, g'>
+		q r h'
+		a r g %10
+		fis g r
+		r c,2~
+		c4 a2~
+		a4 d2~
+		d4 g,2 %15
+		g4 e''\f e
+		d <h d, g,> d
+		<c e, g,> e g
+		f f e
+		d d c %20
+		h c a
+		f e\mf c'~
+		c h h
+		a2 d4~
+		d c c %25
+		h2 e4~\f
+		e d d~
+		d c c8 h
+		a2 a4
+		gis gis8 a h e %30
+		a,4 a a
+		gis2\fermata r4
+		<h e, g,!>\f r e,\mf
+		dis r fis
+		e r e %35
+		e r g
+		fis r e
+		dis e e
+		a r g
+		fis r fis %40
+		g r g
+		g e'\f e
+		d g g
+		f! f f
+		e d d %45
+		e c a
+		gis c a
+		gis c a
+		gis a2~
+		a4 g e %50
+		c' d f,
+		e2 a4
+		f2 d'4~
+		d c8 h a4
+		R2. %55
+		r4 e-! a-!
+		gis-! d'-! h-!
+		a-! e-! c'-!
+		d8 h a4 gis\trill \noBreak
+		a2 r4 \bar "||" %60
 	}
 }

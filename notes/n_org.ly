@@ -2538,7 +2538,7 @@ AnderenHalfOrgano = {
 		\clef bass
 		\key c \major \time 3/4 \tempoAnderenHalf
 		c8\f h c d e f
-		g fis g a h g
+		g\mf fis g a h g
 		c, h c d e c
 		f e f a c c,
 		h a h g c e %5
@@ -2760,12 +2760,12 @@ AnderenHalfBassFigures = \figuremode {
 	<4>4 <_!>2 %50
 	<6! 5>4 <6 5> <7>
 	<9> <8> <6>
-	<5> <6>2
+	<9 5> <8 6>2
 	<9 _+>4 <8>8 <7> <5 3>4
 	<6 5> <6 4> <7 _+> %55
-	r2 <6>4
-	<_+>2 <6>4
-	r2 <6>4
+	r4 <6>2
+	<_+>4 <6 5>2
+	r <6>4
 	<6 5> <6 4> <5 _+>
 	r2. %60
 	r1
