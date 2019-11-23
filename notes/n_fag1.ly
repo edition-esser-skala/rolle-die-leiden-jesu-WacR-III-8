@@ -103,6 +103,61 @@ AnderenHalfFagottoI = {
 	\relative c {
 		\clef bass
 		\key c \major \time 3/4 \tempoAnderenHalf
-		
+		R2.
+		r4 g''\fE g
+		e8 d c4 r
+		r f e
+		d d c %5
+		h c r
+		R2.*5 %11
+		r4 c8 d e c
+		f4 f e
+		d r r
+		R2. %15
+		r4 c,8\fE d e f
+		g fis g a h g
+		c g c, d e c
+		f! e f a c c,
+		h d h g c e %20
+		g f e c f f,
+		g4 c r
+		R2.
+		r4 d'8 e f d
+		e4 a, a %25
+		e2 e'4
+		a,8 f! h c h a
+		gis e a h a g
+		f4 f f
+		e4 h'8 c d h %30
+		a4 f f
+		e2\fermata r4
+		r e'\mfE e
+		dis8 cis h4 r
+		e4 e d %35
+		c! c h
+		a a g
+		fis e8 fis gis e
+		a4 a g
+		fis4 d'8 e fis d %40
+		g4 g f
+		e c,8\f d e f
+		g fis g a h cis
+		d a d, e f g
+		a g f e f4 %45
+		e8 e' d c h a
+		gis fis e4 r
+		e' d8 c h a
+		gis fis e4 r
+		r e'8 fis g! e %50
+		f2 f4
+		e2 c,4
+		d d'8 e f d
+		h2 c4
+		d c( h)\trill %55
+		a a,8 h c d
+		e fis gis fis gis e
+		a gis a e c a
+		d4 e e, \noBreak
+		a2 r4 \bar "||" %60
 	}
 }
