@@ -844,12 +844,13 @@ SchwarzeGrauenvolleTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
-		
+		R1*9 %9
 	}
 }
 
 SchwarzeGrauenvolleTenoreLyrics = \lyricmode {
-	
+% 	Zau -- be --
+% 	rey -- en, Zau -- be -- rey -- en,
 }
 
 % TenoreNotes = {

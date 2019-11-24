@@ -821,12 +821,14 @@ SchwarzeGrauenvolleBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
-		
+		R1*9 %9
 	}
 }
 
 SchwarzeGrauenvolleBassoLyrics = \lyricmode {
-	
+% 	Ka -- i -- %40
+% 	phas, du riefſt den Don -- ner, du,
+% 	du riefſt den Don -- ner, 
 }
 
 % BassoNotes = {

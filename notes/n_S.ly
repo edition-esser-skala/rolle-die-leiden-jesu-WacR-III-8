@@ -1036,12 +1036,94 @@ SchwarzeGrauenvolleSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
-		
+		R1*9 %9
+		d2 f %10
+		a4. a8 a4 f'
+		f e r2
+		e4. e8 e e e g,
+		f2 r
+		g'4. g8 g g g g, %15
+		f4 r r2
+		d'4 a8 r a a a a
+		a a r4 a8 a a a
+		a d, r4 r2
+		r d'8 g, es'8. es16 %20
+		d4 g,8-! r r4 es'8 es
+		d4 g,8 r f'4. d8
+		es8 es r4 r8 es16. es32 es16 es es es
+		es?8 es r4 r8 es16. es32 es16 es es es
+		es8 f, r es'16. es32 es8 f, r es'16. es32 %25
+		d8 b r4 r8 f'16 f f f f f
+		es8 es r4 r8 e16 e e e e e
+		f8 d r d16. d32 d4 r8 d16. d32
+		g4 r16 d d d cis8 a16 a d a f d
+		a'4 r r2 %30
+		r d,8 f a d
+		cis4 g' f8 d r4
+		cis g' f8 e r4
+		r r8 e16 e e8 a, r e'16 e
+		e4-! r8\fermata g16. g32 f8 d r es16. es32 %35
+		d8 g, r c16. c32 b8 g r4
+		r2 r4 es'8. es16
+		es?8 c f es d b f' r16 f
+		f8. f16 g8 f es4 r8 c
+		g'8. g16 g8 g, d'4 r %40
+		R1
+		r2 r4 r8 d16. es32
+		f8 f r c16 es d4 r8 d16. d32
+		d8. d16 d8 d a4 r
+		r2 e'8 a, r4 %45
+		r2 e'8 a, r cis16 d
+		e8 e r e16 e f8 f r4
+		r r8 f16 f f8 d r d16 d
+		d8 b r4 r8 d16 d d d d d
+		d8 a r a16 a d4 r %50
+		R1*3 \bar "||" %53 finis
 	}
 }
 
 SchwarzeGrauenvolleSopranoLyrics = \lyricmode {
+	Schwar -- ze %10
+	grau -- en -- vol -- le
+	Wol -- ken
+	ſchwe -- ben ü -- ber uns da --
+	her,
+	ſchwe -- ben ü -- ber uns da -- %15
+	her.
+	Hö -- ret! wie ſie furcht -- bar
+	rau -- ſchen, wie ſie furcht -- bar
+	rau -- ſchen,
+	hö -- ret, welch Ge -- %20
+	tö -- ſe in den
+	Tie -- fen. We -- he,
+	weh uns! Es zer -- rei -- ßet laut die
+	Er -- de, es zer -- rei -- ßet laut die
+	Er -- de, wir ver -- ſin -- ken, wir ver -- %25
+	ſin -- ken. Hö -- ret ihr den Fel -- ſen
+	kra -- chen, hö -- ret ihr den Fel -- ſen
+	kra -- chen, er zer -- ſpringt, er zer --
+	ſpringt, zer -- ſchmet -- tert uns, er zer -- ſpringt, zer -- ſchmet -- tert
+	uns. %30
+	Wie der Sturm -- wind
+	ſchreck -- lich brau -- ſet,
+	ſchreck -- lich brau -- ſet,
+	welch ein Don -- ner, welch ein
+	Schlag! Ra -- che, Ra -- che, Got -- tes %35
+	Ra -- che, Got -- tes Ra -- che,
+	ſcho -- ne
+	unſ -- rer, Gott der Göt -- ter, wir, wir
+	töd -- te -- ten ihn nicht, wir
+	töd -- te -- ten ihn nicht. %40
 	
+	Ret -- te
+	du uns, Ka -- i -- phas, ret -- te
+	du uns, Ka -- i -- phas.
+	Ret -- te! %45
+	Ret -- te! Laßt uns
+	flie -- hen, laßt uns flie -- hen,
+	wir ver -- ſin -- ken, wir ver --
+	ſin -- ken, Got -- tes Ra -- che, laßt uns
+	flie -- hen, laßt uns fliehn. %50 finis
 }
 
 % SopranoNotes = {
