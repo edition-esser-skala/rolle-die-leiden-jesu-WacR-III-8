@@ -3090,6 +3090,58 @@ SchwarzeGrauenvolleOrgano = {
 		\clef bass
 		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
 		d4(-.\f d-.) d2
+		d4(-.\p d-.) d2
+		d4\f d8(-. d-.) d4 d8(-. d-.)
+		\once \slurDashed d4(-.\p d-.) d2
+		d4\f d8(-. d-.) d4 d8(-. d-.) %5
+		g,16 g b g cis a cis a d a d a e' a, e' a,
+		f' e d c b4 a16(-. a-. a-. a-.) a8 r
+		a16(-. a-. a-. a-.) a8 r a16(-. a-. a-. a-.) a8 r
+		a1
+		d4(-.\f d-.) d2 %10
+		d4(-.\p d-.) d2
+		d4\f d8(-. d-.) d4 d8(-. d-.)
+		d4(-.\p d-.) d2
+		d4\f d8(-. d-.) d4 d8(-. d-.)
+		d4\p d cis2 %15
+		d8\f cis d a\p b h c cis
+		d16\f a cis a d8 a16\p a b8 h16 h c8 cis16 cis
+		d\f a cis a d8 a16\p a b8 h16 h c8 cis16 cis
+		d\f a cis a d8 d\p es e f fis
+		g16\f g, b g d' g, b g g'8 r g r %20
+		g16 g, b g d' g, b g g'8 r g r
+		g16 g, h g d' g, h g g'8 r r4
+		c,8[ r16. g32] c16. g32 es'16. c32 g'16. es32 c'16. g32 es'8 r
+		c,8[ r16. g32] c16. g32 es'16. c32 g'16. es32 c'16. g32 es'8 r
+		f,8[ r16. f,32] a16. f32 c'16. a32 f'16. c32 a'16. f32 c'8 r %25
+		r16. b,32 b16. b32 b16. b32 b16. b32 h16. h32 h8 r h
+		c c16. c32 c16. c32 c16. c32 cis16. cis32 cis8 r cis
+		d16( e32 f g a h cis) d8 r c,16( d32 e fis g a h) c8 r
+		b,!16( c32 d e fis g a) b8 r a r a r
+		a16. a,32 a16. a32 a4 d r %30
+		a r d16 a d a d a d a
+		e' a, e' a, e' a, e' a, d a d a d a d a
+		e' a, e' a, e' a, e' a, d32([ e f g)] a8 r4
+		a,16( a a a) r4 a16( a a a) a8 r
+		a16. a32 a16. a32 a8-!\fermata r d'16\fp d d d c!\fp c c c %35
+		b!\fp b b b a\fp a a a g\f g g g g g g g
+		g g g g g g g g g g g g g g g g
+		a a a a a a a a b b b b b b b b
+		a a a a h h h h c c c c c c c c
+		cis cis cis cis cis cis cis cis d4 r %40
+		d,-! d-! d-! r32 d( e fis g a b c)
+		d4-! d,-! d-! b16. b32 b'16. b32
+		a16. a32 a16. a32 a,16. a32 a'16. a32 b16. b32 b16. b32 a16. a32 a16. a32
+		gis16. gis32 gis16. gis32 gis8 r a16 a, cis a e' a, cis a
+		a'8 r a r a16 a, cis a e' a, cis a %45
+		a'8 r a r a,8. a16 cis16. a32 e'16. cis32
+		a'16. e32 cis'16. a32 e'8 r d,8. a16 d16. a32 f'16. d32
+		a'16. f32 d'16. a32 f'8 r b,!8. b,16 d16. b32 f'16. d32
+		b'16. f32 d'16. b32 b16. f32 d'16. b32 gis4 r
+		a16. a32 a16. a32 a16. a32 a16. a32 d,4 r %50
+		a' r d,16 a d a d a d a
+		e' a, e' a, e' a, e' a, d e32 f g a h cis d16. d32 a16. f32
+		d4 r r2 \bar "||" %53 finis
 	}
 }
 
