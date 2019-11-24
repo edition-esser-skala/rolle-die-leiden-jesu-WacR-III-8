@@ -2962,7 +2962,7 @@ OWelcheOrgano = {
 		fis4 r8
 		fis, fis fis
 		h4 h'8
-		gis!4 a8 %50
+		gis!4 a!8 %50
 		fis4 gis8
 		a4 a,8
 		e'[ e] e\f
@@ -3074,15 +3074,15 @@ OWelcheBassFigures = \figuremode {
 	<9 4> <8 3> <6 5>
 	<9 4> <8 3> <6>
 	r4.
-	<5>4 <6>8
+	<5>4 <6>8 %75
 	<6 4>4.
 	<5 3>
 	r4 <7>8
 	r4 q8
-	r4 q8
+	r4 q8 %80
 	r <6> <6>
 	r <6 4> <5 3>
-	r4.
+	r4. %83 finis
 }
 
 % Organo = {

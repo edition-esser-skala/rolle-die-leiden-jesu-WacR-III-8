@@ -1128,6 +1128,88 @@ OWelcheViola = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoOWelche
-		
+		\mvTr cis8\p-\markup { \remark "con sordini" } a a
+		gis h gis
+		a4 a8
+		e' e, a
+		g' fis e %5
+		d4 a8
+		a4 d8
+		e8. d16 cis h
+		a4 r8
+		gis h gis %10
+		a4 a8
+		e4 a8
+		r r a
+		a4 a8
+		a4 d8 %15
+		e e, e'
+		dis4 h8
+		e e, r
+		dis'4 h8
+		e e, gis %20
+		a4 ais8
+		h4 r8
+		e gis e
+		h' h, r
+		e gis e %25
+		h' h, r
+		e4 r8
+		e4 r8
+		a, h a
+		gis gis ais %30
+		h4 ais8
+		h4 r8
+		h4 r8
+		R4.
+		h4 r8 %35
+		r r e
+		a, h h
+		e,4 r8
+		r h''\f a
+		gis e[ dis] %40
+		e h h
+		e,4 r8
+		g'4\p e8
+		fis4 r8
+		r fis fis %45
+		fis4 e8
+		fis4 r8
+		fis, fis fis
+		h4 h8
+		h4 a!8 %50
+		a4 e'8
+		e4 e8
+		e[ e] e\f
+		e e16( d cis h)
+		a4\p a8 %55
+		gis4 e'8
+		e4 e8
+		e a, g
+		fis e d
+		cis' a cis %60
+		d4 r8
+		r r dis,
+		e e r
+		a cis a
+		e'4 r8 %65
+		a, cis a
+		e'4 e8
+		a,4 r8
+		d e e,
+		a cis a %70
+		a4 h8
+		h4 e8
+		e4 cis8
+		d4 r8
+		d4 r8 %75
+		e4 r8
+		R4.
+		r8 e\f gis
+		a a, gis
+		a a' gis %80
+		a a, gis
+		a e' e
+		e4 r8 \bar "||" %83 finis
 	}
 }

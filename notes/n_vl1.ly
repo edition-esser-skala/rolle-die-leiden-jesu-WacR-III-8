@@ -1196,7 +1196,7 @@ OWelcheViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoOWelche
-		a'8(\p cis e)
+		\mvTr a'8(\p-\markup { \remark "con sordini" } cis e)
 		e16( d) d4(
 		cis16)( e) a( e) e( cis)
 		h8.([ cis32 d)] cis8

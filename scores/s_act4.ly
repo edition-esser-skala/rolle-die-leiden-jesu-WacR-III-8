@@ -366,7 +366,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Violino obligato"
+						\set Staff.instrumentName = \markup { \center-column { "Violino" "obligato" } }
 						\OWelcheViolinoSolo
 					}
 					\new GrandStaff \with { \violinGroupDistance } <<
