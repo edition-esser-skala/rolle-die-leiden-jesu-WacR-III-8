@@ -1218,6 +1218,58 @@ SchwarzeGrauenvolleViola = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
-		
+		a8(\fE a a a) a( a a a)
+		a(\p a a a) a( a a a)
+		g16(\f g g g) g( g g g) g( g g g) g( g g g)
+		g8(\p g g b) b( b b b)
+		a16(\f a a a) a( a a a) a( a a a) a( a a a) %5
+		b32 b b b g g g g cis cis cis cis a a a a d d d d a a a a e' e e e a, a a a
+		f' d e f g a h cis d8 d, cis r b32 b b b b b b b
+		a8 r b32 b b b b b b b a8 r b32 b b b b b b b
+		a1
+		a8( a a a) a( a a a) %10
+		a(\p a a a) a( a a a)
+		b16(\f b b b) b( b b b) b( b b b) b( b b b)
+		b8(\p b b b) b( b b b)
+		a16(\f a a a) a( a a a) a( a a a) a( a a a)
+		b8(\p b b b) a( a a a) %15
+		d8\f cis d a\p b h c cis
+		d16\f a cis a d8 a16\p a b8 h16 h c8 cis16 cis
+		d\f a cis a d8 a16\p a b8 h16 h c8 cis16 cis
+		d\f a cis a d8 d,\p es e f fis
+		g16\f g b g d' g, b g  <g g'>8 r q q %20
+		g'16 g, b g d' g, b g <g g'>8 r q r
+		g'16 g, h g d' g, h g g'8 r r4
+		g16( g g g) g( g g g) g( g g g) g( g g g)
+		g( g g g) g( g g g) g( g g g) g( g g g)
+		f f,( f f) f( f f f) f( f f f) f( f f f) %25
+		r16. b32 b16. b32 b16. b32 b16. b32 <g d'>16. q32 q8 r q
+		<g es'>8 c16. c32 c16. c32 c16. c32 <a e'>16. q32 q8 r a
+		d16( e32 f g a h cis) d8 r c,16( d32 e fis g a h) c8 r
+		b,!16( c32 d e fis g a) b8 r a, r a r
+		a'16. a,32 a16. a32 a4 d r %30
+		<a e'> r <f' a>32 q q q q q q q q q q q q q q q
+		<g a> q q q q q q q q q q q q q q q <f a> q q q q q q q q q q q q q q q
+		<g a> q q q q q q q q q q q <e a> q q q <d a'>8-! a-! r4
+		a16( a a a) r4 a16( a a a) r4
+		a16. a32 a16. a32 a8-!\fermata r a'32\f a a a a\p a a a a\f a a a a\p a a a %35
+		g\f g g g g\p g g g a,\f a a a a\p a a a g16.\f g32 b'16. b32 a4^\tenuto
+		g16. d32 b16. g32 a4-\tenuto g16. d'32 b16. g32 g'16 g g g
+		f! f f f f f f f f f f f b, b b b
+		a a a' a g g g g g g g g c c c c
+		b8 b16 b b8 b a4 r %40
+		<d, a'>-! <d b'>-! <d a'>-! r32 d( e fis g a b c)
+		d4-! d,-! d-! b16. b32 b16. b32
+		a16. a32 a16. a32 a16. a32 a16. a32 b16. b32 b16. b32 a16. a32 a16. a32
+		gis16. gis32 gis16. gis32 gis8 r a16 a cis a e' a, cis a
+		a'8 r a r a16 a, cis a e' a, cis a %45
+		a'8 r a r a,32 a a a a a a a a a a a a a a a
+		a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+		a a a a a a a a a a a a a a a a b! b b b b b b b b b b b b b b b
+		b b b b b b b b b b b b b b d d f4 r
+		r2 d4 r %50
+		a r <f' a>32 q q q q q q q q q q q q q q q
+		<g a> q q q q q q q q q q q q q q q <f a> q q q q q q q q q q q q q q q
+		q4 r r2 \bar "||" %53 finis
 	}
 }
