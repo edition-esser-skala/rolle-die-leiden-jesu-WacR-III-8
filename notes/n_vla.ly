@@ -977,7 +977,7 @@ RaecherSchauViola = {
 
 AnderenHalfViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 3/4 \tempoAnderenHalf
 		c8\f h c d e f
 		g\mf fis g a h g
