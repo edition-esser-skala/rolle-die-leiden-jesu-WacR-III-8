@@ -845,12 +845,93 @@ SchwarzeGrauenvolleTenoreNotes = {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
 		R1*9 %9
+		d,2 f %10
+		a4. a8 a4 d
+		e g r2
+		g4. g8 g g g e
+		d2 r
+		e4. e8 e e e e %15
+		d4 r r2
+		d4 a8 r d d e e
+		f16([ e)] f8 r4 d8 d e e
+		f d r4 r2
+		r b8 b c8. c16 %20
+		b4 b8-! r r4 c8 c
+		h4 h8 r d4. d8
+		c c r4 r8 c16. c32 c16 c c c
+		c8 c r4 r8 c16. c32 c16 c c c
+		c8 c r c16. c32 c8 c r f16. f32 %25
+		f8 d r4 r8 d16 d d d d d
+		c8 c r4 r8 g'16 g g g g g
+		f8 f r f16. f32 fis4 r8 fis16. fis32
+		d4 r16 d d d e8 cis16 cis d a f d
+		a'4 r r2 %30
+		r d,8 f a d
+		g4 cis, d8 d r4
+		g cis, d8 cis r4
+		r r8 cis16 cis cis8 cis r cis16 cis
+		cis?4-! r8\fermata e16. e32 d8 d r fis16. fis32 %35
+		g8 d r es16. c32 d8 b r es16. es32
+		d8 g, r c16. c32 b8 g b8. b16
+		c8 c c f f d d r16 d
+		c8. c16 d8 d c4 r8 es
+		e8. e16 e8 e fis4 r %40
+		R1
+		r8 d b g d' d, r f'16. f32
+		f8 f r f16 f f4 r8 f16. f32
+		f8. f16 f8 f e!4 r
+		r2 cis8 cis r4 %45
+		r2 cis8 cis r e16 d
+		cis8 cis r e16 e d8 d r4
+		r r8 d16 d d8 f r f16 f
+		f8 d r4 r8 f16 f f f f f
+		f8 f r a,16 a d4 r %50
+		R1*3 \bar "||" %53 finis
 	}
 }
 
 SchwarzeGrauenvolleTenoreLyrics = \lyricmode {
-% 	Zau -- be --
-% 	rey -- en, Zau -- be -- rey -- en,
+	[Schwar -- ze %10
+	grau -- en -- vol -- le
+	Wol -- ken
+	ſchwe -- ben ü -- ber uns da --
+	her,
+	ſchwe -- ben ü -- ber uns da -- %15
+	her.
+	Hö -- ret! wie ſie furcht -- bar
+	rau -- ſchen, wie ſie furcht -- bar
+	rau -- ſchen,
+	hö -- ret, welch Ge -- %20
+	tö -- ſe in den
+	Tie -- fen. We -- he,
+	weh uns! Es zer -- rei -- ßet laut die
+	Er -- de, es zer -- rei -- ßet laut die
+	Er -- de, wir ver -- ſin -- ken, wir ver -- %25
+	ſin -- ken. Hö -- ret ihr den Fel -- ſen
+	kra -- chen, hö -- ret ihr den Fel -- ſen
+	kra -- chen, er zer -- ſpringt, er zer --
+	ſpringt, zer -- ſchmet -- tert uns, er zer -- ſpringt, zer -- ſchmet -- tert
+	uns. %30
+	Wie der Sturm -- wind
+	ſchreck -- lich brau -- ſet,
+	ſchreck -- lich brau -- ſet,
+	welch ein Don -- ner, welch ein
+	Schlag! Ra -- che, Ra -- che, Got -- tes %35
+	Ra -- che, Got -- tes Ra -- che,] Zau -- be --
+	rey -- en, Zau -- be -- rey -- en, [ſcho -- ne
+	unſ -- rer, Gott der Göt -- ter, wir, wir
+	töd -- te -- ten ihn nicht, wir
+	töd -- te -- ten ihn nicht.] %40
+	
+	Du riefſt den Don -- ner: [Ret -- te
+	du uns, Ka -- i -- phas, ret -- te
+	du uns, Ka -- i -- phas.
+	Ret -- te! %45
+	Ret -- te! Laßt uns
+	flie -- hen, laßt uns flie -- hen,
+	wir ver -- ſin -- ken, wir ver --
+	ſin -- ken, Got -- tes Ra -- che, laßt uns
+	flie -- hen, laßt uns fliehn. %50 finis
 }
 
 % TenoreNotes = {
