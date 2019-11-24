@@ -909,11 +909,93 @@ SchwarzeGrauenvolleAltoNotes = {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
 		R1*9 %9
+		d2 f %10
+		a4. a8 a4 a
+		g b r2
+		b4. b8 b b b g
+		f2 r
+		b4. b8 a a a g %15
+		f4 r r2
+		d'4 a8 r a a a a
+		a a r4 a8 a a a
+		a f r4 r2
+		r g8 g g8. g16 %20
+		g4 g8-! r r4 g8 g
+		g4 g8 r g4. g8
+		g g r4 r8 g16. g32 g16 g g g
+		g8 g r4 r8 g16. g32 g16 g g g
+		f8 f r a16. a32 f8 f r c'16. c32 %25
+		b8 f r4 r8 g16 g g g g g
+		g8 g r4 r8 b16 b b b b b
+		a8 a r a16. a32 a4 r8 a16. a32
+		g4 r16 g g g a8a 16 a d a f d
+		a'4 r r2 %30
+		r d,8 f a d
+		g,4 a a8 a r4
+		g a a8 a r4
+		r r8 g16 g a8 a r g16 g
+		a4-! r8\fermata a16. a32 a8 a r a16. a32 %35
+		b8 g r fis16. fis32 g8 g r4
+		r2 r4 g8. g16
+		f!8 f f c' b b b r16 b
+		c8. c16 g8 g g4 r8 g
+		b8. b16 b8 b a4 r %40
+		R1
+		r2 r4 r8 b16. b32
+		c8 c r c16 c b4 r8 d16. d32
+		h8. h16 h8 h a4 r
+		r2 a8 a r4 %45
+		r2 a8 a r a16 a
+		a8 a r a16 a a8 a r4
+		r r8 a16 a b8 b r b16 b
+		b8 b r4 r8 h16 h h h h h
+		a8 a r a16 a d4 r %50
+		R1*3 \bar "||" %%3 finis
 	}
 }
 
 SchwarzeGrauenvolleAltoLyrics = \lyricmode {
+	[Schwar -- ze %10
+	grau -- en -- vol -- le
+	Wol -- ken
+	ſchwe -- ben ü -- ber uns da --
+	her,
+	ſchwe -- ben ü -- ber uns da -- %15
+	her.
+	Hö -- ret! wie ſie furcht -- bar
+	rau -- ſchen, wie ſie furcht -- bar
+	rau -- ſchen,
+	hö -- ret, welch Ge -- %20
+	tö -- ſe in den
+	Tie -- fen. We -- he,
+	weh uns! Es zer -- rei -- ßet laut die
+	Er -- de, es zer -- rei -- ßet laut die
+	Er -- de, wir ver -- ſin -- ken, wir ver -- %25
+	ſin -- ken. Hö -- ret ihr den Fel -- ſen
+	kra -- chen, hö -- ret ihr den Fel -- ſen
+	kra -- chen, er zer -- ſpringt, er zer --
+	ſpringt, zer -- ſchmet -- tert uns, er zer -- ſpringt, zer -- ſchmet -- tert
+	uns. %30
+	Wie der Sturm -- wind
+	ſchreck -- lich brau -- ſet,
+	ſchreck -- lich brau -- ſet,
+	welch ein Don -- ner, welch ein
+	Schlag! Ra -- che, Ra -- che, Got -- tes %35
+	Ra -- che, Got -- tes Ra -- che,
+	ſcho -- ne
+	unſ -- rer, Gott der Göt -- ter, wir, wir
+	töd -- te -- ten ihn nicht, wir
+	töd -- te -- ten ihn nicht. %40
 	
+	Ret -- te
+	du uns, Ka -- i -- phas, ret -- te
+	du uns, Ka -- i -- phas.
+	Ret -- te! %45
+	Ret -- te! Laßt uns
+	flie -- hen, laßt uns flie -- hen,
+	wir ver -- ſin -- ken, wir ver --
+	ſin -- ken, Got -- tes Ra -- che, laßt uns
+	flie -- hen, laßt uns fliehn.] %50 finis
 }
 
 % AltoNotes = {
