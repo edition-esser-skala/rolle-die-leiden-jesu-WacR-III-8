@@ -1126,7 +1126,7 @@ AnderenHalfViola = {
 
 OWelcheViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 3/8 \tempoOWelche
 		\mvTr cis8\p-\markup { \remark "con sordini" } a a
 		gis h gis

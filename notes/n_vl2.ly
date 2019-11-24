@@ -1173,7 +1173,7 @@ OWelcheViolinoII = {
 		\tuplet 3/2 8 { h16([ e cis)] } h8 dis\trill
 		e4 r8
 		h4\p g16( e)
-		\appoggiatura d cis4 e'8~
+		\appoggiatura d8 cis4 e'8~
 		e( d cis) %45
 		cis( d) g,16([ e])
 		\appoggiatura d8 cis4 e8~
