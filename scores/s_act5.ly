@@ -104,25 +104,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \SchwarzeGrauenvolleSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SchwarzeGrauenvolleSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \SchwarzeGrauenvolleSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \SchwarzeGrauenvolleAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SchwarzeGrauenvolleAltoLyrics
+% 					\new Lyrics \lyricsto Alto \SchwarzeGrauenvolleAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \SchwarzeGrauenvolleTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SchwarzeGrauenvolleTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \SchwarzeGrauenvolleTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \SchwarzeGrauenvolleBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SchwarzeGrauenvolleBassoLyrics
+% 					\new Lyrics \lyricsto Basso \SchwarzeGrauenvolleBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

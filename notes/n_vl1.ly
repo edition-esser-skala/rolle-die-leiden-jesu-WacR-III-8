@@ -1305,7 +1305,7 @@ SchwarzeGrauenvolleViolinoI = {
 		d\f d d d cis cis cis cis d d d d a\p a a a b b b b h h h h c c c c cis cis cis cis
 		d\f d d d cis cis cis cis d d d d a\p a a a b b b b h h h h c c c c cis cis cis cis
 		d\f f f f cis cis cis cis d d d d d\p d d d es es es es e e e e f f f f fis fis fis fis
-		g\f g, g g g g g g g g g g g g g g d' d d d g, g g g es' g, g g g g g g %20
+		g\f g, g g g g g g g g g g g g g g d' g, g g g g g g es' g, g g g g g g %20
 		d' g, g g g g g g g g g g g g g g d' g, g g g g g g es' g, g g g g g g
 		d' g, g g g g g g g g g g g g g g d' g, g g g g g g f' g, g g g g g g
 		c16. g32 c16. g32 es'16. c32 g'16. es32 c'16. g32 es'8 r16. g,,32 c16. h32
@@ -1328,7 +1328,7 @@ SchwarzeGrauenvolleViolinoI = {
 		q-! <g b, d,>-! <fis a, d,>-! r32 d,( e fis g a b c!)
 		d4-! <g b, d,>-! <fis a, d,>-! d16. d32 d16. d32
 		c16. c32 c16. c32 c16. c32 c16. c32 d16. d32 d16. d32 d16. f,32 f16. f32
-		f8 r r4 e32 a, a a a a a a a a a a a a a a
+		f8 r r4 e!32 a, a a a a a a a a a a a a a a
 		e' a, a a a a a a f' a, a a a a a a e' a, a a a a a a a a a a a a a a %45
 		e' a, a a a a a a f' a, a a a a a a e'16. a,32 cis16. a32 e'16. cis32 a'16. e32
 		cis'16. a32 e'8 r16. a,,32 cis16. a32 d16. a32 d16. a32 f'16. d32 a'16. f32

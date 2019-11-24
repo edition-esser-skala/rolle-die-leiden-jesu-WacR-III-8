@@ -1220,6 +1220,57 @@ SchwarzeGrauenvolleViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
-		
+		f8(\fE f f f) f( f f f)
+		f(\p f f f) f( f f f)
+		e16(\f e e e) e( e e e) e( e e e) e( e e e)
+		e8(\p e e g) g( g g g)
+		fis16(\f fis fis fis) fis( fis fis fis) fis( fis fis fis) fis( fis fis fis) %5
+		g32 g g g g, g g g cis cis cis cis a a a a d d d d a a a a e' e e e a, a a a
+		f' d e f g a h cis d cis d e f e f g a8 r cis,,32 cis cis cis cis cis cis cis
+		cis8 r cis32 cis cis cis cis cis cis cis cis8 r cis32 cis cis cis cis cis cis cis
+		cis cis cis cis d d d d e e e e f f f f g g g g e e e e d d d d cis cis cis cis
+		d8( f f f) f( f f f) %10
+		f(\p f f f) f( f f f)
+		g16(\f g g g) g( g g g) g( g g g) g( g g g)
+		g8(\p g g g) g( g g g)
+		f16(\f f f f) f( f f f) f( f f f) f( f f f)
+		e8(\p e e g) g( e e e) %15
+		f32\f d d d cis cis cis cis d d d d a\p a a a b b b b h h h h c c c c cis cis cis cis
+		d\f d d d cis cis cis cis d d d d a\p a a a b b b b h h h h c c c c cis cis cis cis
+		d\f d d d cis cis cis cis d d d d a\p a a a b b b b h h h h c c c c cis cis cis cis
+		d\f f f f cis cis cis cis d d d d d\p d d d es es es es e e e e f f f f fis fis fis fis
+		g\f g, g g g g g g g g g g g g g g b g g g g g g g c g g g g g g g %20
+		b g g g g g g g g g g g g g g g h g g g g g g g c g g g g g g g
+		h g g g g g g g g g g g g g g g h g g g g g g g d' g, g g g g g g
+		c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c %25
+		b8 b32 b b b b b b b as as as as \kneeBeam g16. g''32 g8-! r g
+		r c,,32 c c c c c c c b b b b \kneeBeam a16. a''32 a8-! r4
+		d,,16( e32 f g a h cis) d8-! r c,16( d32 e fis g a h) c8-! r
+		b,16( c32 d e fis g a) b8-! r a[ <cis e, a,>] <d f, a,> r
+		<a e cis>4 a32 g a b a g f e d16 e32 f g a h cis d e f g a f e d cis d e f e d cis h a g a b a g f e f d e f g a h cis d e f g a f e d %30
+		cis d e f e d cis h a g a b a g f e f d e f g a h cis d e f g a f e d
+		cis d e f e d cis h a cis e g a, cis e g d8-! cis-! b,32 b b b b b b b
+		a8 r b32 b b b b b b b a8 r b32 b b b b b b b
+		a16. <cis' e>32 q16. q32 q8-!\fermata r d32\f d d d d\p d d d es\f es es es es\p es es es %35
+		d\f d d d d\p d d d fis,\f fis fis fis fis\p fis fis fis g16.\f g32 b16. g32 c4^\tenuto
+		b16. d32 b16. g32 c,4^\tenuto b16. d32 b16. g32 b'16 b b b
+		c4~ c8 c d16 b32 a b c d es d16 d d d
+		c4 d es16 c32 h c d es f es16 es es es
+		e4~ e8 e <fis a, d,>4 r %40
+		q-! <g b, d,>-! <fis a, d,>-! r32 d,( e fis g a b c!)
+		d4-! <g b, d,>-! <fis a, d,>-! f,16. f32 f16. f32
+		f16. f32 f16. f32 f16. f32 f16. f32 f16. f32 f16. f32 f16. d32 d16. d32
+		d8 r r4 cis32 a a a a a a a a a a a a a a a
+		cis a a a a a a a d a a a a a a a cis a a a a a a a a a a a a a a a %45
+		cis a a a a a a a d a a a a a a a a16. a32 cis16. a32 e'16. cis32 a'16. e32
+		cis'16. a32 e'8 r16. a,,32 cis16. a32 d16. a32 d16. a32 f'16. d32 a'16. f32
+		d'16. a32 f'8 r16. d,32 f16. d32 b!16. b32 d16. b32 f'16. d32 b'16. f32
+		d'16. b32 f'8 r16. d32 b16. d32
+		d,4 r %50
+		r2 d16 e32 f g a h cis d e f g a f e d cis d e f e d cis h a g a b a g f e f d e f g a h cis d e f g a f e d
+		cis d e f e d cis h a g a b a g f e d d d d d d d d d d d d d d d d
+		<d a' f'>4 r r2 \bar "||" %53 finis
 	}
 }
