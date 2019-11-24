@@ -1151,8 +1151,8 @@ OWelcheViolinoSolo = {
 		r h'4~ %35
 		h8 h, r
 		R4.
-		r8 \tuplet 3/2 8 { gis'16(\fE e h) fis'([ dis a)] }
-		\tuplet 3/2 8 { gis( h e) } h4~
+		r8 \tuplet 3/2 8 { gis'16( e h) fis'([ dis a)] }
+		\tuplet 3/2 8 { gis( h e) } h4~\fE
 		h8 h'8. a16 %40
 		\tuplet 3/2 8 { gis16([ e cis)] } h8 fis'\trill
 		\tuplet 3/2 8 { e16( h' gis) e([ h gis)] } e8
@@ -1164,10 +1164,10 @@ OWelcheViolinoSolo = {
 		\tuplet 3/2 8 { e,16( gis h) d([ h d)] cis( e a) } %50
 		\tuplet 3/2 8 { d,,( fis a) cis([ a cis)] h( h' d,) }
 		\tuplet 3/2 8 { cis([ e a)] } e,8 r
-		r \tuplet 3/2 8 { h''16([ gis d)] cis( e a) }
+		r \tuplet 3/2 8 { h''16([ gis d)] cis(\fE e a) }
 		cis,8\trill h r
 		R4. %55
-		r8 gis32([ h e gis)] h( gis e d)
+		r8 gis32([\pE h e gis)] h( gis e d)
 		cis8 r r
 		r \tuplet 3/2 8 { a16([ cis e)] a( e cis) }
 		d8 \tuplet 3/2 8 { a16([ d fis)] a( fis d) }
@@ -1196,7 +1196,89 @@ OWelcheViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoOWelche
-		
+		a'8(\p cis e)
+		e16( d) d4(
+		cis16)( e) a( e) e( cis)
+		h8.([ cis32 d)] cis8
+		cis16( d) d( e) e( fis) %5
+		fis( g) g4~
+		g8 fis \appoggiatura e16 d8
+		\appoggiatura cis h4 r8
+		\once \slurDashed a( cis e)
+		e16( d) d4 %10
+		cis8 cis8.[ a16]
+		gis8.([ a32 h)] a8
+		a16( h) h( cis) cis( d)
+		d( e) e4~
+		e8 \tuplet 3/2 8 { d16( fis d) h([ d h)] } %15
+		\appoggiatura a8 gis4 r8
+		r h a
+		a( gis) r
+		r h( a)
+		a([ gis)] h %20
+		h([ cis)] cis
+		cis( \scriptOut dis)-! r
+		\tuplet 3/2 8 { r16 gis(-. gis-.) gis([-. gis-. gis-.)] gis(-. gis-. gis-.) }
+		gis8( fis a)
+		\tuplet 3/2 8 { r16 gis(-. gis-.) gis([-. gis-. gis-.)] gis(-. gis-. gis-.) } %25
+		gis8( fis a)
+		gis( fis e)
+		gis( fis e)
+		cis16( a') \appoggiatura gis8 fis4\trill
+		e8 e16.([ gis32)] fis16([ cis)] %30
+		\appoggiatura cis8 dis4 cis16( e)
+		\appoggiatura e8 dis4 r8
+		fis4 \tuplet 3/2 8 { fis16(-. fis-. fis-.) }
+		h8( a gis)
+		\tuplet 3/2 8 { fis16([ dis h)] } fis'8 \tuplet 3/2 8 { fis16([-. fis-. fis-.)] } %35
+		h8( a gis)
+		fis16( cis) \appoggiatura e8 dis4
+		e8 gis([ fis)]
+		e \tuplet 3/2 8 { gis16([\f e h)] fis'( dis a) }
+		\tuplet 3/2 8 { gis([ h e)] } h8. a'16 %40
+		\tuplet 3/2 8 { gis([ e cis)] } h8 fis'\trill
+		e4 r8
+		h\p e cis
+		\appoggiatura h ais4 g'8~
+		g( fis e) %45
+		e( d cis)
+		\appoggiatura h ais4 cis8~
+		cis16 e d8[ cis]
+		h4 fis'8
+		e4. %50
+		d
+		cis16.([ d64 e)] d8 cis
+		cis h \tuplet 3/2 8 { cis16([\f e a)] }
+		cis,8\trill h r
+		\once \slurDashed a(\p cis e) %55
+		e16( d) d4
+		\tuplet 3/2 8 { cis16([ e a)] } e( cis) d( h)
+		\appoggiatura h8 cis4 cis8
+		d4 fis8
+		e4 g8 %60
+		fis fis e
+		d16([ fis32 e)] d8 cis16([ a')]
+		cis,8\trill h r
+		r16 e, \tuplet 3/2 8 { cis'16([-. cis-. cis-.)] cis(-. cis-. cis-.) }
+		cis8( h d) %65
+		\tuplet 3/2 8 { r16 cis([-. cis-.)] cis(-. cis-. cis-.) cis([-. cis-. cis-.)] }
+		cis8( h d)
+		cis( d e)
+		fis,16 d' cis8[ h]\trill
+		a e a,16([ g')] %70
+		\appoggiatura g?8 fis4 h,16( a')
+		\appoggiatura a8 gis4 e16( d')
+		\appoggiatura d8 cis4 a'8
+		a( gis fis)
+		fis( e d) %75
+		cis4 r8
+		R4.
+		r8 \tuplet 3/2 8 { cis16([\f a e)] h'( gis d) }
+		\tuplet 3/2 8 { cis( e a) } e4~
+		e8 \tuplet 3/2 8 { cis'16([ a e)] h'( gis d) } %80
+		\tuplet 3/2 8 { cis( e a) } e8.[ d'16]
+		cis16. a'32 cis,8[ h]\trill
+		a4 r8 \bar "||" %83 finis
 	}
 }
 
