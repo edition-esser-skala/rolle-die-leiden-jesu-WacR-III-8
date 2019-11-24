@@ -74,7 +74,7 @@
 % 					\new Lyrics \lyricsto Joseph \HeiligHeiligJosephLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Nicodemus"
+% 						\set Staff.instrumentName = "Nikodemus"
 % 						\new Voice = "Nico" { \dynamicUp \HeiligHeiligNicoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Nico \HeiligHeiligNicoLyrics
@@ -141,7 +141,7 @@
 % 					\new Lyrics \lyricsto Blind \RaecherSchauBlindLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Nicodemus"
+% 						\set Staff.instrumentName = "Nikodemus"
 % 						\new Voice = "Nico" { \dynamicUp \RaecherSchauNicoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Nico \RaecherSchauNicoLyrics
@@ -211,7 +211,7 @@
 % 					\new Lyrics \lyricsto Johannes \EmporGerichtetJohannesLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Nicodemus"
+% 						\set Staff.instrumentName = "Nikodemus"
 % 						\new Voice = "Nico" { \dynamicUp \EmporGerichtetNicoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Nico \EmporGerichtetNicoLyrics
@@ -236,88 +236,122 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.4" "C H O R" "Anderen half er"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\AnderenHalfOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\AnderenHalfOboeII
+% 						}
+% 					>>
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Fagotto I"
+% 							\AnderenHalfFagottoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Fagotto II"
+% 							\AnderenHalfFagottoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\AnderenHalfViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\AnderenHalfViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\AnderenHalfViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     P  R  I  E  S  T  E  R" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \AnderenHalfSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \AnderenHalfSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \AnderenHalfAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \AnderenHalfAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \AnderenHalfTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \AnderenHalfTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \AnderenHalfBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \AnderenHalfBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\AnderenHalfOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\AnderenHalfBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 60 } % 2. = 50 / 1 = 60
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.4" "C H O R" "Anderen half er"
+			movement = \movementTitle "4.5" "R E C I T A T I V" "Gelobt ſey Gott"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\AnderenHalfOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\AnderenHalfOboeII
-						}
-					>>
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Fagotto I"
-							\AnderenHalfFagottoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Fagotto II"
-							\AnderenHalfFagottoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AnderenHalfViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AnderenHalfViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\AnderenHalfViola
-						}
-				>>
 				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     P  R  I  E  S  T  E  R" \hspace #15 }
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \AnderenHalfSopranoNotes }
+						\set Staff.instrumentName = "Johannes"
+						\new Voice = "Johannes" { \dynamicUp \GelobtSeyJohannesNotes }
 					}
-					\new Lyrics \lyricsto Soprano \AnderenHalfSopranoLyrics
+					\new Lyrics \lyricsto Johannes \GelobtSeyJohannesLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \AnderenHalfAltoNotes }
+						\set Staff.instrumentName = "Nikodemus"
+						\new Voice = "Niko" { \dynamicUp \GelobtSeyNicoNotes }
 					}
-					\new Lyrics \lyricsto Alto \AnderenHalfAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \AnderenHalfTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \AnderenHalfTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \AnderenHalfBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \AnderenHalfBassoLyrics
+					\new Lyrics \lyricsto Niko \GelobtSeyNicoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\AnderenHalfOrgano
+						\GelobtSeyOrgano
 					}
 				>>
 				\new FiguredBass {
-					\AnderenHalfBassFigures
+					\GelobtSeyBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 1 = 60 } % 2. = 50 / 1 = 60
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

@@ -227,7 +227,7 @@
 					\new Lyrics \lyricsto Joseph \SiehErJosephLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
+						\set Staff.instrumentName = "Nikodemus"
 						\new Voice = "Nico" { \dynamicUp \SiehErNicoNotes }
 					}
 					\new Lyrics \lyricsto Nico \SiehErNicoLyrics
@@ -271,7 +271,7 @@
 					\new Lyrics \lyricsto Blind \SeydMirBlindLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
+						\set Staff.instrumentName = "Nikodemus"
 						\new Voice = "Nico" { \dynamicUp \SeydMirNicoNotes }
 					}
 					\new Lyrics \lyricsto Nico \SeydMirNicoLyrics
@@ -457,7 +457,7 @@
 					\new Lyrics \lyricsto Joseph \ODassIchJosephLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
+						\set Staff.instrumentName = "Nikodemus"
 						\new Voice = "Nico" { \dynamicUp \ODassIchNicoNotes }
 					}
 					\new Lyrics \lyricsto Nico \ODassIchNicoLyrics
@@ -530,7 +530,7 @@
 					\new Lyrics \lyricsto Blind \ErhoereDiesesBlindLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nicodemus"
+						\set Staff.instrumentName = "Nikodemus"
 						\new Voice = "Nico" { \dynamicUp \ErhoereDiesesNicoNotes }
 					}
 					\new Lyrics \lyricsto Nico \ErhoereDiesesNicoLyrics

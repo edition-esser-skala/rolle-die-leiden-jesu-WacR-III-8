@@ -2870,6 +2870,18 @@ AnderenHalfBassFigures = \figuremode {
 	r %160 finis
 }
 
+GelobtSeyOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoGelobtSey
+		b1~\pE
+	}
+}
+
+GelobtSeyBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

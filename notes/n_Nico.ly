@@ -343,6 +343,18 @@ EmporGerichtetNicoLyrics = \lyricmode {
 	Got -- tes, Got -- tes Lie -- be! %28 finis
 }
 
+GelobtSeyNicoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoGelobtSey
+		
+	}
+}
+
+GelobtSeyNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass
