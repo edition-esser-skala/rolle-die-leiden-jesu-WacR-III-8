@@ -2853,7 +2853,7 @@ AnderenHalfBassFigures = \figuremode {
 	r
 	<7>2 <6>
 	<6 5->1 %145
-	<4->2 <3>
+	<9 4->2 <8 3>
 	<_!>1
 	r
 	r

@@ -150,5 +150,94 @@ AnderenHalfFagottoII = {
 		a gis a e c a
 		d4 e e, \noBreak
 		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection c1
+		d
+		e
+		f
+		g %65
+		g4 f e a
+		f e d2
+		f4 e d g
+		e d c d8 c
+		h4 d g2~ %70
+		g4 fis8 e fis4 d
+		f4 e8 f g4 f
+		e2 a~
+		a gis\trill
+		a c4 h %75
+		a g! fis2
+		g2 g~
+		g4 f!8 e f2~
+		f4 e8 d e4 e
+		f d g2 %80
+		c, r
+		d h'4 a
+		g f e d
+		cis1
+		d4 e f d %85
+		h1
+		c!4 h c d
+		e d e c
+		f e f d
+		g a g f %90
+		e d c h
+		a2 r
+		R1*6 %98
+		c!1
+		d %100
+		e
+		f
+		g
+		g4 f e a
+		f! e d2 %105
+		f4 e d g
+		e d c d
+		e2 fis
+		g2. g4
+		d2 e %110
+		f! f~
+		f e
+		es4 d es2
+		d4 c d2
+		c r %115
+		R1
+		r2 r4 g'
+		d2 e
+		f4 g a g
+		f d g f %120
+		e d c2
+		R1*7 %128
+		g1
+		g %130
+		a
+		h
+		c
+		b4 a g c
+		a g f2 %135
+		c'4 h! a d
+		h a g g
+		g'1~
+		g~
+		g~ %140
+		g
+		g,2\fermata r
+		c1
+		d
+		e %145
+		f
+		g
+		h4 g c h
+		a g a2
+		a4 f h a %150
+		g f g2
+		g4 e a g
+		f d g f
+		e2 c'4 h
+		a a g fis %155
+		g1~
+		g
+		g,~
+		g
+		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }

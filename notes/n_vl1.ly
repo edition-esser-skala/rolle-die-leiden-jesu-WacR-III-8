@@ -1041,6 +1041,77 @@ AnderenHalfViolinoI = {
 		c-! c'-! e,-!
 		f8 d c4 h\trill \noBreak
 		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection
+		R1*26 %86
+		g1
+		g
+		a
+		h %90
+		c
+		c4 c h e
+		c h a2
+		c4 h a d
+		h a h c %95
+		d2 e
+		f2. f4
+		c2 d
+		e e,
+		f1 %100
+		g
+		a
+		h4 a h c
+		d2 r
+		R1*6 %110
+		f,1
+		g
+		a
+		b
+		c %115
+		c4 b a d
+		b a g2
+		b4 a g c
+		a h c2~
+		c h %120
+		c g
+		a1
+		g4 fis g a
+		h2 cis
+		d2. d4 %125
+		a2 h
+		c2. g'4
+		f e d c
+		c2 h4 a
+		h c d e %130
+		f! e f a
+		g2 f
+		e e~
+		e e
+		f2. f4 %135
+		fis2 fis
+		g g4 f
+		e2. f8( e)
+		d2. e8( d)
+		c2. d4 %140
+		c2. h4
+		h2\fermata r
+		r2 c'~
+		c4 h8 a h4 g8 a
+		b4 c, b'2~ %145
+		b4 a8 g a4 c,
+		h! g h d
+		g1~
+		g
+		f~ %150
+		f
+		e~
+		e2 d~
+		d c
+		c c %155
+		c1~
+		c
+		d~
+		d
+		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
 

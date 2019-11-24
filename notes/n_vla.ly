@@ -1031,5 +1031,95 @@ AnderenHalfViola = {
 		e a a,
 		d e e, \noBreak
 		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*8 %68
+		g1
+		g %70
+		a
+		h
+		c
+		c4 c h e
+		c h a2 %75
+		c4 h a d
+		h a g2
+		a2. h8 a
+		g2 c~
+		c h %80
+		c c~
+		c4 h8 c d4 c
+		h1
+		\once \tieDashed a~
+		a %85
+		g~
+		g2 r
+		r c~
+		c d~
+		d d %90
+		g, r
+		R1*4 %95
+		h2 cis
+		d2. d4
+		a2 h
+		g r
+		R1 %100
+		r2 c~
+		c a'4 c
+		g2 r
+		d e
+		f2. f4 %105
+		c2 d
+		e c~
+		c4 b a d
+		b a g2
+		b4 a g c %110
+		a g f2
+		R1
+		c'1
+		d2 f
+		e! c4 d %115
+		e2 fis
+		g r
+		R1
+		c,
+		d %120
+		e
+		f
+		g
+		g4 f e a
+		f e d2 %125
+		f4 e d g
+		e d c e
+		f2 f,
+		g1
+		r2 g %130
+		a1
+		g2 g'
+		g g~
+		g g
+		a1 %135
+		a2 a
+		g r
+		g1~
+		g
+		e2 fis %140
+		<d g,>1
+		q2\fermata r
+		c1
+		d
+		e2 c~ %145
+		c f
+		g r
+		h4 g c h
+		a g a2
+		a4 f h a %150
+		g f g2
+		g4 e a g
+		f d g f
+		e2 e
+		e e %155
+		<e g,>1~
+		q
+		<f g,>~
+		q
+		<e g,>\breve*1/2\fermata \bar "|." %160 finis
 	}
 }

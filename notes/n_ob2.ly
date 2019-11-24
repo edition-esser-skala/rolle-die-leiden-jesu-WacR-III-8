@@ -430,5 +430,86 @@ AnderenHalfOboeII = {
 		a-! e'-! e-!
 		d8 h a4 gis \noBreak
 		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*18 %78
+		c,1
+		d %80
+		e
+		f
+		g
+		g4 f e a
+		f e d2 %85
+		f4 e d g
+		e d e f
+		g2 r
+		R1*3 %91
+		e2 gis
+		a2. a4
+		e2 fis
+		g!1 %95
+		g4 f! e a
+		f e d2
+		f4 e d g
+		e c c'2~
+		c h %100
+		b4 a b2
+		a4 g f e
+		d2 r
+		h' cis
+		d2. d4 %105
+		a2 h
+		c! r
+		g a
+		b2. b4
+		f2 g %110
+		a1
+		b4 a g c
+		a g f2~
+		f r
+		r e4 f %115
+		g2 a
+		b2. b4
+		f2 g
+		a r
+		R1 %120
+		r2 c4 h
+		a a d c
+		h a g r
+		h2 cis
+		d2. d4 %125
+		a2 h
+		c2. b4
+		a g f e
+		d2 g4 fis
+		g a h2 %130
+		c1
+		d
+		c2 c~
+		c c
+		c1 %135
+		d2 d
+		d4 c h d~
+		d \once \slurDashed e8( d) c2~
+		c4 \once \slurDashed d8( c) h2~
+		h4 \once \slurDashed c8( h) a4 a %140
+		a2. g4
+		g2\fermata r
+		r e'
+		f1
+		g~ %145
+		g4 f8 e f4 c
+		h2 g
+		g'1~
+		g
+		f~ %150
+		f
+		e~
+		e2 d~
+		d c
+		c c %155
+		c1~
+		c
+		d~
+		d
+		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }

@@ -159,5 +159,96 @@ AnderenHalfFagottoI = {
 		a gis a e c a
 		d4 e e, \noBreak
 		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*8 %68
+		g'1
+		g %70
+		a
+		h
+		c
+		c4 c h e
+		c h a2 %75
+		c4 h a d
+		h a g2
+		a2. h8 a
+		g2 c~
+		c h %80
+		c c~
+		c4 h8 c d4 c
+		h a g f
+		e2 a
+		d,4 e f2 %85
+		d g
+		c,!4 h c d
+		e d e c
+		f e f d
+		g a g f %90
+		e d c h
+		a2 r
+		R1*3 %95
+		h'2 cis
+		d2. d4
+		a2 h
+		c,1
+		d %100
+		e
+		f
+		g
+		g4 f e a
+		f! e d2 %105
+		f4 e d g
+		e2 c'~
+		c4 b a d
+		b a g2
+		b4 a g c %110
+		a g f2
+		R1
+		c'1
+		d2 f
+		e! c4 d %115
+		e2 fis
+		g r
+		R1
+		c,
+		d %120
+		e
+		f
+		g
+		g4 f e a,
+		f' e d2 %125
+		f4 e d g
+		e d c2
+		f f,
+		g1
+		g %130
+		a
+		h
+		c
+		b4 a g c
+		a g f2 %135
+		c'4 h! a d
+		h a g g
+		g1~
+		g
+		e'2 fis %140
+		g1
+		g,2\fermata r
+		c,1
+		d
+		e %145
+		f
+		g
+		d'4 h e d
+		c h c2
+		c4 a d c %150
+		h a h2
+		h4 g c h
+		a f h a
+		g2 c4 h
+		a a g fis %155
+		g1~
+		g
+		g,~
+		g
+		c\breve*1/2\fermata \bar "|." %160 finis
 	}
 }

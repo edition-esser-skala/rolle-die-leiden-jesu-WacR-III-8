@@ -1042,5 +1042,86 @@ AnderenHalfViolinoII = {
 		a-! e-! c'-!
 		d8 h a4 gis\trill \noBreak
 		a2 r4 \bar "||" %60
+		\time 2/2 \tempoGottHat \newSpacingSection R1*18 %78
+		c,1
+		d %80
+		e
+		f
+		g
+		g4 f e a
+		f e d2 %85
+		f4 e d g
+		e d e f
+		g2 r
+		R1*3 %91
+		e2 gis
+		a2. a4
+		e2 fis
+		g!1 %95
+		g4 f! e a
+		f e d2
+		f4 e d g
+		e r c''2~
+		c h %100
+		b4 a b2
+		a4 g f e
+		d c h a
+		h2 cis
+		d2. d4 %105
+		a2 h
+		c! r
+		g a
+		b2. b4
+		f2 g %110
+		a1
+		b4 a g c
+		a g f2~
+		f r
+		r e4 f %115
+		g2 a
+		b2. b4
+		f2 g
+		a r
+		R1 %120
+		r2 c4 h
+		a a d c
+		h a h c
+		d2 e
+		f2. f4 %125
+		c2 d
+		e g4 b,
+		a g f e
+		d2 g4 fis
+		g a h2 %130
+		c1
+		d
+		c2 c~
+		c c
+		c1 %135
+		d2 d
+		d4 c h d~
+		d e8( d) c2~
+		c4 d8( c) h2~
+		h4 \once \slurDashed c8( h) \once \tieDashed a2~ %140
+		a2. g4
+		g2\fermata r
+		r e'
+		f1
+		g2 g~ %145
+		g4 f8 e f4 a
+		g g, h d
+		d h e d
+		c h c2
+		c4 a d c %150
+		h a h2
+		h4 g c h
+		a f h a
+		g2 g
+		a a %155
+		g1~
+		g
+		h~
+		h
+		g\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
