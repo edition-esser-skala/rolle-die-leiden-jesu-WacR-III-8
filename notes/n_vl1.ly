@@ -1119,7 +1119,76 @@ OWelcheViolinoSolo = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoOWelche
-		
+		R4.
+		r8 gis'32([ h e gis)] h( gis e d)
+		cis8-! r r
+		r r a'32( e cis a)
+		a,4 r8 %5
+		R4.*2
+		r8 \tuplet 3/2 8 { e'16[ gis h] a e' d }
+		cis8 r r
+		r8 gis32([ h e gis)] h( gis e d) %10
+		cis8-! r r
+		r r a'32( e cis a)
+		a,4 r8
+		R4.*2 %15
+		r8 \tuplet 3/2 8 { e'16[(\f gis h]) e( gis h) }
+		h( fis) r8 r
+		r \tuplet 3/2 8 { e,16[(\p gis h]) e( gis h) }
+		h( fis) r8 r
+		r \tuplet 3/2 8 { e,16[\f gis h] } e8 %20
+		R4.
+		r8 h16 h'(\pE h h)
+		h4.
+		\tuplet 3/2 8 { gis16( e h) fis'([ dis h)] dis( fis a) }
+		\tuplet 3/2 8 { gis( e h') } h4 %25
+		\tuplet 3/2 8 { gis16( e h) fis'([ dis h)] dis( fis a) }
+		\tuplet 3/2 8 { gis( e h) fis'([ dis a)] gis( h e) }
+		\tuplet 3/2 8 { gis( e h) fis'([ dis a)] gis( h e) }
+		R4.*4 %32
+		r8 h'4~
+		h8 h, r
+		r h'4~ %35
+		h8 h, r
+		R4.
+		r8 \tuplet 3/2 8 { gis'16(\fE e h) fis'([ dis a)] }
+		\tuplet 3/2 8 { gis( h e) } h4~
+		h8 h'8. a16 %40
+		\tuplet 3/2 8 { gis16([ e cis)] } h8 fis'\trill
+		\tuplet 3/2 8 { e16( h' gis) e([ h gis)] } e8
+		R4.
+		r8 r e'~\pE
+		e d!32([ h16.)] cis32([ ais16.)] %45
+		\appoggiatura ais?8 h4 r8
+		R4.*3
+		\tuplet 3/2 8 { e,16( gis h) d([ h d)] cis( e a) } %50
+		\tuplet 3/2 8 { d,,( fis a) cis([ a cis)] h( h' d,) }
+		\tuplet 3/2 8 { cis([ e a)] } e,8 r
+		r \tuplet 3/2 8 { h''16([ gis d)] cis( e a) }
+		cis,8\trill h r
+		R4. %55
+		r8 gis32([ h e gis)] h( gis e d)
+		cis8 r r
+		r \tuplet 3/2 8 { a16([ cis e)] a( e cis) }
+		d8 \tuplet 3/2 8 { a16([ d fis)] a( fis d) }
+		e8 \tuplet 3/2 8 { a,16([ cis e)] a( e g) } %60
+		fis8 r r
+		R4.
+		r8 r16 e,( e' e)
+		e4.
+		\tuplet 3/2 8 { cis16( a e) h'([ gis e)] gis( h d) } %65
+		\tuplet 3/2 8 { cis( a e') } e4
+		\tuplet 3/2 8 { cis16( a e) h'([ gis e)] gis( h d) }
+		\tuplet 3/2 8 { cis( a cis) d([ h d)] e( a e) }
+		\tuplet 3/2 8 { d( fis d) cis([ a e)] } h'8\trill
+		\tuplet 3/2 8 { a16[ e cis] } a8 r %70
+		R4.*7 %77
+		r8 e''\f e
+		e \tuplet 3/2 8 { cis'16([ a e)] h'( gis d) }
+		\tuplet 3/2 8 { cis( e a) } e4~ %80
+		\tuplet 3/2 8 { e16[ cis a] } e8. d'16
+		cis16. a'32 cis,8[ h]\trill
+		a4 r8 \bar "||" %83 finis
 	}
 }
 
