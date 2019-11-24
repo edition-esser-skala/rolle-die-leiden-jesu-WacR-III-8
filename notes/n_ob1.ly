@@ -510,3 +510,11 @@ AnderenHalfOboeI = {
 		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
+
+SchwarzeGrauenvolleOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
+		
+	}
+}

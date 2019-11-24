@@ -1032,6 +1032,18 @@ AnderenHalfSopranoLyrics = \lyricmode {
 	ſen. %160 finis
 }
 
+SchwarzeGrauenvolleSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
+		
+	}
+}
+
+SchwarzeGrauenvolleSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

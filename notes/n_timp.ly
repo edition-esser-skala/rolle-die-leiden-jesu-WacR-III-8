@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+SchwarzeGrauenvolleTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSchwarzeGrauenvolle
+		
+	}
+}

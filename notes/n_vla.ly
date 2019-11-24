@@ -1213,3 +1213,11 @@ OWelcheViola = {
 		e4 r8 \bar "||" %83 finis
 	}
 }
+
+SchwarzeGrauenvolleViola = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
+		
+	}
+}

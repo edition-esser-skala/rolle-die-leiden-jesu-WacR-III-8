@@ -1282,6 +1282,14 @@ OWelcheViolinoI = {
 	}
 }
 
+SchwarzeGrauenvolleViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

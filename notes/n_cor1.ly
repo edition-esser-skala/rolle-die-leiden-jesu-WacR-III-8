@@ -172,3 +172,11 @@ ErhoereDiesesCornoI = {
 		c2 r4 \bar "||" %74 finis
 	}
 }
+
+SchwarzeGrauenvolleCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSchwarzeGrauenvolle
+		
+	}
+}

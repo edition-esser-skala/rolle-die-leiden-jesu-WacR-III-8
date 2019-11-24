@@ -3085,6 +3085,18 @@ OWelcheBassFigures = \figuremode {
 	r4. %83 finis
 }
 
+SchwarzeGrauenvolleOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
+		d4(-.\f d-.) d2
+	}
+}
+
+SchwarzeGrauenvolleBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -840,6 +840,18 @@ AnderenHalfTenoreLyrics = \lyricmode {
 	ſen. %160 finis
 }
 
+SchwarzeGrauenvolleTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
+		
+	}
+}
+
+SchwarzeGrauenvolleTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

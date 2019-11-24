@@ -817,6 +817,18 @@ AnderenHalfBassoLyrics = \lyricmode {
 	ſen. %160 finis
 }
 
+SchwarzeGrauenvolleBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
+		
+	}
+}
+
+SchwarzeGrauenvolleBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
