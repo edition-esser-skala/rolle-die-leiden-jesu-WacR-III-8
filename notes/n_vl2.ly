@@ -1130,6 +1130,88 @@ OWelcheViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoOWelche
-		
+		a'8(\p a cis)
+		h h4
+		a16( cis) cis8 cis16([ a)]
+		gis8.([ a32 h)] a8
+		a a16( cis) cis( d) %5
+		d( e) e4~
+		e8 d \appoggiatura cis16 h8
+		\appoggiatura a gis4 r8
+		\once \slurDashed a( a cis)
+		h h4 %10
+		a8 a16( e) e( cis)
+		h8.([ cis32 d)] cis8
+		cis16( d) d( e) e( fis)
+		fis( g) g4~
+		g8 \tuplet 3/2 8 { fis16( a fis) d([ fis d)] } %15
+		\appoggiatura cis8 h4 r8
+		r fis' dis16( fis)
+		fis8( e) r
+		r fis dis16( fis)
+		fis8([ e)] e %20
+		e4 fis8
+		fis4 r8
+		\tuplet 3/2 8 { r16 e'(-. e-.) e([-. e-. e-.)] e(-. e-. e-.) }
+		e8( dis fis)
+		\tuplet 3/2 8 { r16 e(-. e-.) e([-. e-. e-.)] e(-. e-. e-.) } %25
+		e8( dis fis)
+		e( a, gis)
+		h( a gis)
+		a16( fis') \appoggiatura e8 dis4\trill
+		e8 h cis %30
+		fis,4 fis8
+		fis4 r8
+		dis'4 \tuplet 3/2 8 { dis16(-. dis-. dis-.) }
+		e8( dis e)
+		dis8 dis \tuplet 3/2 8 { dis16([-. dis-. dis-.)] } %35
+		e8( dis e)
+		cis16( a) \appoggiatura gis8 fis4
+		e8 h'([ a)]
+		gis e'[\f dis]
+		e h4 %40
+		\tuplet 3/2 8 { h16([ e cis)] } h8 dis\trill
+		e4 r8
+		h4\p g16( e)
+		\appoggiatura d cis4 e'8~
+		e( d cis) %45
+		cis( d) g,16([ e])
+		\appoggiatura d8 cis4 e8~
+		e16 g fis8[ ais]
+		h4 d8
+		d4 cis8~ %50
+		cis4 h8
+		a16.([ h64 cis)] h8 a
+		a gis a\f
+		a8\trill gis r
+		a4\p cis8 %55
+		h h4
+		a8 cis16([ a) h( gis)]
+		\appoggiatura gis8 a4 a8
+		a4 a8
+		a4 a8 %60
+		a d cis
+		h16([ d32 cis)] h8 a16([ cis)]
+		a8\trill gis r
+		r16 e \tuplet 3/2 8 { a16([-. a-. a-.)] a(-. a-. a-.) }
+		a8( gis h) %65
+		\tuplet 3/2 8 { r16 a([-. a-.)] a(-. a-. a-.) a([-. a-. a-.)] }
+		a8( gis h)
+		a( h cis)~
+		cis16 h a8[ gis]\trill
+		a4 cis,16( e) %70
+		\appoggiatura e8 d4 fis8
+		\appoggiatura fis8 e4 h'8
+		\appoggiatura h8 a4 e'8
+		fis( e d)
+		d( cis h) %75
+		a4 r8
+		R4.
+		r8 \tuplet 3/2 8 { cis16([\f a e)] h'( gis d) }
+		\tuplet 3/2 8 { cis( e a) } e4~
+		e8 \tuplet 3/2 8 { cis'16([ a e)] h'( gis d) } %80
+		\tuplet 3/2 8 { cis( e a) } e8.[ d'16]
+		cis8 a gis\trill
+		a4 r8 \bar "||" %83 finis
 	}
 }

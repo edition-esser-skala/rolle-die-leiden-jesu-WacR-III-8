@@ -2965,7 +2965,7 @@ OWelcheOrgano = {
 		gis4 a8 %50
 		fis4 gis8
 		a4 a,8
-		e' e e\f
+		e'[ e] e\f
 		e e16( d cis h)
 		a4\p a'8 %55
 		gis e gis

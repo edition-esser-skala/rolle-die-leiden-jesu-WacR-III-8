@@ -365,7 +365,7 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff \with { \normalStaffDistance } {
+					\new Staff {
 						\set Staff.instrumentName = "Violino obligato"
 						\OWelcheViolinoSolo
 					}
