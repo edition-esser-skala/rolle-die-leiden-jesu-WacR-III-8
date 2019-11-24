@@ -114,12 +114,126 @@ OWelcheJohannesNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \major \time 3/8 \autoBeamOff \tempoOWelche
-		
+		R4.*8 %8
+		a8 a16([ cis)] cis([ e)]
+		e8.([ fis32 e)] e8~ %10
+		e a16([ e)] e([ cis)]
+		h8.([ cis32 d)] cis8
+		cis16([ d)] d([ e)] e([ fis)]
+		fis([ g)] g4~
+		g8 fis \appoggiatura e16 d8 %15
+		\appoggiatura cis h4 r8
+		R4.*4 %20
+		r8 r fis'16([ cis)]
+		\appoggiatura cis16 dis8 r16 h cis dis
+		e4.~
+		e8[ dis fis]
+		e4.~ %25
+		e8[ dis fis]
+		e4.~
+		e
+		a,8 h4
+		e, r8 %30
+		r r fis'16([ cis)]
+		\appoggiatura cis8 dis8. dis16 dis e
+		fis4.
+		e8[ dis e]
+		fis4. %35
+		e8[ dis e]
+		a, h4
+		e, r8
+		R4.*7 %45
+		r8 fis' e
+		\appoggiatura d cis4 e8~
+		e16 g fis32([ d16.)] e32([ cis16.)]
+		d8 d4
+		d16. d32 d8 cis %50
+		cis16. cis32 cis8 h
+		a4 a8
+		e' e, r
+		R4.*5 %58
+		r8 r a
+		e'4 r8 %60
+		fis fis e
+		d d([ cis)]
+		\appoggiatura cis h4 e8
+		e4 e8
+		e4 e8
+		e4.~
+		e4 e8
+		e d cis~
+		cis16 fis e8([ d)]\trill
+		cis4 r8
+		R4.
+		r8 r e16([ h)]
+		\appoggiatura h8 cis4 e8
+		fis([ e)] d
+		d([ e)] fis
+		e4.(
+		d)
+		cis4 r8
+		R4.*5 \bar "||"
 	}
 }
 
 OWelcheJohannesLyrics = \lyricmode {
+	O wel -- cher %9
+	Troſt mit __ %10
+	ſei -- nen
+	Bli -- cken
+	vom Kreutz in
+	mei -- ne __
+	See -- le %15
+	ſchoß!
 	
+	sein %21
+	Blut iſt voll des
+	ew --
+	
+	_ %25
+	
+	_
+	
+	gen Le --
+	bens,
+	sein
+	Blut iſt voll des
+	ew --
+	_
+	_ %35
+	_
+	gen Le --
+	bens.
+	
+	gab er %46
+	uns die --
+	ſe See -- lig --
+	keit, o
+	prei -- ſet ihn, o %50
+	prei -- ſet ihn mit
+	uns, ihr
+	From -- men.
+	
+	Er %59
+	ſprach: %60
+	„Sey nicht mehr
+	To -- des
+	Pein, auf
+	uns iſt
+	Got -- tes %65
+	Ruh, __
+	iſt
+	Got -- tes Ruh __
+	ge -- kom --
+	men, %70
+	
+	auf
+	uns iſt
+	Got -- tes
+	Ruh ge -- %75
+	
+	kom --
+	men.“ %78 finis
 }
 
 % JohannesNotes = {
