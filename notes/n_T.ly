@@ -931,7 +931,7 @@ SchwarzeGrauenvolleTenoreLyrics = \lyricmode {
 	flie -- hen, laßt uns flie -- hen,
 	wir ver -- ſin -- ken, wir ver --
 	ſin -- ken, Got -- tes Ra -- che, laßt uns
-	flie -- hen, laßt uns fliehn. %50 finis
+	flie -- hen, laßt uns fliehn.] %50 finis
 }
 
 % TenoreNotes = {

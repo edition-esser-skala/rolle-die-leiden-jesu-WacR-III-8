@@ -822,13 +822,93 @@ SchwarzeGrauenvolleBassoNotes = {
 		\clef bass
 		\key d \minor \time 4/4 \autoBeamOff \tempoSchwarzeGrauenvolle
 		R1*9 %9
+		d2 f %10
+		a4. a8 a4 d
+		cis cis r2
+		cis?4. cis8 cis cis cis cis
+		d2 r
+		d4. d8 cis cis cis a %15
+		d4 r r2
+		d4 a8 r b h c cis
+		d a r4 b8 h c cis
+		d d, r4 r2
+		r g8 g c8. c16 %20
+		g4 g8-! r r4 c8 c,
+		g'4 g8 r h4. h8
+		c c r4 r8 c16. c32 c16 c c c
+		c8 c, r4 r8 c'16. c32 c16 c c c
+		a8 a r c16. c32 a8 a r a16. a32 %25
+		b8 b, r4 r8 h'16 h h h h h
+		c8 c, r4 r8 cis'16 cis cis cis cis cis
+		d8 d, r d'16. d32 c4 r8 c16. c32
+		b!4 r16 b b b a8 a16 a d a f d
+		a'4 r r2 %30
+		r d,8 f a d
+		b4 a d8 d, r4
+		b'4 a d8 a r4
+		r r8 b16 b a8 a, r b'16 b
+		a4-! r8\fermata cis16. cis32 d8 d, r c'16. c32 %35
+		b!8 b r a16. a32 g8 g r c16. c32
+		b8 b r a16. a32 g8 g g8. g16
+		a8 a a a b b b r16 b
+		a8. a16 h8 h c4 r8 c
+		cis8. cis16 cis8 cis d4 d8.^\solo d,16 %40
+		d8 d' b g d' d, d'4^\tutti
+		r8 d b g d' d, r b'16. b32
+		a8 a r a16 a b4 r8 a16. a32
+		gis8. gis16 gis8 gis a4 r
+		r2 a8 a r4 %45
+		r2 a8 a r a16 h
+		cis8 cis r cis16 cis
+		d8 d, r4 r r8 d'16 d b8 b r b16 b
+		b8 b, r4 r8 gis'16 gis gis gis gis gis
+		a8 a r a16 a d4 r %50
+		R1*3 \bar "||" %53 finis
 	}
 }
 
 SchwarzeGrauenvolleBassoLyrics = \lyricmode {
-% 	Ka -- i -- %40
-% 	phas, du riefſt den Don -- ner, du,
-% 	du riefſt den Don -- ner, 
+	Schwar -- ze %10
+	grau -- en -- vol -- le
+	Wol -- ken
+	ſchwe -- ben ü -- ber uns da --
+	her,
+	ſchwe -- ben ü -- ber uns da -- %15
+	her.
+	Hö -- ret! wie ſie furcht -- bar
+	rau -- ſchen, wie ſie furcht -- bar
+	rau -- ſchen,
+	hö -- ret, welch Ge -- %20
+	tö -- ſe in den
+	Tie -- fen. We -- he,
+	weh uns! Es zer -- rei -- ßet laut die
+	Er -- de, es zer -- rei -- ßet laut die
+	Er -- de, wir ver -- ſin -- ken, wir ver -- %25
+	ſin -- ken. Hö -- ret ihr den Fel -- ſen
+	kra -- chen, hö -- ret ihr den Fel -- ſen
+	kra -- chen, er zer -- ſpringt, er zer --
+	ſpringt, zer -- ſchmet -- tert uns, er zer -- ſpringt, zer -- ſchmet -- tert
+	uns. %30
+	Wie der Sturm -- wind
+	ſchreck -- lich brau -- ſet,
+	ſchreck -- lich brau -- ſet,
+	welch ein Don -- ner, welch ein
+	Schlag! Ra -- che, Ra -- che, Got -- tes %35
+	Ra -- che, Got -- tes Ra -- che, Zau -- be --
+	rey -- en, Zau -- be -- rey -- en, ſcho -- ne
+	unſ -- rer, Gott der Göt -- ter, wir, wir
+	töd -- te -- ten ihn nicht, wir
+	töd -- te -- ten ihn nicht. Ka -- i -- %40
+	phas, du riefſt den Don -- ner, du,
+	du riefſt den Don -- ner: Ret -- te
+	du uns, Ka -- i -- phas, ret -- te
+	du uns, Ka -- i -- phas.
+	Ret -- te! %45
+	Ret -- te! Laßt uns
+	flie -- hen, laßt uns flie -- hen,
+	wir ver -- ſin -- ken, wir ver --
+	ſin -- ken, Got -- tes Ra -- che, laßt uns
+	flie -- hen, laßt uns fliehn. %50 finis
 }
 
 % BassoNotes = {
