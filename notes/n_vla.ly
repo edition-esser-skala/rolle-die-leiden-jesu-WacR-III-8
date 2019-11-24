@@ -1123,3 +1123,11 @@ AnderenHalfViola = {
 		<e g,>\breve*1/2\fermata \bar "|." %160 finis
 	}
 }
+
+OWelcheViola = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoOWelche
+		
+	}
+}

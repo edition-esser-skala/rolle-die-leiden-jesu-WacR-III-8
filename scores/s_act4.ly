@@ -162,7 +162,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreuz"
+% 			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreutz"
 % 		}
 % 		\paper { indent = 3\cm }
 % 		\score {
@@ -320,38 +320,98 @@
 % 			\midi { \tempo 1 = 60 } % 2. = 50 / 1 = 60
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.5" "R E C I T A T I V" "Gelobt ſey Gott"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Johannes"
+% 						\new Voice = "Johannes" { \dynamicUp \GelobtSeyJohannesNotes }
+% 					}
+% 					\new Lyrics \lyricsto Johannes \GelobtSeyJohannesLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nikodemus"
+% 						\new Voice = "Niko" { \dynamicUp \GelobtSeyNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Niko \GelobtSeyNicoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\GelobtSeyOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GelobtSeyBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.5" "R E C I T A T I V" "Gelobt ſey Gott"
-		}
-		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #4
+			movement = \movementTitle "4.6" "T E R Z E T T" "O welche Wonne, welch Entzücken"
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff \with { \normalStaffDistance } {
+						\set Staff.instrumentName = "Violino obligato"
+						\OWelcheViolinoSolo
+					}
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\OWelcheViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\OWelcheViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\OWelcheViola
+						}
+				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Johannes"
-						\new Voice = "Johannes" { \dynamicUp \GelobtSeyJohannesNotes }
+						\set Staff.instrumentName = "Maria"
+						\new Voice = "Maria" { \dynamicUp \OWelcheMariaNotes }
 					}
-					\new Lyrics \lyricsto Johannes \GelobtSeyJohannesLyrics
+					\new Lyrics \lyricsto Maria \OWelcheMariaLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Nikodemus"
-						\new Voice = "Niko" { \dynamicUp \GelobtSeyNicoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+						\new Voice = "Magdalena" { \dynamicUp \OWelcheMagdalenaNotes }
 					}
-					\new Lyrics \lyricsto Niko \GelobtSeyNicoLyrics
+					\new Lyrics \lyricsto Magdalena \OWelcheMagdalenaLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Johannes"
+						\new Voice = "Johannes" { \dynamicUp \OWelcheJohannesNotes }
+					}
+					\new Lyrics \lyricsto Johannes \OWelcheJohannesLyrics
+						
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\GelobtSeyOrgano
+						\OWelcheOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GelobtSeyBassFigures
+					\OWelcheBassFigures
 				}
 			>>
 			\layout { }

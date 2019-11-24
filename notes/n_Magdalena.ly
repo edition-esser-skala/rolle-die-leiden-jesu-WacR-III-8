@@ -40,6 +40,18 @@ EmporGerichtetMagdalenaLyrics = \lyricmode {
 	See -- le. %39 finis
 }
 
+OWelcheMagdalenaNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \autoBeamOff \tempoOWelche
+		
+	}
+}
+
+OWelcheMagdalenaLyrics = \lyricmode {
+	
+}
+
 % MagdalenaNotes = {
 % 	\relative c' {
 % 		\clef treble

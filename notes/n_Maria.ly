@@ -36,6 +36,18 @@ EmporGerichtetMariaLyrics = \lyricmode {
 	han -- nes. %44 finis
 }
 
+OWelcheMariaNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \autoBeamOff \tempoOWelche
+		
+	}
+}
+
+OWelcheMariaLyrics = \lyricmode {
+	
+}
+
 % MariaNotes = {
 % 	\relative c' {
 % 		\clef treble

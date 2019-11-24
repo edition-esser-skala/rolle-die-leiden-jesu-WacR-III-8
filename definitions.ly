@@ -227,6 +227,14 @@ extraStaffDistance = {
 				 (stretchability . 0))
 }
 
+normalStaffDistance = {
+	\override VerticalAxisGroup.staff-staff-spacing =
+      #'((basic-distance . 12)
+         (minimum-distance . 12)
+         (padding . -100)
+				 (stretchability . 0))
+}
+
 twofourtime = {
 	\overrideTimeSignatureSettings
 		2/4
@@ -337,6 +345,7 @@ tempoEmporGerichtet = \tempoMarkup "Recitativ"
 tempoAnderenHalf = \tempoMarkup "Un poco vivace"
 	tempoGottHat = \tempoMarkup "Allabreve"
 tempoGelobtSey = \tempoMarkup "Recitativ"
+tempoOWelche = \tempoMarkup "Larghetto"
 
 
 

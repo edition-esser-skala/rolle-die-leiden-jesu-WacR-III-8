@@ -89,7 +89,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.2" "A R I A" "Jeſus Chriſtus wird das Leben"
+			movement = \movementTitle "3.2" "A R I E" "Jeſus Chriſtus wird das Leben"
 		}
 		\score {
 			<<

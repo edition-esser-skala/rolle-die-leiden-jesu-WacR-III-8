@@ -2909,6 +2909,18 @@ GelobtSeyBassFigures = \figuremode {
 	r4 <_+> %13 finis
 }
 
+OWelcheOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/8 \tempoOWelche
+		a4\p a'8
+	}
+}
+
+OWelcheBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

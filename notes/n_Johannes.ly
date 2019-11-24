@@ -110,6 +110,18 @@ GelobtSeyJohannesLyrics = \lyricmode {
 	Mut -- ter.“ %13 finis
 }
 
+OWelcheJohannesNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 3/8 \autoBeamOff \tempoOWelche
+		
+	}
+}
+
+OWelcheJohannesLyrics = \lyricmode {
+	
+}
+
 % JohannesNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

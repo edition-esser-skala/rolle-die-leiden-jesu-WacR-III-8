@@ -1115,6 +1115,22 @@ AnderenHalfViolinoI = {
 	}
 }
 
+OWelcheViolinoSolo = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoOWelche
+		
+	}
+}
+
+OWelcheViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoOWelche
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
