@@ -877,7 +877,7 @@ SchwarzeGrauenvolleTenoreNotes = {
 		c8. c16 d8 d c4 r8 es
 		e8. e16 e8 e fis4 r %40
 		R1
-		r8 d b g d' d, r f'16. f32
+		r8 d b g d' d, r f'!16. f32
 		f8 f r f16 f f4 r8 f16. f32
 		f8. f16 f8 f e!4 r
 		r2 cis8 cis r4 %45
