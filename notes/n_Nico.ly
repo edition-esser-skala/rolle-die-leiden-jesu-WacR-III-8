@@ -347,12 +347,29 @@ GelobtSeyNicoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoGelobtSey
-		
+			\set Staff.timeSignatureFraction = 4/4
+		r8 c e f g4 r8 c
+		c8. g16 g4 r8 g e f
+		g g g c, f r16 a a8 a
+		a e e f g g16 g g8 f
+		\time 2/4 d d r a'16. h!32 %5
+		\time 4/4 gis8 gis r gis16 fis \appoggiatura a8 gis4 gis8 a
+		h4 r8 e, a16. a32 a8 r4
+		R1*5 %12
+		r2 \markVSE \bar "||" %13 finis
+		\unset Staff.timeSignatureFraction
+		\key a \major \time 3/8
 	}
 }
 
 GelobtSeyNicoLyrics = \lyricmode {
-	
+	Ge -- lobt sey Gott! die
+	Wü -- then -- den, ſie wen -- den
+	ſich von uns hin -- weg. Jo -- han -- nes
+	füh -- ret ſie zu -- rück, des Pro -- phe -- ten
+	Mut -- ter! Ach Ma -- %5
+	ri -- a! wel -- chen Troſt gab er
+	dir, der Gött -- li -- che? %7 finis
 }
 
 % NicoNotes = {

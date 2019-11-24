@@ -2874,12 +2874,39 @@ GelobtSeyOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoGelobtSey
+			\set Staff.timeSignatureFraction = 4/4
 		b1~\pE
+		b~
+		b2 a
+		cis1
+		\time 2/4 d2 %5
+		\time 4/4 h!1~
+		h2 cis~
+		cis1
+		d
+		e4 b'2. %10
+		a2 gis
+		c, d
+		r4 e \markVSE \bar "||" %13 finis
+		\unset Staff.timeSignatureFraction
+		\key a \major \time 3/8
 	}
 }
 
 GelobtSeyBassFigures = \figuremode {
-	
+	<4 2>1
+	r
+	r2 <6>
+	q1
+	r2 %5
+	<6\\>1
+	r2 <6>
+	r1
+	<_!>
+	<6>4 <4 2>2. %10
+	<6>2 q
+	q1
+	r4 <_+> %13 finis
 }
 
 % Organo = {

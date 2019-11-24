@@ -99,7 +99,7 @@ SeydMirJosephNotes = {
 }
 
 SeydMirJosephLyrics = \lyricmode {
-	Hörſt du, Ni -- co -- de -- mus, wie ihn %16
+	Hörſt du, Ni -- ko -- de -- mus, wie ihn %16
 	Zi -- ons Töch -- ter klag -- en? Auch
 	ſie mu -- thi -- ger als wir!
 	Mit -- ten un -- ter ſei -- nen Mör -- dern

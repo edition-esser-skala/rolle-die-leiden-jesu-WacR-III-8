@@ -84,12 +84,30 @@ GelobtSeyJohannesNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoGelobtSey
-		
+			\set Staff.timeSignatureFraction = 4/4
+		R1*4
+		\time 2/4 R2 %5
+		\time 4/4 R1
+		r2 r4 e8 cis
+		a a a a b b16 b b8 a
+		f!16. f32 f8 r a16 a d8 d r d16 e
+		c!8 c r4 e8 e e c %10
+		f4 f8 d e4 r8 e
+		e a, r4 f'8 d d c
+		a a r4 \markVSE \bar "||" %13 finis
+		\unset Staff.timeSignatureFraction
+		\key a \major \time 3/8
 	}
 }
 
 GelobtSeyJohannesLyrics = \lyricmode {
-	
+	Lie -- bend %7
+	neig -- te der Pro -- phet ge -- gen ſie ſein
+	An -- ge -- ſicht. „Mei -- ne Mut -- ter!“, rief er
+	nie -- der, „die -- ſer iſt dein %10
+	Sohn!“ und zu mir: „Jo --
+	han -- nes! die -- ſe, dei -- ne
+	Mut -- ter.“ %13 finis
 }
 
 % JohannesNotes = {
