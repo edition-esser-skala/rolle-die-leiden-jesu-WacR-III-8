@@ -2914,6 +2914,88 @@ OWelcheOrgano = {
 		\clef bass
 		\key a \major \time 3/8 \tempoOWelche
 		a4\p a'8
+		gis e gis
+		a4 a8
+		e e, a
+		g' fis e %5
+		d4 cis8
+		d4 d8
+		e8. d16 cis h
+		a4 r8
+		gis' e gis %10
+		a4 a,8
+		e' e, a
+		r r a'
+		d,4 cis8
+		d4 d8 %15
+		e e, e'
+		dis4 h8
+		e e, r
+		dis' h dis
+		e4 gis8 %20
+		a a, ais'
+		h h, r
+		e gis e
+		h' h, r
+		e gis e %25
+		h' h, r
+		e4 r8
+		e4 r8
+		a h h,
+		e gis ais %30
+		h, h' ais
+		h h, r
+		r16 h \tuplet 3/2 8 { a'!([-. a-. a-.]) a(-. a-. a-.) }
+		\tuplet 3/2 8 { gis( e h) fis'([ dis h)] e( gis a) }
+		h h, \tuplet 3/2 8 { a'16([-. a-. a-.]) a(-. a-. a-.) } %35
+		\tuplet 3/2 8 { gis( e h) fis'([ dis h)] e( fis gis) }
+		a8 h h,
+		e4 r8
+		r e\f h
+		e, \tuplet 3/2 8 { gis'16([ e h)] fis'( dis h) } %40
+		e16. a32 h8[ h,]
+		e4 e16. fis32
+		g!4\p e8
+		fis4 r8
+		fis fis fis %45
+		h,4 e8
+		fis4 r8
+		fis, fis fis
+		h4 h'8
+		gis4 a8 %50
+		fis4 gis8
+		a4 a,8
+		e' e e\f
+		e e16( d cis h)
+		a4\p a'8 %55
+		gis e gis
+		a4 e8
+		a, a' g
+		fis e d
+		cis a cis %60
+		d4 r8
+		r r dis
+		e e, r
+		a' cis a
+		e4 r8 %65
+		a, cis a
+		e'4 gis8
+		a4 r8
+		d, e e,
+		a cis a %70
+		d, d' dis
+		e, e' gis
+		a,4 cis8
+		d4 r8
+		d4 r8 %75
+		e4.
+		e,
+		a8 a'\f e
+		a,4 e'8
+		a4 e8 %80
+		a, \tuplet 3/2 8 { cis'16([ a e)] h'( gis e) }
+		a8 e e,
+		a4 r8 \bar "||" %83 finis
 	}
 }
 
