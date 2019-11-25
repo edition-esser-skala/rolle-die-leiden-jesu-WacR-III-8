@@ -1276,7 +1276,7 @@ SchwarzeGrauenvolleViola = {
 
 GottesSchreckenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoGottesSchrecken
 		R1*2
 		r2 a2~\p

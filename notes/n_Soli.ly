@@ -582,3 +582,54 @@ GelobtSeySoliLyrics = \lyricmode {
 	han -- nes! die -- ſe, dei -- ne
 	Mut -- ter.“ %13 finis
 }
+
+GottesSchreckenSoliNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
+		r4 d'8^\Nico a c c c b
+		g4 r8 b16 g cis8 cis cis d
+		a4 r r \clef "treble_8" a^\Johannes
+		r a8 a d d f e
+		c! c r4 r g'8 b, %5
+		d d d c a a r c16 d
+		es8 r16 es es8 d \tempoGottesSchreckenB b b r4
+		r2 r4 f8 f
+		b b b d b b r4
+		R1 %10
+		r2 r4 b8 b
+		d  d f d h h r4
+		r2 f'8 f f es
+		c c r4 r2
+		r c8 c c d %15
+		\tempoGottesSchreckenC e! e r4 e8 e e g
+		g cis, r e16. a,32 d8 d \clef bass h!8^\Nico r16 h
+		h8 e, r4 c'8([ a)] a8 r
+		b b r4 r a~
+		a gis8 a e4 r %20
+		R1*3 \bar "||" %23 finis
+	}
+}
+
+GottesSchreckenSoliLyrics = \lyricmode {
+	Got -- tes Schre -- cken ſchla -- gen
+	ſie, ü -- ber ſie kommt ſchon ſein
+	Blut. Du,
+	der du ſie mit Schre -- cken
+	ſchlä -- geſt, ſtär -- ke %5
+	dei -- nes Soh -- nes Freun -- de, denn er
+	ſtirbt, er ſtirbt am Kreu -- tze.
+	Schaut hi --
+	nauf zu ſei -- nem Kreu -- tze:
+	%10
+	Tie -- fer
+	ſinkt ſein Haupt zum Her -- zen,
+	blei -- cher ſind die
+	Wan -- gen,
+	die ge -- broch -- nen %15
+	Au -- gen he -- bet er gen
+	Him -- mel_– ich ver -- ge -- he! Ach, er
+	ru -- fet, be -- tet,
+	ru -- fet, nei --
+	get ſein Haupt. %20 finis
+}
