@@ -515,6 +515,58 @@ SchwarzeGrauenvolleOboeI = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
-		
+		d'2\fE d4(-. d-.)
+		d2 r
+		cis cis4(-.cis-.)
+		cis2 r
+		c c4(-. c-.) %5
+		b r r2
+		r e4^\tenuto r
+		e^\tenuto r e^\tenuto r
+		R1
+		d2 d4(-. d-.) %10
+		d2 r
+		e e4(-. e-.)
+		e2 r
+		d d4(-. d-.)
+		g2 \pao r4 g,\pE %15
+		f2 r
+		a\fE a\p
+		a\f a\p
+		a4\fE d2\pE c4
+		b\fE r d8 d es8. es16 %20
+		d2 d8 d es8. es16
+		d2 f4. f8
+		es es r4 r8 c'16. c32 c8 c
+		c es, r4 r8 es16. es32 es8 es
+		es \pao f,4 es'8 es \pao f,4 es'8 %25
+		d b r4 r8 f'16 f f8 f
+		es es r4 r8 g16 g g8 g
+		f4 r8 f16. f32 fis4 r8 fis16. fis32
+		g4 r16 d d d cis8 a16 a d a f d
+		a'4 r d2 %30
+		cis d4. d8
+		cis4 g' f8 d4 d8
+		cis4 g' f8 e r4
+		e2 e
+		e4 r8\fermata g16. g32 f4 es8 es16. es32 %35
+		d4 c8 c16. c32 b8 g r4
+		r2 r4 es'8. es16
+		\pa es8 c f es \pd d b f'8. f16
+		f8. f16 g8 f es4 r8 \pao c
+		g'8. g16 \pa g8 g, \pd d'4 r %40
+		R1
+		r2 r4 r8 d16. es32
+		f8 f r c16 es d4 r8 d16. d32
+		d8 d d d a4 r 
+		e'! f e8 a, r4 %45
+		e' f \pa e8 a, \pd r4
+		e' e f4. f8
+		f4. f8 f4. f8
+		f4. f8 f f4 f8
+		f4 e \pao d r %50
+		cis2 d
+		cis d4 d8 d
+		d4 r r2 \bar "||" %53 finis
 	}
 }

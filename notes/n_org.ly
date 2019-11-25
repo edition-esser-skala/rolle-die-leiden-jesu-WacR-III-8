@@ -3098,7 +3098,7 @@ SchwarzeGrauenvolleOrgano = {
 		f' e d c b4 a16(-. a-. a-. a-.) a8 r
 		a16(-. a-. a-. a-.) a8 r a16(-. a-. a-. a-.) a8 r
 		a1
-		d4(-.\f d-.) d2 %10
+		d4(-. d-.) d2 %10
 		d4(-.\p d-.) d2
 		d4\f d8(-. d-.) d4 d8(-. d-.)
 		d4(-.\p d-.) d2

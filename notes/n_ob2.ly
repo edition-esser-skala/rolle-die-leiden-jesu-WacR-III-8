@@ -518,6 +518,58 @@ SchwarzeGrauenvolleOboeII = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
-		
+		f2\fE f4(-. f-.)
+		f2 r
+		e e4(-. e-.)
+		e2 r
+		fis fis4(-. fis-.) %5
+		g r r2
+		r cis4-\tenuto r
+		cis-\tenuto r cis-\tenuto r
+		R1
+		f,2 f4(-. f-.) %10
+		f2 r
+		g g4(-. g-.)
+		g2 r
+		f f4(-. f-.)
+		b2 a4 e %15
+		d2 r
+		f d4\p e
+		f2\f d4\p e
+		f2\fE g4\pE a
+		g\fE r b8 b c8. c16 %20
+		b2 h8 h c8. c16
+		h2 d4. d8
+		c c r4 r8 es16. es32 es8 es
+		es c r4 r8 c16. c32 c8 c
+		c f,4 a8 c f,4 c'8 %25
+		b4 r r8 d16 d d8 d
+		c g r4 r8 e'16 e e8 e
+		d4 r8 d16. d32 d4 r8 d16. d32
+		d4 r16 g, g g a8 a16 a d a f d
+		a'4 r f2 %30
+		e f4. f8
+		g e cis'4 d8 f,4 f8
+		g e cis'4 d8 cis r4
+		cis2 cis
+		cis4 r8\fermata e16. e32 d4 a8 a16. a32 %35
+		g4 fis8 fis16. fis32 g4 r
+		r2 r4 b8. b16
+		c8 c c c b4 d8. d16
+		c4 d8 d c4 r8 c
+		b8. b16 b8 g fis4 r %40
+		R1
+		r2 r4 r8 b
+		c c r c b4 r8 f16. f32
+		f8 f f f e!4 r
+		cis' d cis r %45
+		cis d cis8 a r4
+		cis4 cis d4. d8
+		d4. d8 d4. d8
+		d4. d8 d d4 d8
+		d4 cis d r %50
+		e,2 f
+		g f4 f8 f
+		f4 r r2 \bar "||" %53 finis
 	}
 }
