@@ -1393,6 +1393,14 @@ IhrAugenViolinoI = {
 	}
 }
 
+SahetIhrViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoSahetIhr
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -357,6 +357,7 @@ tempoGottesSchrecken = \tempoMarkup "Recitativ"
 	tempoGottesSchreckenC = \tempoMarkup "a tempo"
 tempoIhrAugen = \tempoMarkup "Choral"
 tempoErDerAm = \tempoMarkup "Recitativ"
+tempoSahetIhr = \tempoMarkup "Andante"
 
 
 

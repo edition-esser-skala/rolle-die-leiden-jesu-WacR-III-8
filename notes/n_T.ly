@@ -976,6 +976,18 @@ IhrAugenTenoreNotes = {
 	}
 }
 
+SahetIhrTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
+		
+	}
+}
+
+SahetIhrTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

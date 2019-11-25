@@ -3320,6 +3320,18 @@ ErDerAmBassFigures = \figuremode {
 	r4 <_!> <3>2 %5 finis
 }
 
+SahetIhrOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoSahetIhr
+		b8\p b16. c32 d8 b c c, c' b
+	}
+}
+
+SahetIhrBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

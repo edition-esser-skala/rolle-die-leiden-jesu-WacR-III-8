@@ -290,31 +290,98 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.4" "R E C I T A T I V" "Er, der am Kreutze ſtarb"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Hauptmann"
+% 					\new Voice = "Hauptmann" { \dynamicUp \ErDerAmHauptmannNotes }
+% 				}
+% 				\new Lyrics \lyricsto Hauptmann \ErDerAmHauptmannLyrics
+% 					
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\ErDerAmOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ErDerAmBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.4" "R E C I T A T I V" "Er, der am Kreutze ſtarb"
+			movement = \movementTitle "5.5" "A R I E,  C H O R" "Sahet ihr den göttlich leiden"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\SahetIhrViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\SahetIhrViolinoII
+						}
+					>>
+					\new Staff {
+							\set Staff.instrumentName = "Viola"
+							\SahetIhrViola
+						}
+				>>
 				\new Staff {
 					\set Staff.instrumentName = "Der Hauptmann"
-					\new Voice = "Hauptmann" { \dynamicUp \ErDerAmHauptmannNotes }
+					\new Voice = "Hauptmann" { \dynamicUp \SahetIhrHauptmannNotes }
 				}
-				\new Lyrics \lyricsto Hauptmann \ErDerAmHauptmannLyrics
+				\new Lyrics \lyricsto Hauptmann \SahetIhrHauptmannLyrics
+				\new ChoirStaff <<
+					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SahetIhrSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SahetIhrSopranoLyrics
 					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SahetIhrAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SahetIhrAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \SahetIhrTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SahetIhrTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \SahetIhrBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SahetIhrBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\ErDerAmOrgano
+						\SahetIhrOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ErDerAmBassFigures
+					\SahetIhrBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 45 }
 		}
 	}
 }

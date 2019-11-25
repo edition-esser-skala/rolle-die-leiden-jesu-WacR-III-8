@@ -1208,6 +1208,18 @@ IhrAugenLyricsB = \lyricmode {
 	ben. %16 finis
 }
 
+SahetIhrSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
+		
+	}
+}
+
+SahetIhrSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

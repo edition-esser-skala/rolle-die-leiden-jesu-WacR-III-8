@@ -953,6 +953,18 @@ IhrAugenBassoNotes = {
 	}
 }
 
+SahetIhrBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
+		
+	}
+}
+
+SahetIhrBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

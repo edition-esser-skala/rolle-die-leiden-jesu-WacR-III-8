@@ -25,6 +25,18 @@ ErDerAmHauptmannLyrics = \lyricmode {
 	war er! %5 finis
 }
 
+SahetIhrHauptmannNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
+		
+	}
+}
+
+SahetIhrHauptmannLyrics = \lyricmode {
+	
+}
+
 % HauptmannNotes = {
 % 	\relative c {
 % 		\clef bass

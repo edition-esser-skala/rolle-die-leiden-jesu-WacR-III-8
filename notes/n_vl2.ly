@@ -1326,3 +1326,11 @@ IhrAugenViolinoII = {
 		e\fermata \bar "||" %16 finis
 	}
 }
+
+SahetIhrViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoSahetIhr
+		
+	}
+}

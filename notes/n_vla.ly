@@ -1325,3 +1325,11 @@ IhrAugenViola = {
 		c\fermata \bar "||" %16 finis
 	}
 }
+
+SahetIhrViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoSahetIhr
+		
+	}
+}

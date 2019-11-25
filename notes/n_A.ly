@@ -1040,6 +1040,18 @@ IhrAugenAltoNotes = {
 	}
 }
 
+SahetIhrAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
+		
+	}
+}
+
+SahetIhrAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
