@@ -40,13 +40,13 @@ SchwarzeGrauenvolleTimpani = {
 		r2 r8 g\p c4\f
 		R1*2
 		r2 r4 g\trill\p
-		g8\f r c r g4\trill g\trill
+		g8\f r c r g4\trill g\trill %45
 		g8\f r16 g32 g c8 r g4\trill\p g\trill
 		g2\trill\pocoF c4\f-! r
 		R1*2
-		g4\p\trill g8\f r r2
+		g4\p\trill g8\f r r2 %50
 		r g\trill\p
 		g\pocoF\trill c8\f r16 g32 g c4
-		R1 \bar "||"
+		R1 \bar "||" %53 finis
 	}
 }

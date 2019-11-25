@@ -1216,7 +1216,7 @@ OWelcheViola = {
 
 SchwarzeGrauenvolleViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
 		a8(\fE a a a) a( a a a)
 		a(\p a a a) a( a a a)
