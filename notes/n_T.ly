@@ -934,6 +934,18 @@ SchwarzeGrauenvolleTenoreLyrics = \lyricmode {
 	flie -- hen, laßt uns fliehn.] %50 finis
 }
 
+GottesSchreckenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
+		
+	}
+}
+
+GottesSchreckenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

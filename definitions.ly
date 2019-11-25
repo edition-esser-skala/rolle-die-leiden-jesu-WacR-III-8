@@ -340,6 +340,7 @@ tempoGelobtSey = \tempoMarkup "Recitativ"
 tempoOWelche = \tempoMarkup "Larghetto"
 
 tempoSchwarzeGrauenvolle = \tempoMarkup "Andante"
+tempoGottesSchrecken = \tempoMarkup "Recitativ"
 
 
 

@@ -1273,3 +1273,11 @@ SchwarzeGrauenvolleViola = {
 		q4 r r2 \bar "||" %53 finis
 	}
 }
+
+GottesSchreckenViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGottesSchrecken
+		
+	}
+}

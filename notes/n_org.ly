@@ -3201,6 +3201,18 @@ SchwarzeGrauenvolleBassFigures = \figuremode {
 	r %53 finis
 }
 
+GottesSchreckenOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoGottesSchrecken
+		
+	}
+}
+
+GottesSchreckenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

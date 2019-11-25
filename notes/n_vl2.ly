@@ -1274,3 +1274,11 @@ SchwarzeGrauenvolleViolinoII = {
 		<d a' f'>4 r r2 \bar "||" %53 finis
 	}
 }
+
+GottesSchreckenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGottesSchrecken
+		
+	}
+}

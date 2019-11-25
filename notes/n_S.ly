@@ -1126,6 +1126,18 @@ SchwarzeGrauenvolleSopranoLyrics = \lyricmode {
 	flie -- hen, laßt uns fliehn. %50 finis
 }
 
+GottesSchreckenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
+		
+	}
+}
+
+GottesSchreckenSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

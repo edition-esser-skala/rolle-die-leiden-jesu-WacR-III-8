@@ -372,6 +372,18 @@ GelobtSeyNicoLyrics = \lyricmode {
 	dir, der Gött -- li -- che? %7 finis
 }
 
+GottesSchreckenNicoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
+		
+	}
+}
+
+GottesSchreckenNicoLyrics = \lyricmode {
+	
+}
+
 % NicoNotes = {
 % 	\relative c {
 % 		\clef bass

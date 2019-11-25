@@ -1341,6 +1341,14 @@ SchwarzeGrauenvolleViolinoI = {
 	}
 }
 
+GottesSchreckenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGottesSchrecken
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -998,6 +998,18 @@ SchwarzeGrauenvolleAltoLyrics = \lyricmode {
 	flie -- hen, laßt uns fliehn.] %50 finis
 }
 
+GottesSchreckenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
+		
+	}
+}
+
+GottesSchreckenAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

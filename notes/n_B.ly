@@ -911,6 +911,18 @@ SchwarzeGrauenvolleBassoLyrics = \lyricmode {
 	flie -- hen, laßt uns fliehn. %50 finis
 }
 
+GottesSchreckenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
+		
+	}
+}
+
+GottesSchreckenBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
