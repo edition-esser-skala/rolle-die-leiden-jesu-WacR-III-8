@@ -3303,12 +3303,21 @@ ErDerAmOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoErDerAm
-		
+		f1~
+		f
+		es
+		d2 c
+		r4 c f,8 f' f16. es32 d16. c32 \markVSE \bar "||" %5 finis
+		\key b \major \time 4/4
 	}
 }
 
 ErDerAmBassFigures = \figuremode {
-	
+	<5 3>1
+	r
+	<4! 2>
+	<6->2 <7 _!>
+	r4 <_!> <3>2 %5 finis
 }
 
 % Organo = {

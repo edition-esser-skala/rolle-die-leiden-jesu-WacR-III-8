@@ -294,6 +294,7 @@
 		\header {
 			movement = \movementTitle "5.4" "R E C I T A T I V" "Er, der am Kreutze ſtarb"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new Staff {
