@@ -1278,6 +1278,27 @@ GottesSchreckenViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoGottesSchrecken
-		
+		R1*2
+		r2 a2~\p
+		a1
+		r16. e'32 g16. g32 g16. c,32 c'16. c32 e,4-! r %5
+		r2 c~\p
+		c4 r \tempoGottesSchreckenB b\p b
+		f'\f f f r
+		r2 b,4\p b
+		b\f b a\p a %10
+		a\f f f2~\p
+		f4 r g\p g
+		g2~\fp g4 r
+		c\f c c\p c
+		b b~\f b2\p %15
+		\tempoGottesSchreckenC b4\f b b\pE b
+		a a gis gis
+		gis h!\f a\p a
+		d d\f dis\p dis,
+		r2 r8 e'\f fis e %20
+		e4 f r gis,8( h)
+		h4( a8) r r4 e\p
+		e8( e) e( e) e2 \bar "||" %23 finis
 	}
 }

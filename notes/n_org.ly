@@ -3241,7 +3241,7 @@ GottesSchreckenBassFigures = \figuremode {
 	<7->
 	r
 	r
-	r2 <5- 3> %10
+	r2 <7 5- 3> %10
 	r <6 4 2->
 	r <7 _!>
 	r1

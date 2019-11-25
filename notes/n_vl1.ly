@@ -1345,7 +1345,28 @@ GottesSchreckenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoGottesSchrecken
-		
+		R1*2
+		r2 d'~\p
+		d1
+		r16. e,32\f g16. g32 g16. c,32 c'16. c32 <b g'>4-! r %5
+		r2 f'~\p
+		f4 r \tempoGottesSchreckenB r8 f,4(\p \scriptOut b8)-!
+		r d4(\f \scriptOut f8)-! b4 r
+		r2 r8 f4(\p \scriptOut d8)-!
+		r b4(\f \scriptOut f8)-! r g'4(\p \scriptOut es8)-! %10
+		r c4(\f \scriptOut es,8)-! d2~\p
+		d4 r r8 f'4(\p \scriptOut d8)-!
+		h!2~\fp h4 r
+		r8 g4(\f \scriptOut c8)-! r es4(\p \scriptOut g8)-!
+		r g,-! g4~\f g2\p %15
+		\tempoGottesSchreckenC r8 g4(\f \scriptOut c8)-! r e!4(\p \scriptOut g8)-!
+		r e4( \scriptOut g8)-! r f4 f8~
+		f e4\f e\p e e8
+		d d4\f d8(\p c) c,4 c8
+		r2 r8 e16(\f e') dis8 e,16( d') %20
+		\appoggiatura d8 c4\trill h f'8( d) h( gis)
+		gis?4( a8) r f(\p d) h( gis)
+		a( c) c( c) c2 \bar "||" %23 finis
 	}
 }
 
