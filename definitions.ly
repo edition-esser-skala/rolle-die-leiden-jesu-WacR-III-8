@@ -343,6 +343,7 @@ tempoSchwarzeGrauenvolle = \tempoMarkup "Andante"
 tempoGottesSchrecken = \tempoMarkup "Recitativ"
 	tempoGottesSchreckenB = \tempoMarkup "Andante"
 	tempoGottesSchreckenC = \tempoMarkup "a tempo"
+tempoIhrAugen = \tempoMarkup "Choral"
 
 
 

@@ -930,6 +930,19 @@ GottesSchreckenBassoLyrics = \lyricmode {
 	ſtirbt. %23 finis
 }
 
+IhrAugenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}
+
+IhrAugenBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -1302,3 +1302,12 @@ GottesSchreckenViola = {
 		e8( e) e( e) e2 \bar "||" %23 finis
 	}
 }
+
+IhrAugenViola = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}

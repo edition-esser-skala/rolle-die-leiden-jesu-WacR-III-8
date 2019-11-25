@@ -953,6 +953,19 @@ GottesSchreckenTenoreLyrics = \lyricmode {
 	ſtirbt.] %23 finis
 }
 
+IhrAugenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}
+
+IhrAugenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

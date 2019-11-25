@@ -1017,6 +1017,19 @@ GottesSchreckenAltoLyrics = \lyricmode {
 	ſtirbt.] %23 finis
 }
 
+IhrAugenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}
+
+IhrAugenAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

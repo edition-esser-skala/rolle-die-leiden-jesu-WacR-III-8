@@ -3257,6 +3257,18 @@ GottesSchreckenBassFigures = \figuremode {
 	r1 %23 finis
 }
 
+IhrAugenOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2 gis'2\fE a a,
+	}
+}
+
+IhrAugenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

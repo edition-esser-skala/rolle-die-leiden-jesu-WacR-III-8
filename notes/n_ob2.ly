@@ -573,3 +573,12 @@ SchwarzeGrauenvolleOboeII = {
 		f4 r r2 \bar "||" %53 finis
 	}
 }
+
+IhrAugenOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}

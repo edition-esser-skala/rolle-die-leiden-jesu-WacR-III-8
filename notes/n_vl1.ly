@@ -1370,6 +1370,15 @@ GottesSchreckenViolinoI = {
 	}
 }
 
+IhrAugenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1303,3 +1303,12 @@ GottesSchreckenViolinoII = {
 		a( a) a( a) a2 \bar "||" %23 finis
 	}
 }
+
+IhrAugenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}

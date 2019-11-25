@@ -1145,6 +1145,19 @@ GottesSchreckenSopranoLyrics = \lyricmode {
 	ſtirbt. %23 finis
 }
 
+IhrAugenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoIhrAugen
+		\partial 2
+		
+	}
+}
+
+IhrAugenSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

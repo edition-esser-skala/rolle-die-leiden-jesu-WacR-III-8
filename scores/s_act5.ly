@@ -138,79 +138,152 @@
 % 			\midi { \tempo 4 = 70 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.2" "R E C I T A T I V" "Gottes Schrecken ſchlagen ſie"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GottesSchreckenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GottesSchreckenViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\GottesSchreckenViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Johannes"
+% 						\new Voice = "Johannes" { \dynamicUp \GottesSchreckenJohannesNotes }
+% 					}
+% 					\new Lyrics \lyricsto Johannes \GottesSchreckenJohannesLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Nikodemus"
+% 						\new Voice = "Nico" { \dynamicUp \GottesSchreckenNicoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Nico \GottesSchreckenNicoLyrics
+% 				>>
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \GottesSchreckenSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \GottesSchreckenSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GottesSchreckenAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GottesSchreckenAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \GottesSchreckenTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GottesSchreckenTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GottesSchreckenBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GottesSchreckenBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\GottesSchreckenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GottesSchreckenBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.2" "R E C I T A T I V" "Gottes Schrecken ſchlagen ſie"
+			movement = \movementTitle "5.3" "C H O R A L" "Jhr Augen weint!"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\IhrAugenOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\IhrAugenOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GottesSchreckenViolinoI
+							\IhrAugenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GottesSchreckenViolinoII
+							\IhrAugenViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\GottesSchreckenViola
+							\IhrAugenViola
 						}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Johannes"
-						\new Voice = "Johannes" { \dynamicUp \GottesSchreckenJohannesNotes }
-					}
-					\new Lyrics \lyricsto Johannes \GottesSchreckenJohannesLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Nikodemus"
-						\new Voice = "Nico" { \dynamicUp \GottesSchreckenNicoNotes }
-					}
-					\new Lyrics \lyricsto Nico \GottesSchreckenNicoLyrics
-				>>
-				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
-					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GottesSchreckenSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \IhrAugenSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GottesSchreckenSopranoLyrics
+					\new Lyrics \lyricsto Soprano \IhrAugenSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GottesSchreckenAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \IhrAugenAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GottesSchreckenAltoLyrics
+					\new Lyrics \lyricsto Alto \IhrAugenAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \GottesSchreckenTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \IhrAugenTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GottesSchreckenTenoreLyrics
+					\new Lyrics \lyricsto Tenore \IhrAugenTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GottesSchreckenBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \IhrAugenBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GottesSchreckenBassoLyrics
+					\new Lyrics \lyricsto Basso \IhrAugenBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\GottesSchreckenOrgano
+						\IhrAugenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GottesSchreckenBassFigures
+					\IhrAugenBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }
