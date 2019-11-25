@@ -3262,10 +3262,52 @@ IhrAugenOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoIhrAugen
 		\partial 2 gis'2\fE a a,
+		e'\fermata e
+		f d
+		e\fermata c'
+		gis a %5
+		d, e
+		f( g)
+		c,1\fermata
+		g'2 e
+		d c %10
+		g' a
+		e1\fermata
+		c'2 h
+		a f
+		e1 %15
+		a,2\fermata \bar "||" %16 finis
 	}
 }
 
 IhrAugenBassFigures = \figuremode {
+	<6>2 <9> <8>8 <7+> <8>4
+	<_+>2 <6 _+>
+	<5 3>1
+	<_+>2 <6>
+	<6 5>1 %5
+	<7 5>4 <6 \t> <6>2
+	<6 5> <8>4 <7>
+	r1
+	r2 <6>
+	q1 %10
+	r
+	<4>4 <_+>2.
+	<6>2 <6\\>
+	r <6>
+	<6 4> <7 5 _+> %15
+	r %16 finis
+}
+
+ErDerAmOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoErDerAm
+		
+	}
+}
+
+ErDerAmBassFigures = \figuremode {
 	
 }
 

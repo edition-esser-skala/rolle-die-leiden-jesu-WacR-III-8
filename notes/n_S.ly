@@ -1149,13 +1149,63 @@ IhrAugenSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoIhrAugen
-		\partial 2
-		
+		\partial 2 e'2 c c
+		h\fermata c
+		a a
+		gis\fermata e'
+		e e %5
+		f e
+		d1
+		c\fermata
+		h2 c
+		d e %10
+		d c
+		h1\fermata
+		a2 h
+		c d
+		c( h) %15
+		a\fermata \bar "||" %16 finis
 	}
 }
 
-IhrAugenSopranoLyrics = \lyricmode {
-	
+IhrAugenLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Jhr Au -- gen
+	weint! der
+	Men -- ſchen
+	freund ließ
+	dort für %5
+	uns ſich
+	ſchla --
+	gen.
+	Je -- ſu,
+	unſ -- re %10
+	Mi -- ße
+	that
+	wirk -- te
+	dei -- ne
+	Pla -- %15
+	gen. %16 finis
+}
+
+IhrAugenLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Er -- bar -- me
+	dich, er --
+	bar -- me
+	dich! Herr,
+	un -- ſer, %5
+	wenn wir
+	ſter --
+	ben.
+	Laß auf
+	dich ent -- %10
+	ſchla -- fen
+	uns
+	und dein
+	Reich er --
+	er -- %15
+	ben. %16 finis
 }
 
 % SopranoNotes = {

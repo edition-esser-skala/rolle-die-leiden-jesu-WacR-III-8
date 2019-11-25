@@ -207,6 +207,18 @@ violinGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+twoStanzaDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 20)
+			 (minimum-distance . 20)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 15)
+       (minimum-distance . 15)
+       (padding . -100)
+			 (stretchability . 0)) }
+
 threeStanzaDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
 		#'((basic-distance . 22)
@@ -344,6 +356,7 @@ tempoGottesSchrecken = \tempoMarkup "Recitativ"
 	tempoGottesSchreckenB = \tempoMarkup "Andante"
 	tempoGottesSchreckenC = \tempoMarkup "a tempo"
 tempoIhrAugen = \tempoMarkup "Choral"
+tempoErDerAm = \tempoMarkup "Recitativ"
 
 
 
@@ -538,6 +551,7 @@ tempoIhrAugen = \tempoMarkup "Choral"
 \include "notes/n_Blind.ly"     %T
 \include "notes/n_Johannes.ly"  %T
 \include "notes/n_Petrus.ly"    %T
+\include "notes/n_Hauptmann.ly" %B
 \include "notes/n_Judas.ly"     %B
 \include "notes/n_Kaiphas.ly"   %B
 \include "notes/n_Nico.ly"      %B

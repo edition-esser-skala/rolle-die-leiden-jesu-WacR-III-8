@@ -213,77 +213,107 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.3" "C H O R A L" "Jhr Augen weint!"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\IhrAugenOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\IhrAugenOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IhrAugenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IhrAugenViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\IhrAugenViola
+% 						}
+% 				>>
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \IhrAugenSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IhrAugenLyricsA
+% 					\new Lyrics \lyricsto Soprano \IhrAugenLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \IhrAugenAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IhrAugenLyricsA
+% 					\new Lyrics \lyricsto Alto \IhrAugenLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \IhrAugenTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IhrAugenLyricsA
+% 					\new Lyrics \lyricsto Tenore \IhrAugenLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \IhrAugenBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IhrAugenLyricsA
+% 					\new Lyrics \lyricsto Basso \IhrAugenLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\IhrAugenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IhrAugenBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.3" "C H O R A L" "Jhr Augen weint!"
+			movement = \movementTitle "5.4" "R E C I T A T I V" "Er, der am Kreutze ſtarb"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\IhrAugenOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\IhrAugenOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\IhrAugenViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\IhrAugenViolinoII
-						}
-					>>
-					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\IhrAugenViola
-						}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IhrAugenSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \IhrAugenSopranoLyrics
+				\new Staff {
+					\set Staff.instrumentName = "Der Hauptmann"
+					\new Voice = "Hauptmann" { \dynamicUp \ErDerAmHauptmannNotes }
+				}
+				\new Lyrics \lyricsto Hauptmann \ErDerAmHauptmannLyrics
 					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IhrAugenAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \IhrAugenAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IhrAugenTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \IhrAugenTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \IhrAugenBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \IhrAugenBassoLyrics
-				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\IhrAugenOrgano
+						\ErDerAmOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IhrAugenBassFigures
+					\ErDerAmBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

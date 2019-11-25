@@ -1305,9 +1305,23 @@ GottesSchreckenViola = {
 
 IhrAugenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoIhrAugen
-		\partial 2
-		
+		\partial 2 e2 e e
+		e\fermata e
+		c d
+		h\fermata c
+		d c %5
+		c4( h) c2
+		c( h)
+		c1\fermata
+		d2 e
+		f g %10
+		g e
+		e1\fermata
+		e2 d
+		e d
+		e( d) %15
+		c\fermata \bar "||" %16 finis
 	}
 }

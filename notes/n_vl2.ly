@@ -1308,7 +1308,21 @@ IhrAugenViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoIhrAugen
-		\partial 2
-		
+		\partial 2 h' h a8([ gis] a4)
+		gis2\fermata gis
+		a f
+		e\fermata a
+		h a %5
+		a g!
+		a( g4 f)
+		e1\fermata
+		g2 g
+		h c %10
+		h a
+		a4( gis2.)\fermata
+		a2 gis
+		a a
+		a( gis) %15
+		e\fermata \bar "||" %16 finis
 	}
 }

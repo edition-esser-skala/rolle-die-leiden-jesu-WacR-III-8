@@ -934,13 +934,23 @@ IhrAugenBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \tempoIhrAugen
-		\partial 2
-		
+		\partial 2 gis'2 a a,
+		e'\fermata e
+		f d
+		e\fermata c'
+		gis a %5
+		d, e
+		f( g)
+		c,1\fermata
+		g'2 e
+		d c %10
+		g' a
+		e1\fermata
+		c'2 h
+		a f
+		e1 %15
+		a,2\fermata \bar "||" %16 finis
 	}
-}
-
-IhrAugenBassoLyrics = \lyricmode {
-	
 }
 
 % BassoNotes = {

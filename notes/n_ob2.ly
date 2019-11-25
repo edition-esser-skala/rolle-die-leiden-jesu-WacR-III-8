@@ -578,7 +578,21 @@ IhrAugenOboeII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoIhrAugen
-		\partial 2
-		
+		\partial 2 e'2 c c
+		h\fermata c
+		a a
+		gis\fermata e'
+		e e %5
+		f e
+		d1
+		c\fermata
+		h2 c
+		d e %10
+		d c
+		h1\fermata
+		a2 h
+		c d
+		c( h) %15
+		a\fermata \bar "||" %16 finis		
 	}
 }
