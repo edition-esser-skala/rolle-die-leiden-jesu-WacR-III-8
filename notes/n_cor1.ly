@@ -177,6 +177,47 @@ SchwarzeGrauenvolleCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoSchwarzeGrauenvolle
-		
+		g'2\fE g4(-. g-.)
+		g2 r
+		c, c4(-. c-.)
+		c2 r
+		g'4(-. g-.) g2 %5
+		R1
+		r2 d'
+		d d
+		\pao g, r
+		r g4(-. g-.) %10
+		g2 r
+		c, c4(-. c-.)
+		c2 r
+		g' g4(-. g-.)
+		R1 %15
+		c2 r
+		c r
+		c r
+		c r
+		c r %20
+		c8(-. c-.) c4 r2
+		c2 r
+		R1*5 %27
+		r8 c16. c32 c4 r8 c16. c32 c4
+		r8 c16. c32 c4 g g
+		g r g'2 %30
+		g, c8 c16 c c8 r
+		d8 d16 d d8 r c c16 c c8 r
+		d2 c8 g r4
+		d'2 d
+		d4 r\fermata r2 %35
+		R1*8 %43
+		r2 d4 d8 d
+		d4 r d d8 d %45
+		d4 r d r8 d16. d32
+		d4 r c c8 c
+		c4 r c c8 c
+		c c c c c4 r
+		\pao g r r g' %50
+		g,2 \pao c4 r
+		d2 c4 c8 c
+		c4 r r2 \bar "||" %53 finis
 	}
 }
