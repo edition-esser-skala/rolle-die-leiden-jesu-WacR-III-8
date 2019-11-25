@@ -1130,12 +1130,19 @@ GottesSchreckenSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
-		
+		R1*19 %19
+		r2 r8 e'\fE dis d %20
+		\appoggiatura d c4 h r r8 gis
+		gis4( a8) r r4 r8 e\p
+		e2 r \bar "||" %23 finis
 	}
 }
 
 GottesSchreckenSopranoLyrics = \lyricmode {
-	
+	O we -- he, %20
+	we -- he! er
+	ſtirbt, er
+	ſtirbt. %23 finis
 }
 
 % SopranoNotes = {

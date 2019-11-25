@@ -938,12 +938,19 @@ GottesSchreckenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
-		
+		R1*19 %19
+		r2 r8 h\fE a e' %20
+		e4 f r r8 h,
+		h4( a8) r r4 r8 h\p
+		a2 r \bar "||" %23 finis
 	}
 }
 
 GottesSchreckenTenoreLyrics = \lyricmode {
-	
+	[O we -- he, %20
+	we -- he! er
+	ſtirbt, er
+	ſtirbt.] %23 finis
 }
 
 % TenoreNotes = {

@@ -3205,12 +3205,56 @@ GottesSchreckenOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoGottesSchrecken
-		
+		fis2 r
+		b, a
+		r4 a' d,2~\p
+		d1
+		r16. e32\f g16. g32 g16. c,32 c'16. c32 e,4-! r %5
+		r2 f~\p
+		f4 r \tempoGottesSchreckenB b,4 b
+		b\f b b r
+		r2 b4\p b
+		b\f b a\p a %10
+		a\f a as2~\p
+		as4 r g g
+		g2~\fp g4 r
+		c\f c c\p c
+		b b~\f b2\p %15
+		\tempoGottesSchreckenC b4\f b b\p b
+		a a gis gis
+		gis gis'\f a\p a,
+		d d\f dis\p dis
+		dis r r8 e\f fis gis %20
+		a4 d, r e
+		f2 d4\p e
+		a, a8( a) a2 \bar "||" %23 finis
 	}
 }
 
 GottesSchreckenBassFigures = \figuremode {
-	
+	<6>1
+	q2 <7 _+>
+	r4 <_+> r2
+	r1
+	r2 <6 5-> %5
+	r1
+	<7->
+	r
+	r
+	r2 <5- 3> %10
+	r <6 4 2->
+	r <7 _!>
+	r1
+	<_->
+	<4! 2> %15
+	r
+	<7 _+>2 <7>
+	<\t>8 <6> <6 5>4 <_!>2
+	<6-> <7 _+>
+	r2 r8 <_+> <6\\> <6 5!> %20
+	<9 4> <8 3> <6! 5>2 <7 5 _+>4
+	<\t \t \t> <5 3> r <7 _+>
+	r1 %23 finis
 }
 
 % Organo = {

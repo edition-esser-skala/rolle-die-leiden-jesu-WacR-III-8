@@ -240,12 +240,42 @@ GottesSchreckenJohannesNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
-		
+		R1*2
+		r2 r4 a
+		r a8 a d d f e
+		c! c r4 r g'8 b, %5
+		d d d c a a r c16 d
+		es8 r16 es es8 d \tempoGottesSchreckenB b b r4
+		r2 r4 f8 f
+		b b b d b b r4
+		R1 %10
+		r2 r4 b8 b
+		d  d f d h h r4
+		r2 f'8 f f es
+		c c r4 r2
+		r c8 c c d %15
+		\tempoGottesSchreckenC e! e r4 e8 e e g
+		g cis, r e16. a,32 d8 d r4
+		R1*6 \bar "||" %23 finis
 	}
 }
 
 GottesSchreckenJohannesLyrics = \lyricmode {
-	
+	Du, %3
+	der du ſie mit Schre -- cken
+	ſchlä -- geſt, ſtär -- ke %5
+	dei -- nes Soh -- nes Freun -- de, denn er
+	ſtirbt, er ſtirbt am Kreu -- tze.
+	Schaut hi --
+	nauf zu ſei -- nem Kreu -- tze:
+	%10
+	Tie -- fer
+	ſinkt ſein Haupt zum Her -- zen,
+	blei -- cher ſind die
+	Wan -- gen,
+	die ge -- broch -- nen %15
+	Au -- gen he -- bet er gen
+	Him -- mel_– ich ver -- ge -- he! %17 finis
 }
 
 % JohannesNotes = {

@@ -915,12 +915,19 @@ GottesSchreckenBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
-		
+		R1*19 %19
+		r2 r8 e\fE fis gis %20
+		a4 d, r e
+		f2 r4 r8 e\p
+		a,2 r \bar "||" %23 finis
 	}
 }
 
 GottesSchreckenBassoLyrics = \lyricmode {
-	
+	O we -- he, %20
+	we -- he! er
+	ſtirbt, er
+	ſtirbt. %23 finis
 }
 
 % BassoNotes = {

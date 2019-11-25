@@ -376,12 +376,27 @@ GottesSchreckenNicoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoGottesSchrecken
-		
+		r4 d'8 a c c c b
+		g4 r8 b16 g cis8 cis cis d
+		a4 r r2
+		R1*13 %16
+		r2 r4 h!8 r16 h
+		h8 e, r4 c'8([ a)] a8 r
+		b b r4 r a~
+		a gis8 a e4 r %20
+		R1*3 \bar "||" %23 finis
 	}
 }
 
 GottesSchreckenNicoLyrics = \lyricmode {
+	Got -- tes Schre -- cken ſchla -- gen
+	ſie, ü -- ber ſie kommt ſchon ſein
+	Blut.
 	
+	Ach, er %17
+	ru -- fet, be -- tet,
+	ru -- fet, nei --
+	get ſein Haupt. %20 finis
 }
 
 % NicoNotes = {
