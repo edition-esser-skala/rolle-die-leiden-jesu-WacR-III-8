@@ -601,6 +601,30 @@ WeinetIhnOboeII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWeinetIhn
-		
+		b'4\fE( c b)
+		a a( g)
+		g\trill fis r
+		fis8( g) g( a) a( b)
+		b4(\p c) b %5
+		a a( g)
+		g( fis) r
+		r g f(
+		es8) c' c( b) b( a)
+		g( fis) g4 f( %10
+		es8) c' c( b) b( a)
+		g4 d8( fis) fis( g)
+		g2 h4
+		r g8( c) c4
+		f,!2 a4 %15
+		r f8( a) a( b)
+		b2 a4
+		b2 a4
+		b8.( c16 des4) c
+		b2 a4 %20
+		b8.( c16) des4~ des8 b
+		b4( a8) f4 g8
+		a2 b4~
+		b b4. a8
+		c4( b8) r r4 %25
 	}
 }

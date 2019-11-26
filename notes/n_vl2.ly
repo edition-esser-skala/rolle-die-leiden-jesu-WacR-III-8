@@ -1359,6 +1359,6 @@ WeinetIhnViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWeinetIhn
-		
+		R2.*25
 	}
 }

@@ -1064,12 +1064,53 @@ WeinetIhnAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
-		
+		R2.*4
+		b'4( c) b %5
+		a a( g)
+		\appoggiatura g fis2 r4
+		g2 f4
+		es8 c' c([ b)] b([ a)]
+		g([ fis)] g4 g~ %10
+		g8 c c b b a
+		g([ fis)] g4 r
+		h4. h8 h d
+		\appoggiatura d4 c2 r8 g
+		a4. a8 a c %15
+		b!([ a)] b4 r
+		R2.
+		b8. c16 des4 c
+		b2 a4
+		b8.([ c16] des4) c %20
+		b2 des8([ b)]
+		\appoggiatura b4 a2 r4
+		a4. a8 b4~
+		b8 b b4. a8
+		c4( b8) r r4 %25
 	}
 }
 
 WeinetIhnAltoLyrics = \lyricmode {
+	Wei -- net, %5
+	wei -- net
+	ihn,
+	ban -- ge
+	trau -- er -- vol -- le
+	Lie -- der, ban -- %10
+	ge trau -- er -- vol -- le
+	Lie -- der!
+	O wie ſank ſein
+	Haupt, wie
+	ſank ſein Haupt her -- %15
+	nie -- der,
 	
+	wie hat ihn der
+	Tod ent --
+	ſtellt, __ der %20
+	Tod ent --
+	ſtellt,
+	wie hat ihn __
+	der Tod ent --
+	ſtellt?
 }
 
 % AltoNotes = {

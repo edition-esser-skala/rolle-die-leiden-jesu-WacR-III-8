@@ -247,5 +247,29 @@ WeinetIhnFagottoII = {
 		\clef bass
 		\key g \minor \time 3/4 \tempoWeinetIhn
 		g'2.\fE
+		c2 cis4
+		d( es d)
+		c b a
+		g2.\p %5
+		c2 cis4
+		d,4 d'8( c) c( b)
+		b4 es d
+		c2 d4
+		g, es' d %10
+		c2 d4
+		g, b d
+		f f f
+		es2 es4
+		es es es %15
+		d d c
+		b2 f4
+		ges( e) f
+		b,2 f'4
+		ges( e) f %20
+		b2 e4
+		f f, f'
+		es! es d!
+		es f f,
+		b2 r4 %25
 	}
 }

@@ -1232,12 +1232,54 @@ WeinetIhnSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
+		R2.*4
+		d'4( es) d %5
+		c c( b)
+		\appoggiatura b a2 r4
+		g2 g4
+		g8 es' es([ d)] d([ c)]
+		b([ a)] g4 g~ %10
+		g8 es' es d d c
+		b([ a)] g4 r
+		d'4. g8 g h,
+		\appoggiatura h?4 c2 r8 g
+		c4. f8 f a, %15
+		b!([ a)] b4 r
+		b8. c16 des4 c
+		b2 a4
+		b8.([ c16] des4) c
+		b2 a4 %20
+		b8.([ c16] des4) f8([ des)]
+		\appoggiatura des?4 c2 r4
+		c4. g'8 f4~
+		f8 g c,4( d!8) es
+		es4( d8) r r4 %25
 		
 	}
 }
 
 WeinetIhnSopranoLyrics = \lyricmode {
-	
+	Wei -- net, %5
+	wei -- net
+	ihn,
+	ban -- ge
+	trau -- er -- vol -- le
+	Lie -- der, ban -- %10
+	ge trau -- er -- vol -- le
+	Lie -- der!
+	O wie ſank ſein
+	Haupt, wie
+	ſank ſein Haupt her -- %15
+	nie -- der,
+	wie hat ihn der
+	Tod, der
+	Tod __ ent --
+	ſtellt, der %20
+	Tod __ ent --
+	ſtellt,
+	wie hat ihn __
+	der Tod __ ent --
+	ſtellt?
 }
 
 % SopranoNotes = {

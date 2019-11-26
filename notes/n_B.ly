@@ -977,7 +977,7 @@ WeinetIhnBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
-		
+		R2.*25
 	}
 }
 

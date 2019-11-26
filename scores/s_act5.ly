@@ -386,19 +386,31 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.6" "C H O R" "Weinet ihn"
+			movement = \movementTitle "5.6" "C H O R" "Weinet ihn, bange trauervolle Lieder!"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \WeinetIhnOboeI \WeinetIhnOboeII
-					}
-					\new Staff {
-						\set Staff.instrumentName = "Fagotto I, II"
-						\partcombine \WeinetIhnFagottoI \WeinetIhnFagottoII
-					}
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\WeinetIhnOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\WeinetIhnOboeII
+						}
+					>>
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Fagotto I"
+							\WeinetIhnFagottoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Fagotto II"
+							\WeinetIhnFagottoII
+						}
+					>>
 				>>
 				\new StaffGroup <<
 					\new Staff {

@@ -3376,7 +3376,8 @@ WeinetIhnOrgano = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 3/4 \tempoWeinetIhn
-		
+		R2.*24 %24
+		b4~\pE b8 b d f %25
 	}
 }
 
