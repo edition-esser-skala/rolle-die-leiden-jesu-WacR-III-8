@@ -1086,6 +1086,7 @@ WeinetIhnAltoNotes = {
 		a4. a8 b4~
 		b8 b b4. a8
 		c4( b8) r r4 %25
+		R2.*23 \bar "||" %48
 	}
 }
 

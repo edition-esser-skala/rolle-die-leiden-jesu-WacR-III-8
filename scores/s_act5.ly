@@ -463,14 +463,14 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\WeinetIhnOrgano
+						\transpose c c,\WeinetIhnOrgano
 					}
 				>>
 				\new FiguredBass {
 					\WeinetIhnBassFigures
 				}
 			>>
-			\layout { }
+% 			\layout { }
 			\midi { \tempo 4 = 70 }
 		}
 	}

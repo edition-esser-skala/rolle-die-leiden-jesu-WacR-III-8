@@ -271,5 +271,28 @@ WeinetIhnFagottoII = {
 		es! es d!
 		es f f,
 		b2 r4 %25
+		b8 b b8.( c32 d) c8 b
+		b4( a8) a4 g8
+		f4 f8( g) g( a)
+		a4 a8( h) h( c)
+		c4 c8( b) b( a) %30
+		a8. b16 c4 b
+		b8 d16( b) a4 a8. c16
+		c8( b)\trill a4 r
+		r r b8. d16
+		\appoggiatura d8 c4\trill b r %35
+		r r8 b16. a32 b8 b~
+		b c b8.( c32 d) c8 a
+		b4 r8 b16. a32 b8 b~
+		b es d c b a
+		b b a8. b16 c8 a %40
+		b b a8. b16 c8 a
+		b4 r8 b16. a32 b8 f
+		g es' d c b a
+		b4 c2\fE
+		b8 r es,2 %45
+		d8 es16. d32 es8 c' b a
+		b4 r8 c b a \noBreak
+		b4 b,8 as' g f \bar "||"
 	}
 }

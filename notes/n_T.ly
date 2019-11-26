@@ -1000,12 +1000,50 @@ WeinetIhnTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
-		R2.*25
+		R2.*25 %25
+		d8 d d4( es8) d
+		\appoggiatura d4 c2 r4
+		R2.
+		c4~ c8([ d)] d([ es)]
+		es4.( e8) e([ f)] %30
+		f4( es) d
+		d c c8. es16
+		\appoggiatura es8 d4\trill c r
+		r r d8. f16
+		\appoggiatura f8 es4 d r %35
+		r r8 b16. a32 b8 f
+		g es' d4( es8) c
+		b4 r8 b16. a32 b8 f
+		g g' f es d c
+		b d c8. d16 es8 c %40
+		d d c8. d16 es8 c
+		d4 r8 b16. a32 b8 f
+		g g' f es d c
+		b4 r r
+		R2.*4 %48
 	}
 }
 
 WeinetIhnTenoreLyrics = \lyricmode {
+	Sin -- get, sin -- get %26
+	ihm!
 	
+	Ban -- ge
+	lei -- dens -- %30
+	vol -- le
+	Stun -- den ſind vo --
+	rü -- ber,
+	ſind vo --
+	rü -- ber, %35
+	ü -- ber -- wun -- den
+	hat der Gött -- li --
+	che, ü -- ber -- wun -- den
+	hat der Gött -- li -- che, der
+	Held, der Gött -- li -- che, der %40
+	Held, der Gött -- li -- che, der
+	Held, ü -- ber -- wun -- den
+	hat der Gött -- li -- che, der
+	Held.
 }
 
 % TenoreNotes = {

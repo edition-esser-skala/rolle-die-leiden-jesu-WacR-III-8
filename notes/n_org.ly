@@ -3378,11 +3378,57 @@ WeinetIhnOrgano = {
 		\key g \minor \time 3/4 \tempoWeinetIhn
 		R2.*24 %24
 		b4~\pE b8 b d f %25
+		b4 b, b'
+		r8 f16. e32 f8 f, a c
+		f( f) f( f) f( f)
+		f( f) f( f) f( f)
+		f( f) f( f) f( f) %30
+		f f a f b b,
+		f'4 f, r
+		b f' a8\f f
+		b b, f'4 r
+		f\mf b, d'8\f b %35
+		f4 b, r8 d\mf
+		es4 f f
+		g2 d4
+		es f f,
+		b f' r8 f %40
+		b4 f r8 f,
+		b4 r d
+		es f f,
+		b8[\f b'] c a f a
+		b,[ b'] c a f a %45
+		b es,16. d32 es4 f8 f,
+		g es'16. d32 es4 f8 f, \noBreak
+		b4 b'8 as g f \bar "||"
 	}
 }
 
 WeinetIhnBassFigures = \figuremode {
-	
+	r2.*25 %25
+	r2.
+	<6 4>8 <\t \t> <5 3>2
+	r2.
+	<5 3>2 <6 4!>4
+	<7 3>2 <7! 4 2>4 %30
+	<8 3> <6 5-> r
+	<6 4> <5 3>2
+	<9 4>8 <8 3> r4 <6 5>
+	<9 4>8 <8 3> r2
+	<8 6>8 <7 5> r4 <6> %35
+	<8 6>8 <7 5> r4. <6>8
+	<5>8 <6> <6 4>4 <7 5>
+	<5 3>2 <6>4
+	<5>8 <6> <8 6> <7 5> <6 4> <5 3>
+	r2. %40
+	r
+	r2 <6>4
+	<5>8 <6> <8 6> <7 5> <6 4> <5 3>
+	r4 <6>8 q r <6 5>
+	r4 <6>8 q r <6 5> %45
+	r8 <5> <\t> <6> <6 4> <5 3>
+	<5 3> <5> <\t> <6> <6 4> <5 3>
+	r4 <1>8 q q q
 }
 
 % Organo = {

@@ -1425,7 +1425,23 @@ WeinetIhnViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWeinetIhn
-		R2.*25
+		R2.*32 %32
+		r4 r16. f32\f a16. c32 f16. a32 c16. es,32
+		\appoggiatura es8 d4\trill c r
+		r4 r16. f,32 b16. d32 f16. b32 d16. f,32 %35
+		\appoggiatura f8 es4\trill d r
+		R2.
+		r8 b'16.\mf a32 b8 r r4
+		R2.
+		r8 d,16-. f-. c-. f-. c-. d-. es-. f-. c-. f-. %40
+		d f b, f' a, f' a, b c f a, f'
+		b,8 b'16.\f a32 b8 r r4
+		R2.
+		r8 b16.\f d,32 es16. f32 c16. f32 a,16. f'32 f,16. es'32
+		d8 b16.[ d,32] es16. f32 c16. f32 a,16. f'32 c16. es32 %45
+		d8 g16. f32 g8 es'16. c32 b8 a\trill
+		b8 g16. f32 g8 g'16. es32 d8 c\trill \noBreak
+		b4 b, r \bar "||"
 	}
 }
 

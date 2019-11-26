@@ -977,12 +977,50 @@ WeinetIhnBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
-		R2.*25
+		R2.*25 %25
+		b'8 b b4( c8) c
+		\appoggiatura b4 a2 r4
+		f4~ f8([ g)] g([ a)]
+		a4~ a8([ h)] h([ c)]
+		c4.( b8) b8([ a)] %30
+		a8.([ b16] c4) b
+		b a a8. c16
+		\appoggiatura c8 b4\trill a r
+		r r b8. d16
+		\appoggiatura d8 c4 b4 r %35
+		r r8 b16. a32 b8 f
+		g c b4( c8) a
+		b4 r8 b16. a32 b8 f
+		g es' d c b a
+		b b a8. b16 c8 a %40
+		b b a8. b16 c8 a
+		b4 r8 b16. a32 b8 f
+		g es' d c b a
+		b4 r r
+		R2.*4 %48
 	}
 }
 
 WeinetIhnBassoLyrics = \lyricmode {
-	
+	Sin -- get, sin -- get %26
+	ihm!
+	Ban -- ge,
+	ban -- ge
+	lei -- dens -- %30
+	vol -- le
+	Stun -- den ſind vo --
+	rü -- ber,
+	ſind vo --
+	rü -- ber, %35
+	ü -- ber -- wun -- den
+	hat der Gött -- li --
+	che, ü -- ber -- wun -- den
+	hat der Gött -- li -- che, der
+	Held, der Gött -- li -- che, der %40
+	Held, der Gött -- li -- che, der
+	Held, ü -- ber -- wun -- den
+	hat der Gött -- li -- che, der
+	Held.
 }
 
 % BassoNotes = {

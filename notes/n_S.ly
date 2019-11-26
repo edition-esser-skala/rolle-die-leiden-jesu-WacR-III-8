@@ -1254,7 +1254,7 @@ WeinetIhnSopranoNotes = {
 		c4. g'8 f4~
 		f8 g c,4( d!8) es
 		es4( d8) r r4 %25
-		
+		R2.*23 \bar "||" %48
 	}
 }
 

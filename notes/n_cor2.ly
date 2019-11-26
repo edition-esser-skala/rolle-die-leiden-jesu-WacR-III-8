@@ -223,6 +223,6 @@ WeinetIhnCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoWeinetIhn
-		R2.*25
+		R2.*48 \bar "||"
 	}
 }

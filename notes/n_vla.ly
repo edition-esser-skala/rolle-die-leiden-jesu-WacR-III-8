@@ -1358,6 +1358,16 @@ WeinetIhnViola = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoWeinetIhn
-		R2.*25
+		R2.*32 %32
+		r4 r8 f\f f f
+		f4 f r
+		r r8 f f f %35
+		f4 f r
+		R2.*7 %43
+		r8 b\f c[ a f a]
+		b f4 f f8~ %45
+		f es16. d32 es4 f8 f,
+		g es'16. d32 es4 f8 es \noBreak
+		d4 b r \bar "||"
 	}
 }
