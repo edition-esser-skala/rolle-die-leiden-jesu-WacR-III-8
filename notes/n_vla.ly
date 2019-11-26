@@ -1328,7 +1328,7 @@ IhrAugenViola = {
 
 SahetIhrViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoSahetIhr
 		b8\p b16. c32 d8 b c4 c8 b
 		a c16. b32 a8 g fis4~ fis8 g
