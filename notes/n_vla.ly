@@ -1330,6 +1330,26 @@ SahetIhrViola = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoSahetIhr
-		
+		b8\p b16. c32 d8 b c4 c8 b
+		a c16. b32 a8 g fis4~ fis8 g
+		a d e fis g4 b,
+		r8 c c c, f! a b c
+		d d16. es32 f8 d es4~ es8 es~ %5
+		es c(-. c-. c-.) c4~ c8 b
+		a fis' g a d,4 d
+		c c8 c, f4 r8 f
+		g16-!\fp g(-. g-. g-.) a-!\fp a(-. a-. a-.) b-!\fp f(-. f-. f-.) f-! f(-. f-. f-.)
+		f(-. f-. ges-. ges-.) f(-. f-. e-. e-.) f4 f8 es' %10
+		d! d d b b b es d
+		c4 a8 b f f' f es
+		d b16. c32 d8 b r f es' c
+		a4 a8 f b4 b8 c
+		d4 r8 b\fp b4 c8 es %15
+		f4 es d d8 es
+		f4\f r8 b, b b b g'
+		f4 es\trill d2
+		b4 b b2
+		b4 b b8 b f' f %20
+		f2 r \bar "||" %21 finis
 	}
 }

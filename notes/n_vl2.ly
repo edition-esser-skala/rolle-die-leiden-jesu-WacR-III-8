@@ -1339,7 +1339,7 @@ SahetIhrViolinoII = {
 		c es,(-. es-. es-.) es( d) d4
 		d8 d'4 c8 b d4 d16( b)
 		a4 \appoggiatura c16 b8 \appoggiatura a16 g8\appoggiatura g f4 r8 a,
-		b16-!\fp b(-. b-. b-.) c-!\fp c(-. c-. c-.) b-!\fp b(-. b-. b-.) a-!\fp a(-. a-. a-.)
+		b16-!\fp b(-. b-. b-.) c-!\fp c(-. c-. c-.) b-!\fp b(-. b-. b-.) a-! a(-. a-. a-.)
 		b-! b(-. b-. b-.) b-! b(-. b-. b-.) b( a) a4 f'8~ %10
 		f f f f g g g f
 		es c'4 b8 b4( a8) r
