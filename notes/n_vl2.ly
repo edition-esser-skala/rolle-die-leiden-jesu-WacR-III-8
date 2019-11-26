@@ -1354,3 +1354,11 @@ SahetIhrViolinoII = {
 		q2 r \bar "||" %21 finis
 	}
 }
+
+WeinetIhnViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWeinetIhn
+		
+	}
+}

@@ -3372,6 +3372,18 @@ SahetIhrBassFigures = \figuremode {
 	r1 %21 finis
 }
 
+WeinetIhnOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoWeinetIhn
+		
+	}
+}
+
+WeinetIhnBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

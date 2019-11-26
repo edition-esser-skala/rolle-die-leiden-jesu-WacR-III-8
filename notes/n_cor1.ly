@@ -221,3 +221,11 @@ SchwarzeGrauenvolleCornoI = {
 		c4 r r2 \bar "||" %53 finis
 	}
 }
+
+WeinetIhnCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoWeinetIhn
+		
+	}
+}

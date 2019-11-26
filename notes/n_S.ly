@@ -1228,6 +1228,18 @@ SahetIhrSopranoLyrics = \lyricmode {
 	Got -- tes Sohn. %20 finis
 }
 
+WeinetIhnSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
+		
+	}
+}
+
+WeinetIhnSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

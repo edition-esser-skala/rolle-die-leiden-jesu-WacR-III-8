@@ -593,3 +593,11 @@ IhrAugenOboeI = {
 		a\fermata \bar "||" %16 finis		
 	}
 }
+
+WeinetIhnOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWeinetIhn
+		
+	}
+}

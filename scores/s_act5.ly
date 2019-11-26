@@ -75,12 +75,12 @@
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in D" } }
-% 						\transpose c d \partcombine \SchwarzeGrauenvolleCornoI \SchwarzeGrauenvolleCornoII
+% 						\partcombine \SchwarzeGrauenvolleCornoI \SchwarzeGrauenvolleCornoII
 % 					}
 % 				>>
 % 				\new Staff {
 % 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "[in d–A]" } }
-% 					\transpose c d \SchwarzeGrauenvolleTimpani
+% 					\SchwarzeGrauenvolleTimpani
 % 				}
 % 				\new StaffGroup <<
 % 					\new GrandStaff \with { \violinGroupDistance } <<
@@ -317,71 +317,149 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.5" "A R I E,  C H O R" "Sahet ihr den göttlich leiden"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SahetIhrViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SahetIhrViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\SahetIhrViola
+% 						}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Hauptmann"
+% 					\new Voice = "Hauptmann" { \dynamicUp \SahetIhrHauptmannNotes }
+% 				}
+% 				\new Lyrics \lyricsto Hauptmann \SahetIhrHauptmannLyrics
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \SahetIhrSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SahetIhrSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \SahetIhrAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \SahetIhrAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \SahetIhrTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \SahetIhrTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \SahetIhrBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \SahetIhrBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\SahetIhrOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SahetIhrBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.5" "A R I E,  C H O R" "Sahet ihr den göttlich leiden"
+			movement = \movementTitle "5.6" "C H O R" "Weinet ihn"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \WeinetIhnOboeI \WeinetIhnOboeII
+					}
+					\new Staff {
+						\set Staff.instrumentName = "Fagotto I, II"
+						\partcombine \WeinetIhnFagottoI \WeinetIhnFagottoII
+					}
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
+					}
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SahetIhrViolinoI
+							\WeinetIhnViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SahetIhrViolinoII
+							\WeinetIhnViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\SahetIhrViola
+							\WeinetIhnViola
 						}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "Der Hauptmann"
-					\new Voice = "Hauptmann" { \dynamicUp \SahetIhrHauptmannNotes }
-				}
-				\new Lyrics \lyricsto Hauptmann \SahetIhrHauptmannLyrics
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \SahetIhrSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \WeinetIhnSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SahetIhrSopranoLyrics
+					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \SahetIhrAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SahetIhrAltoLyrics
+					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \SahetIhrTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SahetIhrTenoreLyrics
+					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \SahetIhrBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SahetIhrBassoLyrics
+					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\SahetIhrOrgano
+						\WeinetIhnOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SahetIhrBassFigures
+					\WeinetIhnBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

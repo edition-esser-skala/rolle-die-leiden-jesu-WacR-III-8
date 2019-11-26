@@ -1353,3 +1353,11 @@ SahetIhrViola = {
 		f2 r \bar "||" %21 finis
 	}
 }
+
+WeinetIhnViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoWeinetIhn
+		
+	}
+}

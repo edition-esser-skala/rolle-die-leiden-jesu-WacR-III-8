@@ -973,6 +973,18 @@ SahetIhrBassoLyrics = \lyricmode {
 	Got -- tes Sohn. %20 finis
 }
 
+WeinetIhnBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
+		
+	}
+}
+
+WeinetIhnBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

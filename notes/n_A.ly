@@ -1060,6 +1060,18 @@ SahetIhrAltoLyrics = \lyricmode {
 	Got -- tes Sohn.] %20 finis
 }
 
+WeinetIhnAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoWeinetIhn
+		
+	}
+}
+
+WeinetIhnAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

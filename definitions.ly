@@ -358,6 +358,7 @@ tempoGottesSchrecken = \tempoMarkup "Recitativ"
 tempoIhrAugen = \tempoMarkup "Choral"
 tempoErDerAm = \tempoMarkup "Recitativ"
 tempoSahetIhr = \tempoMarkup "Andante"
+tempoWeinetIhn = \tempoMarkup "Larghetto"
 
 
 
@@ -531,8 +532,6 @@ tempoSahetIhr = \tempoMarkup "Andante"
 	}
 }
 
-\include "notes/n_tr1.ly"
-\include "notes/n_tr2.ly"
 \include "notes/n_cor1.ly"
 \include "notes/n_cor2.ly"
 \include "notes/n_timp.ly"

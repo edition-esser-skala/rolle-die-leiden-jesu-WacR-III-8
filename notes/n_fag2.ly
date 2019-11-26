@@ -241,3 +241,11 @@ AnderenHalfFagottoII = {
 		c\breve*1/2\fermata \bar "||" %160 finis
 	}
 }
+
+WeinetIhnFagottoII = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoWeinetIhn
+		g'2.\fE
+	}
+}
