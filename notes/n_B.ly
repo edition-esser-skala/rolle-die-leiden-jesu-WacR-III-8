@@ -957,12 +957,20 @@ SahetIhrBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
-		
+		R1*16 %16
+		d8 d r4 es8 es es es
+		f4 f b,2
+		r4 b'8 b b4 r
+		r b8 b b2 %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 SahetIhrBassoLyrics = \lyricmode {
-	
+	Wahr -- lich, er war wahr -- lich %17
+	Got -- tes Sohn,
+	Got -- tes Sohn,
+	Got -- tes Sohn. %20 finis
 }
 
 % BassoNotes = {

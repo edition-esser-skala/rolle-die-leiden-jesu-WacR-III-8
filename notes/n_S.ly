@@ -1212,12 +1212,20 @@ SahetIhrSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
-		
+		R1*16 %16
+		b'8 f f'4~ f8 es g es
+		d4 c\trill b2
+		r4 es8 a, b4 r
+		r g8 a b2 %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 SahetIhrSopranoLyrics = \lyricmode {
-	
+	Wahr -- lich, er __ war wahr -- lich %17
+	Got -- tes Sohn,
+	Got -- tes Sohn,
+	Got -- tes Sohn. %20 finis
 }
 
 % SopranoNotes = {

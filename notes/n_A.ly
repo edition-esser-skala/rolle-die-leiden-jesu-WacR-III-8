@@ -1044,12 +1044,20 @@ SahetIhrAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
-		
+		R1*16 %16
+		b'8 f as4~ as8 g b c
+		b4 a f2
+		r4 a8 f f4 r
+		r es8 d d2 %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 SahetIhrAltoLyrics = \lyricmode {
-	
+	[Wahr -- lich, er __ war wahr -- lich %17
+	Got -- tes Sohn,
+	Got -- tes Sohn,
+	Got -- tes Sohn.] %20 finis
 }
 
 % AltoNotes = {

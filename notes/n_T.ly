@@ -980,12 +980,20 @@ SahetIhrTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key b \major \time 4/4 \autoBeamOff \tempoSahetIhr
-		
+		R1*16 %16
+		f8 f r4 b,8 b es g
+		f4 es d2
+		r4 c8 es d4 r
+		r es8 es d2 %20
+		R1 \bar "||" %21 finis
 	}
 }
 
 SahetIhrTenoreLyrics = \lyricmode {
-	
+	[Wahr -- lich, er war wahr -- lich %17
+	Got -- tes Sohn,
+	Got -- tes Sohn,
+	Got -- tes Sohn.] %20 finis
 }
 
 % TenoreNotes = {
