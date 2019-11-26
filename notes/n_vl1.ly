@@ -1397,7 +1397,27 @@ SahetIhrViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoSahetIhr
-		
+		f4\p b b( a8) c~
+		c es,(-. es-. es-.) es( d) d4
+		d8 d'4 c8 b d16( fis,) g8 b
+		a4 \appoggiatura c16 b8 g f4 r
+		f' b8( d16 b) b4( a8) c~ %5
+		c es,(-. es-. es-.) es( d) d4
+		d8 d'4 c8 b d16( fis,) g8 b16( g)
+		f4 \appoggiatura a16 g8 \appoggiatura f16 e8 \appoggiatura e f4 r8 f,
+		e16-!\fp e(-. e-. e-.) es-!\fp es(-. es-. es-.) des-!\fp des(-. des-. des-.) c-! c(-. c-. c-.)
+		b-! b(-. b-. b-.) des-! des(-. des-. des-.) des( c) c4 a'16( c) %10
+		b8 d!16( b) f8 as g g'16( es) c8 b
+		a16( c) es4 d8 d4( c8) r
+		b4 f f( g8) c~
+		c es,(-. es-. es-.) es( d) d4
+		b' r8 f'~\fp f es16. f32 g8 es %15
+		d4 c\trill b2
+		b8\f f f'4~ f8 es16. f32 g8 es
+		d4 c\trill b8-. f-. d-. b-.
+		es'-\parenthesize-. g,-. a-. c-. b-. f-. d-. b-.
+		g'' es g, a b4 b
+		b2 r
 	}
 }
 
