@@ -3325,6 +3325,26 @@ SahetIhrOrgano = {
 		\clef bass
 		\key b \major \time 4/4 \tempoSahetIhr
 		b8\p b16. c32 d8 b c c, c' b
+		a c16. b32 a8 g fis4~ fis8 g
+		fis d' e fis g4 b,
+		r8 c c c, f es' d c
+		b b16. c32 d8 b c c, c' b %5
+		a c16. b32 a8 g fis4~ fis8 g
+		fis d' e fis g4 b,
+		r8 c c c, f f' f,4
+		f8-. f-. f-. f-. f4 f
+		b16( b) ges'( ges) f( f) e( e) f4 f,8 es' %10
+		d! d d b es es es d
+		c4 a8 b f f' f es
+		d b16. c32 d8 b r es es c
+		a c16. b32 a8 f b4 b8 c
+		d4 r8 d(\fp es4) c8 es %15
+		f e f f, g g' f es
+		d4\f d8 d es es es es
+		f4 f, b2
+		b4 b b2
+		b4 b b8 b' f d %20
+		b2 r \bar "||" %21 finis
 	}
 }
 
