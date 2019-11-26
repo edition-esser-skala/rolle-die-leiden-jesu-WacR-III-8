@@ -1415,9 +1415,9 @@ SahetIhrViolinoI = {
 		d4 c\trill b2
 		b8\f f f'4~ f8 es16. f32 g8 es
 		d4 c\trill b8-. f-. d-. b-.
-		es'-\parenthesize-. g,-. a-. c-. b-. f-. d-. b-.
-		g'' es g, a b4 b
-		b2 r
+		es'-\parenthesize-. g,-. a-. c-. b f d b
+		g'' es g, a b4 b %20
+		b2 r \bar "||" %21 finis
 	}
 }
 
