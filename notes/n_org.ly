@@ -3349,7 +3349,27 @@ SahetIhrOrgano = {
 }
 
 SahetIhrBassFigures = \figuremode {
-	
+	r4 <6> <7> <6>8 <2>
+	<7>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <7 5>8 <6 \t> r4
+	<6>8 <_+> <7> <6 5> <5 3> <7+ 2> <6>4
+	<6 4!>8 <\t \t> <5 3>4 r8 <2> <6> q
+	r4 <6> <7> <6>8 <2> %5
+	<7>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <7 5>8 <6 \t> r4
+	<6>8 <_+> <7> <6 5> <5 3> <7+ 2> <6>4
+	<6 4!>8 <\t \t> <8 6>16 <7 5> <6 4> <5 3> <7! 4 2>8 <8 3>4.
+	<7! 4 2>4 <7- 5 3> <6 -4> <5 3>
+	<8 _->4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <6- 4>16 <5 3> <\t \t>8 <7->8 <2> %10
+	<6>4. <7->8 r4 <6>8 q
+	q4 <6 5> <6 4> <5 3>8 <\t \t>
+	<6>4 q <9 7>8 <\t \t> <8 6> <5>
+	<6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <9 4>8 <8 3> r <\t>
+	<6>4. <6 5->8 <9> <8> r <6> %15
+	<6 4>8 <\t \t> <5 3>4 <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>4 <6 5-> <9- 4>8 <8 3> <6>4
+	<6 4> <5 3> r2
+	<6 4>4 <7 4 2> <8 3>2
+	<6 4>4 <7 4 2> <8 3>2 %20
+	r1 %21 finis
 }
 
 % Organo = {
