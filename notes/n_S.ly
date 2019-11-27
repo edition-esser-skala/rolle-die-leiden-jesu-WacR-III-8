@@ -1255,6 +1255,63 @@ WeinetIhnSopranoNotes = {
 		f8 g c,4( d!8) es
 		es4( d8) r r4 %25
 		R2.*23 \bar "||" %48
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			r8 b16. b32 es8 b \noBreak
+		r es16. es32 g8 es %50
+		r4 g8 g
+		g f f as,
+		as g r es'16 g
+		g8 f f as,
+		as g r b16 b %55
+		c8 as' g f
+		d16([ c)] b8 r4
+		b\p b
+		b2~
+		b~\pocoF %60
+		b\f
+		b\ff
+		g'4 f
+		es r
+		f es %65
+		d r
+		c\p c
+		c c
+		r g8\f a
+		b4 r %70
+		r g'8 a,
+		b4 r8 b
+		d4 r8 f16([ d)]
+		b4 r
+		R2*2 %76
+		r8 b16. b32 es8 b
+		r es16. es32 g8 es
+		r4 g8 g
+		g f f as, %80
+		as g r es'16 es
+		es8 d f as,
+		as g r des'16 des
+		des8 c es des
+		des? c r d16 d %85
+		es8 g f es
+		d16([ c)] b8 r4
+		b\p b
+		b2~
+		b~\pocoF %90
+		b\f
+		b\ff
+		c4 e
+		f r
+		b, d %95
+		es! r
+		f\p f
+		f f
+		r c8\f d
+		es4 r %100
+		r c8 d
+		es4 r8 es,
+		g4 r8 b
+		es4 r
+		R2*3 \bar "||" %107 finis
 	}
 }
 
@@ -1280,6 +1337,60 @@ WeinetIhnSopranoLyrics = \lyricmode {
 	wie hat ihn __
 	der Tod __ ent --
 	ſtellt?
+	
+	Hal -- le -- lu -- ja, %49
+	hal -- le -- lu -- ja! %50
+	Gott heißt
+	ſei -- ne Fein -- de
+	ſchwei -- gen, ſei -- ne
+	Fein -- de heißt Gott
+	ſchwei -- gen, Erd und %55
+	Sonn und Him -- mel
+	zeu -- gen:
+	Er iſt
+	hei --
+	
+	lig %62
+	[und] ſein
+	Sohn,
+	[und] ſein %65
+	Sohn,
+	er iſt
+	hei -- lig
+	[und] ſein
+	Sohn, %70
+	[und] ſein
+	Sohn, ſein
+	Sohn, ſein
+	Sohn.
+	
+	Hal -- le -- lu -- ja, %77
+	hal -- le -- lu -- ja!
+	Gott heißt
+	ſei -- ne Fein -- de %80
+	ſchwei -- gen, ſei -- ne
+	Fein -- de heißt Gott
+	ſchwei -- gen, Erd und
+	Sonn und Him -- mel
+	zeu -- gen, Erd und %85
+	Sonn und Him -- mel
+	zeu -- gen:
+	Er iſt
+	hei --
+	
+	lig %92
+	und ſein
+	Sohn,
+	und ſein %95
+	Sohn,
+	er iſt
+	hei -- lig
+	und ſein
+	Sohn, %100
+	und ſein
+	Sohn, ſein
+	Sohn, ſein
+	Sohn. %104 finis
 }
 
 % SopranoNotes = {

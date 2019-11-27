@@ -3403,7 +3403,7 @@ WeinetIhnOrgano = {
 		b4 b'8 as g f \bar "||"
 		\twofourtime \key es \major \time 2/4 \tempoHalleluja
 			es8 es, r es' \noBreak
-			es es, r es' %50
+		es es, r es' %50
 		es es, r16. es'32 g16. es32
 		b'8 b b, b
 		es es g es
@@ -3422,14 +3422,14 @@ WeinetIhnOrgano = {
 		b b' r d,
 		es4\p f
 		g f
-		es\f es8 es
+		es\f es8 f
 		g4 r8 f %70
 		es4 es8 f
 		b b, r b'
 		b b, r b'
 		b b, r b'
 		es,4 f8 f %75
-		b,8. c'16 b16. as32 g16. f32
+		b,8. c'16 b16. as!32 g16. f32
 		es8 es, r es'
 		es es, r es'
 		es es, r16. es'32 g16. es32

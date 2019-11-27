@@ -394,44 +394,44 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\WeinetIhnOboeI
+% 							\WeinetIhnOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\WeinetIhnOboeII
+% 							\WeinetIhnOboeII
 						}
 					>>
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Fagotto I"
-							\WeinetIhnFagottoI
+% 							\WeinetIhnFagottoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Fagotto II"
-							\WeinetIhnFagottoII
+% 							\WeinetIhnFagottoII
 						}
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
+% 						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\WeinetIhnViolinoI
+% 							\WeinetIhnViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\WeinetIhnViolinoII
+% 							\WeinetIhnViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\WeinetIhnViola
+% 							\WeinetIhnViola
 						}
 				>>
 				\new ChoirStaff <<
@@ -444,33 +444,33 @@
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
+% 						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
+% 					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
+% 						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
+% 						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
+% 					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\transpose c c,\WeinetIhnOrgano
+						\WeinetIhnOrgano
 					}
 				>>
 				\new FiguredBass {
 					\WeinetIhnBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 70 }
 		}
 	}
