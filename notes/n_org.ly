@@ -3401,6 +3401,66 @@ WeinetIhnOrgano = {
 		b es,16. d32 es4 f8 f,
 		g es'16. d32 es4 f8 f, \noBreak
 		b4 b'8 as g f \bar "||"
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			es8 es, r es' \noBreak
+			es es, r es' %50
+		es es, r16. es'32 g16. es32
+		b'8 b b, b
+		es es g es
+		b' b b, b
+		es es, r g' %55
+		as f g as
+		b b, b4
+		R2
+		b4\p r8 b'
+		b\pocoF b, r b' %60
+		b\f b, r b'
+		b\ff b, r b'
+		es, es' d d,
+		c c' r es,
+		d d' c c, %65
+		b b' r d,
+		es4\p f
+		g f
+		es\f es8 es
+		g4 r8 f %70
+		es4 es8 f
+		b b, r b'
+		b b, r b'
+		b b, r b'
+		es,4 f8 f %75
+		b,8. c'16 b16. as32 g16. f32
+		es8 es, r es'
+		es es, r es'
+		es es, r16. es'32 g16. es32
+		b'8 b b, b %80
+		es es g es
+		b' b b, b
+		es es16. f32 g8 g,
+		as as' es es
+		as, as'16. g32 as8 as %85
+		g g a a
+		b b, b4
+		R2
+		b'8\p b, r b
+		es\pocoF es, r es' %90
+		b'\f b, r b
+		es\ff es, r es'
+		as, as' g g,
+		f4 r8 as'
+		g g f f %95
+		es4 r8 g
+		as4\p b
+		c b
+		as\f as8 b
+		c4 g %100
+		as as8 b
+		es, es, r es'
+		es es, r es'
+		es es, r g'
+		as as b b, %105
+		es es b g
+		es2\fermata \bar "||" %107 finis
 	}
 }
 
