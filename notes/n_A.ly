@@ -1143,7 +1143,8 @@ WeinetIhnAltoNotes = {
 		g4 r8 es
 		g4 r8 g
 		g4 r
-		R2*3 \bar "||" %107 finis
+		R2*2 %106
+		R2\fermataMarkup \bar "||" %107 finis
 	}
 }
 

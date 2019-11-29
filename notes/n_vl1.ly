@@ -1442,6 +1442,66 @@ WeinetIhnViolinoI = {
 		d8 g16. f32 g8 es'16. c32 b8 a\trill
 		b8 g16. f32 g8 g'16. es32 d8 c\trill \noBreak
 		b4 b, r \bar "||"
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			<g es' es'>4 r8 b'16. b32 \noBreak
+		es8 b r es16. es32 %50
+		g8 es16. b32 es16. b32 es16. g32
+		g16 f32 g as16 f f( d) d( as)
+		as g32 as b16 g es b' es g
+		g f32 g as16 f f( d) d( as)
+		as g32 as b16 g es es' b des %55
+		c as \tuplet 3/2 8 { as'16([ b as)] g([ as g)] f( g f) }
+		d32 b( c d es f g a) b4-!
+		R2
+		r8 f,16.\p f32 b8-! f-!
+		r b16.\pocoF b32 d8 b %60
+		r d16.\f d32 f8 d
+		r f16.\ff f32 b8 f
+		g f32( es d c) h16. f'32 es16. d32
+		es8 c32( d es f) g16. es32 d16. c32
+		f8 es32( d c b!) a16. es'32 d16. c32 %65
+		d8 b32( c d es) f16. d32 c16. b32
+		c8\p c4 c8~
+		c c4 c8~
+		c16. c32 d16. es32 g,16. b32 a16. c32
+		b16 c32 d es f g a b16. b32 f16. d32 %70
+		c16. c32 es16. c32 g'8 a,
+		r f16. f32 b8 f
+		r b16. b32 d8 b
+		r f'16. f32 b8 f
+		g16. c,32 c8\trill d16. f32 a,16. c32 %75
+		b8 b,16. c'32 b16. as32 g16. f32
+		es4 r8 b'16. b32
+		es8 b r es16. es32
+		g8 es16. b32 es16. b32 es16. g32
+		g16 f32 g as16 f f( d) d( as) %80
+		as g32 as b16 g es b' es es
+		es d32 es f16 as as f d as
+		as g32 as b16 g es des' b' des,
+		des c32 b c16 es as c, b des
+		des? c32 b c16 es, c' es d f %85
+		es([ b)] \tuplet 3/2 8 { g'( as g) f([ g f)] es( f es) }
+		d32 b( c d es f g a) b4-!
+		R2
+		r8 f,16.\p f32 as8 f
+		r g16.\pocoF g32 b8 es %90
+		r d16.\f d32 f8 d
+		r es16.\ff es32 g8 es
+		c' b32( as g f) e16. b'32 as16. g32
+		as8 f32( g as b) c16. as32 g16. f32
+		b8 \once \slurDashed as32( g f es!) d16. as'32 g16. f32 %95
+		g8 \once \slurDashed es32( f g as) b16. g32 f16. es32
+		f8\p f4 f8~
+		f f4 f8~
+		f16. f32\f g16. as32 c,16. es32 d16. f32
+		es32 d es f g[ f g as] b16. g32 f16. es32 %100
+		f16. f32 g16. as32 c,8 d
+		es b,16. b32 es8 b
+		r es16. es32 g8 es
+		r b'16. b32 es8 b'
+		c16. f,32 f8\trill g16. b32 d,16. f32 %105
+		es8 es16. es32 es8 es
+		es2\fermata \bar "||" %107 finis
 	}
 }
 

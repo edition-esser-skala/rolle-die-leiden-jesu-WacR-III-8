@@ -1054,7 +1054,8 @@ WeinetIhnBassoNotes = {
 		es,4 r8 es
 		es4 r8 es
 		es4 r
-		R2*3 \bar "||" %107 finis
+		R2*2 %106
+		R2\fermataMarkup \bar "||" %107 finis
 	}
 }
 

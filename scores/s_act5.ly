@@ -3,7 +3,7 @@
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
-
+% showLastLength = r2*59
 \include "../definitions.ly"
 
 \paper {
@@ -422,7 +422,7 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-% 							\WeinetIhnViolinoI
+							\WeinetIhnViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
@@ -440,25 +440,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \WeinetIhnSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
+% 					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
+% 					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
@@ -471,7 +471,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 70 } % 4 = 70; 4 = 90
 		}
 	}
 }
