@@ -239,6 +239,14 @@ extraStaffDistance = {
 				 (stretchability . 0))
 }
 
+smallerStaffDistance = {
+	\override VerticalAxisGroup.staff-staff-spacing =
+      #'((basic-distance . 13)
+         (minimum-distance . 13)
+         (padding . -100)
+				 (stretchability . 0))
+}
+
 twofourtime = {
 	\overrideTimeSignatureSettings
 		2/4
@@ -304,7 +312,7 @@ tempoFasstDich = \tempoMarkup "Recitativ"
 tempoLassMich = \tempoMarkup "Poco largo"
 
 tempoHilfDuIhm = \tempoMarkup "Recitativ"
-tempoKreutzigen = \tempoMarkup "Allebreve"
+tempoKreutzigen = \tempoMarkup "Allabreve"
 	tempoKreutzigenB = \tempoMarkup "Recitativ"
 	tempoKreutzigenC = \tempoMarkup "Vivace"
 tempoIchWasche = \tempoMarkup "Con gravita"
@@ -448,7 +456,7 @@ tempoUnserSuenden = \tempoMarkup "Choral"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup

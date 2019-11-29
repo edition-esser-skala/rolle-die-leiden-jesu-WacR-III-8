@@ -74,7 +74,7 @@ WerFasstOboeII = {
 		r2 r4 fis,\fE
 		g r r fis %45
 		g r r2
-		\tempoWerFasstB R1*2 \markVSE \bar "|" %48 finis
+		\tempoWerFasstB R1*2 \bar "|" %48 finis
 	}
 }
 
@@ -286,7 +286,7 @@ SehtWelchOboeII = {
 	}
 }
 
-GrossIstOboeII = {
+GrossIstOboeDAmoreII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoGrossIst

@@ -35,7 +35,7 @@ SchwarzeGrauenvolleTimpani = {
 		r2 r4 g\trill\p
 		g8\f r g4\trill\p g\trill g8\f r
 		g4\p\trill g8\f r g4\p\trill g8\f r
-		r32 g\ff g g g g g g g8-!\fermata r r2 %35
+		r32 g\ff g g g[ g g g] g8-!\fermata r r2 %35
 		R1*5 %40
 		r2 r8 g\p c4\f
 		R1*2

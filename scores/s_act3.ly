@@ -66,13 +66,11 @@
 		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new ChoirStaff \with { \smallerGroupDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \SieFuehrenBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \SieFuehrenBlindLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \SieFuehrenBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \SieFuehrenBlindLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
@@ -292,7 +290,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.6" "C H O R" "Groß iſt ſeine Quaal"
+			movement = \movementTitle "3.6" "C H O R" "Gros iſt ſeine Quaal"
 		}
 		\paper { indent = 3.5\cm }
 		\score {
@@ -300,7 +298,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Oboe d’amore" "I, II" } }
-						\partcombine \GrossIstOboeI \GrossIstOboeII
+						\partcombine \GrossIstOboeDAmoreI \GrossIstOboeDAmoreII
 					}
 				>>
 				\new StaffGroup <<

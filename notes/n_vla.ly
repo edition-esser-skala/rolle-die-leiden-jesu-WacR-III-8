@@ -139,7 +139,7 @@ WerFasstViola = {
 		e4 r r8. h16 h8. h16 %45
 		e2 r
 		\tempoWerFasstB r16. ais,32 ais16. ais32 ais4~ ais2~\p
-		ais4 r r2 \markVSE \bar "|" %48 finis
+		ais4 r r2 \bar "|" %48 finis
 	}
 }
 
@@ -779,7 +779,7 @@ WeintNichtViola = {
 		d,1\p
 		g8 g' es c d4 d %30
 		g, es''16 c a fis g d b g d'8 d
-		g,4 r r2 \markVSE \bar "|" %32 finis
+		g,4 r r2 \bar "|" %32 finis
 	}
 }
 

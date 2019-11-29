@@ -379,9 +379,9 @@
 						}
 					>>
 					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\WerKannViola
-						}
+						\set Staff.instrumentName = "Viola"
+						\WerKannViola
+					}
 				>>
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D.     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
@@ -476,9 +476,9 @@
 						}
 					>>
 					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\EinPurpurViola
-						}
+						\set Staff.instrumentName = "Viola"
+						\EinPurpurViola
+					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {

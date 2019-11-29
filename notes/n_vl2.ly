@@ -139,7 +139,7 @@ WerFasstViolinoII = {
 		e8[ fis16 g] a h cis dis e4 h,8. h16 %45
 		e8[ fis16 g] a h cis dis e[ fis g fis] e d cis h
 		\tempoWerFasstB ais16. e'32 e16. e32 e4~ e2~\p
-		e4 r r2 \markVSE \bar "||" %48 finis
+		e4 r r2 \bar "||" %48 finis
 	}
 }
 
@@ -782,7 +782,7 @@ WeintNichtViolinoII = {
 		d4\p c'!16 c,! c c b' b, b b a' a, a a
 		g8 g' es c d4 r %30
 		g'16\f d b g es' c a fis g d b g d'8 <d a' fis'>
-		<g, d' b' g'>4 r r2 \markVSE \bar "|" %32 finis
+		<g, d' b' g'>4 r r2 \bar "|" %32 finis
 	}
 }
 

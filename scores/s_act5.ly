@@ -243,9 +243,9 @@
 						}
 					>>
 					\new Staff {
-							\set Staff.instrumentName = "Viola"
-							\IhrAugenViola
-						}
+						\set Staff.instrumentName = "Viola"
+						\IhrAugenViola
+					}
 				>>
 				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
@@ -495,7 +495,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\transpose c es\partcombine \UnserSuendenCornoI \UnserSuendenCornoII
+						\partcombine \UnserSuendenCornoI \UnserSuendenCornoII
 					}
 				>>
 				\new StaffGroup <<
@@ -542,7 +542,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\transpose c c,\UnserSuendenOrgano
+						\UnserSuendenOrgano
 					}
 				>>
 				\new FiguredBass {

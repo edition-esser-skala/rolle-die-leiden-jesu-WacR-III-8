@@ -197,13 +197,11 @@
 							\GramLagViola
 						}
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \GramLagBlindLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \GramLagBlindLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
@@ -319,13 +317,11 @@
 		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Blindgeb."
-						\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }
-					}
-					\new Lyrics \lyricsto Blind \FasstDichBlindLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \FasstDichBlindLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
@@ -369,15 +365,13 @@
 							\LassMichViola
 						}
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = \PetrusIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Petrus" { \dynamicUp \LassMichPetrusNotes }
-					}
-					\new Lyrics \lyricsto Petrus \LassMichPetrusLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \PetrusIncipit
+					\override Staff.InstrumentName.self-alignment-Y = ##f
+					\override Staff.InstrumentName.self-alignment-X = #RIGHT
+					\new Voice = "Petrus" { \dynamicUp \LassMichPetrusNotes }
+				}
+				\new Lyrics \lyricsto Petrus \LassMichPetrusLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
