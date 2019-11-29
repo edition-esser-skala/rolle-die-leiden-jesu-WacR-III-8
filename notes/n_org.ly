@@ -3489,6 +3489,65 @@ WeinetIhnBassFigures = \figuremode {
 	r8 <5> <\t> <6> <6 4> <5 3>
 	<5 3> <5> <\t> <6> <6 4> <5 3>
 	r4 <1>8 q q q
+	r2
+	r %50
+	r4. <6>8
+	<6 4> <5 3> <7> r
+	<9 4> <8 3> <6> r
+	<6 4> <5 3> <7> r
+	<9 4> <8 3> r <6 5-> %55
+	r4 <6>8 q
+	r2
+	r
+	r
+	r %60
+	r
+	r
+	r4 <6!>
+	r4. <6>8
+	q4 <6!> %65
+	r4. <6>8
+	<6 5>2 \bassFigureExtendersOn
+	q
+	q4 q8 \bassFigureExtendersOff <7 _!>
+	<5 3>4. <\t \t>8 %70
+	<6 5>4. <7 _!>8
+	r2
+	r
+	r
+	<6>4 <6 4>8 <5 _!> %75
+	r8. <1>16 q16. q32 q16. q32
+	r2
+	r
+	r4. <6>8
+	<6 4>8 <5 3> <7> r %80
+	<9 4> <8 3> <6> r
+	<6 4> <5 3> <7> r
+	<9 4> <8 3> <6 5-> <\t \t>
+	<9 4-> <8 3> <8 6> <7- 5>
+	<9 4-> <8 3> r <4! 2> %85
+	<6>4 q8 <5>
+	r2
+	r
+	<7->
+	r %90
+	<7->
+	r
+	r4 <6!>
+	r4. <6>8
+	q4 q %95
+	r4. q8
+	<6 5>2 \bassFigureExtendersOn
+	q
+	q4 q8 \bassFigureExtendersOff <7>
+	<5 3>4 <6> %100
+	<6 5>4. <7>8
+	r2
+	r
+	r
+	<6 5>4 <6 4>8 <5 3> %105
+	<8 3>2 \bassFigureExtendersOn
+	q2 \bassFigureExtendersOff %107 finis
 }
 
 % Organo = {
