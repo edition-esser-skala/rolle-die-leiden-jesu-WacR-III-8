@@ -1163,10 +1163,98 @@ UnserSuendenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 4/4 \autoBeamOff \tempoUnserSuenden
-		
+		g2 b
+		as g
+		b es
+		es1
+		es2\fermata es %5
+		b b
+		b es
+		d es
+		es2.( d4)
+		d2\fermata d %10
+		b es
+		es es
+		c \appoggiatura b4 as2
+		g1\fermata
+		g2 b %15
+		as g
+		b es
+		es1
+		es2\fermata es
+		b b %20
+		b es
+		d es
+		es2.( d4)
+		d2\fermata d
+		b es %25
+		es es
+		c \appoggiatura b4 as2
+		g\fermata es'
+		b c4( d)
+		es2 b4( as) %30
+		g2\fermata es'
+		es c
+		b g
+		g1\fermata
+		b2 b %35
+		c1
+		c2\fermata des
+		es b
+		b\fermata es
+		c b %40
+		b\fermata es
+		es es
+		es es
+		c b4( as)
+		g1\fermata \bar "|." %45 FINIS
 	}
 }
 
 UnserSuendenTenoreLyrics = \lyricmode {
-	
+	Un -- ſer
+	Sün -- den
+	Angſt zu
+	lin --
+	dern, o %5
+	Je -- ſu!
+	re -- de
+	zu uns
+	Sün --
+	dern vom %10
+	See -- gens
+	vol -- len
+	Gol -- ga --
+	tha!
+	Ach laß %15
+	Gott nicht
+	mit uns
+	re --
+	den, es
+	ſpricht dein %20
+	Blut: Nun
+	Heil uns
+	Blö --
+	den, Gott
+	iſt mit %25
+	Gnad uns
+	wie -- der
+	nah. Für
+	uns zum
+	Fluch ge -- %30
+	macht riefſt
+	du: Es
+	iſt voll --
+	bracht!
+	Jauch -- zet, %35
+	jauch --
+	zet, es
+	iſt voll --
+	bracht, nun
+	ganz voll -- %40
+	bracht, der
+	ſtarb hat
+	al -- les
+	wohl ge --
+	macht. %45 FINIS
 }
