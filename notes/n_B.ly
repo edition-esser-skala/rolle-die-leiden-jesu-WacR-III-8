@@ -1139,10 +1139,98 @@ UnserSuendenBassoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 4/4 \autoBeamOff \tempoUnserSuenden
-		
+		es2\fE es
+		d es
+		g es
+		as1
+		es2\fermata es %5
+		g b
+		g es
+		b' c
+		b1
+		b,2\fermata as' %10
+		g es
+		as c
+		f, b,
+		es1\fermata
+		es2 es %15
+		d es
+		g es
+		as1
+		es2\fermata es
+		g b %20
+		g es
+		b' c
+		b1
+		b,2\fermata as'
+		g es %25
+		as c
+		f, b,
+		es\fermata
+		es d
+		c b b %30
+		es\fermata es
+		g as
+		b h,
+		c1\fermata
+		as'2 g %35
+		f1
+		c2\fermata b'
+		as f
+		es\fermata es
+		as b %40
+		es,\fermata es
+		g es
+		as4( b) c2
+		as b
+		es,1\fermata \bar "|." %45 FINIS
 	}
 }
 
 UnserSuendenBassoLyrics = \lyricmode {
-	
+	Un -- ſer
+	Sün -- den
+	Angſt zu
+	lin --
+	dern, o %5
+	Je -- ſu!
+	re -- de
+	zu uns
+	Sün --
+	dern vom %10
+	See -- gens
+	vol -- len
+	Gol -- ga --
+	tha!
+	Ach laß %15
+	Gott nicht
+	mit uns
+	re --
+	den, es
+	ſpricht dein %20
+	Blut: Nun
+	Heil uns
+	Blö --
+	den, Gott
+	iſt mit %25
+	Gnad uns
+	wie -- der
+	nah. Für
+	uns zum
+	Fluch ge -- %30
+	macht riefſt
+	du: Es
+	iſt voll --
+	bracht!
+	Jauch -- zet, %35
+	jauch --
+	zet, es
+	iſt voll --
+	bracht, nun
+	ganz voll -- %40
+	bracht, der
+	ſtarb hat
+	al -- les
+	wohl ge --
+	macht. %45 FINIS
 }
