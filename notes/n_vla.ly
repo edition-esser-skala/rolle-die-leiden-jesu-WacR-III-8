@@ -1369,5 +1369,65 @@ WeinetIhnViola = {
 		f es16. d32 es4 f8 f,
 		g es'16. d32 es4 f8 es \noBreak
 		d4 b r \bar "||"
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			<g es'>4 r8 q16. q32 \noBreak
+		q8 q r q16. q32 %50
+		q8 q q b
+		b b b b
+		b b b b'
+		b b b, b
+		b b r es %55
+		es f g as
+		b d, d4-!
+		R2
+		r8 b16.\p b32 d8-! b-!
+		r f'16.\pocoF f32 f8 f %60
+		r f16.\f f32 b8 f
+		r b16.\ff b32 b8 b
+		b c f, f
+		g4 r8 g
+		f f es es %65
+		f4 r8 f
+		g4\p f
+		es f
+		g\f g8 es
+		d4 r8 d %70
+		g4 c,8 es
+		d b16. b32 d8 b
+		r f'16. f32 f8 f
+		r b16. b32 b8 b~
+		b b b a %75
+		b b,16. c'32 b16. as32 g16. f32
+		es4 r8 <es g,>16. q32
+		q8 q r q16. q32
+		q8 q q b
+		b b b b %80
+		b b b b
+		b b b b
+		b b b es
+		es es es es
+		es es es f %85
+		g es a f
+		f d d4
+		R2
+		r8 b16.\p b32 b8 b
+		r8 b16.\pocoF b32 b8 b %90
+		r8 b16.\f b32 b8 b
+		r8 b16.\ff b32 b8 g'
+		as, as' g g,
+		f4 r8 c''
+		b g, f f' %95
+		es4 r8 b'
+		c4\p b
+		as b
+		c\f b8 as
+		g4 es8 b' %100
+		c4 c8 as
+		g g,16. g32 b8 b
+		r b16. b32 b8 b
+		r es16. es32 es8 g
+		as as b as %105
+		g <es g,>16. q32 q8 q
+		q2\fermata \bar "||" %107 finis
 	}
 }

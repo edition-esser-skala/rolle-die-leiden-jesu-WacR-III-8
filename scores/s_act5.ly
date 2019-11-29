@@ -431,7 +431,7 @@
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-% 							\WeinetIhnViola
+							\WeinetIhnViola
 						}
 				>>
 				\new ChoirStaff <<

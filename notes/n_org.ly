@@ -3515,7 +3515,7 @@ WeinetIhnBassFigures = \figuremode {
 	r2
 	r
 	r
-	<6>4 <6 4>8 <5 _!> %75
+	<6 5>4 <6 4>8 <5 _!> %75
 	r8. <1>16 q16. q32 q16. q32
 	r2
 	r
