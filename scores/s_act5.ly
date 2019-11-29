@@ -404,7 +404,7 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Fagotto I"
-% 							\WeinetIhnFagottoI
+							\WeinetIhnFagottoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Fagotto II"

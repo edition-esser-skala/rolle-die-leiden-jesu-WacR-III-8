@@ -626,7 +626,8 @@ WeinetIhnOboeII = {
 		a2 b4~
 		b b4. a8
 		c4( b8) r r4 %25
-		R2.*23 \bar \twofourtime \key es \major \time 2/4 \tempoHalleluja
+		R2.*23 \bar "||"
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
 			r8 g16.\fE g32 g8 g \noBreak
 		r g16. g32 b8 g %50
 		r4 b8 es
