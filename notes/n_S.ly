@@ -1398,10 +1398,98 @@ UnserSuendenSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoUnserSuenden
-		
+		es2 g
+		b b
+		b b
+		c1
+		b2\fermata b %5
+		es b
+		es g
+		f es
+		f1
+		b,2 b %10
+		es b
+		c g
+		as \appoggiatura g4 f2
+		es1\fermata
+		es2 g %15
+		b b
+		b b
+		c1
+		b2\fermata b
+		es b %20
+		es g
+		f es
+		f1
+		b,2 b
+		es b %25
+		c g
+		as \appoggiatura g4 f2
+		es\fermata b'
+		b as
+		g f %30
+		es\fermata b'
+		b as
+		g f
+		es1\fermata
+		f2 g %35
+		as1
+		g2\fermata b
+		c d
+		es\fermata g
+		f d %40
+		es\fermata b
+		es b
+		c g
+		as f
+		es1\fermata \bar "|." %45 FINIS
 	}
 }
 
 UnserSuendenSopranoLyrics = \lyricmode {
-	
+	Un -- ſer
+	Sün -- den
+	Angſt zu
+	lin --
+	dern, o %5
+	Je -- ſu!
+	re -- de
+	zu uns
+	Sün --
+	dern vom %10
+	See -- gens
+	vol -- len
+	Gol -- ga --
+	tha!
+	Ach laß %15
+	Gott nicht
+	mit uns
+	re --
+	den, es
+	ſpricht dein %20
+	Blut: Nun
+	Heil uns
+	Blö --
+	den, Gott
+	iſt mit %25
+	Gnad uns
+	wie -- der
+	nah. Für
+	uns zum
+	Fluch ge -- %30
+	macht riefſt
+	du: Es
+	iſt voll --
+	bracht!
+	Jauch -- zet, %35
+	jauch --
+	zet, es
+	iſt voll --
+	bracht, nun
+	ganz voll -- %40
+	bracht, der
+	ſtarb hat
+	al -- les
+	wohl ge --
+	macht. %45 FINIS
 }
