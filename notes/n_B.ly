@@ -997,7 +997,64 @@ WeinetIhnBassoNotes = {
 		b4 r8 b16. a32 b8 f
 		g es' d c b a
 		b4 r r
-		R2.*4 %48
+		R2.*4 \bar "||" %48
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			r8 es,16. es32 es8 es \noBreak
+		r es16. es32 es8 es %50
+		r4 es'8 es
+		b b b b,
+		es es r g16 es
+		b'8 b b b
+		es, es r g16 g %55
+		as8 f g as
+		b b, r4
+		b'\p b
+		b2~
+		b~\pocoF %60
+		b\f
+		b\ff
+		es4 d
+		c r
+		d c %65
+		b r
+		es,\p f
+		g f
+		r es8\f f
+		g4 r %70
+		r es8 f
+		b4 r8 b
+		b4 r8 b
+		b4 r
+		R2*2 %76
+		r8 es,16. es32 es8 es
+		r es'16. es32 es8 es,
+		r4 es'8 es
+		b b b b, %80
+		es es r g16 es
+		b'8 b b b,
+		es es r g16 g
+		as8 as es es
+		as as r as16 as %85
+		g8 g a a
+		b b, r4
+		b'\p b
+		b2~
+		b~\pocoF %90
+		b\f
+		es,\ff
+		as4 g
+		f r
+		g f %95
+		es r
+		as\p b
+		c b
+		r as8\f b
+		c4 r %100
+		r as8 b
+		es,4 r8 es
+		es4 r8 es
+		es4 r
+		R2*3 \bar "||" %107 finis
 	}
 }
 
@@ -1021,6 +1078,60 @@ WeinetIhnBassoLyrics = \lyricmode {
 	Held, ü -- ber -- wun -- den
 	hat der Gött -- li -- che, der
 	Held.
+	
+	Hal -- le -- lu -- ja, %49
+	hal -- le -- lu -- ja! %50
+	Gott heißt
+	ſei -- ne Fein -- de
+	ſchwei -- gen, ſei -- ne
+	Fein -- de heißt Gott
+	ſchwei -- gen, Erd und %55
+	Sonn und Him -- mel
+	zeu -- gen:
+	Er iſt
+	hei --
+	
+	lig %62
+	[und] ſein
+	Sohn,
+	[und] ſein %65
+	Sohn,
+	er iſt
+	hei -- lig
+	[und] ſein
+	Sohn, %70
+	[und] ſein
+	Sohn, ſein
+	Sohn, ſein
+	Sohn.
+	
+	Hal -- le -- lu -- ja, %77
+	hal -- le -- lu -- ja!
+	Gott heißt
+	ſei -- ne Fein -- de %80
+	ſchwei -- gen, ſei -- ne
+	Fein -- de heißt Gott
+	ſchwei -- gen, Erd und
+	Sonn und Him -- mel
+	zeu -- gen, Erd und %85
+	Sonn und Him -- mel
+	zeu -- gen:
+	Er iſt
+	hei --
+	
+	lig %92
+	und ſein
+	Sohn,
+	und ſein %95
+	Sohn,
+	er iſt
+	hei -- lig
+	und ſein
+	Sohn, %100
+	und ſein
+	Sohn, ſein
+	Sohn, ſein
+	Sohn. %104 finis
 }
 
 % BassoNotes = {

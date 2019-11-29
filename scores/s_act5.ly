@@ -456,9 +456,9 @@
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
 					}
-% 					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
+					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
