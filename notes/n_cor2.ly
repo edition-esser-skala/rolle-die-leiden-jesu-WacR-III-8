@@ -223,6 +223,53 @@ WeinetIhnCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoWeinetIhn
-		R2.*48 \bar "||"
+		R2.*48 \bar "||" %48
+		\twofourtime \time 2/4 \tempoHalleluja
+			e4\fE r8 e16. e32
+		e4 r8 c'16. c32 %50
+		c4 r8 c16. c32
+		c8 g g4
+		r8 c16. c32 c8 c
+		c g16. g32 g4
+		r8 c16. c32 c4 %55
+		R2*2
+		g4\p g
+		g r8 g16. g32
+		g4 r8 g16.\pocoF g32 %60
+		g4 r8 g16.\f g32
+		g4 r8 g\ff
+		c4 e
+		r8 c16. c32 c4
+		d d %65
+		r8 g,16. g32 g4
+		R2*5 %71
+		g4\fE r8 g16. g32
+		g4 r8 g16. g32
+		g4 r
+		r8 c d d %75
+		g,4 r
+		e r8 e16. e32
+		e4 r8 c'16. c32
+		c4 r8 c
+		c g g4 %80
+		r8 c16. c32 c8 c
+		c g g4
+		r8 c16. c32 c8 c
+		r c16. c32 c8 c
+		c4 r8 d %85
+		g,4 r
+		r8 g16. g32 g8 g
+		g4\p g
+		g r8 g16. g32
+		c4 r8 c16.\pocoF c32 %90
+		g4 r8 g16.\f g32
+		c4\ff r
+		R2*9 %101
+		e,4\fE r8 c'16. c32
+		c4 r8 e
+		c4 r8 c
+		c4 c8 g %105
+		e e4 e8
+		e2\fermata \bar "||" %107 finis
 	}
 }

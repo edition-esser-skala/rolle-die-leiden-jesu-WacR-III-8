@@ -408,14 +408,14 @@
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Fagotto II"
-% 							\WeinetIhnFagottoII
+							\WeinetIhnFagottoII
 						}
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-% 						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
+						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
 					}
 				>>
 				\new StaffGroup <<
@@ -440,25 +440,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \WeinetIhnSopranoNotes }
 					}
-% 					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
+					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
 					}
-% 					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
+					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
 					}
-% 					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
+					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
 					}
-% 					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
+					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

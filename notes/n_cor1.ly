@@ -226,6 +226,53 @@ WeinetIhnCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoWeinetIhn
-		R2.*48 \bar "||"
+		R2.*48 \bar "||" %48
+		\twofourtime \time 2/4 \tempoHalleluja
+			c'4\fE r8 c16. c32
+		c4 r8 e16. e32 %50
+		e4 r8 e16. e32
+		e8 d d4
+		r8 e16. e32 e8 e
+		e d16. d32 d4
+		r8 e16. e32 e4 %55
+		R2*2
+		d4\p d
+		d r8 d16. d32
+		d4 r8 d16.\pocoF d32 %60
+		d4 r8 d16.\f d32
+		d4 r8 d16.\ff d32
+		e4 \pao e
+		r8 e16. e32 e4
+		\pa d d \pd %65
+		r8 d16. d32 d4
+		R2*5 %71
+		d4\fE r8 d16. d32
+		d4 r8 d16. d32
+		d4 r
+		r8 \pa e d d \pd %75
+		d4 r
+		c r8 c16. c32
+		c4 r8 e16. e32
+		e4 r8 e
+		e d d4 %80
+		r8 e16. e32 e8 e
+		e d d4
+		r8 c16. c32 c8 c
+		r c16. c32 c8 c
+		c4 r8 d %85
+		g,4 r
+		r8 d'16. d32 d8 d
+		d4\p d
+		d r8 d16. d32
+		e4 r8 e16.\pocoF e32 %90
+		d4 r8 d16.\f d32
+		e4\ff r
+		R2*9 %101
+		c4\fE r8 \pa c16. c32 \pd
+		e4 r8 g
+		e4 r8 \pao c
+		c d e d %105
+		c g4 g8
+		g2\fermata \bar "||" %107 finis
 	}
 }
