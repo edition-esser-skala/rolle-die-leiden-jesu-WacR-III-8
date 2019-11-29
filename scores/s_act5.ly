@@ -476,7 +476,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.7" "C H O R A L" "Unſer Sünden Angſt zu lindern"
+			movement = \movementTitle "5.7" "S C H L U S S C H O R A L" "Unſer Sünden Angſt zu lindern"
 		}
 		\score {
 			<<
@@ -495,7 +495,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\partcombine \UnserSuendenCornoI \UnserSuendenCornoII
+						\transpose c es\partcombine \UnserSuendenCornoI \UnserSuendenCornoII
 					}
 				>>
 				\new StaffGroup <<
@@ -542,15 +542,15 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\UnserSuendenOrgano
+						\transpose c c,\UnserSuendenOrgano
 					}
 				>>
 				\new FiguredBass {
 					\UnserSuendenBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 70 } % 4 = 70; 4 = 90
+% 			\layout { }
+			\midi { \tempo 2 = 90 } % 4 = 70; 4 = 90
 		}
 	}
 }
