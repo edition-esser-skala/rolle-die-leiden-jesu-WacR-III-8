@@ -415,7 +415,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
+						\transpose c es \partcombine \WeinetIhnCornoI \WeinetIhnCornoII
 					}
 				>>
 				\new StaffGroup <<
@@ -463,14 +463,14 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\WeinetIhnOrgano
+						\transpose c c,\WeinetIhnOrgano
 					}
 				>>
 				\new FiguredBass {
 					\WeinetIhnBassFigures
 				}
 			>>
-			\layout { }
+% 			\layout { }
 			\midi { \tempo 4 = 70 } % 4 = 70; 4 = 90
 		}
 	}

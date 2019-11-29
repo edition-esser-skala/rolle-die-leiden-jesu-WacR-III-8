@@ -1356,7 +1356,7 @@ SahetIhrViola = {
 
 WeinetIhnViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 3/4 \tempoWeinetIhn
 		R2.*32 %32
 		r4 r8 f\f f f
