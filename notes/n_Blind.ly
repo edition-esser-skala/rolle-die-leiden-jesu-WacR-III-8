@@ -904,15 +904,3 @@ EmporGerichtetBlindLyrics = \lyricmode {
 	Lie -- be, %27
 	Lie -- be, Got -- tes Lie -- be! %28 finis
 }
-
-% BlindNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% BlindLyrics = \lyricmode {
-% 	
-% }

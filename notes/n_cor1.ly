@@ -276,3 +276,11 @@ WeinetIhnCornoI = {
 		g2\fermata \bar "||" %107 finis
 	}
 }
+
+UnserSuendenCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUnserSuenden
+		
+	}
+}

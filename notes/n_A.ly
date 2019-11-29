@@ -1227,14 +1227,14 @@ WeinetIhnAltoLyrics = \lyricmode {
 	Sohn.] %104 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+UnserSuendenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoUnserSuenden
+		
+	}
+}
+
+UnserSuendenAltoLyrics = \lyricmode {
+	
+}

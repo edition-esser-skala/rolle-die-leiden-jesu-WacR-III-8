@@ -384,93 +384,172 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5.6" "C H O R" "Weinet ihn, bange trauervolle Lieder!"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\WeinetIhnOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\WeinetIhnOboeII
+% 						}
+% 					>>
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Fagotto I"
+% 							\WeinetIhnFagottoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Fagotto II"
+% 							\WeinetIhnFagottoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+% 						\partcombine \WeinetIhnCornoI \WeinetIhnCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WeinetIhnViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WeinetIhnViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 							\set Staff.instrumentName = "Viola"
+% 							\WeinetIhnViola
+% 						}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \WeinetIhnSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Fondamento"
+% 						\WeinetIhnOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\WeinetIhnBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 70 } % 4 = 70; 4 = 90
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5.6" "C H O R" "Weinet ihn, bange trauervolle Lieder!"
+			movement = \movementTitle "5.7" "C H O R A L" "Unſer Sünden Angſt zu lindern"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\WeinetIhnOboeI
+							\UnserSuendenOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\WeinetIhnOboeII
-						}
-					>>
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Fagotto I"
-							\WeinetIhnFagottoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Fagotto II"
-							\WeinetIhnFagottoII
+							\UnserSuendenOboeII
 						}
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\transpose c es \partcombine \WeinetIhnCornoI \WeinetIhnCornoII
+						\partcombine \UnserSuendenCornoI \UnserSuendenCornoII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\WeinetIhnViolinoI
+							\UnserSuendenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\WeinetIhnViolinoII
+							\UnserSuendenViolinoII
 						}
 					>>
 					\new Staff {
 							\set Staff.instrumentName = "Viola"
-							\WeinetIhnViola
+							\UnserSuendenViola
 						}
 				>>
 				\new ChoirStaff <<
-					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \WeinetIhnSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \UnserSuendenSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WeinetIhnSopranoLyrics
+					\new Lyrics \lyricsto Soprano \UnserSuendenSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WeinetIhnAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \UnserSuendenAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \WeinetIhnAltoLyrics
+					\new Lyrics \lyricsto Alto \UnserSuendenAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WeinetIhnTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \UnserSuendenTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \WeinetIhnTenoreLyrics
+					\new Lyrics \lyricsto Tenore \UnserSuendenTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \WeinetIhnBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \UnserSuendenBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \WeinetIhnBassoLyrics
+					\new Lyrics \lyricsto Basso \UnserSuendenBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\transpose c c,\WeinetIhnOrgano
+						\UnserSuendenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\WeinetIhnBassFigures
+					\UnserSuendenBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 70 } % 4 = 70; 4 = 90
 		}
 	}

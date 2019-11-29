@@ -686,3 +686,11 @@ WeinetIhnOboeI = {
 		es2\fermata \bar "||" %107 finis
 	}
 }
+
+UnserSuendenOboeI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoUnserSuenden
+		
+	}
+}

@@ -112,15 +112,3 @@ LassMichPetrusLyrics = \lyricmode {
 	ihn, hab ich
 	ihn. %45 FINIS
 }
-
-% PetrusNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% PetrusLyrics = \lyricmode {
-% 	
-% }

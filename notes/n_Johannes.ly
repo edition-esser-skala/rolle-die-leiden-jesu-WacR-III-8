@@ -277,15 +277,3 @@ GottesSchreckenJohannesLyrics = \lyricmode {
 	Au -- gen he -- bet er gen
 	Him -- mel_– ich ver -- ge -- he! %17 finis
 }
-
-% JohannesNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% JohannesLyrics = \lyricmode {
-% 	
-% }

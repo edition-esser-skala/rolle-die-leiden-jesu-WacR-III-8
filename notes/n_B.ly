@@ -1135,14 +1135,14 @@ WeinetIhnBassoLyrics = \lyricmode {
 	Sohn. %104 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+UnserSuendenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \autoBeamOff \tempoUnserSuenden
+		
+	}
+}
+
+UnserSuendenBassoLyrics = \lyricmode {
+	
+}

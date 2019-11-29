@@ -316,15 +316,3 @@ EmporGerichtetFremdLyrics = \lyricmode {
 	Lie -- be, %27
 	Lie -- be, Got -- tes Lie -- be! %28 finis
 }
-
-% FremdNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% FremdLyrics = \lyricmode {
-% 	
-% }

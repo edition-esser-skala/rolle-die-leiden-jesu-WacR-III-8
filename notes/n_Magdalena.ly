@@ -153,15 +153,3 @@ OWelcheMagdalenaLyrics = \lyricmode {
 	kom --
 	men.“ %78 finis
 }
-
-% MagdalenaNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% MagdalenaLyrics = \lyricmode {
-% 	
-% }

@@ -1420,7 +1420,7 @@ WeinetIhnViola = {
 		es4 r8 b'
 		c4\p b
 		as b
-		c\f b8 as
+		c\f c8 as
 		g4 es8 b' %100
 		c4 c8 as
 		g g,16. g32 b8 b
@@ -1429,5 +1429,13 @@ WeinetIhnViola = {
 		as as b as %105
 		g <es g,>16. q32 q8 q
 		q2\fermata \bar "||" %107 finis
+	}
+}
+
+UnserSuendenViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoUnserSuenden
+		
 	}
 }

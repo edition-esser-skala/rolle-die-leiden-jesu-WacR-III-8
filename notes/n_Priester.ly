@@ -24,15 +24,3 @@ EmporGerichtetPriesterLyrics = \lyricmode {
 	pö -- rers, glaubt ihr noch an
 	ihn? %48 finis
 }
-
-% PriesterNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% PriesterLyrics = \lyricmode {
-% 	
-% }

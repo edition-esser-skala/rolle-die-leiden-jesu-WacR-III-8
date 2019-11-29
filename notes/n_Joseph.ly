@@ -440,15 +440,3 @@ EmporGerichtetJosephLyrics = \lyricmode {
 	Lie -- be, Lie -- be, %27
 	Got -- tes, Got -- tes Lie -- be! %28 finis
 }
-
-% JosephNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% JosephLyrics = \lyricmode {
-% 	
-% }

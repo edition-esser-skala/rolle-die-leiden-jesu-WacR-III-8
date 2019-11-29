@@ -109,15 +109,3 @@ WerFasstJudasLyrics = \lyricmode {
 	Faßt dich Ent -- %47
 	ſet -- zen? Jch ver -- ſtum -- me! doch iſt %48 finis
 }
-
-% JudasNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% JudasLyrics = \lyricmode {
-% 	
-% }

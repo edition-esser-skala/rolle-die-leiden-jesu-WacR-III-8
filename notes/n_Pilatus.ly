@@ -202,14 +202,3 @@ IhrVaeterPilatusLyrics = \lyricmode {
 	kreu -- tzi -- get, ge -- kreu -- tzigt eu -- er
 	Kö -- nig. %48 finis
 }
-
-% PilatusNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% PilatusLyrics = \lyricmode {
-% 	
-% }

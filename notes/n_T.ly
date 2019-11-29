@@ -1159,14 +1159,14 @@ WeinetIhnTenoreLyrics = \lyricmode {
 	Sohn.] %104 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+UnserSuendenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoUnserSuenden
+		
+	}
+}
+
+UnserSuendenTenoreLyrics = \lyricmode {
+	
+}

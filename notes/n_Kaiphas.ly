@@ -33,14 +33,3 @@ HilfDuIhmKaiphasLyrics = \lyricmode {
 	Rä -- chet an ihm das Ge -- ſetz,
 	und den Tem -- pel Got -- tes. %33 finis
 }
-
-% KaiphasNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% KaiphasLyrics = \lyricmode {
-% 	
-% }

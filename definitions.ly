@@ -360,6 +360,7 @@ tempoErDerAm = \tempoMarkup "Recitativ"
 tempoSahetIhr = \tempoMarkup "Andante"
 tempoWeinetIhn = \tempoMarkup "Larghetto"
 	tempoHalleluja = \tempoMarkup "Vivace"
+tempoUnserSuenden = \tempoMarkup "Choral"
 
 
 

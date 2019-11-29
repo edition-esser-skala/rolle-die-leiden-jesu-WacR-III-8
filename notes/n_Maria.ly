@@ -169,15 +169,3 @@ OWelcheMariaLyrics = \lyricmode {
 	kom --
 	men.“ %78 finis
 }
-
-% MariaNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% MariaLyrics = \lyricmode {
-% 	
-% }

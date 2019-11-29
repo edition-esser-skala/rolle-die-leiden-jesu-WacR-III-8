@@ -398,15 +398,3 @@ GottesSchreckenNicoLyrics = \lyricmode {
 	ru -- fet, nei --
 	get ſein Haupt. %20 finis
 }
-
-% NicoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% NicoLyrics = \lyricmode {
-% 	
-% }

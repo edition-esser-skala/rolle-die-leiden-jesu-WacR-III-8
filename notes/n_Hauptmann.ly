@@ -67,14 +67,3 @@ SahetIhrHauptmannLyrics = \lyricmode {
 	wahr -- lich, er __ war wahr -- lich %15
 	Got -- tes Sohn! %16 finis
 }
-
-% HauptmannNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% HauptmannLyrics = \lyricmode {
-% 	
-% }
