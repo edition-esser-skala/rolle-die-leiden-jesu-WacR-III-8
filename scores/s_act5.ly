@@ -3,7 +3,7 @@
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
-% showLastLength = r2*59
+
 \include "../definitions.ly"
 
 \paper {
@@ -426,7 +426,7 @@
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-% 							\WeinetIhnViolinoII
+							\WeinetIhnViolinoII
 						}
 					>>
 					\new Staff {

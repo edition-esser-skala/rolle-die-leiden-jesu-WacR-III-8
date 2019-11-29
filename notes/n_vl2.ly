@@ -1376,5 +1376,65 @@ WeinetIhnViolinoII = {
 		d8 g16. f32 g8 g16. es32 d8 c\trill
 		b8 g'16. f32 es8 es'16. c32 b8 a\trill \noBreak
 		b4 b, r \bar "||"
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			<g es' es'>4 r8 <b g'>16. q32 \noBreak
+		q8 q r q16. q32 %50
+		q8 q q b'16. es32
+		es16 d32 es f16 d d( as) as( f)
+		f es32 f g16 es b b' es es
+		es d32 es f16 d d( as) as( f)
+		f es32 f g16 b es, es' b b %55
+		c as \tuplet 3/2 8 { c16([ d c)] b( c b) } c[ c]
+		b16( c32 d es f g a) b4-!
+		R2
+		r8 d,,16.\p d32 f8-! d-!
+		r d16.\pocoF d32 f8 d %60
+		r b'16.\f b32 d8 b
+		r d16.\ff d32 d8 d
+		g f32( es d c) h16. f'32 es16. d32
+		es8 c32( d es f) g16. es32 d16. c32
+		f8 es32( d c b!) a16. es'32 d16. c32 %65
+		d8 b32( c d es) f16. d32 c16. b32
+		b8\p b4 b8~
+		b b4 b8~
+		b16. c32 d16. es32 g,16. b32 a16. c32
+		b16 c32 d es f g a b16. b32 f16. d32 %70
+		c16. c32 es16. c32 g'8 a,
+		r d,16. d32 f8 d
+		r d16. d32 f8 d
+		r d'16. d32 d8 b
+		g'16. c,32 c8\trill d16. f32 a,16. c32 %75
+		b8 b,16. c'32 b16. as32 g16. f32
+		es4 r8 <b g'>16. q32
+		q8 q r q16. q32
+		q8 q q b'16. es32
+		es16 d32 es f16 d d( as) as( f) %80
+		f es32 f g16 es b es g g
+		g f32 g as16 f d d' as f
+		f es32 f g16 es b des' des b
+		b as32 g as16 c c as g b
+		b as32 g as16 es es c' b b %85
+		b8 \tuplet 3/2 8 { b16[( c b)] } c8 c
+		b16( c32 d es f g a) b4-!
+		R2
+		r8 d,,16.\p d32 f8 d
+		r es16.\pocoF es32 g8 es %90
+		r f16.\f f32 as8 f
+		r g16.\ff g32 b8 es
+		c' b32( as g f) e16. b'32 as16. g32
+		as8 f32( g as b) c16. as32 g16. f32
+		b8 \once \slurDashed as32( g f es!) d16. as'32 g16. f32 %95
+		g8 \once \slurDashed es32( f g as) b16. g32 f16. es32
+		es8\p es4 es8~
+		es es4 es8~
+		es16. f32\f g16. as32 c,16. es32 d16. f32
+		es32 d es f g[ f g as] b16. g32 f16. es32 %100
+		f16. f32 g16. as32 c,8 d
+		es b,16. b32 g8 g
+		r g16. g32 b8 g
+		r g'16. g32 g8 es'
+		es es4 d16. f32 %105
+		es8 <b, g'>16. q32 q8 q
+		q2\fermata \bar "||" %107 finis
 	}
 }
