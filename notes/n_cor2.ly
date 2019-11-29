@@ -278,6 +278,49 @@ UnserSuendenCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoUnserSuenden
-		
+		e2\fE g
+		g g
+		g c
+		c c4 c
+		c2\fermata c %5
+		c g
+		c c
+		g d'
+		g,1
+		g2\fermata g %10
+		c c
+		c c
+		d g,
+		e1\fermata
+		e2 g %15
+		g g
+		g c
+		c c4 c
+		c2\fermata c
+		c g %20
+		c c
+		g d'
+		g,1
+		g2\fermata g
+		c c %25
+		c c
+		d g,
+		e\fermata g
+		g c
+		c g %30
+		e\fermata c'
+		c d
+		c e,
+		e1\fermata
+		R1*2 %36
+		R1\fermataMarkup
+		R
+		R\fermataMarkup
+		R %40
+		r2\fermata e'
+		c e
+		c c
+		d g,
+		e1\fermata \bar "|."
 	}
 }

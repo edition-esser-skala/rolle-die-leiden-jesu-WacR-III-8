@@ -284,32 +284,32 @@ UnserSuendenCornoI = {
 		c'2\fE e
 		d e
 		c e
-		c c4 c
+		\pa c c4 c \pd
 		e2\fermata e %5
 		e d
 		e e
-		d d
+		d \pao d
 		d1
 		d2\fermata d %10
 		e e
-		c c
-		d d
+		\pa c c
+		d \pd d
 		c1\fermata
 		c2 e %15
 		d e
 		c e
-		c c4 c
+		\pa c c4 c \pd
 		e2\fermata e
 		e d %20
 		e e
-		d d
+		d \pao d
 		d1
 		d2\fermata d
 		e e %25
-		c c
-		d d
+		\pa c c
+		d \pd d
 		c2\fermata e
-		d c
+		d \pao c
 		e d %30
 		c\fermata e
 		g f
