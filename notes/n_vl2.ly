@@ -1443,6 +1443,50 @@ UnserSuendenViolinoII = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \tempoUnserSuenden
-		
+		b2 es
+		f es
+		es g
+		as1
+		g2\fermata g %5
+		b f
+		b b
+		b a
+		f1
+		f2\fermata f %10
+		b g
+		as g
+		f \appoggiatura es4 d2
+		es1\fermata
+		b2 es %15
+		f es
+		es g
+		as1
+		g2\fermata g
+		b f %20
+		b b
+		b a
+		f1
+		f2\fermata f
+		b g %25
+		as g
+		f \appoggiatura es4 d2
+		es\fermata g
+		f es
+		es d %30
+		es\fermata g
+		g f
+		es d
+		c1\fermata
+		d2 e %35
+		f1
+		es!2\fermata g
+		as as
+		g\fermata b
+		as as %40
+		g\fermata g
+		b g
+		as g
+		f d
+		es1\fermata \bar "|." %45 FINIS
 	}
 }

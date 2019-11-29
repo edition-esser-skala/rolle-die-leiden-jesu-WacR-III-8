@@ -321,6 +321,6 @@ UnserSuendenCornoII = {
 		c e
 		c c
 		d g,
-		e1\fermata \bar "|."
+		e1\fermata \bar "|." %45 FINIS
 	}
 }
