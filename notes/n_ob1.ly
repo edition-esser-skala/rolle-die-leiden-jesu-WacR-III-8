@@ -623,6 +623,66 @@ WeinetIhnOboeI = {
 		c2 f4~
 		f8 g c,4( d!8) es
 		es4( d8) r r4 %25
-		R2.*23 \bar "||" %48
+		R2.*23 \bar "||"
+		\twofourtime \key es \major \time 2/4 \tempoHalleluja
+			r8 b16.\fE b32 es8 b \noBreak
+		r es16. es32 g8 es %50
+		r4 g8 g
+		g f f as,
+		as g r es'16 g
+		g8 f f as,
+		as g r b %55
+		c as' g f16 es
+		d c b8 r4
+		b\p b
+		b2
+		d\pocoF %60
+		f\f
+		b4.\ff f8
+		g c, h f'
+		es4 r8 c
+		f b, a es' %65
+		d4 r8 b
+		c2~\p
+		c~
+		c8 es-!\f g,-! a-!
+		b4 r8 b %70
+		c-! es-! g-! a,-!
+		b4 r8 b
+		d4 r8 f16 d
+		b4 r8 f'
+		g16. c,32 c8\trill d c\trill %75
+		b4 r 
+		r8 b16. b32 es8 b
+		r es16. es32 g8 es
+		r4 g8 g
+		g f f as, %80
+		as g r es'16 es
+		es8 d f as,
+		as g r des'
+		des? c es des
+		des c r d %85
+		es g f es
+		d16 c b8 r4
+		b\p b
+		b f
+		g es'\pocoF %90
+		d2\f
+		es4\ff g8 es
+		c4 e
+		f r8 f
+		b,4 d %95
+		es! r
+		f2~\p
+		f~
+		f8 as\f-\parenthesize-! c,-! d-!
+		es4 r %100
+		c8 as' c, d
+		es4 r8 es,
+		g4 r8 b
+		es4 r
+		R2 %105
+		r8 es es es
+		es2\fermata \bar "||" %107 finis
 	}
 }

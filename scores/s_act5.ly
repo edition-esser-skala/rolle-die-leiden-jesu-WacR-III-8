@@ -394,11 +394,11 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\WeinetIhnOboeI
+							\WeinetIhnOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\WeinetIhnOboeII
+							\WeinetIhnOboeII
 						}
 					>>
 					\new GrandStaff <<

@@ -3503,9 +3503,9 @@ WeinetIhnBassFigures = \figuremode {
 	r %60
 	r
 	r
-	r4 <6!>
+	<7>8 <6> <6!>4
 	r4. <6>8
-	q4 <6!> %65
+	<7> <6> <6!>4 %65
 	r4. <6>8
 	<6 5>2 \bassFigureExtendersOn
 	q
@@ -3533,7 +3533,7 @@ WeinetIhnBassFigures = \figuremode {
 	r %90
 	<7->
 	r
-	r4 <6!>
+	<6>4 <6!>
 	r4. <6>8
 	q4 q %95
 	r4. q8

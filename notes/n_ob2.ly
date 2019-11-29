@@ -626,6 +626,65 @@ WeinetIhnOboeII = {
 		a2 b4~
 		b b4. a8
 		c4( b8) r r4 %25
-		R2.*23 \bar "||" %48
+		R2.*23 \bar \twofourtime \key es \major \time 2/4 \tempoHalleluja
+			r8 g16.\fE g32 g8 g \noBreak
+		r g16. g32 b8 g %50
+		r4 b8 es
+		es d as f
+		f es r es'
+		es d d f,
+		f es r es %55
+		es c' b c
+		f,4 r
+		d\p d
+		d2
+		b'\pocoF %60
+		d\f
+		d4.\ff d8~
+		d c h h
+		c4 r8 c~
+		c b! a? a %65
+		b4 r8 b
+		b2~\p
+		b
+		r8 g-!\f g-! es-!
+		d4 r8 d %70
+		g4 r8 es
+		d4 r8 d
+		f4 r8 d'
+		b4 r8 b~
+		b b4 a8 %75
+		b4 r
+		r8 g16. g32 b8 g
+		r g16. g32 b8 g
+		r4 es'8 es
+		es d d f, %80
+		f es r g16 g
+		g8 f as f
+		f es r b'
+		b as c b
+		b as r b %85
+		b4 c
+		f, r
+		d\p d
+		d2
+		es4 g\pocoF %90
+		f2\f
+		g4\ff b
+		c b
+		as r8 c
+		b4 as %95
+		g r8 es'
+		es2~\p
+		es
+		r8 c-\parenthesize-! c-\parenthesize-! as-\parenthesize-!
+		g4 r %100
+		c c8 as
+		g4 r8 es
+		g4 r8 g
+		g4 r
+		R2 %105
+		r8 g g g
+		g2\fermata \bar "||" %197 finis
 	}
 }
