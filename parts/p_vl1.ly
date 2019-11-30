@@ -307,6 +307,7 @@
 		\header {
 			movement = \movementTitle "4.6" "T E R Z E T T" "O welche Wonne, welch Entzücken"
 		}
+		\paper { systems-per-page = #7 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -341,7 +342,6 @@
 					\new Staff { \SchwarzeGrauenvolleViolinoI }
 				>>
 			>>
-			\layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 		}
 	}
 	\bookpart {

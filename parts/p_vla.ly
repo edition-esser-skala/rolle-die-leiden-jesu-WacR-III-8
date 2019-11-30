@@ -324,7 +324,6 @@
 					\new Staff { \SchwarzeGrauenvolleViola }
 				>>
 			>>
-			\layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
 		}
 	}
 	\bookpart {

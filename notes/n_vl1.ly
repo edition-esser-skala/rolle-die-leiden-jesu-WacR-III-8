@@ -1291,6 +1291,65 @@ SchwarzeGrauenvolleViolinoI = {
 		cis b''([\f g e)] cis( b g e)
 		cis g''4\p e cis g8
 		fis es'([\f c a)] fis( es c a) %5
+		b8:32 g: cis: a: d: a: e': a,:
+		f'32 d e f g a h cis d cis d e f e f g a8 r e,4:
+		e8 r e4: e8 r e4:
+		e8: f: g: a: b: g: f: e:
+		d8 d'4 a f d8~ %10
+		d f'4\p d a d,8
+		cis b''([\f g e)] cis( b g e)
+		cis g''4\p e cis g8
+		f a'([\f f d)] a( f d a)
+		g g''4\p e a, g8 %15
+		f32\f d d d cis8:[ d: a:]\p b: h: c: cis:
+		d:\f cis: d: a:\p b: h: c: cis:
+		d:\f cis: d: a:\p b: h: c: cis:
+		d:\f cis: d: d:\p es: e: f: fis:
+		g32\f g, g g g8:[ g: g:] d'32[ g, g g] \set stemLeftBeamCount = #0 g8:[] es'32 g, g g \set stemLeftBeamCount = #0 g8:[] %20
+		d'32 g, g g g8:[ g: g:] d'32[ g, g g] \set stemLeftBeamCount = #0 g8:[] es'32[ g, g g] \set stemLeftBeamCount = #0 g8:[]
+		d'32 g, g g g8:[ g: g:] d'32[ g, g g] \set stemLeftBeamCount = #0 g8:[] f'32[ g, g g] \set stemLeftBeamCount = #0 g8:[]
+		c16. g32 c16. g32 es'16. c32 g'16. es32 c'16. g32 es'8 r16. g,,32 c16. h32
+		c16. g32 c16. g32 es'16. c32 g'16. es32 c'16. g32 es'8 r16. c,32 es16. c32
+		a16. a32 c16. a32 f'16. c32 a'16. f32 c'16. a32 es'8 r16. a,,32 c16. a32 %25
+		b8 b8: b: as: \kneeBeam g16. g''32 g8-! r g
+		r c,,8: c: b: \kneeBeam a16. a''32 a8-! r4
+		d,,16( e32 f g a h cis) d8-! r c,16( d32 e fis g a h) c8-! r
+		b,16( c32 d e fis g a) b8-! r a[ <cis e, a,>] <d f, a,> r
+		<a e cis>4 a32 g a b a g f e d16 e32 f g a h cis d e f g a f e d cis d e f e d cis h a g a b a g f e f d e f g a h cis d e f g a f e d %30
+		cis d e f e d cis h a g a b a g f e f d e f g a h cis d e f g a f e d
+		cis d e f e d cis h a cis e g a, cis e g f8-! e-! <cis, e>4:
+		q8 r q4: q8 r q4:
+		q16. a''32 a16. a32 a8-!\fermata r f8:\f f:\p fis:\f fis:\p %35
+		g:\f g:\p c,:\f c:\p b16.\f g32 b16. g'32 <fis a,>4^\tenuto
+		g16. d32 b16. g32 <a fis'>4^\tenuto g16. d32 b16. g32 es''16 es es es
+		es?4( f8) f,16 es' d b32 a b c d es f16 f f f
+		f4( g8) g,16 f' es c32 h c d es f g16 g g g
+		g4~ g8 g <fis a, d,>4 r %40
+		q-! <g b, d,>-! <fis a, d,>-! r32 d,( e fis g a b c!)
+		d4-! <g b, d,>-! <fis a, d,>-! d16. d32 d16. d32
+		c16. c32 c16. c32 c16. c32 c16. c32 d16. d32 d16. d32 d16. f,32 f16. f32
+		f8 r r4 e!32 a, a a a8:[ a: a:]
+		e'32[ a, a a] \set stemLeftBeamCount = #0 a8:[] f'32[ a, a a] \set stemLeftBeamCount = #0 a8:[] e'32 a, a a a8:[ a: a:] %45
+		e'32[ a, a a] \set stemLeftBeamCount = #0 a8:[] f'32[ a, a a] \set stemLeftBeamCount = #0 a8:[] e'16. a,32 cis16. a32 e'16. cis32 a'16. e32
+		cis'16. a32 e'8 r16. a,,32 cis16. a32 d16. a32 d16. a32 f'16. d32 a'16. f32
+		d'16. a32 f'8 r16. d,32 f16. d32 b!16. b32 d16. b32 f'16. d32 b'16. f32
+		d'16. b32 f'8 r16. d32 b16. d32
+		d,4 r %50
+		r2 d16 e32 f g a h cis d e f g a f e d cis d e f e d cis h a g a b a g f e f d e f g a h cis d e f g a f e d
+		cis d e f e d cis h a g a b a g f e d2:
+		<d a' f'>4 r r2 \bar "||" %53 finis
+	}
+}
+
+SchwarzeGrauenvolleViolinoIUnfolded = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoSchwarzeGrauenvolle
+		d8\fE d'4 a f d8~
+		d f'4\p d a d,8
+		cis b''([\f g e)] cis( b g e)
+		cis g''4\p e cis g8
+		fis es'([\f c a)] fis( es c a) %5
 		b32 b b b g g g g cis cis cis cis a a a a d d d d a a a a e' e e e a, a a a
 		f' d e f g a h cis d cis d e f e f g a8 r e,32 e e e e e e e
 		e8 r e32 e e e e e e e e8 r e32 e e e e e e e

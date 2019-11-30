@@ -7,7 +7,7 @@
 
 
 \paper {
-	#(set-paper-size "a4" 'landscape)
+	#(set-paper-size "a4" 'portrait)
 	two-sided = ##t
 	top-margin = 1\cm
 	bottom-margin = .5\cm
@@ -568,6 +568,7 @@ tempoUnserSuenden = \tempoMarkup "Choral"
 \include "notes/n_Pilatus.ly"   %B
 \include "notes/n_Priester.ly"  %B
 \include "notes/n_Soli.ly"
+\include "notes/n_SoliCoro.ly"
 \include "notes/n_S.ly"
 \include "notes/n_A.ly"
 \include "notes/n_T.ly"

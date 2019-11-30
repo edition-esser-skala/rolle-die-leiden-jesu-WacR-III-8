@@ -6,9 +6,9 @@
 # change the following variables according to your project
 project = Rolle_Die_Leiden_Jesu_WacR_3_8
 zipname = Rolle_Die_Leiden_Jesu_WacR_3_8_Engraving_Files
-notes = 
-parts = 
-movements = 
+notes = fl1 fl2 ob1 ob2 fag1 fag2 cor1 cor2 vl1 vl2 vla Blind Fremd Hauptmann Johannes Joseph Judas Kaiphas Magdalena Maria Nico Petrus Pilatus Priester S A T B org
+parts = fl1 fl2 ob1 ob2 oba1 oba2 fag1 fag2 ottoni timp vl1 vl2 vla corosoli coro org b
+movements = act1 act2 act3 act4 act5
 
 
 .DEFAULT_GOAL := info

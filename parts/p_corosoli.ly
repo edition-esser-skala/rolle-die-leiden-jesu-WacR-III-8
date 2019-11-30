@@ -99,15 +99,183 @@
 	}
 	\bookpart {
 		\header {
+			movement = \movementTitle "1.2" "R E C I T A T I V" "Wohin eilt ganz Juda ſo früh?"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #16
+			system-system-spacing.minimum-distance = #16
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \WohinEiltSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \WohinEiltSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\WohinEiltOrgano
+					}
+				>>
+				\new FiguredBass {
+					\WohinEiltBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.3" "A R I E" "Gram lag auf mir"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \GramLagBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \GramLagBlindLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\GramLagOrgano
+					}
+				>>
+				\new FiguredBass {
+					\GramLagBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.4" "R E C I T A T I V" "Und darum verklagten ihn die Väter?"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \UndDarumSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \UndDarumSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\UndDarumOrgano
+					}
+				>>
+				\new FiguredBass {
+					\UndDarumBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.5" "A R I E" "Wer faßt die Zahl"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Judas"
+					\new Voice = "Judas" { \dynamicUp \WerFasstJudasNotes }
+				}
+				\new Lyrics \lyricsto Judas \WerFasstJudasLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\WerFasstOrgano
+					}
+				>>
+				\new FiguredBass {
+					\WerFasstBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.6" "R E C I T A T I V" "Faßt dich Entſetzen?"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \FasstDichBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \FasstDichBlindLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\FasstDichOrgano
+					}
+				>>
+				\new FiguredBass {
+					\FasstDichBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "1.7" "A R I E" "Laß mich dieſen bangen Stunden"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Petrus"
+					\new Voice = "Petrus" { \dynamicUp \LassMichPetrusNotes }
+				}
+				\new Lyrics \lyricsto Petrus \LassMichPetrusLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\LassMichOrgano
+					}
+				>>
+				\new FiguredBass {
+					\LassMichBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			movement = \movementTitle "2.1" "R E C I T A T I V" "Hilf du ihm! Gott Abrahams!"
 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Pilatus"
-					\new Voice = "Soli" { \dynamicUp \HilfDuIhmSoliCoroNotes }
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \HilfDuIhmSoliNotes }
 				}
-				\new Lyrics \lyricsto Soli \HilfDuIhmSoliCoroLyrics
+				\new Lyrics \lyricsto Soli \HilfDuIhmSoliLyrics
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
 					\new Staff {
@@ -137,11 +305,11 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\HilfDuIhmOrganoCoro
+						\HilfDuIhmOrgano
 					}
 				>>
 				\new FiguredBass {
-					\HilfDuIhmBassFiguresCoro
+					\HilfDuIhmBassFigures
 				}
 			>>
 		}
@@ -203,9 +371,9 @@
 			<<
 				\new Staff {
 					\set Staff.instrumentName = "Pilatus"
-					\new Voice = "Pilatus" { \dynamicUp \IchWaschePilatusCoroNotes }
+					\new Voice = "Pilatus" { \dynamicUp \IchWaschePilatusNotes }
 				}
-				\new Lyrics \lyricsto Pilatus \IchWaschePilatusCoroLyrics
+				\new Lyrics \lyricsto Pilatus \IchWaschePilatusLyrics
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  S     V  O  L  K  S" \hspace #15 }
 					\new Staff {
@@ -235,11 +403,11 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\IchWascheOrganoCoro
+						\IchWascheOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IchWascheBassFiguresCoro
+					\IchWascheBassFigures
 				}
 			>>
 		}
@@ -327,6 +495,70 @@
 				>>
 				\new FiguredBass {
 					\WerKannBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "2.6" "R E C I T A T I V" "Höreſt du das Häuflein ſchwacher Freunde?"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #16
+			system-system-spacing.minimum-distance = #16
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \HoerestDuSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \HoerestDuSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\HoerestDuOrgano
+					}
+				>>
+				\new FiguredBass {
+					\HoerestDuBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "2.7" "D U E T T" "Ein Purpur, eine Dornenkrone"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
+			systems-per-page = #3
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \EinPurpurFremdNotes }
+					}
+					\new Lyrics \lyricsto Fremd \EinPurpurFremdLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \EinPurpurBlindNotes }
+					}
+					\new Lyrics \lyricsto Blind \EinPurpurBlindLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\EinPurpurOrgano
+					}
+				>>
+				\new FiguredBass {
+					\EinPurpurBassFigures
 				}
 			>>
 		}
@@ -447,6 +679,156 @@
 	}
 	\bookpart {
 		\header {
+			movement = \movementTitle "3.1" "R E C I T A T I V,  A R I O S O" "Sie führen! ach! ſie führen ihn zum Tode"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \SieFuehrenBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \SieFuehrenBlindLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\SieFuehrenOrgano
+					}
+				>>
+				\new FiguredBass {
+					\SieFuehrenBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.2" "A R I E" "Jeſus Chriſtus wird das Leben"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff <<
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \JesusChristusBlindNotes }
+				>>
+				\new Lyrics \lyricsto Blind \JesusChristusBlindLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\JesusChristusOrgano
+					}
+				>>
+				\new FiguredBass {
+					\JesusChristusBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.3" "R E C I T A T I V" "Du ſtärkeſt mich"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
+		\score {
+			<<
+				\new Staff <<
+					\set Staff.instrumentName = "Fremdling"
+					\new Voice = "Fremd" { \dynamicUp \DuStaerkestFremdNotes }
+				>>
+				\new Lyrics \lyricsto Fremd \DuStaerkestFremdLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\DuStaerkestOrgano
+					}
+				>>
+				\new FiguredBass {
+					\DuStaerkestBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.4" "W E C H S E L G E S A N G" "Sieh! er träget ſein Kreutz"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
+			systems-per-page = #3
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \JosephIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Joseph" { \dynamicUp \SiehErJosephNotes }
+					}
+					\new Lyrics \lyricsto Joseph \SiehErJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Nikodemus"
+						\new Voice = "Nico" { \dynamicUp \SiehErNicoNotes }
+					}
+					\new Lyrics \lyricsto Nico \SiehErNicoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\SiehErOrgano
+					}
+				>>
+				\new FiguredBass {
+					\SiehErBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.5" "R E C I T A T I V" "Seyd mir geſegnet"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #16
+			system-system-spacing.minimum-distance = #16
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \SeydMirSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \SeydMirSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\SeydMirOrgano
+					}
+				>>
+				\new FiguredBass {
+					\SeydMirBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			movement = \movementTitle "3.6" "C H O R" "Gros iſt ſeine Quaal"
 		}
 		\paper {
@@ -485,6 +867,133 @@
 				>>
 				\new FiguredBass {
 					\GrossIstBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.7" "R E C I T A T I V" "Jeſus wendet ſich hin zu denen"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \JesusWendetSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \JesusWendetSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\JesusWendetOrgano
+					}
+				>>
+				\new FiguredBass {
+					\JesusWendetBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.8" "A R I E" "Weint nicht um mich"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Blindgeb."
+					\new Voice = "Blind" { \dynamicUp \WeintNichtBlindNotes }
+				}
+				\new Lyrics \lyricsto Blind \WeintNichtBlindLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\WeintNichtOrgano
+					}
+				>>
+				\new FiguredBass {
+					\WeintNichtBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.9" "R E C I T A T I V" "O, daß ich dieſe Tage des Jammers nicht erlebe"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<	
+				\new Staff {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \ODassIchSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \ODassIchSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\ODassIchOrgano
+					}
+				>>
+				\new FiguredBass {
+					\ODassIchBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "3.10" "A R I E,  T E R Z E T T" "Erhöre dieſes heiße Flehen"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \ErhoereDiesesJosephNotes }
+					}
+					\new Lyrics \lyricsto Joseph \ErhoereDiesesJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \ErhoereDiesesBlindNotes }
+					}
+					\new Lyrics \lyricsto Blind \ErhoereDiesesBlindLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Nikodemus"
+						\new Voice = "Nico" { \dynamicUp \ErhoereDiesesNicoNotes }
+					}
+					\new Lyrics \lyricsto Nico \ErhoereDiesesNicoLyrics
+						
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\ErhoereDiesesOrgano
+					}
+				>>
+				\new FiguredBass {
+					\ErhoereDiesesBassFigures
 				}
 			>>
 		}
@@ -534,6 +1043,105 @@
 	}
 	\bookpart {
 		\header {
+			movement = \movementTitle "4.1" "R E C I T A T I V" "Heilig, heilig, heilig biſt du Gott!"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \HeiligHeiligSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \HeiligHeiligSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\HeiligHeiligOrgano
+					}
+				>>
+				\new FiguredBass {
+					\HeiligHeiligBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "4.2" "Q U A R T E T T" "Rächer ſchau vom Himmel nieder"
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Fremdling"
+						\new Voice = "Fremd" { \dynamicUp \RaecherSchauFremdNotes }
+					}
+					\new Lyrics \lyricsto Fremd \RaecherSchauFremdLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Joseph"
+						\new Voice = "Joseph" { \dynamicUp \RaecherSchauJosephNotes }
+					}
+					\new Lyrics \lyricsto Joseph \RaecherSchauJosephLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Blindgeb."
+						\new Voice = "Blind" { \dynamicUp \RaecherSchauBlindNotes }
+					}
+					\new Lyrics \lyricsto Blind \RaecherSchauBlindLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Nikodemus"
+						\new Voice = "Nico" { \dynamicUp \RaecherSchauNicoNotes }
+					}
+					\new Lyrics \lyricsto Nico \RaecherSchauNicoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\RaecherSchauOrgano
+					}
+				>>
+				\new FiguredBass {
+					\RaecherSchauBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "4.3" "R E C I T A T I V" "Empor gerichtet iſt das Kreutz"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #5
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \EmporGerichtetSoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \EmporGerichtetSoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\EmporGerichtetOrgano
+					}
+				>>
+				\new FiguredBass {
+					\EmporGerichtetBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			movement = \movementTitle "4.4" "C H O R" "Anderen half er"
 		}
 		\score {
@@ -572,6 +1180,78 @@
 				>>
 				\new FiguredBass {
 					\AnderenHalfBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "4.5" "R E C I T A T I V" "Gelobt ſey Gott"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Soli"
+					\new Voice = "Soli" { \dynamicUp \GelobtSeySoliNotes }
+				}
+				\new Lyrics \lyricsto Soli \GelobtSeySoliLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\GelobtSeyOrgano
+					}
+				>>
+				\new FiguredBass {
+					\GelobtSeyBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "4.6" "T E R Z E T T" "O welche Wonne, welch Entzücken"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
+			page-count = #4
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Maria"
+						\new Voice = "Maria" { \dynamicUp \OWelcheMariaNotes }
+					}
+					\new Lyrics \lyricsto Maria \OWelcheMariaLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Maria" "Magdalena" } }
+						\new Voice = "Magdalena" { \dynamicUp \OWelcheMagdalenaNotes }
+					}
+					\new Lyrics \lyricsto Magdalena \OWelcheMagdalenaLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Johannes"
+						\new Voice = "Johannes" { \dynamicUp \OWelcheJohannesNotes }
+					}
+					\new Lyrics \lyricsto Johannes \OWelcheJohannesLyrics
+						
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\OWelcheOrgano
+					}
+				>>
+				\new FiguredBass {
+					\OWelcheBassFigures
 				}
 			>>
 		}
@@ -629,9 +1309,9 @@
 			<<
 				\new Staff {
 					\set Staff.instrumentName = "Soli"
-					\new Voice = "Soli" { \dynamicUp \GottesSchreckenSoliCoroNotes }
+					\new Voice = "Soli" { \dynamicUp \GottesSchreckenSoliNotes }
 				}
-				\new Lyrics \lyricsto Soli \GottesSchreckenSoliCoroLyrics
+				\new Lyrics \lyricsto Soli \GottesSchreckenSoliLyrics
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
 					\new Staff {
@@ -661,11 +1341,11 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\GottesSchreckenOrganoCoro
+						\GottesSchreckenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GottesSchreckenBassFiguresCoro
+					\GottesSchreckenBassFigures
 				}
 			>>
 		}
@@ -719,15 +1399,39 @@
 	}
 	\bookpart {
 		\header {
+			movement = \movementTitle "5.4" "R E C I T A T I V" "Er, der am Kreutze ſtarb"
+		}
+		\score {
+			<<
+				\new Staff {
+					\set Staff.instrumentName = "Der Hauptmann"
+					\new Voice = "Hauptmann" { \dynamicUp \ErDerAmHauptmannNotes }
+				}
+				\new Lyrics \lyricsto Hauptmann \ErDerAmHauptmannLyrics
+					
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						\ErDerAmOrgano
+					}
+				>>
+				\new FiguredBass {
+					\ErDerAmBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			movement = \movementTitle "5.5" "A R I E,  C H O R" "Sahet ihr den göttlich leiden"
 		}
 		\score {
 			<<
 				\new Staff {
 					\set Staff.instrumentName = "Der Hauptmann"
-					\new Voice = "Hauptmann" { \dynamicUp \SahetIhrHauptmannCoroNotes }
+					\new Voice = "Hauptmann" { \dynamicUp \SahetIhrHauptmannNotes }
 				}
-				\new Lyrics \lyricsto Hauptmann \SahetIhrHauptmannCoroLyrics
+				\new Lyrics \lyricsto Hauptmann \SahetIhrHauptmannLyrics
 				\new ChoirStaff <<
 					\set ChoirStaff.instrumentName = \markup { \rotate #90 "C  H  O  R     D  E  R     F  R  E  U  N  D  E     J  E  S  U" \hspace #15 }
 					\new Staff {
@@ -757,11 +1461,11 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
-						\SahetIhrOrganoCoro
+						\SahetIhrOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SahetIhrBassFiguresCoro
+					\SahetIhrBassFigures
 				}
 			>>
 		}

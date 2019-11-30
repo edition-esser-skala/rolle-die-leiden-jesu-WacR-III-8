@@ -7,7 +7,6 @@
 \include "../definitions.ly"
 
 \paper {
-	#(set-paper-size "a4" 'portrait)
 	two-sided = ##t
 	top-margin = 1\cm
 	bottom-margin = .5\cm
