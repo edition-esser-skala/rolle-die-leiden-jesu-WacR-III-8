@@ -17,6 +17,8 @@ sources:
     license: CC BY-NC-SA 4.0
     principal: true
 imslp: Die_Leiden_Jesu_(Rolle,_Johann_Heinrich)
+extra_abbreviations:
+  fond:
 parts:
   oba1: Oboe d’amore I
   oba2: Oboe d’amore II
