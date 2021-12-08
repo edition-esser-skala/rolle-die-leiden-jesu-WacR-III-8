@@ -1,17 +1,26 @@
-composer: Rolle, Johann Heinrich
+composer:
+  last: Rolle
+  first: Johann Heinrich
 title: Die Leiden Jesu
+subtitle: Passions-Oratorium
 id: WacR III:8
 genre: passion
-scoring: 2 S, 2 A, 3 T, 6 B (solo), 2 S, A, T, B (coro), 2 fl, 2 ob, 2 ob d’amore, 2 fag, 2 cor (D/Es/G), timp (D–A), vl solo, 2 vl, vla, vlc, b, org
+scoring: 2 S, 2 A, 3 T, 6 B (solo), 2 S, A, T, B (coro),\\2 fl, 2 ob, 2 ob d'amore, 2 fag, 2 cor (D/\flat E/G), timp (D–A),\\vl solo, 2 vl, vla, vlc, b, bc
+license: cc-by-nc-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-B
     shelfmark: Mus.ms 18711/1
-    type: manuscript copy
     date: 1790
     rism: 452501864
-    url: http://resolver.staatsbibliothek-berlin.de/SBB0000A89100000000
-github: rolle-die-leiden-jesu-WacR-III-8
+    url: https://resolver.staatsbibliothek-berlin.de/SBB0000A89100000000
+    license: CC BY-NC-SA 4.0
+    principal: true
 imslp: Die_Leiden_Jesu_(Rolle,_Johann_Heinrich)
-notes:
-
+parts:
+  oba1: Oboe d’amore I
+  oba2: Oboe d’amore II
+  cor12: Corno I, II in D/\flat E/G
+  timp: Timpani in D–A
+  vl1: Violino I\\Violino solo
+  b: Violoncello\\Bassi
